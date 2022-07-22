@@ -51,9 +51,9 @@ use {
 ## vim-plug
 
 ```vim
-Plug "williamboman/mason.nvim", { 'branch': 'alpha' }
-Plug "williamboman/mason-lspconfig.nvim"
-Plug "neovim/nvim-lspconfig"
+Plug 'williamboman/mason.nvim', { 'branch': 'alpha' }
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'neovim/nvim-lspconfig'
 ```
 
 # Setup
