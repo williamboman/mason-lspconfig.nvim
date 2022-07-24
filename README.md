@@ -42,7 +42,7 @@ It is recommended to use this extension if you use `mason.nvim` and `lspconfig`.
 
 ```lua
 use {
-    { "williamboman/mason.nvim", branch = "alpha" },
+    "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
 }
@@ -51,7 +51,7 @@ use {
 ## vim-plug
 
 ```vim
-Plug 'williamboman/mason.nvim', { 'branch': 'alpha' }
+Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
 ```
