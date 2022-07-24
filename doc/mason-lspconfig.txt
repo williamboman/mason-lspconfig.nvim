@@ -41,6 +41,31 @@ to call the `setup()` function:
     require("mason").setup()
     require("mason-lspconfig").setup()
 
+Next, you're ready to set up the servers you want to use! Refer to lspconfig's
+documentation |lspconfig-quickstart| for more information on how to do so!
+
+    require("lspconfig").sumneko_lua.setup {}
+    require("lspconfig").rust_analyzer.setup {}
+
+Refer to |mason-lspconfig.setup_handlers()| (advanced feature) for an
+alternative method of setting up servers that don't require you to do so
+imperatively for each server.
+
+To install an LSP server supported by lspconfig (and mason.nvim) you may use
+the `:LspInstall` command, like so:
+
+    :LspInstall rust_analyzer sumneko_lua
+
+This command is more or less an alias of the `:MasonInstall` command, except
+that it only accepts LSP servers and - more importantly - only accepts
+lspconfig server names (as opposed to mason.nvim package names).
+
+You may also run the same command without any arguments. This will prompt you
+with a selection of servers that are recommended for the filetype of the
+buffer you're currently editing:
+
+    :LspInstall
+
 ==============================================================================
 COMMANDS                                            *mason-lspconfig-commands*
 
