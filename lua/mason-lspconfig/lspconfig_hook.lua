@@ -61,15 +61,15 @@ return function()
         if registry.is_installed(pkg_name) then
             resolve_server_config_factory(config.name):if_present(function(config_factory)
                 merge_in_place(config, config_factory(path.package_prefix(pkg_name), config))
-                if win_exepath_compat and win_exepath_compat[config.name] and config.cmd and config.cmd[1] then
-                    local exepath = vim.fn.exepath(config.cmd[1])
-                    if exepath ~= "" then
-                        config.cmd[1] = exepath
-                    else
-                        log.error("Failed to expand cmd path", config.name, config.cmd)
-                    end
-                end
             end)
+            if win_exepath_compat and win_exepath_compat[config.name] and config.cmd and config.cmd[1] then
+                local exepath = vim.fn.exepath(config.cmd[1])
+                if exepath ~= "" then
+                    config.cmd[1] = exepath
+                else
+                    log.error("Failed to expand cmd path", config.name, config.cmd)
+                end
+            end
         elseif should_auto_install(config.name) then
             local pkg = registry.get_package(pkg_name)
             pkg:install():once("closed", function()
