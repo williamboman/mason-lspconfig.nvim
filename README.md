@@ -82,7 +82,7 @@ require("mason-lspconfig").setup({
     ensure_installed = { "sumneko_lua", "rust_analyzer" }
 })
 ```
-
+Note: The mapped names of the servers can be found [here](https://github.com/williamboman/mason-lspconfig.nvim/blob/main/lua/mason-lspconfig/mappings/server.lua).
 ## Default configuration
 
 ```lua
