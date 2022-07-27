@@ -23,12 +23,20 @@
 
 # Introduction
 
-`mason-lspconfig.nvim` registers a setup hook with `lspconfig` that ensures servers installed with `mason.nvim` are set
-up with the necessary extra configuration. It also provides extra convenience commands such as `:LspInstall`. Lastly, it
-also provides convenience APIs that allow you to use mason.nvim as the main control for dynamically setting up installed
-servers on an ad-hoc basis.
+`mason-lspconfig.nvim` closes some gaps that exist between `mason.nvim` and `lspconfig`. Its main responsibilities is
+to:
 
-It is recommended to use this extension if you use `mason.nvim` and `lspconfig`.
+-   register a setup hook with `lspconfig` that ensures servers installed with `mason.nvim` are set up with the necessary
+    configuration
+-   provide extra convenience APIs such as the `:LspInstall` command
+-   allow you to (i) automatically install, and (ii) automatically set up a predefined list of servers
+-   translate between `lspconfig` server names and `mason.nvim` package names (e.g. `sumneko_lua <-> lua-language-server`)
+
+It is recommended to use this extension if you use `mason.nvim` and `lspconfig` (it's strongly recommended for Windows
+users).
+
+**Note: this plugin uses the `lspconfig` server names in the APIs it exposes - not `mason.nvim` package names. [See this
+table for a complete mapping.](./doc/server-mapping.md)**
 
 # Requirements
 
