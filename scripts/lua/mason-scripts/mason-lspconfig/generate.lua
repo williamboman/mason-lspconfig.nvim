@@ -4,6 +4,7 @@ local _ = require "mason-core.functional"
 local lspconfig_server_mapping = require "mason-lspconfig.mappings.server"
 local script_utils = require "mason-scripts.utils"
 
+local DOCS_DIR = path.concat { vim.loop.cwd(), "doc" }
 local MASON_LSPCONFIG_DIR = path.concat { vim.loop.cwd(), "lua", "mason-lspconfig" }
 
 local function get_lspconfig(name)
@@ -33,7 +34,7 @@ local function create_lspconfig_filetype_map()
 end
 
 ---@async
-local function ensure_valid_mapping()
+local function ensure_valid_package_name_translations()
     local server_mappings = require "mason-lspconfig.mappings.server"
     local registry = require "mason-registry"
 
@@ -46,9 +47,37 @@ local function ensure_valid_mapping()
     end
 end
 
+---@async
+local function create_server_mapping_docs()
+    local server_mappings = require "mason-lspconfig.mappings.server"
+
+    local table_body = _.compose(
+        _.map(function(pair)
+            local lspconfig_name, mason_name = assert(pair[1]), assert(pair[2])
+            return string.format(
+                "| [%s](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s) | %s |",
+                lspconfig_name,
+                lspconfig_name,
+                mason_name
+            )
+        end),
+        _.sort_by(_.head),
+        _.to_pairs
+    )(server_mappings.lspconfig_to_package)
+
+    local table_header = {
+        "| lspconfig server name | mason.nvim package name |",
+        "| --------------------- | ----------------------- |",
+    }
+
+    local output = _.join("\n", _.concat(table_header, table_body))
+    script_utils.write_file(path.concat { DOCS_DIR, "server-mapping.md" }, output)
+end
+
 a.run_blocking(function()
     a.wait_all {
         create_lspconfig_filetype_map,
-        ensure_valid_mapping,
+        ensure_valid_package_name_translations,
+        create_server_mapping_docs,
     }
 end)
