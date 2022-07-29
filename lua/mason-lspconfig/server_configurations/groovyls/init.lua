@@ -1,3 +1,3 @@
 return function()
-    return { cmd = "groovy-language-server" }
+    return { cmd = { "groovy-language-server" } }
 end
