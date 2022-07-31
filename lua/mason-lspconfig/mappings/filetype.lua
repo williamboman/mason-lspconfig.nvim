@@ -51,6 +51,7 @@ return {
   gohtml = { "tailwindcss" },
   gomod = { "golangci_lint_ls", "gopls" },
   gotmpl = { "gopls" },
+  gowork = { "gopls" },
   graphql = { "graphql" },
   groovy = { "groovyls" },
   haml = { "tailwindcss" },
