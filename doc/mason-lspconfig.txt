@@ -7,19 +7,24 @@ Author: William Boman
 ==============================================================================
 INTRODUCTION                                    *mason-lspconfig-introduction*
 
-`mason-lspconfig` bridges `mason.nvim` with the `lspconfig`[1] plugin - making
-it easier to use the both plugins together.
+`mason-lspconfig.nvim` closes some gaps that exist between `mason.nvim` and
+`lspconfig`. Its main responsibilities is to:
 
-It is recommended to use this extension if you use `lspconfig`.
+-   register a setup hook with `lspconfig` that ensures servers installed with
+    `mason.nvim` are set up with the necessary configuration
+-   provide extra convenience APIs such as the `:LspInstall` command
+-   allow you to (i) automatically install, and (ii) automatically set up a
+    predefined list of servers
+-   translate between `lspconfig` server names and `mason.nvim` package names
+    (e.g. `sumneko_lua <-> lua-language-server`)
 
-`mason-lspconfig.nvim` registers a setup hook with `lspconfig` that ensures
-servers installed with `mason.nvim` are set up with the necessary extra
-configuration. It also provides extra convenience commands such as
-`:LspInstall`. Lastly, it also provides convenience APIs that allow you to use
-mason.nvim as the main control for dynamically setting up installed servers on
-an ad-hoc basis.
+It is recommended to use this extension if you use `mason.nvim` and
+`lspconfig` (it's strongly recommended for Windows users).
 
-[1] `lspconfig`: https://github.com/neovim/nvim-lspconfig
+Note: ~
+    This plugin uses the `lspconfig` server names in the APIs it exposes - not
+    `mason.nvim` package names. See this table for a complete mapping:
+    https://github.com/williamboman/mason-lspconfig.nvim/blob/main/doc/server-mapping.md
 
 ==============================================================================
 REQUIREMENTS                                    *mason-lspconfig-requirements*
@@ -41,15 +46,16 @@ to call the `setup()` function:
     require("mason").setup()
     require("mason-lspconfig").setup()
 
-Next, you're ready to set up the servers you want to use! Refer to lspconfig's
+Next, you're ready to set up the servers you want to use. Refer to lspconfig's
 documentation |lspconfig-quickstart| for more information on how to do so!
 
     require("lspconfig").sumneko_lua.setup {}
     require("lspconfig").rust_analyzer.setup {}
 
-Refer to |mason-lspconfig.setup_handlers()| (advanced feature) for an
-alternative method of setting up servers that don't require you to do so
-imperatively for each server.
+Automatic server setup (advanced feature): ~
+    Refer to |mason-lspconfig.setup_handlers()| (advanced feature) for an
+    alternative method of setting up servers that don't require you to do so
+    imperatively for each server.
 
 To install an LSP server supported by lspconfig (and mason.nvim) you may use
 the `:LspInstall` command, like so:
