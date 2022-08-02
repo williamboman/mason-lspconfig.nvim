@@ -123,9 +123,8 @@ _G.mason_lspconfig_completion = {
     available_server_completion = function()
         local available_servers = require("mason-lspconfig").get_available_servers()
         local language_mapping = require "mason.mappings.language"
-        local completions = _.compose(_.sort_by(_.identity), _.uniq_by(_.identity), _.concat(_.keys(language_mapping)))(
-            available_servers
-        )
+        local sort_deduped = _.compose(_.sort_by(_.identity), _.uniq_by(_.identity))
+        local completions = sort_deduped(_.concat(_.keys(language_mapping), available_servers))
         return table.concat(completions, "\n")
     end,
     installed_server_completion = function()
