@@ -78,4 +78,16 @@ function M.get_installed_servers()
     end, registry.get_installed_package_names())
 end
 
+---Get a list of available servers in mason-registry
+---@return string[]
+function M.get_available_servers()
+    local registry = require "mason-registry"
+    local server_mapping = require "mason-lspconfig.mappings.server"
+    local Optional = require "mason-core.optional"
+    local server_names = _.filter_map(function(pkg_name)
+        return Optional.of_nilable(server_mapping.package_to_lspconfig[pkg_name])
+    end, registry.get_all_package_names())
+    return server_names
+end
+
 return M

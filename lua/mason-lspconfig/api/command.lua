@@ -121,26 +121,15 @@ end, {
 
 _G.mason_lspconfig_completion = {
     available_server_completion = function()
-        local registry = require "mason-registry"
-        local server_mapping = require "mason-lspconfig.mappings.server"
+        local available_servers = require("mason-lspconfig").get_available_servers()
         local language_mapping = require "mason.mappings.language"
-
-        local package_names = _.filter_map(function(pkg_name)
-            return Optional.of_nilable(server_mapping.package_to_lspconfig[pkg_name])
-        end, registry.get_all_package_names())
-        local completion =
-            _.compose(_.sort_by(_.identity), _.uniq_by(_.identity), _.concat(_.keys(language_mapping)))(package_names)
-        return table.concat(completion, "\n")
+        local sort_deduped = _.compose(_.sort_by(_.identity), _.uniq_by(_.identity))
+        local completions = sort_deduped(_.concat(_.keys(language_mapping), available_servers))
+        return table.concat(completions, "\n")
     end,
     installed_server_completion = function()
-        local registry = require "mason-registry"
-        local server_mapping = require "mason-lspconfig.mappings.server"
-
-        local server_names = _.filter_map(function(pkg_name)
-            return Optional.of_nilable(server_mapping.package_to_lspconfig[pkg_name])
-        end, registry.get_installed_package_names())
-        table.sort(server_names)
-        return table.concat(server_names, "\n")
+        local installed_servers = require("mason-lspconfig").get_installed_servers()
+        return table.concat(installed_servers, "\n")
     end,
 }
 
