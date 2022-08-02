@@ -233,5 +233,23 @@ get_installed_servers()
         |mason-registry.get_installed_packages()|
         |mason-registry.get_installed_package_names()|
 
+                                     *mason-lspconfig.get_available_servers()*
+get_available_servers()
+    Returns the available (both installed & uninstalled) LSP servers.
+
+    Note: ~
+        The returned strings are the lspconfig server names, not the mason
+        package names. For example, "sumneko_lua" is returned instead of
+        "lua-language-server". This is useful if you want to loop through the
+        table and use its values to directly interact with lspconfig (for
+        example setting up all installed servers).
+
+    Returns: ~
+        string[]
+
+    See also: ~
+        |mason-registry.get_all_packages()|
+        |mason-registry.get_all_package_names()|
+
 
  vim:tw=78:ft=help:norl:expandtab:sw=4
