@@ -79,15 +79,25 @@ function M.get_installed_servers()
 end
 
 ---Get a list of available servers in mason-registry
+---@param filter {filetype: string}? (optional) used to filter the list of server names
+--    The available keys are
+--    - filetype (string): Only return servers with matching fileyupe
 ---@return string[]
-function M.get_available_servers()
+function M.get_available_servers(filter)
     local registry = require "mason-registry"
     local server_mapping = require "mason-lspconfig.mappings.server"
     local Optional = require "mason-core.optional"
-    local server_names = _.filter_map(function(pkg_name)
-        return Optional.of_nilable(server_mapping.package_to_lspconfig[pkg_name])
-    end, registry.get_all_package_names())
-    return server_names
+    local filetype_mapping = require "mason-lspconfig.mappings.filetype"
+    filter = filter or {}
+    return Optional.of_nilable(filetype_mapping[filter.filetype])
+        :map(function(server_names)
+            return server_names
+        end)
+        :or_else_get(function()
+            return _.filter_map(function(pkg_name)
+                return Optional.of_nilable(server_mapping.package_to_lspconfig[pkg_name])
+            end, registry.get_all_package_names())
+        end)
 end
 
 return M
