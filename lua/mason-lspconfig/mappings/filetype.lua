@@ -26,6 +26,7 @@ return {
   css = { "cssls", "emmet_ls", "stylelint_lsp", "tailwindcss" },
   cucumber = { "cucumber_language_server" },
   cuda = { "clangd" },
+  cue = { "cuelsp" },
   d = { "serve_d" },
   dhall = { "dhall_lsp_server" },
   ["django-html"] = { "tailwindcss" },

@@ -25,6 +25,7 @@ M.lspconfig_to_package = {
     ["cssls"] = "css-lsp",
     ["cssmodules_ls"] = "cssmodules-language-server",
     ["cucumber_language_server"] = "cucumber-language-server",
+    ["cuelsp"] = "cuelsp",
     ["denols"] = "deno",
     ["dhall_lsp_server"] = "dhall-lsp",
     ["diagnosticls"] = "diagnostic-languageserver",

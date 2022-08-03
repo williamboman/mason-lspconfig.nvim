@@ -138,6 +138,7 @@ local DEFAULT_SETTINGS = {
 | CodeQL                              | `codeqlls`                 |
 | Crystal                             | `crystalline`              |
 | Cucumber                            | `cucumber_language_server` |
+| Cue                                 | `cuelsp`                   |
 | Deno                                | `denols`                   |
 | Dhall                               | `dhall_lsp_server`         |
 | Diagnostic (general purpose server) | `diagnosticls`             |
