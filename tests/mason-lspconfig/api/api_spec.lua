@@ -29,4 +29,13 @@ describe("mason-lspconfig API", function()
             )
         )
     end)
+
+    it("should return no servers if filetype predicate has no matches", function()
+        assert.same(
+            {},
+            mason_lspconfig.get_available_servers {
+                filetype = { "thisfiletypesimplydoesntexist" },
+            }
+        )
+    end)
 end)
