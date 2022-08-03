@@ -78,26 +78,53 @@ function M.get_installed_servers()
     end, registry.get_installed_package_names())
 end
 
+---@param filetype string | string[]
+local function is_server_in_filetype(filetype)
+    local filetype_mapping = require "mason-lspconfig.mappings.filetype"
+
+    local function get_servers_by_filetype(ft)
+        return filetype_mapping[ft] or {}
+    end
+
+    local server_candidates = _.compose(
+        _.set_of,
+        _.cond {
+            { _.is "string", get_servers_by_filetype },
+            { _.is "table", _.compose(_.flatten, _.map(get_servers_by_filetype)) },
+            { _.T, _.always {} },
+        }
+    )(filetype)
+
+    ---@param server_name string
+    ---@return boolean
+    return function(server_name)
+        return server_candidates[server_name]
+    end
+end
+
 ---Get a list of available servers in mason-registry
----@param filter {filetype: string}? (optional) used to filter the list of server names
---    The available keys are
---    - filetype (string): Only return servers with matching fileyupe
+---@param filter { filetype: string | string[] }?: (optional) Used to filter the list of server names.
+--- The available keys are
+---   - filetype (string | string[]): Only return servers with matching filetype
 ---@return string[]
 function M.get_available_servers(filter)
     local registry = require "mason-registry"
     local server_mapping = require "mason-lspconfig.mappings.server"
     local Optional = require "mason-core.optional"
-    local filetype_mapping = require "mason-lspconfig.mappings.filetype"
     filter = filter or {}
-    return Optional.of_nilable(filetype_mapping[filter.filetype])
-        :map(function(server_names)
-            return server_names
+    local predicates = {}
+
+    if filter.filetype then
+        table.insert(predicates, is_server_in_filetype(filter.filetype))
+    end
+
+    return _.filter_map(function(pkg_name)
+        return Optional.of_nilable(server_mapping.package_to_lspconfig[pkg_name]):map(function(server_name)
+            if #predicates == 0 or _.all_pass(predicates, server_name) then
+                return server_name
+            end
         end)
-        :or_else_get(function()
-            return _.filter_map(function(pkg_name)
-                return Optional.of_nilable(server_mapping.package_to_lspconfig[pkg_name])
-            end, registry.get_all_package_names())
-        end)
+    end, registry.get_all_package_names())
 end
 
 return M

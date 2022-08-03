@@ -246,10 +246,9 @@ get_available_servers({filter})
 
     Parameters: ~
         {filter}  (table|nil) A table with key-value pairs used to
-                  filter the list of server names. The available keys
-                  are:
-                  • filetype (string): Only return servers with matching
-                  fileyupe
+                  filter the list of server names. The available keys are:
+                  - filetype (string | string[]): Only return servers with
+                    matching filetype
 
     Returns: ~
         string[]
