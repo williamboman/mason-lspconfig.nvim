@@ -22,6 +22,7 @@
 | [cssls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssls) | css-lsp |
 | [cssmodules_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssmodules_ls) | cssmodules-language-server |
 | [cucumber_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cucumber_language_server) | cucumber-language-server |
+| [dagger](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dagger) | cuelsp |
 | [denols](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#denols) | deno |
 | [dhall_lsp_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dhall_lsp_server) | dhall-lsp |
 | [diagnosticls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#diagnosticls) | diagnostic-languageserver |
