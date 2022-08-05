@@ -234,7 +234,7 @@ get_installed_servers()
         |mason-registry.get_installed_package_names()|
 
                                      *mason-lspconfig.get_available_servers()*
-get_available_servers()
+get_available_servers({filter})
     Returns the available (both installed & uninstalled) LSP servers.
 
     Note: ~
@@ -243,6 +243,12 @@ get_available_servers()
         "lua-language-server". This is useful if you want to loop through the
         table and use its values to directly interact with lspconfig (for
         example setting up all installed servers).
+
+    Parameters: ~
+        {filter}  (table|nil) A table with key-value pairs used to
+                  filter the list of server names. The available keys are:
+                  - filetype (string | string[]): Only return servers with
+                    matching filetype
 
     Returns: ~
         string[]
