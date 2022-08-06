@@ -9,7 +9,8 @@
     <code>mason-lspconfig</code> bridges <a
     href="https://github.com/williamboman/mason.nvim"><code>mason.nvim</code></a> with the <a
     href="https://github.com/neovim/nvim-lspconfig"><code>lspconfig</code></a> plugin - making it easier to use the both
-    plugins together.
+    plugins together.<br />
+    <code>:help mason-lspconfig.nvim</code>
 </p>
 
 # Table of Contents
@@ -24,6 +25,8 @@
 -   [Available LSP servers](#available-lsp-servers)
 
 # Introduction
+
+> `:h mason-lspconfig-introduction`
 
 `mason-lspconfig.nvim` closes some gaps that exist between `mason.nvim` and `lspconfig`. Its main responsibilities is
 to:
@@ -41,6 +44,8 @@ users).
 table for a complete mapping.](./doc/server-mapping.md)**
 
 # Requirements
+
+> `:h mason-lspconfig-requirements`
 
 -   neovim `>= 0.7.0`
 -   `mason.nvim`
@@ -68,6 +73,8 @@ Plug 'neovim/nvim-lspconfig'
 
 # Setup
 
+> `:h mason-lspconfig-quickstart`
+
 ```lua
 require("mason").setup()
 require("mason-lspconfig").setup()
@@ -77,10 +84,14 @@ Refer to the [Configuration](#configuration) section for information about which
 
 # Commands
 
+> `:h mason-lspconfig-commands`
+
 -   `:LspInstall [<server>...]` - installs the provided servers
 -   `:LspUninstall <server> ...` - uninstalls the provided servers
 
 # Configuration
+
+> `:h mason-lspconfig-settings`
 
 You may optionally configure certain behavior of `mason-lspconfig.nvim` when calling the `.setup()` function. Refer to
 the [default configuration](#default-configuration) for a list of all available settings.
