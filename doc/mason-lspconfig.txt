@@ -1,8 +1,9 @@
-*mason-lspconfig*
+*mason-lspconfig.nvim*
 
 Minimum version of neovim: 0.7.0
 
 Author: William Boman
+                                       Type |gO| to see the table of contents.
 
 ==============================================================================
 INTRODUCTION                                    *mason-lspconfig-introduction*
