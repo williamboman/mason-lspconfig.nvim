@@ -170,7 +170,12 @@ setup_handlers({handlers})
         following their guides, see |lspconfig-quickstart|.
 
     Registers the provided {handlers}, to be called by mason when an installed
-    server supported by lspconfig is ready to be setup.
+    server supported by lspconfig is ready to be set up.
+
+    When this function is called, all servers that are currently installed
+    will be considered ready to be set up. When a new server is installed
+    during a session, it will be considered ready to be set up when
+    installation succeeds.
 
     {handlers} is a table where the keys are the name of an lspconfig server,
     and the values are the function to be called when that server is ready to
