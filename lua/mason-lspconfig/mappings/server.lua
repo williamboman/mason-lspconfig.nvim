@@ -68,6 +68,7 @@ M.lspconfig_to_package = {
     ["nimls"] = "nimlsp",
     ["ocamllsp"] = "ocaml-lsp",
     ["omnisharp"] = "omnisharp",
+    ["omnisharp_mono"] = "omnisharp-mono",
     ["opencl_ls"] = "opencl-language-server",
     ["perlnavigator"] = "perlnavigator",
     ["phpactor"] = "phpactor",

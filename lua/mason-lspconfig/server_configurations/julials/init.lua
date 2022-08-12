@@ -31,20 +31,10 @@ return function(install_dir)
             end
 
             config.cmd = {
-                "julia",
-                "--startup-file=no",
-                "--history-file=no",
-                "--depwarn=no",
-                ("--project=%s"):format(path.concat { install_dir, "scripts", "environments", "languageserver" }),
-                path.concat { install_dir, "nvim-lsp.jl" },
+                "julia-lsp",
                 vim.env.JULIA_DEPOT_PATH or "",
-                path.concat { install_dir, "symbolstorev5" },
                 env_path,
             }
         end,
-        cmd_env = {
-            JULIA_DEPOT_PATH = path.concat { install_dir, "lsdepot" },
-            JULIA_LOAD_PATH = platform.is.win and ";" or ":",
-        },
     }
 end
