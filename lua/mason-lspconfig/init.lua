@@ -11,7 +11,13 @@ function M.setup(config)
         settings.set(config)
     end
 
-    require "mason-lspconfig.lspconfig_hook"()
+    local ok, err = pcall(function()
+        require "mason-lspconfig.lspconfig_hook"()
+        require "mason-lspconfig.server_config_extensions"()
+    end)
+    if not ok then
+        log.error("Failed to set up lspconfig integration.", err)
+    end
 
     if #settings.current.ensure_installed > 0 then
         require "mason-lspconfig.ensure_installed"()

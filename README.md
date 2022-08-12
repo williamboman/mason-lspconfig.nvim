@@ -140,6 +140,7 @@ local DEFAULT_SETTINGS = {
 | C                                   | `clangd`                   |
 | C#                                  | `csharp_ls`                |
 | C# [(docs)][omnisharp]              | `omnisharp`                |
+| C# [(docs)][omnisharp]              | `omnisharp_mono`           |
 | C++                                 | `clangd`                   |
 | CMake                               | `cmake`                    |
 | CSS                                 | `cssls`                    |

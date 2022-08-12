@@ -1,5 +1,5 @@
 return function()
     return {
-        cmd = { "omnisharp" },
+        cmd = { "omnisharp-mono" },
     }
 end

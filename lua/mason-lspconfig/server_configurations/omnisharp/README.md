@@ -1,16 +1,15 @@
 # omnisharp
 
-## How to enable Omnisharp Mono
+## How to use Omnisharp Mono
 
-By default, the `omnisharp` server will use the `dotnet` (NET6) runtime to run the server.
-To run the server using the Mono runtime, set the `use_modern_net` setting to `false`, like so:
+The `omnisharp` server will use the `dotnet` (NET6) runtime to run the server. To run the server using the Mono runtime,
+use the `omnisharp_mono` server instead (**this requires the `omnisharp-mono` package to be installed**).
 
-__This requires the `omnisharp-mono` package to be installed.__
+**Note:** The `omnisharp_mono` server configuration doesn't exist in `lspconfig` but is provided by `mason-lspconfig`.
+This is done in order to separate the .NET and Mono variants, making both easily accessible.
 
 ```lua
 local lspconfig = require("lspconfig")
 
-lspconfig.omnisharp.setup {
-    use_modern_net = false
-}
+lspconfig.omnisharp_mono.setup {}
 ```
