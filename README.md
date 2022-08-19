@@ -75,6 +75,15 @@ Plug 'neovim/nvim-lspconfig'
 
 > `:h mason-lspconfig-quickstart`
 
+It's important that you set up the plugins in the following order:
+
+1. `mason.nvim`
+2. `mason-lspconfig.nvim`
+3. `lspconfig`
+
+Pay extra attention to this if you're using a plugin manager to load plugins for you, as there are no guarantees it'll
+load plugins in the correct order unless explicitly instructed to.
+
 ```lua
 require("mason").setup()
 require("mason-lspconfig").setup()
