@@ -47,6 +47,17 @@ to call the `setup()` function:
     require("mason").setup()
     require("mason-lspconfig").setup()
 
+Note: ~
+    It's important that you set up the plugins in the following order:
+
+    1. `mason.nvim`
+    2. `mason-lspconfig.nvim`
+    3. `lspconfig`
+
+    Pay extra attention to this if you're using a plugin manager to load
+    plugins for you, as there are no guarantees it'll load plugins in the
+    correct order unless explicitly instructed to.
+
 Next, you're ready to set up the servers you want to use. Refer to lspconfig's
 documentation |lspconfig-quickstart| for more information on how to do so!
 
