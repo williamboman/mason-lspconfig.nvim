@@ -6,6 +6,7 @@ local _ = require "mason-core.functional"
 ---@async
 ---@param user_args string[]: The arguments, as provided by the user.
 local function parse_packages_from_user_args(user_args)
+    local registry = require "mason-registry"
     local Package = require "mason-core.package"
     local server_mapping = require "mason-lspconfig.mappings.server"
     local language_mapping = require "mason.mappings.language"
@@ -18,20 +19,25 @@ local function parse_packages_from_user_args(user_args)
             -- 2. if not, check if it's a language specifier (e.g., "typescript" or "java")
             :or_(function()
                 return Optional.of_nilable(language_mapping[server_name]):map(function(package_names)
-                    local lsp_package_names = _.filter(function(package_name)
+                    local package_names = _.filter(function(package_name)
                         return server_mapping.package_to_lspconfig[package_name] ~= nil
                     end, package_names)
 
-                    if #lsp_package_names == 0 then
+                    if #package_names == 0 then
                         return nil
                     end
 
-                    return a.promisify(vim.ui.select)(lsp_package_names, {
+                    return a.promisify(vim.ui.select)(package_names, {
                         prompt = ("Please select which server you want to install for language %q:"):format(
                             server_name
                         ),
-                        format_item = function(item)
-                            return server_mapping.package_to_lspconfig[item]
+                        format_item = function(package_name)
+                            local server_name = server_mapping.package_to_lspconfig[package_name]
+                            if registry.is_installed(package_name) then
+                                return ("%s (installed)"):format(server_name)
+                            else
+                                return server_name
+                            end
                         end,
                     })
                 end)
@@ -48,6 +54,7 @@ end
 ---@async
 local function parse_packages_from_heuristics()
     local server_mapping = require "mason-lspconfig.mappings.server"
+    local registry = require "mason-registry"
 
     -- Prompt user which server they want to install (based on the current filetype)
     local current_ft = vim.api.nvim_buf_get_option(vim.api.nvim_get_current_buf(), "filetype")
@@ -56,6 +63,13 @@ local function parse_packages_from_heuristics()
         :map(function(server_names)
             return a.promisify(vim.ui.select)(server_names, {
                 prompt = ("Please select which server you want to install for filetype %q:"):format(current_ft),
+                format_item = function(server_name)
+                    if registry.is_installed(server_mapping.lspconfig_to_package[server_name]) then
+                        return ("%s (installed)"):format(server_name)
+                    else
+                        return server_name
+                    end
+                end,
             })
         end)
         :map(function(server_name)
