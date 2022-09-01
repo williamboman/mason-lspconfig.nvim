@@ -62,6 +62,7 @@ M.lspconfig_to_package = {
     ["lelwel_ls"] = "lelwel",
     ["lemminx"] = "lemminx",
     ["ltex"] = "ltex-ls",
+    ["luau_lsp"] = "luau-lsp",
     ["marksman"] = "marksman",
     ["mm0_ls"] = "metamath-zero-lsp",
     ["nickel_ls"] = "nickel-lang-lsp",

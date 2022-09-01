@@ -82,6 +82,7 @@ return {
   liquid = { "tailwindcss", "theme_check" },
   llw = { "lelwel_ls" },
   lua = { "sumneko_lua" },
+  luau = { "luau_lsp" },
   markdown = { "grammarly", "ltex", "marksman", "prosemd_lsp", "remark_ls", "tailwindcss", "zk" },
   mdx = { "tailwindcss" },
   ["metamath-zero"] = { "mm0_ls" },

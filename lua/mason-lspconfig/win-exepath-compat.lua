@@ -39,6 +39,7 @@ return {
     ["lelwel_ls"] = true,
     ["lemminx"] = true,
     ["ltex"] = true,
+    ["luau_lsp"] = true,
     ["mm0_ls"] = true,
     ["nickel_ls"] = true,
     ["nimls"] = true,
