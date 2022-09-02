@@ -197,6 +197,7 @@ local DEFAULT_SETTINGS = {
 | LaTeX                               | `texlab`                   |
 | Lelwel                              | `lelwel_ls`                |
 | Lua                                 | `sumneko_lua`              |
+| Luau                                | `luau_lsp`                 |
 | Markdown                            | `marksman`                 |
 | Markdown                            | `prosemd_lsp`              |
 | Markdown                            | `remark_ls`                |
