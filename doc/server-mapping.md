@@ -59,6 +59,7 @@
 | [lelwel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lelwel_ls) | lelwel |
 | [lemminx](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lemminx) | lemminx |
 | [ltex](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ltex) | ltex-ls |
+| [luau_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#luau_lsp) | luau-lsp |
 | [marksman](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#marksman) | marksman |
 | [mm0_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#mm0_ls) | metamath-zero-lsp |
 | [nickel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nickel_ls) | nickel-lang-lsp |
