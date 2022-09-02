@@ -8,7 +8,7 @@
 <p align="center">
     <code>mason-lspconfig</code> bridges <a
     href="https://github.com/williamboman/mason.nvim"><code>mason.nvim</code></a> with the <a
-    href="https://github.com/neovim/nvim-lspconfig"><code>lspconfig</code></a> plugin - making it easier to use the both
+    href="https://github.com/neovim/nvim-lspconfig"><code>lspconfig</code></a> plugin - making it easier to use both
     plugins together.<br />
     <code>:help mason-lspconfig.nvim</code>
 </p>
@@ -28,8 +28,7 @@
 
 > `:h mason-lspconfig-introduction`
 
-`mason-lspconfig.nvim` closes some gaps that exist between `mason.nvim` and `lspconfig`. Its main responsibilities is
-to:
+`mason-lspconfig.nvim` closes some gaps that exist between `mason.nvim` and `lspconfig`. Its main responsibilities are:
 
 -   register a setup hook with `lspconfig` that ensures servers installed with `mason.nvim` are set up with the necessary
     configuration
