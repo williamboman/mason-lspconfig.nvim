@@ -136,6 +136,7 @@ local DEFAULT_SETTINGS = {
 | Language                            | Server name                |
 | ----------------------------------- | -------------------------- |
 | AWK                                 | `awk_ls`                   |
+| Ada                                 | `als`                      |
 | Angular                             | `angularls`                |
 | Ansible                             | `ansiblels`                |
 | Apex                                | `apex_ls`                  |
@@ -147,8 +148,8 @@ local DEFAULT_SETTINGS = {
 | Bicep                               | `bicep`                    |
 | C                                   | `clangd`                   |
 | C#                                  | `csharp_ls`                |
-| C# [(docs)][omnisharp]              | `omnisharp`                |
 | C# [(docs)][omnisharp]              | `omnisharp_mono`           |
+| C# [(docs)][omnisharp]              | `omnisharp`                |
 | C++                                 | `clangd`                   |
 | CMake                               | `cmake`                    |
 | CSS                                 | `cssls`                    |
