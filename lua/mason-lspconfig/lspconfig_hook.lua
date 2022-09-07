@@ -72,12 +72,15 @@ return function()
             end
         elseif should_auto_install(config.name) then
             local pkg = registry.get_package(pkg_name)
-            pkg:install():once("closed", function()
-                if pkg:is_installed() then
-                    -- reload config
-                    require("lspconfig")[config.name].setup(config)
-                end
-            end)
+            pkg:install():once(
+                "closed",
+                vim.schedule_wrap(function()
+                    if pkg:is_installed() then
+                        -- reload config
+                        require("lspconfig")[config.name].setup(config)
+                    end
+                end)
+            )
         end
     end)
 end
