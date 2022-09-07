@@ -72,10 +72,12 @@ return function()
             end
         elseif should_auto_install(config.name) then
             local pkg = registry.get_package(pkg_name)
+            vim.notify(("[mason-lspconfig] automatically installing %s"):format(pkg.name))
             pkg:install():once(
                 "closed",
                 vim.schedule_wrap(function()
                     if pkg:is_installed() then
+                        vim.notify(("[mason-lspconfig] %s was automatically installed"):format(pkg.name))
                         -- reload config
                         require("lspconfig")[config.name].setup(config)
                     end
