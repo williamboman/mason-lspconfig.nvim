@@ -86,6 +86,39 @@ describe("mason-lspconfig setup", function()
             end)
         end)
     )
+
+    it("should apply mason-lspconfig server configs", function()
+        stub(registry, "is_installed")
+        registry.is_installed.on_call_with("dummy").returns(true)
+        server_mappings.lspconfig_to_package["dummylsp"] = "dummy"
+        package.loaded["mason-lspconfig.server_configurations.dummylsp"] = function()
+            return { cmd = { "mason-cmd" } }
+        end
+        local config = { name = "dummylsp" }
+
+        mason_lspconfig.setup()
+        local on_setup = require("lspconfig.util").on_setup
+        on_setup(config)
+
+        assert.same({ name = "dummylsp", cmd = { "mason-cmd" } }, config)
+    end)
+
+    it("should let user config take precedence", function()
+        stub(registry, "is_installed")
+        registry.is_installed.on_call_with("dummy").returns(true)
+        server_mappings.lspconfig_to_package["dummylsp"] = "dummy"
+        package.loaded["mason-lspconfig.server_configurations.dummylsp"] = function()
+            return { cmd = { "mason-cmd" } }
+        end
+        local config = { name = "dummylsp" }
+        local user_config = { cmd = { "user-cmd" } }
+
+        mason_lspconfig.setup()
+        local on_setup = require("lspconfig.util").on_setup
+        on_setup(config, user_config)
+
+        assert.same({ name = "dummylsp", cmd = { "user-cmd" } }, config)
+    end)
 end)
 
 describe("mason-lspconfig setup_handlers", function()

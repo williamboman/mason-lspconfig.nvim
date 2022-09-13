@@ -29,9 +29,10 @@ local function resolve_server_config_factory(lspconfig_server_name)
     return Optional.empty()
 end
 
+local merge_in_place
 ---@param t1 table
 ---@param t2 table
-local function merge_in_place(t1, t2)
+merge_in_place = _.curryN(function(t1, t2)
     for k, v in pairs(t2) do
         if type(v) == "table" then
             if type(t1[k]) == "table" and not vim.tbl_islist(t1[k]) then
@@ -44,7 +45,7 @@ local function merge_in_place(t1, t2)
         end
     end
     return t1
-end
+end, 2)
 
 return function()
     local util = require "lspconfig.util"
@@ -52,7 +53,7 @@ return function()
     local server_mapping = require "mason-lspconfig.mappings.server"
     local registry = require "mason-registry"
 
-    util.on_setup = util.add_hook_before(util.on_setup, function(config)
+    util.on_setup = util.add_hook_before(util.on_setup, function(config, user_config)
         local pkg_name = server_mapping.lspconfig_to_package[config.name]
         if not pkg_name then
             return
@@ -60,7 +61,9 @@ return function()
 
         if registry.is_installed(pkg_name) then
             resolve_server_config_factory(config.name):if_present(function(config_factory)
-                merge_in_place(config, config_factory(path.package_prefix(pkg_name), config))
+                local mason_config = config_factory(path.package_prefix(pkg_name), config)
+                local merge_configs_in_place = _.compose(merge_in_place(config), merge_in_place(mason_config))
+                merge_configs_in_place(user_config or {})
             end)
             if win_exepath_compat and win_exepath_compat[config.name] and config.cmd and config.cmd[1] then
                 local exepath = vim.fn.exepath(config.cmd[1])
