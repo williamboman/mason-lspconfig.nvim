@@ -52,6 +52,7 @@ return {
     ["puppet"] = true,
     ["pylsp"] = true,
     ["quick_lint_js"] = true,
+    ["r_language_server"] = true,
     ["reason_ls"] = true,
     ["rescriptls"] = true,
     ["rnix"] = true,
