@@ -9,7 +9,7 @@ use the `omnisharp_mono` server instead (**this requires the `omnisharp-mono` pa
 This is done in order to separate the .NET and Mono variants, making both easily accessible.
 
 ```lua
-local lspconfig = require("lspconfig")
+local lspconfig = require "lspconfig"
 
 lspconfig.omnisharp_mono.setup {}
 ```

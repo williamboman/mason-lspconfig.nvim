@@ -53,7 +53,8 @@ local function create_server_mapping_docs()
 
     local table_body = _.compose(
         _.filter_map(function(pair)
-            local lspconfig_name, mason_name = assert(pair[1]), assert(pair[2])
+            local lspconfig_name, mason_name =
+                assert(pair[1], "missing lspconfig name"), assert(pair[2], "missing mason name")
             if not pcall(require, ("lspconfig.server_configurations.%s"):format(lspconfig_name)) then
                 return Optional.empty()
             end

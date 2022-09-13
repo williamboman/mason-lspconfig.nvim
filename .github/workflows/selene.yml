@@ -1,0 +1,20 @@
+name: Selene check
+
+on:
+    push:
+        branches:
+            - "main"
+    pull_request:
+
+jobs:
+    selene:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Run Selene check
+              uses: NTBBloodbath/selene-action@v1.0.0
+              with:
+                  # token is needed because the action allegedly downloads binary from github releases
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  args: lua/ tests/ scripts/
+                  version: 0.20.0

@@ -16,6 +16,7 @@ function async_test(suspend_fn)
     end
 end
 
+-- selene: allow(incorrect_standard_library_use)
 mockx = {
     just_runs = function() end,
     returns = function(val)
