@@ -133,6 +133,7 @@ end, {
     complete = "custom,v:lua.mason_lspconfig_completion.installed_server_completion",
 })
 
+-- selene: allow(global_usage)
 _G.mason_lspconfig_completion = {
     available_server_completion = function()
         local available_servers = require("mason-lspconfig").get_available_servers()

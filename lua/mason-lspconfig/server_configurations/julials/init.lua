@@ -1,18 +1,17 @@
 local path = require "mason-core.path"
-local platform = require "mason-core.platform"
 local fs = require "mason-core.fs"
 local _ = require "mason-core.functional"
 
----@param install_dir string
-return function(install_dir)
+return function()
     return {
         on_new_config = function(config, workspace_dir)
             local env_path = config.julia_env_path and vim.fn.expand(config.julia_env_path)
             if not env_path then
                 local file_exists = _.compose(fs.sync.file_exists, path.concat, _.concat { workspace_dir })
-                if file_exists { "Project.toml" } and file_exists { "Manifest.toml" } then
-                    env_path = workspace_dir
-                elseif file_exists { "JuliaProject.toml" } and file_exists { "JuliaManifest.toml" } then
+                if
+                    (file_exists { "Project.toml" } and file_exists { "Manifest.toml" })
+                    or (file_exists { "JuliaProject.toml" } and file_exists { "JuliaManifest.toml" })
+                then
                     env_path = workspace_dir
                 end
             end
