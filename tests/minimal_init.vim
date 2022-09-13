@@ -21,8 +21,8 @@ index["dummy"] = "dummy_package"
 index["dummy2"] = "dummy2_package"
 
 local configs = require 'lspconfig.configs'
-configs.dummylsp = { default_config = {} }
-configs.dummy2lsp = { default_config = {} }
+configs.dummylsp = { default_config = { cmd = { "dummylsp" } } }
+configs.dummy2lsp = { default_config = { cmd = { "dummy2lsp"} } }
 
 require("mason").setup {
     install_root_dir = vim.env.INSTALL_ROOT_DIR,
