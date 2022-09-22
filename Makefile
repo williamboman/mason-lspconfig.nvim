@@ -5,6 +5,7 @@ dependencies:
 	git clone --depth 1 https://github.com/williamboman/mason.nvim dependencies/pack/vendor/start/mason.nvim
 	git clone --depth 1 https://github.com/nvim-lua/plenary.nvim dependencies/pack/vendor/start/plenary.nvim
 	git clone --depth 1 https://github.com/neovim/nvim-lspconfig dependencies/pack/vendor/start/nvim-lspconfig
+	git clone --depth 1 https://github.com/nvim-neotest/neotest dependencies/pack/vendor/start/neotest
 
 .PHONY: clean_dependencies
 clean_dependencies:
