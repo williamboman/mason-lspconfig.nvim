@@ -235,6 +235,7 @@ local DEFAULT_SETTINGS = {
 | Slint                               | `slint_lsp`                |
 | Solidity                            | `solang`                   |
 | Solidity                            | `solc`                     |
+| Solidity                            | `solidity`                 |
 | Sorbet                              | `sorbet`                   |
 | Sphinx                              | `esbonio`                  |
 | Stylelint                           | `stylelint_lsp`            |

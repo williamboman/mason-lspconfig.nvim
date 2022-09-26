@@ -97,6 +97,7 @@ M.lspconfig_to_package = {
     ["solang"] = "solang",
     ["solargraph"] = "solargraph",
     ["solc"] = "solidity",
+    ["solidity"] = "solidity-ls",
     ["sorbet"] = "sorbet",
     ["sourcery"] = "sourcery",
     ["sqlls"] = "sqlls",
