@@ -131,7 +131,7 @@ return {
   slim = { "tailwindcss" },
   slint = { "slint_lsp" },
   sls = { "salt_ls" },
-  solidity = { "solang", "solc" },
+  solidity = { "solang", "solc", "solidity" },
   sql = { "sqlls", "sqls" },
   stylus = { "tailwindcss" },
   sugarss = { "stylelint_lsp", "tailwindcss" },

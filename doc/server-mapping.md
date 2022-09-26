@@ -93,6 +93,7 @@
 | [solang](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solang) | solang |
 | [solargraph](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solargraph) | solargraph |
 | [solc](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solc) | solidity |
+| [solidity](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity) | solidity-ls |
 | [sorbet](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sorbet) | sorbet |
 | [sourcery](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sourcery) | sourcery |
 | [sqlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqlls) | sqlls |
