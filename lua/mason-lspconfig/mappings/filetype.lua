@@ -41,6 +41,7 @@ return {
   elixir = { "elixirls", "tailwindcss" },
   elm = { "elmls" },
   erb = { "tailwindcss" },
+  erg = { "erg-language-server" },
   erlang = { "erlangls" },
   eruby = { "tailwindcss" },
   flux = { "flux_lsp" },

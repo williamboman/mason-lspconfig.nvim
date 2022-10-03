@@ -34,6 +34,7 @@
 | [elmls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elmls) | elm-language-server |
 | [ember](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ember) | ember-language-server |
 | [emmet_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#emmet_ls) | emmet-ls |
+| [erg-language-server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#erg_language_server) | erg-language-server |
 | [erlangls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#erlangls) | erlang-ls |
 | [esbonio](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#esbonio) | esbonio |
 | [eslint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#eslint) | eslint-lsp |
