@@ -172,6 +172,7 @@ local DEFAULT_SETTINGS = {
 | Elm                                 | `elmls`                    |
 | Ember                               | `ember`                    |
 | Emmet                               | `emmet_ls`                 |
+| Erg                                 | `erg_language_server`      |
 | Erlang                              | `erlangls`                 |
 | F#                                  | `fsautocomplete`           |
 | Flux                                | `flux_lsp`                 |

@@ -38,6 +38,7 @@ M.lspconfig_to_package = {
     ["ember"] = "ember-language-server",
     ["emmet_ls"] = "emmet-ls",
     ["erlangls"] = "erlang-ls",
+    ["erg_language_server"] = "erg-language-server",
     ["esbonio"] = "esbonio",
     ["eslint"] = "eslint-lsp",
     ["flux_lsp"] = "flux-lsp",
