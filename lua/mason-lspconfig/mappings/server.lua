@@ -91,6 +91,7 @@ M.lspconfig_to_package = {
     ["rnix"] = "rnix-lsp",
     ["robotframework_ls"] = "robotframework-lsp",
     ["rome"] = "rome",
+    ["ruby_ls"] = "ruby-lsp",
     ["rust_analyzer"] = "rust-analyzer",
     ["salt_ls"] = "salt-lsp",
     ["serve_d"] = "serve-d",

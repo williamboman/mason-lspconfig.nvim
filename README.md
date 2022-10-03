@@ -227,6 +227,7 @@ local DEFAULT_SETTINGS = {
 | Reason                              | `reason_ls`                |
 | Robot Framework                     | `robotframework_ls`        |
 | Rome                                | `rome`                     |
+| Ruby                                | `ruby_ls`                  |
 | Ruby                                | `solargraph`               |
 | Rust                                | `rust_analyzer`            |
 | SQL                                 | `sqlls`                    |
