@@ -58,13 +58,12 @@ local function create_server_mapping_docs()
             if not pcall(require, ("lspconfig.server_configurations.%s"):format(lspconfig_name)) then
                 return Optional.empty()
             end
+            local lspconfig_url = ("https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s"):format(
+                lspconfig_name
+            )
+            local mason_url = ("https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#%s"):format(mason_name)
             return Optional.of(
-                string.format(
-                    "| [%s](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s) | %s |",
-                    lspconfig_name,
-                    lspconfig_name,
-                    mason_name
-                )
+                string.format("| [%s](%s) | [%s](%s) |", lspconfig_name, lspconfig_url, mason_name, mason_url)
             )
         end),
         _.sort_by(_.head),
