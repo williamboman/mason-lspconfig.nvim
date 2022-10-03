@@ -123,7 +123,7 @@ return {
   rnoweb = { "ltex" },
   robot = { "robotframework_ls" },
   rst = { "esbonio", "ltex" },
-  ruby = { "solargraph", "sorbet" },
+  ruby = { "ruby_ls", "solargraph", "sorbet" },
   rust = { "rust_analyzer" },
   sass = { "emmet_ls", "tailwindcss" },
   scss = { "cssls", "emmet_ls", "stylelint_lsp", "tailwindcss" },
