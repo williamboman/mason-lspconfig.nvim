@@ -23,7 +23,7 @@ return function(install_dir)
                 ","
             ),
         }
-        if platform.is_win then
+        if platform.is.win then
             cmd[1] = vim.fn.exepath(cmd[1])
         end
 
