@@ -56,7 +56,7 @@ return {
   gotmpl = { "gopls" },
   gowork = { "gopls" },
   graphql = { "graphql" },
-  groovy = { "groovyls" },
+  groovy = { "gradle_ls", "groovyls" },
   haml = { "tailwindcss" },
   handlebars = { "ember", "tailwindcss" },
   haskell = { "hls" },
