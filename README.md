@@ -180,6 +180,7 @@ local DEFAULT_SETTINGS = {
 | Fortran                             | `fortls`                   |
 | Go                                  | `golangci_lint_ls`         |
 | Go                                  | `gopls`                    |
+| Gradle                              | `gradle_ls`                |
 | Grammarly                           | `grammarly`                |
 | GraphQL                             | `graphql`                  |
 | Groovy                              | `groovyls`                 |

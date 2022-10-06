@@ -29,6 +29,7 @@ return {
     ["fsautocomplete"] = true,
     ["golangci_lint_ls"] = true,
     ["gopls"] = true,
+    ["gradle_ls"] = true,
     ["groovyls"] = true,
     ["haxe_language_server"] = true,
     ["hls"] = true,
