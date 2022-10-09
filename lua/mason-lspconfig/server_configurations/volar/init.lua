@@ -5,7 +5,7 @@ local path = require "mason-core.path"
 return function(install_dir)
     ---@param dir string
     local function get_tsserverlib_path(dir)
-        return path.concat { dir, "node_modules", "typescript", "lib", "tsserverlibrary.js" }
+        return path.concat { dir, "node_modules", "typescript", "lib" }
     end
 
     ---@param workspace_dir string|nil
@@ -21,7 +21,7 @@ return function(install_dir)
 
     return {
         on_new_config = function(new_config, new_install_dir)
-            new_config.init_options.typescript.serverPath = get_typescript_server_path(new_install_dir)
+            new_config.init_options.typescript.tsdk = get_typescript_server_path(new_install_dir)
         end,
     }
 end
