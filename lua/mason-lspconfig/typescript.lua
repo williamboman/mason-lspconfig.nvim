@@ -20,20 +20,31 @@ function typescript.tsdk(dir)
 end
 
 ---@param package_dir string The Mason package installation directory where a vendored Typescript installation can be found.
----@param workspace_dir string
----@return string
-function typescript.resolve_server_path(package_dir, workspace_dir)
-    local local_tsserverlib = workspace_dir ~= nil
-        and typescript.find_typescript_module_in_lib(typescript.tsdk(workspace_dir))
-    if local_tsserverlib then
-        return local_tsserverlib
-    else
-        local vendored_tsserverlib = typescript.find_typescript_module_in_lib(typescript.tsdk(package_dir))
-        if not vendored_tsserverlib then
-            log.fmt_error("Failed to find vendored Typescript module in %s", package_dir)
+---@param workspace_dir string?
+---@return string?, string?
+function typescript.resolve_tsdk(package_dir, workspace_dir)
+    if workspace_dir then
+        local tsdk = typescript.tsdk(workspace_dir)
+        local local_tsserverlib = typescript.find_typescript_module_in_lib(tsdk)
+        if local_tsserverlib then
+            return tsdk, local_tsserverlib
         end
-        return vendored_tsserverlib
     end
+
+    local tsdk = typescript.tsdk(package_dir)
+    local vendored_tsserverlib = typescript.find_typescript_module_in_lib(tsdk)
+    if not vendored_tsserverlib then
+        log.fmt_error("Failed to find vendored Typescript module in %s", package_dir)
+        return nil, nil
+    end
+    return tsdk, vendored_tsserverlib
+end
+
+---@param package_dir string The Mason package installation directory where a vendored Typescript installation can be found.
+---@param workspace_dir string?
+function typescript.resolve_tsserver(package_dir, workspace_dir)
+    local _, tsserver = typescript.resolve_tsdk(package_dir, workspace_dir)
+    return tsserver
 end
 
 return typescript
