@@ -167,8 +167,9 @@ describe("mason-lspconfig setup_handlers", function()
         }
         assert.spy(vim.notify).was_called(1)
         assert.spy(vim.notify).was_called_with(
-            "[mason.nvim] mason-lspconfig.setup_handlers: Received handler for unknown lspconfig server name: doesnt_exist_server.",
-            vim.log.levels.WARN
+            "mason-lspconfig.setup_handlers: Received handler for unknown lspconfig server name: doesnt_exist_server.",
+            vim.log.levels.WARN,
+            { title = "mason.nvim" }
         )
     end)
 end)
