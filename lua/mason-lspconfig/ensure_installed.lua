@@ -19,15 +19,24 @@ return function()
         local Package = require "mason-core.package"
 
         local server_name, version = Package.Parse(server_identifier)
-        resolve_package(server_name):if_present(
-            ---@param pkg Package
-            function(pkg)
-                if not pkg:is_installed() then
-                    pkg:install {
-                        version = version,
-                    }
+        resolve_package(server_name)
+            :if_present(
+                ---@param pkg Package
+                function(pkg)
+                    if not pkg:is_installed() then
+                        pkg:install {
+                            version = version,
+                        }
+                    end
                 end
-            end
-        )
+            )
+            :if_not_present(function()
+                require "mason-core.notify"(
+                    ("[mason-lspconfig.nvim] Server %q is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names."):format(
+                        server_name
+                    ),
+                    vim.log.levels.WARN
+                )
+            end)
     end
 end
