@@ -33,7 +33,7 @@ return function(install_dir)
                 end)
         end),
         {
-            desc = "[mason.nvim] Installs the provided packages in the same venv as pylsp.",
+            desc = "[mason-lspconfig.nvim] Installs the provided packages in the same venv as pylsp.",
             nargs = "+",
             complete = _.always {
                 "pyls-flake8",
