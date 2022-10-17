@@ -172,4 +172,22 @@ describe("mason-lspconfig setup_handlers", function()
             { title = "mason.nvim" }
         )
     end)
+
+    it("should print warning when providing invalid server entries in ensure_installed", function()
+        spy.on(vim, "notify")
+        mason_lspconfig.setup {
+            ensure_installed = { "yamllint", "hadolint" },
+        }
+        assert.spy(vim.notify).was_called(2)
+        assert.spy(vim.notify).was_called_with(
+            [[[mason-lspconfig.nvim] Server "yamllint" is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names.]],
+            vim.log.levels.WARN,
+            { title = "mason.nvim" }
+        )
+        assert.spy(vim.notify).was_called_with(
+            [[[mason-lspconfig.nvim] Server "hadolint" is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names.]],
+            vim.log.levels.WARN,
+            { title = "mason.nvim" }
+        )
+    end)
 end)
