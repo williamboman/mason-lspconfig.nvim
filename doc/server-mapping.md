@@ -13,6 +13,7 @@
 | [beancount](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#beancount) | [beancount-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#beancount-language-server) |
 | [bicep](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bicep) | [bicep-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#bicep-lsp) |
 | [bsl_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bsl_ls) | [bsl-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#bsl-language-server) |
+| [bufls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bufls) | [buf-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#buf-language-server) |
 | [clangd](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clangd) | [clangd](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#clangd) |
 | [clarity_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clarity_lsp) | [clarity-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#clarity-lsp) |
 | [clojure_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clojure_lsp) | [clojure-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#clojure-lsp) |

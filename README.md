@@ -146,6 +146,7 @@ local DEFAULT_SETTINGS = {
 | Bash                                | `bashls`                   |
 | Beancount                           | `beancount`                |
 | Bicep                               | `bicep`                    |
+| Buf                                 | `bufls`                    |
 | C                                   | `clangd`                   |
 | C#                                  | `csharp_ls`                |
 | C# [(docs)][omnisharp]              | `omnisharp_mono`           |

@@ -16,6 +16,7 @@ M.lspconfig_to_package = {
     ["beancount"] = "beancount-language-server",
     ["bicep"] = "bicep-lsp",
     ["bsl_ls"] = "bsl-language-server",
+    ["bufls"] = "buf-language-server",
     ["clangd"] = "clangd",
     ["clarity_lsp"] = "clarity-lsp",
     ["clojure_lsp"] = "clojure-lsp",
