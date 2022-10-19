@@ -110,7 +110,7 @@ return {
   plaintex = { "ltex", "texlab" },
   postcss = { "tailwindcss" },
   prisma = { "prismals" },
-  proto = { "clangd" },
+  proto = { "bufls", "clangd" },
   ps1 = { "powershell_es" },
   puppet = { "puppet" },
   purescript = { "purescriptls" },

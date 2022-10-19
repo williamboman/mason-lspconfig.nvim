@@ -10,6 +10,7 @@ return {
     ["beancount"] = true,
     ["bicep"] = true,
     ["bsl_ls"] = true,
+    ["bufls"] = true,
     ["ccls"] = true,
     ["clangd"] = true,
     ["clarity_lsp"] = true,
