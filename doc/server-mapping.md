@@ -43,6 +43,7 @@
 | [foam_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#foam_ls) | [foam-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#foam-language-server) |
 | [fortls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#fortls) | [fortls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#fortls) |
 | [fsautocomplete](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#fsautocomplete) | [fsautocomplete](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#fsautocomplete) |
+| [glint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#glint) | [glint](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#glint) |
 | [golangci_lint_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#golangci_lint_ls) | [golangci-lint-langserver](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#golangci-lint-langserver) |
 | [gopls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#gopls) | [gopls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#gopls) |
 | [gradle_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#gradle_ls) | [gradle-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#gradle-language-server) |
