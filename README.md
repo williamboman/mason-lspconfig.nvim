@@ -28,7 +28,7 @@
 
 > `:h mason-lspconfig-introduction`
 
-`mason-lspconfig.nvim` closes some gaps that exist between `mason.nvim` and `lspconfig`. Its main responsibilities are:
+`mason-lspconfig.nvim` closes some gaps that exist between `mason.nvim` and `lspconfig`. Its main responsibilities are to:
 
 -   register a setup hook with `lspconfig` that ensures servers installed with `mason.nvim` are set up with the necessary
     configuration
@@ -78,10 +78,9 @@ It's important that you set up the plugins in the following order:
 
 1. `mason.nvim`
 2. `mason-lspconfig.nvim`
-3. `lspconfig`
+3. Setup servers via `lspconfig`
 
-Pay extra attention to this if you're using a plugin manager to load plugins for you, as there are no guarantees it'll
-load plugins in the correct order unless explicitly instructed to.
+Pay extra attention to this if you lazy-load plugins, or somehow "chain" the loading of plugins via your plugin manager.
 
 ```lua
 require("mason").setup()
