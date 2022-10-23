@@ -19,6 +19,7 @@
 -   [Requirements](#requirements)
 -   [Installation](#installation)
 -   [Setup](#setup)
+    -   [Automatic server setup (advanced feature)](#automatic-server-setup-advanced-feature)
 -   [Commands](#commands)
 -   [Configuration](#configuration)
     -   [Default configuration](#default-configuration)
@@ -85,9 +86,22 @@ Pay extra attention to this if you lazy-load plugins, or somehow "chain" the loa
 ```lua
 require("mason").setup()
 require("mason-lspconfig").setup()
+
+-- After setting up mason-lspconfig you may set up servers via lspconfig
+-- require("lspconfig").sumneko_lua.setup {}
+-- require("lspconfig").rust_analyzer.setup {}
+-- ...
 ```
 
 Refer to the [Configuration](#configuration) section for information about which settings are available.
+
+## Automatic server setup (advanced feature)
+
+> `:h mason-lspconfig-automatic-server-setup`
+
+`mason-lspconfig` provides extra, opt-in, functionality that allows you to automatically set up LSP servers installed
+via `mason.nvim` without having to manually add each server setup to your Neovim configuration.
+Refer to `:h mason-lspconfig-automatic-server-setup` for more details.
 
 # Commands
 

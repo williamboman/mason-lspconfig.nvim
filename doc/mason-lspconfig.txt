@@ -147,17 +147,20 @@ Example:
     }
 
 ==============================================================================
-DYNAMIC SERVER SETUP                    *mason-lspconfig-dynamic-server-setup*
+AUTOMATIC SERVER SETUP                *mason-lspconfig-automatic-server-setup*
+                                        *mason-lspconfig-dynamic-server-setup*
 
-`mason-lspconfig` provides extra opt-in functionality that allow you to set up
-LSP servers installed with `mason.nvim` without having to manually edit your
-Neovim configuration for every single server you want to use. This is also
-convenient if you want to use `mason.nvim` as the main control mechanism for
-which servers to set up. It also makes it possible to use newly installed
-servers without having to restart Neovim! Example:
+
+`mason-lspconfig` provides extra, opt-in, functionality that allows you to
+automatically set up LSP servers installed via `mason.nvim` without having to
+manually add each server setup to your Neovim configuration. It also makes it
+possible to use newly installed servers without having to restart Neovim!
+
+Example:
 
     require("mason").setup()
     require("mason-lspconfig").setup()
+
     require("mason-lspconfig").setup_handlers {
         -- The first entry (without a key) will be the default handler
         -- and will be called for each installed server that doesn't have
@@ -165,12 +168,17 @@ servers without having to restart Neovim! Example:
         function (server_name) -- default handler (optional)
             require("lspconfig")[server_name].setup {}
         end,
-        -- Next, you can provide targeted overrides for specific servers.
+        -- Next, you can provide a dedicated handler for specific servers.
         -- For example, a handler override for the `rust_analyzer`:
         ["rust_analyzer"] = function ()
             require("rust-tools").setup {}
         end
     }
+
+Note: ~
+    If you use this approach, make sure you don't also manually set up servers
+    directly via `lspconfig` as this will cause servers to be set up more than
+    once.
 
 Refer to |mason-lspconfig.setup_handlers()| for more information.
 
