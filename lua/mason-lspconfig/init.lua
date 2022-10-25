@@ -58,7 +58,7 @@ function M.setup_handlers(handlers)
             log.fmt_trace("Calling handler for %s", server_name)
             local ok, err = pcall(handler, server_name)
             if not ok then
-                vim.notify(err, vim.log.levels.ERROR)
+                notify(err, vim.log.levels.ERROR)
             end
         end)
     end

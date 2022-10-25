@@ -61,6 +61,21 @@ describe("mason-lspconfig setup", function()
     )
 
     it(
+        "should notify when installing servers listed in ensure_installed",
+        async_test(function()
+            spy.on(vim, "notify")
+            spy.on(Pkg, "install")
+
+            mason_lspconfig.setup { ensure_installed = { "dummylsp" } }
+
+            assert.spy(vim.notify).was_called(1)
+            assert
+                .spy(vim.notify)
+                .was_called_with([[[mason-lspconfig.nvim] installing dummylsp]], vim.log.levels.INFO, { title = "mason.nvim" })
+        end)
+    )
+
+    it(
         "should automatically install servers",
         async_test(function()
             local dummy = registry.get_package "dummy"

@@ -2,6 +2,7 @@ local log = require "mason-core.log"
 local _ = require "mason-core.functional"
 local path = require "mason-core.path"
 local platform = require "mason-core.platform"
+local notify = require "mason-core.notify"
 
 local memoized_set = _.memoize(_.set_of)
 
@@ -75,12 +76,12 @@ return function()
             end
         elseif should_auto_install(config.name) then
             local pkg = registry.get_package(pkg_name)
-            vim.notify(("[mason-lspconfig] automatically installing %s"):format(pkg.name))
+            notify(("[mason-lspconfig.nvim] automatically installing %s"):format(pkg.name))
             pkg:install():once(
                 "closed",
                 vim.schedule_wrap(function()
                     if pkg:is_installed() then
-                        vim.notify(("[mason-lspconfig] %s was automatically installed"):format(pkg.name))
+                        notify(("[mason-lspconfig.nvim] %s was automatically installed"):format(pkg.name))
                         -- reload config
                         require("lspconfig")[config.name].setup(config)
                     end
