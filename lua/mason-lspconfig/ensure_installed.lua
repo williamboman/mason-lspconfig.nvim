@@ -1,4 +1,5 @@
 local settings = require "mason-lspconfig.settings"
+local notify = require "mason-core.notify"
 
 ---@param lspconfig_server_name string
 local function resolve_package(lspconfig_server_name)
@@ -24,6 +25,7 @@ return function()
                 ---@param pkg Package
                 function(pkg)
                     if not pkg:is_installed() then
+                        notify(("[mason-lspconfig.nvim] installing %s"):format(server_name))
                         pkg:install {
                             version = version,
                         }
@@ -31,7 +33,7 @@ return function()
                 end
             )
             :if_not_present(function()
-                require "mason-core.notify"(
+                notify(
                     ("[mason-lspconfig.nvim] Server %q is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names."):format(
                         server_name
                     ),
