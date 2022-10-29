@@ -273,6 +273,7 @@ local DEFAULT_SETTINGS = {
 | Visualforce                         | `visualforce`              |
 | Vue                                 | `volar`                    |
 | Vue                                 | `vuels`                    |
+| WGSL                                | `wgsl_analyzer`            |
 | XML                                 | `lemminx`                  |
 | YAML                                | `yamlls`                   |
 | Zig                                 | `zls`                      |
