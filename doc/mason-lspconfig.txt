@@ -219,31 +219,30 @@ setup_handlers({handlers})
        mason's package names, so for example instead of "lua-language-server"
        it's "sumneko_lua".
 
-    Example: ~
-
-        require("mason-lspconfig").setup_handlers({
-            -- The first entry (without a key) will be the default handler
-            -- and will be called for each installed server that doesn't have
-            -- a dedicated handler.
-            function (server_name) -- default handler (optional)
-                require("lspconfig")[server_name].setup {}
-            end,
-            -- Next, you can provide targeted overrides for specific servers.
-            ["rust_analyzer"] = function ()
-                require("rust-tools").setup {}
-            end,
-            ["sumneko_lua"] = function ()
-                lspconfig.sumneko_lua.setup {
-                    settings = {
-                        Lua = {
-                            diagnostics = {
-                                globals = { "vim" }
-                            }
-                        }
-                    }
-                }
-            end,
-        })
+   Example: ~
+       require("mason-lspconfig").setup_handlers({
+           -- The first entry (without a key) will be the default handler
+           -- and will be called for each installed server that doesn't have
+           -- a dedicated handler.
+           function (server_name) -- default handler (optional)
+               require("lspconfig")[server_name].setup {}
+           end,
+           -- Next, you can provide targeted overrides for specific servers.
+           ["rust_analyzer"] = function ()
+               require("rust-tools").setup {}
+           end,
+           ["sumneko_lua"] = function ()
+               lspconfig.sumneko_lua.setup {
+                   settings = {
+                       Lua = {
+                           diagnostics = {
+                               globals = { "vim" }
+                           }
+                       }
+                   }
+               }
+           end,
+       })
 
     See also: ~
         You may achieve similar behaviour by manually looping through the
@@ -292,5 +291,14 @@ get_available_servers({filter})
         |mason-registry.get_all_packages()|
         |mason-registry.get_all_package_names()|
 
+                                              *mason-lspconfig.get_mappings()*
+get_mappings()
+    Returns the server name mappings between lspconfig and Mason.
+
+    Returns: ~
+        {
+            lspconfig_to_mason: table<string, string>,
+            mason_to_lspconfig: table<string, string>
+        }
 
  vim:tw=78:ft=help:norl:expandtab:sw=4
