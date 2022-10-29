@@ -133,4 +133,14 @@ function M.get_available_servers(filter)
     end, registry.get_all_package_names())
 end
 
+---Returns the "lspconfig <-> mason" mapping tables.
+---@return { lspconfig_to_mason: table<string, string>, mason_to_lspconfig: table<string, string> }
+function M.get_mappings()
+    local mappings = require "mason-lspconfig.mappings.server"
+    return {
+        lspconfig_to_mason = mappings.lspconfig_to_package,
+        mason_to_lspconfig = mappings.package_to_lspconfig,
+    }
+end
+
 return M
