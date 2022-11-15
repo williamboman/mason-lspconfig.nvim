@@ -105,6 +105,7 @@ M.lspconfig_to_package = {
     ["solidity"] = "solidity-ls",
     ["sorbet"] = "sorbet",
     ["sourcery"] = "sourcery",
+    ["spectral"] = "spectral-language-server",
     ["sqlls"] = "sqlls",
     ["sqls"] = "sqls",
     ["stylelint_lsp"] = "stylelint-lsp",

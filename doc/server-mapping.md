@@ -101,6 +101,7 @@
 | [solidity](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity) | [solidity-ls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#solidity-ls) |
 | [sorbet](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sorbet) | [sorbet](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#sorbet) |
 | [sourcery](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sourcery) | [sourcery](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#sourcery) |
+| [spectral](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#spectral) | [spectral-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#spectral-language-server) |
 | [sqlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqlls) | [sqlls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#sqlls) |
 | [sqls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqls) | [sqls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#sqls) |
 | [stylelint_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#stylelint_lsp) | [stylelint-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#stylelint-lsp) |

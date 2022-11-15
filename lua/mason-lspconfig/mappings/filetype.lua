@@ -74,7 +74,7 @@ return {
   ["javascript.glimmer"] = { "glint" },
   ["javascript.jsx"] = { "denols", "eslint", "tsserver" },
   javascriptreact = { "cssmodules_ls", "denols", "emmet_ls", "eslint", "graphql", "rome", "stylelint_lsp", "tailwindcss", "tsserver" },
-  json = { "jsonls", "rome" },
+  json = { "jsonls", "rome", "spectral" },
   jsonc = { "jsonls" },
   jsonnet = { "jsonnet_ls" },
   julia = { "julials" },
@@ -165,9 +165,10 @@ return {
   xsd = { "lemminx" },
   xsl = { "lemminx" },
   xslt = { "lemminx" },
-  yaml = { "yamlls" },
+  yaml = { "spectral", "yamlls" },
   ["yaml.ansible"] = { "ansiblels" },
   ["yaml.docker-compose"] = { "yamlls" },
+  yml = { "spectral" },
   zig = { "zls" },
   zir = { "zls" }
 }
