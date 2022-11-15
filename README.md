@@ -225,6 +225,7 @@ local DEFAULT_SETTINGS = {
 | Nix                                 | `rnix`                     |
 | OCaml                               | `ocamllsp`                 |
 | OneScript, 1C:Enterprise            | `bsl_ls`                   |
+| OpenAPI                             | `spectral`                 |
 | OpenCL                              | `opencl_ls`                |
 | PHP                                 | `intelephense`             |
 | PHP                                 | `phpactor`                 |
