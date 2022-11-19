@@ -1,5 +1,8 @@
 local settings = require "mason-lspconfig.settings"
 local notify = require "mason-core.notify"
+local completed_event = "MasonLspConfigEnsureInstallCompleted"
+local success_event = "MasonLspConfigEnsureInstallSuccessful"
+local fail_event = "MasonLspConfigEnsureInstallError"
 
 ---@param lspconfig_server_name string
 local function resolve_package(lspconfig_server_name)
@@ -16,6 +19,8 @@ local function resolve_package(lspconfig_server_name)
 end
 
 return function()
+    local installing = -1
+    local error = false
     for _, server_identifier in ipairs(settings.current.ensure_installed) do
         local Package = require "mason-core.package"
 
@@ -25,10 +30,29 @@ return function()
                 ---@param pkg Package
                 function(pkg)
                     if not pkg:is_installed() then
+                        if installing < 0 then
+                            installing = 0
+                        end
+                        installing = installing + 1
                         notify(("[mason-lspconfig.nvim] installing %s"):format(server_name))
-                        pkg:install {
+                        pkg:install({
                             version = version,
-                        }
+                        }):on("closed", function()
+                            if not pkg:is_installed() then
+                                error = true
+                            end
+                            installing = installing - 1
+                            if installing == 0 then
+                                vim.schedule(function()
+                                    vim.cmd("doautocmd User " .. completed_event)
+                                    if error then
+                                        vim.cmd("doautocmd User " .. fail_event)
+                                    else
+                                        vim.cmd("doautocmd User " .. success_event)
+                                    end
+                                end)
+                            end
+                        end)
                     end
                 end
             )
@@ -40,5 +64,11 @@ return function()
                     vim.log.levels.WARN
                 )
             end)
+    end
+    if installing < 0 then
+        vim.schedule(function()
+            vim.cmd("doautocmd User " .. completed_event)
+            vim.cmd("doautocmd User " .. success_event)
+        end)
     end
 end
