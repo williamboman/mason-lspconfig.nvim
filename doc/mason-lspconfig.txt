@@ -56,10 +56,10 @@ Note: ~
     the loading of plugins via your plugin manager.
 
 To enable the `mason-lspconfig` plugin, call the `setup()` function, like so:
-
+>lua
     require("mason").setup()
     require("mason-lspconfig").setup()
-
+<
 Refer to |mason-lspconfig-settings| for available settings.
 
 -----------------
@@ -67,10 +67,10 @@ Setting up servers
 
 Next, you're ready to set up the servers you want to use. Refer to lspconfig's
 documentation |lspconfig-quickstart| for more information on how to do so!
-
+>lua
     require("lspconfig").sumneko_lua.setup {}
     require("lspconfig").rust_analyzer.setup {}
-
+<
 Automatic server setup (advanced feature): ~
     Refer to |mason-lspconfig-dynamic-server-setup| (advanced feature) for an
     alternative method of setting up servers that doesn't require you to
@@ -81,9 +81,9 @@ Installation of servers
 
 To install an LSP server supported by lspconfig (and mason.nvim) you may use
 the `:LspInstall` command, like so:
-
+>vim
     :LspInstall rust_analyzer sumneko_lua
-
+<
 This command is more or less an alias of the |:MasonInstall| command, except
 that it only accepts LSP servers and - more importantly - only accepts
 lspconfig server names (as opposed to mason.nvim package names).
@@ -91,15 +91,18 @@ lspconfig server names (as opposed to mason.nvim package names).
 You may also run the same command without any arguments. This will prompt you
 with a selection of servers that are recommended for the filetype of the
 buffer you're currently editing:
-
+>vim
     :LspInstall
-
+<
 ==============================================================================
 COMMANDS                                            *mason-lspconfig-commands*
 
+------------------------------------------------------------------------------
+INSTALLING AN LSP SERVER
                                                                  *:LspInstall*
+>vim
 :LspInstall [<server>...]
-
+<
 Installs the provided servers. This command only accepts servers that have a
 corresponding server configuration in `lspconfig`.
 
@@ -110,9 +113,12 @@ When the command is ran without any arguments, the currently active buffer's
 'filetype' will be used to identify relevant servers, and you will be prompted
 with a selection of all suggested servers.
 
+------------------------------------------------------------------------------
+UNINSTALLING AN LSP SERVER
                                                                *:LspUninstall*
+>vim
 :LspUninstall <server> ...
-
+<
 Uninstalls the provided servers.
 
 ==============================================================================
@@ -124,13 +130,13 @@ You can configure certain behavior of `mason-lspconfig` when calling the
 Refer to |mason-lspconfig-default-settings| for all available settings.
 
 Example:
-
+>lua
     require("mason-lspconfig").setup({
         ensure_installed = { "rust_analyzer", "tsserver" }
     })
-
+<
                                             *mason-lspconfig-default-settings*
-
+>lua
     local DEFAULT_SETTINGS = {
         -- A list of servers to automatically install if they're not already installed. Example: { "rust-analyzer@nightly", "sumneko_lua" }
         -- This setting has no relation with the `automatic_installation` setting.
@@ -145,6 +151,7 @@ Example:
         --       Example: automatic_installation = { exclude = { "rust_analyzer", "solargraph" } }
         automatic_installation = false,
     }
+<
 
 ==============================================================================
 AUTOMATIC SERVER SETUP                *mason-lspconfig-automatic-server-setup*
@@ -157,7 +164,7 @@ manually add each server setup to your Neovim configuration. It also makes it
 possible to use newly installed servers without having to restart Neovim!
 
 Example:
-
+>lua
     require("mason").setup()
     require("mason-lspconfig").setup()
 
@@ -174,7 +181,7 @@ Example:
             require("rust-tools").setup {}
         end
     }
-
+<
 Note: ~
     If you use this approach, make sure you don't also manually set up servers
     directly via `lspconfig` as this will cause servers to be set up more than
@@ -220,6 +227,7 @@ setup_handlers({handlers})
        it's "sumneko_lua".
 
    Example: ~
+>lua
        require("mason-lspconfig").setup_handlers({
            -- The first entry (without a key) will be the default handler
            -- and will be called for each installed server that doesn't have
@@ -243,6 +251,7 @@ setup_handlers({handlers})
                }
            end,
        })
+<
 
     See also: ~
         You may achieve similar behaviour by manually looping through the
