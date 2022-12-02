@@ -43,7 +43,7 @@ return {
   erb = { "tailwindcss" },
   erg = { "erg_language_server" },
   erlang = { "erlangls" },
-  eruby = { "tailwindcss" },
+  eruby = { "emmet_ls", "tailwindcss" },
   flux = { "flux_lsp" },
   foam = { "foam_ls" },
   fortran = { "fortls" },
