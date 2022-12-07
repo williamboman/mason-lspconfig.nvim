@@ -43,6 +43,7 @@ return {
     ["ltex"] = true,
     ["luau_lsp"] = true,
     ["mm0_ls"] = true,
+    ["neocmake"] = true,
     ["nickel_ls"] = true,
     ["nimls"] = true,
     ["ocamllsp"] = true,

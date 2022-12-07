@@ -67,6 +67,7 @@
 | [luau_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#luau_lsp) | [luau-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#luau-lsp) |
 | [marksman](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#marksman) | [marksman](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#marksman) |
 | [mm0_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#mm0_ls) | [metamath-zero-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#metamath-zero-lsp) |
+| [neocmake](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#neocmake) | [neocmakelsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#neocmakelsp) |
 | [nickel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nickel_ls) | [nickel-lang-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#nickel-lang-lsp) |
 | [nimls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nimls) | [nimlsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#nimlsp) |
 | [ocamllsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ocamllsp) | [ocaml-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#ocaml-lsp) |

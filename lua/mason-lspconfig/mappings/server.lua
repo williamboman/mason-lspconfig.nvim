@@ -70,6 +70,7 @@ M.lspconfig_to_package = {
     ["luau_lsp"] = "luau-lsp",
     ["marksman"] = "marksman",
     ["mm0_ls"] = "metamath-zero-lsp",
+    ["neocmake"] = "neocmakelsp",
     ["nickel_ls"] = "nickel-lang-lsp",
     ["nimls"] = "nimlsp",
     ["ocamllsp"] = "ocaml-lsp",
