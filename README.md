@@ -166,6 +166,7 @@ local DEFAULT_SETTINGS = {
 | C# [(docs)][omnisharp]              | `omnisharp`                |
 | C++                                 | `clangd`                   |
 | CMake                               | `cmake`                    |
+| CMake                               | `neocmake`                 |
 | CSS                                 | `cssls`                    |
 | CSS                                 | `cssmodules_ls`            |
 | Clarity                             | `clarity_lsp`              |

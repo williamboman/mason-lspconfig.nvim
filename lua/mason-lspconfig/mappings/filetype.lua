@@ -20,7 +20,7 @@ return {
   clar = { "clarity_lsp" },
   clarity = { "clarity_lsp" },
   clojure = { "clojure_lsp" },
-  cmake = { "cmake" },
+  cmake = { "cmake", "neocmake" },
   cpp = { "clangd" },
   crystal = { "crystalline" },
   cs = { "csharp_ls", "omnisharp", "omnisharp_mono" },
