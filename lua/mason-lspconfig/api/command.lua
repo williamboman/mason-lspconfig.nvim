@@ -90,19 +90,15 @@ local parse_packages_to_install = _.cond {
 
 local LspInstall = a.scope(function(servers)
     local packages_to_install = parse_packages_to_install(servers)
-    if #packages_to_install > 0 then
-        local registry = require "mason-registry"
-        _.each(function(target)
-            local pkg = registry.get_package(target.package)
-            pkg:install { version = target.version }
-        end, packages_to_install)
-        local ui = require "mason.ui"
-        ui.open()
-        ui.set_view "LSP"
-        vim.schedule(function()
-            ui.set_sticky_cursor "installing-section"
-        end)
-    end
+    require("mason.api.command").MasonInstall(_.map(function(target)
+        if target.version then
+            return ("%s@%s"):format(target.package, target.version)
+        else
+            return target.package
+        end
+    end, packages_to_install))
+    local ui = require "mason.ui"
+    ui.set_view "LSP"
 end)
 
 vim.api.nvim_create_user_command("LspInstall", function(opts)
@@ -114,15 +110,11 @@ end, {
 })
 
 local function LspUninstall(servers)
-    require("mason.ui").open()
-    require("mason.ui").set_view "LSP"
-    local registry = require "mason-registry"
     local server_mapping = require "mason-lspconfig.mappings.server"
-    for _, server_specifier in ipairs(servers) do
-        local package_name = server_mapping.lspconfig_to_package[server_specifier]
-        local pkg = registry.get_package(package_name)
-        pkg:uninstall()
-    end
+    require("mason.api.command").MasonUninstall(_.map(function(lspconfig_name)
+        return server_mapping.lspconfig_to_package[lspconfig_name] or lspconfig_name
+    end, servers))
+    require("mason.ui").set_view "LSP"
 end
 
 vim.api.nvim_create_user_command("LspUninstall", function(opts)
