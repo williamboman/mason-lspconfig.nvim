@@ -273,7 +273,7 @@ local DEFAULT_SETTINGS = {
 | V                                   | `vls`                      |
 | Vala                                | `vala_ls`                  |
 | VimL                                | `vimls`                    |
-| Visualforce                         | `visualforce`              |
+| Visualforce                         | `visualforce_ls`           |
 | Vue                                 | `volar`                    |
 | Vue                                 | `vuels`                    |
 | WGSL                                | `wgsl_analyzer`            |
