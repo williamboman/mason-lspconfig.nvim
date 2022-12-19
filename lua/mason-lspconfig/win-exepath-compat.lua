@@ -45,6 +45,7 @@ return {
     ["mm0_ls"] = true,
     ["neocmake"] = true,
     ["nickel_ls"] = true,
+    ["nil_ls"] = true,
     ["nimls"] = true,
     ["ocamllsp"] = true,
     ["omnisharp"] = true,
