@@ -72,6 +72,7 @@ marksman                      marksman
 metamath-zero-lsp             mm0_ls
 neocmakelsp                   neocmake
 nickel-lang-lsp               nickel_ls
+nil                           nil_ls
 nimlsp                        nimls
 ocaml-lsp                     ocamllsp
 omnisharp                     omnisharp

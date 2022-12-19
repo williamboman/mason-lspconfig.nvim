@@ -95,7 +95,7 @@ return {
   ncl = { "nickel_ls" },
   nickel = { "nickel_ls" },
   nim = { "nimls" },
-  nix = { "rnix" },
+  nix = { "nil_ls", "rnix" },
   njk = { "tailwindcss" },
   nunjucks = { "tailwindcss" },
   objc = { "clangd" },
