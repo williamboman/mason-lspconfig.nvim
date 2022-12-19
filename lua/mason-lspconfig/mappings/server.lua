@@ -72,6 +72,7 @@ M.lspconfig_to_package = {
     ["mm0_ls"] = "metamath-zero-lsp",
     ["neocmake"] = "neocmakelsp",
     ["nickel_ls"] = "nickel-lang-lsp",
+    ["nil_ls"] = "nil",
     ["nimls"] = "nimlsp",
     ["ocamllsp"] = "ocaml-lsp",
     ["omnisharp"] = "omnisharp",
