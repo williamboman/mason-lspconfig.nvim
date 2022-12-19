@@ -24,8 +24,9 @@ It is recommended to use this extension if you use `mason.nvim` and
 
 Note: ~
     This plugin uses the `lspconfig` server names in the APIs it exposes - not
-    `mason.nvim` package names. See this table for a complete mapping:
-    https://github.com/williamboman/mason-lspconfig.nvim/blob/main/doc/server-mapping.md
+    `mason.nvim` package names. See these tables for a complete mapping:
+    - :h |mason-lspconfig-server-map|
+    - https://github.com/williamboman/mason-lspconfig.nvim/blob/main/doc/server-mapping.md
 
 ==============================================================================
 REQUIREMENTS                                    *mason-lspconfig-requirements*
