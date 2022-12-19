@@ -223,6 +223,7 @@ local DEFAULT_SETTINGS = {
 | Metamath Zero                       | `mm0_ls`                   |
 | Nickel                              | `nickel_ls`                |
 | Nim                                 | `nimls`                    |
+| Nix                                 | `nil_ls`                   |
 | Nix                                 | `rnix`                     |
 | OCaml                               | `ocamllsp`                 |
 | OneScript, 1C:Enterprise            | `bsl_ls`                   |
