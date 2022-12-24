@@ -97,6 +97,7 @@
 | [salt_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#salt_ls) | [salt-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#salt-lsp) |
 | [serve_d](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#serve_d) | [serve-d](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#serve-d) |
 | [slint_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#slint_lsp) | [slint-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#slint-lsp) |
+| [smithy_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#smithy_ls) | [smithy-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#smithy-language-server) |
 | [solang](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solang) | [solang](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#solang) |
 | [solargraph](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solargraph) | [solargraph](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#solargraph) |
 | [solc](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solc) | [solidity](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#solidity) |

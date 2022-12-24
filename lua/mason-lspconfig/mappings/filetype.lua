@@ -134,6 +134,7 @@ return {
   slim = { "tailwindcss" },
   slint = { "slint_lsp" },
   sls = { "salt_ls" },
+  smithy = { "smithy_ls" },
   solidity = { "solang", "solc", "solidity" },
   sql = { "sqlls", "sqls" },
   stylus = { "tailwindcss" },

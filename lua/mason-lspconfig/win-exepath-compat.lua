@@ -66,6 +66,7 @@ return {
     ["scry"] = true,
     ["serve_d"] = true,
     ["slint_lsp"] = true,
+    ["smithy_ls"] = true,
     ["solang"] = true,
     ["sorbet"] = true,
     ["sourcery"] = true,
