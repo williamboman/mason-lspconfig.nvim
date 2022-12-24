@@ -100,6 +100,7 @@ rust-analyzer                 rust_analyzer
 salt-lsp                      salt_ls
 serve-d                       serve_d
 slint-lsp                     slint_lsp
+smithy-language-server        smithy_ls
 solang                        solang
 solargraph                    solargraph
 solidity                      solc
