@@ -93,6 +93,7 @@
 | [robotframework_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#robotframework_ls) | [robotframework-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#robotframework-lsp) |
 | [rome](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rome) | [rome](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#rome) |
 | [ruby_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruby_ls) | [ruby-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#ruby-lsp) |
+| [ruff_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruff_lsp) | [ruff-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#ruff-lsp) |
 | [rust_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rust_analyzer) | [rust-analyzer](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#rust-analyzer) |
 | [salt_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#salt_ls) | [salt-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#salt-lsp) |
 | [serve_d](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#serve_d) | [serve-d](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#serve-d) |

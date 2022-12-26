@@ -61,6 +61,7 @@ return {
     ["rescriptls"] = true,
     ["rnix"] = true,
     ["robotframework_ls"] = true,
+    ["ruff_lsp"] = true,
     ["rust_analyzer"] = true,
     ["salt_ls"] = true,
     ["scry"] = true,

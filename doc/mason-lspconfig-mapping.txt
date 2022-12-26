@@ -96,6 +96,7 @@ rnix-lsp                      rnix
 robotframework-lsp            robotframework_ls
 rome                          rome
 ruby-lsp                      ruby_ls
+ruff-lsp                      ruff_lsp
 rust-analyzer                 rust_analyzer
 salt-lsp                      salt_ls
 serve-d                       serve_d
