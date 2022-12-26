@@ -241,6 +241,7 @@ local DEFAULT_SETTINGS = {
 | Python                              | `pyright`                  |
 | Python                              | `sourcery`                 |
 | Python [(docs)][pylsp]              | `pylsp`                    |
+| Python                              | `ruff_lsp`                 |
 | R                                   | `r_language_server`        |
 | ReScript                            | `rescriptls`               |
 | Reason                              | `reason_ls`                |
