@@ -37,12 +37,13 @@ return function(install_dir)
             nargs = "+",
             complete = _.always {
                 "pyls-flake8",
-                "pylsp-mypy",
-                "pyls-spyder",
                 "pyls-isort",
-                "python-lsp-black",
                 "pyls-memestra",
+                "pyls-spyder",
+                "pylsp-mypy",
                 "pylsp-rope",
+                "python-lsp-black",
+                "python-lsp-ruff",
             },
         }
     )
