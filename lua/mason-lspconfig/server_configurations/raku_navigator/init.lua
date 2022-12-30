@@ -1,5 +1,5 @@
 return function()
-  return {
-    cmd = { "raku-navigator", "--stdio" },
-  }
+    return {
+        cmd = { "raku-navigator", "--stdio" },
+    }
 end
