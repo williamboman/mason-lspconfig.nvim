@@ -90,6 +90,7 @@ M.lspconfig_to_package = {
     ["pyright"] = "pyright",
     ["quick_lint_js"] = "quick-lint-js",
     ["r_language_server"] = "r-languageserver",
+    ["raku_navigator"] = "raku-navigator",
     ["reason_ls"] = "reason-language-server",
     ["remark_ls"] = "remark-language-server",
     ["rescriptls"] = "rescript-lsp",

@@ -57,6 +57,7 @@ return {
     ["pylsp"] = true,
     ["quick_lint_js"] = true,
     ["r_language_server"] = true,
+    ["raku_navigator"] = true,
     ["reason_ls"] = true,
     ["rescriptls"] = true,
     ["rnix"] = true,

@@ -119,6 +119,7 @@ return {
   python = { "jedi_language_server", "pylsp", "pyright", "ruff_lsp", "sourcery" },
   ql = { "codeqlls" },
   r = { "r_language_server" },
+  raku = { "raku_navigator" },
   razor = { "tailwindcss" },
   reason = { "ocamllsp", "reason_ls", "tailwindcss" },
   rescript = { "rescriptls", "tailwindcss" },
