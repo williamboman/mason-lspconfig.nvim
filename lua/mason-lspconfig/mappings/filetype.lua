@@ -44,6 +44,7 @@ return {
   erg = { "erg_language_server" },
   erlang = { "erlangls" },
   eruby = { "emmet_ls", "tailwindcss" },
+  flow = { "flow" },
   flux = { "flux_lsp" },
   foam = { "foam_ls" },
   fortran = { "fortls" },

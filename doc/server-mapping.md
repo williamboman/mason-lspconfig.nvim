@@ -39,6 +39,7 @@
 | [erlangls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#erlangls) | [erlang-ls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#erlang-ls) |
 | [esbonio](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#esbonio) | [esbonio](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#esbonio) |
 | [eslint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#eslint) | [eslint-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#eslint-lsp) |
+| [flow](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#flow) | [flow](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#flow) |
 | [flux_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#flux_lsp) | [flux-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#flux-lsp) |
 | [foam_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#foam_ls) | [foam-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#foam-language-server) |
 | [fortls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#fortls) | [fortls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#fortls) |

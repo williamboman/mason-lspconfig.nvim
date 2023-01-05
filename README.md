@@ -190,6 +190,7 @@ local DEFAULT_SETTINGS = {
 | Erg                                 | `erg_language_server`      |
 | Erlang                              | `erlangls`                 |
 | F#                                  | `fsautocomplete`           |
+| Flow                                | `flow`                     |
 | Flux                                | `flux_lsp`                 |
 | Foam (OpenFOAM)                     | `foam_ls`                  |
 | Fortran                             | `fortls`                   |

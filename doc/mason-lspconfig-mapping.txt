@@ -42,6 +42,7 @@ erg-language-server           erg_language_server
 erlang-ls                     erlangls
 esbonio                       esbonio
 eslint-lsp                    eslint
+flow                          flow
 flux-lsp                      flux_lsp
 foam-language-server          foam_ls
 fortls                        fortls

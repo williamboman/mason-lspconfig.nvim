@@ -25,6 +25,7 @@ return {
     ["efm"] = true,
     ["elixirls"] = true,
     ["esbonio"] = true,
+    ["flow"] = true,
     ["flux_lsp"] = true,
     ["fortls"] = true,
     ["fsautocomplete"] = true,
