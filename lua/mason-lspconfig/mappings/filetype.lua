@@ -33,6 +33,7 @@ return {
   ["django-html"] = { "tailwindcss" },
   dockerfile = { "dockerls" },
   dot = { "dotls" },
+  drools = { "drools_lsp" },
   dune = { "ocamllsp" },
   edge = { "tailwindcss" },
   edn = { "clojure_lsp" },

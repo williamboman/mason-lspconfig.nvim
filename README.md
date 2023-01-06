@@ -181,6 +181,7 @@ local DEFAULT_SETTINGS = {
 | Dlang                               | `serve_d`                  |
 | Docker                              | `dockerls`                 |
 | Dot                                 | `dotls`                    |
+| Drools                              | `drools_lsp`               |
 | EFM (general purpose server)        | `efm`                      |
 | ESLint                              | `eslint`                   |
 | Elixir                              | `elixirls`                 |
