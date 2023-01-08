@@ -105,6 +105,7 @@ return {
   ["ocaml.menhir"] = { "ocamllsp" },
   ["ocaml.ocamllex"] = { "ocamllsp" },
   opencl = { "opencl_ls" },
+  openscad = { "openscad_lsp" },
   org = { "ltex" },
   os = { "bsl_ls" },
   perl = { "perlnavigator" },

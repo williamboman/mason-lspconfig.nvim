@@ -77,6 +77,7 @@ nimlsp                        nimls
 ocaml-lsp                     ocamllsp
 omnisharp                     omnisharp
 opencl-language-server        opencl_ls
+openscad-lsp                  openscad_lsp
 perlnavigator                 perlnavigator
 phpactor                      phpactor
 powershell-editor-services    powershell_es
