@@ -78,6 +78,7 @@ M.lspconfig_to_package = {
     ["omnisharp"] = "omnisharp",
     ["omnisharp_mono"] = "omnisharp-mono",
     ["opencl_ls"] = "opencl-language-server",
+    ["openscad_lsp"] = "openscad-lsp",
     ["perlnavigator"] = "perlnavigator",
     ["phpactor"] = "phpactor",
     ["powershell_es"] = "powershell-editor-services",

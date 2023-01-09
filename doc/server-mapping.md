@@ -74,6 +74,7 @@
 | [ocamllsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ocamllsp) | [ocaml-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#ocaml-lsp) |
 | [omnisharp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#omnisharp) | [omnisharp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#omnisharp) |
 | [opencl_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#opencl_ls) | [opencl-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#opencl-language-server) |
+| [openscad_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#openscad_lsp) | [openscad-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#openscad-lsp) |
 | [perlnavigator](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#perlnavigator) | [perlnavigator](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#perlnavigator) |
 | [phpactor](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#phpactor) | [phpactor](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#phpactor) |
 | [powershell_es](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#powershell_es) | [powershell-editor-services](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#powershell-editor-services) |
