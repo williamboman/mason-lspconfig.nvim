@@ -50,7 +50,6 @@ end, 2)
 
 return function()
     local util = require "lspconfig.util"
-    local win_exepath_compat = platform.is.win and require "mason-lspconfig.win-exepath-compat"
     local server_mapping = require "mason-lspconfig.mappings.server"
     local registry = require "mason-registry"
 
@@ -66,7 +65,7 @@ return function()
                 local merge_configs_in_place = _.compose(merge_in_place(config), merge_in_place(mason_config))
                 merge_configs_in_place(user_config or {})
             end)
-            if win_exepath_compat and win_exepath_compat[config.name] and config.cmd and config.cmd[1] then
+            if platform.is.win and (config.cmd and config.cmd[1] ~= "cmd.exe") then
                 local exepath = vim.fn.exepath(config.cmd[1])
                 if exepath ~= "" then
                     config.cmd[1] = exepath
