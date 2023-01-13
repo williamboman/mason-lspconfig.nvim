@@ -33,6 +33,7 @@ M.lspconfig_to_package = {
     ["diagnosticls"] = "diagnostic-languageserver",
     ["dockerls"] = "dockerfile-language-server",
     ["dotls"] = "dot-language-server",
+    ["drools_lsp"] = "drools-lsp",
     ["efm"] = "efm",
     ["elixirls"] = "elixir-ls",
     ["elmls"] = "elm-language-server",

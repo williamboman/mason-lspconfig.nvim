@@ -33,6 +33,7 @@ dhall-lsp                     dhall_lsp_server
 diagnostic-languageserver     diagnosticls
 dockerfile-language-server    dockerls
 dot-language-server           dotls
+drools-lsp                    drools_lsp
 efm                           efm
 elixir-ls                     elixirls
 elm-language-server           elmls

@@ -30,6 +30,7 @@
 | [diagnosticls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#diagnosticls) | [diagnostic-languageserver](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#diagnostic-languageserver) |
 | [dockerls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dockerls) | [dockerfile-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#dockerfile-language-server) |
 | [dotls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dotls) | [dot-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#dot-language-server) |
+| [drools_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#drools_lsp) | [drools-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#drools-lsp) |
 | [efm](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#efm) | [efm](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#efm) |
 | [elixirls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elixirls) | [elixir-ls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#elixir-ls) |
 | [elmls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elmls) | [elm-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#elm-language-server) |
