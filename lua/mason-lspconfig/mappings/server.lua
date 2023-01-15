@@ -59,6 +59,7 @@ M.lspconfig_to_package = {
     ["hoon_ls"] = "hoon-language-server",
     ["html"] = "html-lsp",
     ["intelephense"] = "intelephense",
+    ["java_language_server"] = "java-language-server",
     ["jdtls"] = "jdtls",
     ["jedi_language_server"] = "jedi-language-server",
     ["jsonls"] = "json-lsp",
