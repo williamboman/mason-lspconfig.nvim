@@ -12,8 +12,10 @@ describe("mason-lspconfig setup", function()
     before_each(function()
         server_mappings.lspconfig_to_package["dummylsp"] = "dummy"
         server_mappings.lspconfig_to_package["dummy2lsp"] = "dummy2"
+        server_mappings.lspconfig_to_package["fail_dummylsp"] = "fail_dummy"
         server_mappings.package_to_lspconfig["dummy"] = "dummylsp"
         server_mappings.package_to_lspconfig["dummy2"] = "dummy2lsp"
+        server_mappings.package_to_lspconfig["fail_dummy"] = "fail_dummylsp"
         filetype_mappings.dummylang = { "dummylsp", "dummy2lsp" }
         require("lspconfig.util").on_setup = nil
         local settings = require "mason-lspconfig.settings"
@@ -46,16 +48,17 @@ describe("mason-lspconfig setup", function()
         "should install servers listed in ensure_installed",
         async_test(function()
             local dummy = registry.get_package "dummy"
+            local fail_dummy = registry.get_package "fail_dummy"
             spy.on(Pkg, "install")
 
-            mason_lspconfig.setup { ensure_installed = { "dummylsp@1.0.0" } }
+            mason_lspconfig.setup { ensure_installed = { "dummylsp@1.0.0", "fail_dummylsp" } }
 
-            assert.spy(Pkg.install).was_called(1)
-            assert.spy(Pkg.install).was_called_with(match.ref(dummy), {
-                version = "1.0.0",
-            })
+            assert.spy(Pkg.install).was_called(2)
+            assert.spy(Pkg.install).was_called_with(match.ref(dummy), { version = "1.0.0" })
+            assert.spy(Pkg.install).was_called_with(match.ref(fail_dummy), { version = nil })
             assert.wait_for(function()
                 assert.is_true(dummy.handle:is_closed())
+                assert.is_true(fail_dummy.handle:is_closed())
             end)
         end)
     )
@@ -64,14 +67,68 @@ describe("mason-lspconfig setup", function()
         "should notify when installing servers listed in ensure_installed",
         async_test(function()
             spy.on(vim, "notify")
-            spy.on(Pkg, "install")
 
-            mason_lspconfig.setup { ensure_installed = { "dummylsp" } }
+            mason_lspconfig.setup { ensure_installed = { "dummylsp", "fail_dummylsp" } }
 
-            assert.spy(vim.notify).was_called(1)
             assert
                 .spy(vim.notify)
                 .was_called_with([[[mason-lspconfig.nvim] installing dummylsp]], vim.log.levels.INFO, { title = "mason.nvim" })
+            assert
+                .spy(vim.notify)
+                .was_called_with([[[mason-lspconfig.nvim] installing fail_dummylsp]], vim.log.levels.INFO, { title = "mason.nvim" })
+
+            assert.wait_for(function()
+                assert.spy(vim.notify).was_called_with(
+                    [[[mason-lspconfig.nvim] successfully installed dummylsp]],
+                    vim.log.levels.INFO,
+                    { title = "mason.nvim" }
+                )
+                assert.spy(vim.notify).was_called_with(
+                    [[[mason-lspconfig.nvim] failed to install fail_dummylsp. Installation logs are available in :Mason and :MasonLog]],
+                    vim.log.levels.ERROR,
+                    { title = "mason.nvim" }
+                )
+            end)
+        end)
+    )
+
+    it(
+        "should notify when installing servers via automatic installation",
+        async_test(function()
+            local dummy = registry.get_package "dummy"
+            local fail_dummy = registry.get_package "fail_dummy"
+            spy.on(Pkg, "install")
+            spy.on(vim, "notify")
+
+            mason_lspconfig.setup { automatic_installation = true }
+            local lspconfig = require "lspconfig"
+            lspconfig.dummylsp.setup {}
+            lspconfig.fail_dummylsp.setup {}
+
+            assert.spy(Pkg.install).was_called(2)
+            assert.spy(Pkg.install).was_called_with(match.ref(dummy))
+            assert.spy(Pkg.install).was_called_with(match.ref(fail_dummy))
+
+            assert
+                .spy(vim.notify)
+                .was_called_with([[[mason-lspconfig.nvim] installing dummy]], vim.log.levels.INFO, { title = "mason.nvim" })
+            assert
+                .spy(vim.notify)
+                .was_called_with([[[mason-lspconfig.nvim] installing fail-dummy]], vim.log.levels.INFO, { title = "mason.nvim" })
+            assert.wait_for(function()
+                assert.is_true(dummy.handle:is_closed())
+                assert.is_true(fail_dummy.handle:is_closed())
+                assert.spy(vim.notify).was_called_with(
+                    [[[mason-lspconfig.nvim] dummy was automatically installed]],
+                    vim.log.levels.INFO,
+                    { title = "mason.nvim" }
+                )
+                assert.spy(vim.notify).was_called_with(
+                    [[[mason-lspconfig.nvim] failed to install fail-dummy. Installation logs are available in :Mason and :MasonLog]],
+                    vim.log.levels.ERROR,
+                    { title = "mason.nvim" }
+                )
+            end)
         end)
     )
 

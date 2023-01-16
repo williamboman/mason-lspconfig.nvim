@@ -74,7 +74,7 @@ return function()
             end
         elseif should_auto_install(config.name) then
             local pkg = registry.get_package(pkg_name)
-            notify(("[mason-lspconfig.nvim] automatically installing %s"):format(pkg.name))
+            notify(("[mason-lspconfig.nvim] installing %s"):format(pkg.name))
             pkg:install():once(
                 "closed",
                 vim.schedule_wrap(function()
@@ -82,6 +82,13 @@ return function()
                         notify(("[mason-lspconfig.nvim] %s was automatically installed"):format(pkg.name))
                         -- reload config
                         require("lspconfig")[config.name].setup(config)
+                    else
+                        notify(
+                            ("[mason-lspconfig.nvim] failed to install %s. Installation logs are available in :Mason and :MasonLog"):format(
+                                pkg.name
+                            ),
+                            vim.log.levels.ERROR
+                        )
                     end
                 end)
             )
