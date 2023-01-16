@@ -25,24 +25,7 @@ return function()
                 ---@param pkg Package
                 function(pkg)
                     if not pkg:is_installed() then
-                        notify(("[mason-lspconfig.nvim] installing %s"):format(server_name))
-                        pkg:install({
-                            version = version,
-                        }):once(
-                            "closed",
-                            vim.schedule_wrap(function()
-                                if pkg:is_installed() then
-                                    notify(("[mason-lspconfig.nvim] successfully installed %s"):format(server_name))
-                                else
-                                    notify(
-                                        ("[mason-lspconfig.nvim] failed to install %s. Installation logs are available in :Mason and :MasonLog"):format(
-                                            server_name
-                                        ),
-                                        vim.log.levels.ERROR
-                                    )
-                                end
-                            end)
-                        )
+                        require("mason-lspconfig.install").install(pkg, version)
                     end
                 end
             )
