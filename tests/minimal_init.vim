@@ -19,10 +19,12 @@ lua <<EOF
 local index = require "mason-registry.index"
 index["dummy"] = "dummy_package"
 index["dummy2"] = "dummy2_package"
+index["fail_dummy"] = "fail_dummy"
 
 local configs = require 'lspconfig.configs'
 configs.dummylsp = { default_config = { cmd = { "dummylsp" } } }
 configs.dummy2lsp = { default_config = { cmd = { "dummy2lsp"} } }
+configs.fail_dummylsp = { default_config = { cmd = { "fail_dummylsp"} } }
 
 require("mason").setup {
     install_root_dir = vim.env.INSTALL_ROOT_DIR,
