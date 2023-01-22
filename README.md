@@ -159,6 +159,7 @@ local DEFAULT_SETTINGS = {
 | Bash                                | `bashls`                   |
 | Beancount                           | `beancount`                |
 | Bicep                               | `bicep`                    |
+| BrighterScript                      | `bright_script`            |
 | Buf                                 | `bufls`                    |
 | C                                   | `clangd`                   |
 | C#                                  | `csharp_ls`                |
