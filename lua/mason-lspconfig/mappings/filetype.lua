@@ -15,6 +15,7 @@ return {
   bib = { "ltex", "texlab" },
   bicep = { "bicep" },
   blade = { "tailwindcss" },
+  brs = { "bright_script" },
   bsl = { "bsl_ls" },
   c = { "clangd" },
   clar = { "clarity_lsp" },

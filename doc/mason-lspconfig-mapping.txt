@@ -15,6 +15,7 @@ awk-language-server           awk_ls
 bash-language-server          bashls
 beancount-language-server     beancount
 bicep-lsp                     bicep
+brighterscript                bright_script
 bsl-language-server           bsl_ls
 buf-language-server           bufls
 clangd                        clangd
