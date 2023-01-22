@@ -148,6 +148,7 @@ return {
   systemverilog = { "svlangserver", "svls", "verible" },
   teal = { "teal_ls" },
   terraform = { "terraformls", "tflint" },
+  ["terraform-vars"] = { "terraformls" },
   tex = { "ltex", "texlab" },
   toml = { "taplo" },
   twig = { "tailwindcss" },
