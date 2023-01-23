@@ -15,15 +15,15 @@
 
 # Table of Contents
 
--   [Introduction](#introduction)
--   [Requirements](#requirements)
--   [Installation](#installation)
--   [Setup](#setup)
-    -   [Automatic server setup (advanced feature)](#automatic-server-setup-advanced-feature)
--   [Commands](#commands)
--   [Configuration](#configuration)
-    -   [Default configuration](#default-configuration)
--   [Available LSP servers](#available-lsp-servers)
+- [Introduction](#introduction)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Setup](#setup)
+  - [Automatic server setup (advanced feature)](#automatic-server-setup-advanced-feature)
+- [Commands](#commands)
+- [Configuration](#configuration)
+  - [Default configuration](#default-configuration)
+- [Available LSP servers](#available-lsp-servers)
 
 # Introduction
 
@@ -31,11 +31,11 @@
 
 `mason-lspconfig.nvim` closes some gaps that exist between `mason.nvim` and `lspconfig`. Its main responsibilities are to:
 
--   register a setup hook with `lspconfig` that ensures servers installed with `mason.nvim` are set up with the necessary
+- register a setup hook with `lspconfig` that ensures servers installed with `mason.nvim` are set up with the necessary
     configuration
--   provide extra convenience APIs such as the `:LspInstall` command
--   allow you to (i) automatically install, and (ii) automatically set up a predefined list of servers
--   translate between `lspconfig` server names and `mason.nvim` package names (e.g. `sumneko_lua <-> lua-language-server`)
+- provide extra convenience APIs such as the `:LspInstall` command
+- allow you to (i) automatically install, and (ii) automatically set up a predefined list of servers
+- translate between `lspconfig` server names and `mason.nvim` package names (e.g. `sumneko_lua <-> lua-language-server`)
 
 It is recommended to use this extension if you use `mason.nvim` and `lspconfig` (it's strongly recommended for Windows
 users).
@@ -47,9 +47,9 @@ table for a complete mapping.](./doc/server-mapping.md)**
 
 > `:h mason-lspconfig-requirements`
 
--   neovim `>= 0.7.0`
--   `mason.nvim`
--   `lspconfig`
+- neovim `>= 0.7.0`
+- `mason.nvim`
+- `lspconfig`
 
 # Installation
 
@@ -107,8 +107,8 @@ Refer to `:h mason-lspconfig-automatic-server-setup` for more details.
 
 > `:h mason-lspconfig-commands`
 
--   `:LspInstall [<server>...]` - installs the provided servers
--   `:LspUninstall <server> ...` - uninstalls the provided servers
+- `:LspInstall [<server>...]` - installs the provided servers
+- `:LspUninstall <server> ...` - uninstalls the provided servers
 
 # Configuration
 
@@ -120,9 +120,9 @@ the [default configuration](#default-configuration) for a list of all available 
 Example:
 
 ```lua
-require("mason-lspconfig").setup({
-    ensure_installed = { "sumneko_lua", "rust_analyzer" }
-})
+require("mason-lspconfig").setup {
+    ensure_installed = { "sumneko_lua", "rust_analyzer" },
+}
 ```
 
 ## Default configuration
@@ -159,6 +159,7 @@ local DEFAULT_SETTINGS = {
 | Bash                                | `bashls`                   |
 | Beancount                           | `beancount`                |
 | Bicep                               | `bicep`                    |
+| BrighterScript                      | `bright_script`            |
 | Buf                                 | `bufls`                    |
 | C                                   | `clangd`                   |
 | C#                                  | `csharp_ls`                |
@@ -166,6 +167,7 @@ local DEFAULT_SETTINGS = {
 | C# [(docs)][omnisharp]              | `omnisharp`                |
 | C++                                 | `clangd`                   |
 | CMake                               | `cmake`                    |
+| CMake                               | `neocmake`                 |
 | CSS                                 | `cssls`                    |
 | CSS                                 | `cssmodules_ls`            |
 | Clarity                             | `clarity_lsp`              |
@@ -180,6 +182,7 @@ local DEFAULT_SETTINGS = {
 | Dlang                               | `serve_d`                  |
 | Docker                              | `dockerls`                 |
 | Dot                                 | `dotls`                    |
+| Drools                              | `drools_lsp`               |
 | EFM (general purpose server)        | `efm`                      |
 | ESLint                              | `eslint`                   |
 | Elixir                              | `elixirls`                 |
@@ -222,11 +225,13 @@ local DEFAULT_SETTINGS = {
 | Metamath Zero                       | `mm0_ls`                   |
 | Nickel                              | `nickel_ls`                |
 | Nim                                 | `nimls`                    |
+| Nix                                 | `nil_ls`                   |
 | Nix                                 | `rnix`                     |
 | OCaml                               | `ocamllsp`                 |
 | OneScript, 1C:Enterprise            | `bsl_ls`                   |
 | OpenAPI                             | `spectral`                 |
 | OpenCL                              | `opencl_ls`                |
+| OpenSCAD                            | `openscad_lsp`             |
 | PHP                                 | `intelephense`             |
 | PHP                                 | `phpactor`                 |
 | PHP                                 | `psalm`                    |
@@ -240,7 +245,9 @@ local DEFAULT_SETTINGS = {
 | Python                              | `pyright`                  |
 | Python                              | `sourcery`                 |
 | Python [(docs)][pylsp]              | `pylsp`                    |
+| Python                              | `ruff_lsp`                 |
 | R                                   | `r_language_server`        |
+| Raku                                | `raku_navigator`           |
 | ReScript                            | `rescriptls`               |
 | Reason                              | `reason_ls`                |
 | Robot Framework                     | `robotframework_ls`        |
@@ -253,6 +260,7 @@ local DEFAULT_SETTINGS = {
 | Salt                                | `salt_ls`                  |
 | Shopify Theme Check                 | `theme_check`              |
 | Slint                               | `slint_lsp`                |
+| Smithy                              | `smithy_ls`                |
 | Solidity                            | `solang`                   |
 | Solidity                            | `solc`                     |
 | Solidity                            | `solidity`                 |
@@ -272,7 +280,7 @@ local DEFAULT_SETTINGS = {
 | V                                   | `vls`                      |
 | Vala                                | `vala_ls`                  |
 | VimL                                | `vimls`                    |
-| Visualforce                         | `visualforce`              |
+| Visualforce                         | `visualforce_ls`           |
 | Vue                                 | `volar`                    |
 | Vue                                 | `vuels`                    |
 | WGSL                                | `wgsl_analyzer`            |

@@ -47,36 +47,82 @@ local function ensure_valid_package_name_translations()
     end
 end
 
+local get_server_mappings = _.compose(
+    _.filter_map(function(pair)
+        local lspconfig_name, mason_name =
+            assert(pair[1], "missing lspconfig name"), assert(pair[2], "missing mason name")
+        if not pcall(require, ("lspconfig.server_configurations.%s"):format(lspconfig_name)) then
+            return Optional.empty()
+        end
+        local lspconfig_url = ("https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s"):format(
+            lspconfig_name
+        )
+        local mason_url = ("https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#%s"):format(mason_name)
+        return Optional.of {
+            lspconfig_name = lspconfig_name,
+            mason_name = mason_name,
+            lspconfig_url = lspconfig_url,
+            mason_url = mason_url,
+        }
+    end),
+    _.sort_by(_.head),
+    _.to_pairs
+)
+
 ---@async
 local function create_server_mapping_docs()
-    local server_mappings = require "mason-lspconfig.mappings.server"
+    local server_mappings = get_server_mappings(require("mason-lspconfig.mappings.server").lspconfig_to_package)
 
-    local table_body = _.compose(
-        _.filter_map(function(pair)
-            local lspconfig_name, mason_name =
-                assert(pair[1], "missing lspconfig name"), assert(pair[2], "missing mason name")
-            if not pcall(require, ("lspconfig.server_configurations.%s"):format(lspconfig_name)) then
-                return Optional.empty()
-            end
-            local lspconfig_url = ("https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s"):format(
-                lspconfig_name
+    do
+        local markdown_header = {
+            "| lspconfig server name | mason.nvim package name |",
+            "| --------------------- | ----------------------- |",
+        }
+
+        local markdown_table = _.map(function(map)
+            return string.format(
+                "| [%s](%s) | [%s](%s) |",
+                map.lspconfig_name,
+                map.lspconfig_url,
+                map.mason_name,
+                map.mason_url
             )
-            local mason_url = ("https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#%s"):format(mason_name)
-            return Optional.of(
-                string.format("| [%s](%s) | [%s](%s) |", lspconfig_name, lspconfig_url, mason_name, mason_url)
-            )
-        end),
-        _.sort_by(_.head),
-        _.to_pairs
-    )(server_mappings.lspconfig_to_package)
+        end, server_mappings)
 
-    local table_header = {
-        "| lspconfig server name | mason.nvim package name |",
-        "| --------------------- | ----------------------- |",
-    }
+        local markdown = _.join("\n", _.concat(markdown_header, markdown_table))
+        script_utils.write_file(path.concat { DOCS_DIR, "server-mapping.md" }, markdown)
+    end
 
-    local output = _.join("\n", _.concat(table_header, table_body))
-    script_utils.write_file(path.concat { DOCS_DIR, "server-mapping.md" }, output)
+    do
+        local vimdoc_header = {
+            "*mason-lspconfig-mapping.txt*",
+            "",
+            "==============================================================================",
+            "SERVER MAPPINGS                                   *mason-lspconfig-server-map*",
+            "",
+        }
+
+        local vimdoc_footer = {
+            "",
+            "vim:tw=78:ft=help:norl:expandtab:sw=4",
+        }
+
+        local col_width = _.apply(math.max, _.map(_.compose(_.length, _.prop "mason_name"), server_mappings)) + 2
+
+        local vimdoc_table = _.concat(
+            {
+                "`Mason name`" .. (" "):rep(col_width - #"Mason name") .. "`lspconfig name`",
+            },
+            _.map(function(map)
+                return ("%s%s%s"):format(map.mason_name, (" "):rep(col_width - #map.mason_name), map.lspconfig_name)
+            end, server_mappings)
+        )
+
+        local concat = _.reduce(_.concat, {})
+
+        local vimdoc = _.join("\n", concat { vimdoc_header, vimdoc_table, vimdoc_footer })
+        script_utils.write_file(path.concat { DOCS_DIR, "mason-lspconfig-mapping.txt" }, vimdoc)
+    end
 end
 
 a.run_blocking(function()

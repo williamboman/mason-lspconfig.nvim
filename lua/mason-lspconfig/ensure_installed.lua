@@ -25,10 +25,7 @@ return function()
                 ---@param pkg Package
                 function(pkg)
                     if not pkg:is_installed() then
-                        notify(("[mason-lspconfig.nvim] installing %s"):format(server_name))
-                        pkg:install {
-                            version = version,
-                        }
+                        require("mason-lspconfig.install").install(pkg, version)
                     end
                 end
             )

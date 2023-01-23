@@ -23,6 +23,10 @@ function M.write_file(path, contents, flags)
             },
         },
         {
+            _.matches "doc/.+%.txt$",
+            _.always {},
+        },
+        {
             _.T,
             _.always {
                 "# THIS FILE IS GENERATED. DO NOT EDIT MANUALLY.",
