@@ -119,7 +119,7 @@ return {
   ps1 = { "powershell_es" },
   puppet = { "puppet" },
   purescript = { "purescriptls" },
-  python = { "jedi_language_server", "pylsp", "pyright", "ruff_lsp", "sourcery" },
+  python = { "jedi_language_server", "pylsp", "pyre", "pyright", "ruff_lsp", "sourcery" },
   ql = { "codeqlls" },
   r = { "r_language_server" },
   raku = { "raku_navigator" },
