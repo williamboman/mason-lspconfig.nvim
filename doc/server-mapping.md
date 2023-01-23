@@ -86,6 +86,7 @@
 | [puppet](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#puppet) | [puppet-editor-services](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#puppet-editor-services) |
 | [purescriptls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#purescriptls) | [purescript-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#purescript-language-server) |
 | [pylsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pylsp) | [python-lsp-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#python-lsp-server) |
+| [pyre](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pyre) | [pyre](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#pyre) |
 | [pyright](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pyright) | [pyright](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#pyright) |
 | [quick_lint_js](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#quick_lint_js) | [quick-lint-js](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#quick-lint-js) |
 | [r_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#r_language_server) | [r-languageserver](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#r-languageserver) |

@@ -89,6 +89,7 @@ psalm                         psalm
 puppet-editor-services        puppet
 purescript-language-server    purescriptls
 python-lsp-server             pylsp
+pyre                          pyre
 pyright                       pyright
 quick-lint-js                 quick_lint_js
 r-languageserver              r_language_server
