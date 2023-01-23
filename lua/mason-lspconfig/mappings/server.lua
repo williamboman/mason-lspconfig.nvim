@@ -53,6 +53,7 @@ M.lspconfig_to_package = {
     ["grammarly"] = "grammarly-languageserver",
     ["graphql"] = "graphql-language-service-cli",
     ["groovyls"] = "groovy-language-server",
+    ["pyre"] = "pyre",
     ["haxe_language_server"] = "haxe-language-server",
     ["hls"] = "haskell-language-server",
     ["hoon_ls"] = "hoon-language-server",

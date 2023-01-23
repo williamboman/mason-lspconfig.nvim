@@ -236,6 +236,7 @@ local DEFAULT_SETTINGS = {
 | Puppet                              | `puppet`                   |
 | PureScript                          | `purescriptls`             |
 | Python                              | `jedi_language_server`     |
+| Python                              | `pyre`                     |
 | Python                              | `pyright`                  |
 | Python                              | `sourcery`                 |
 | Python [(docs)][pylsp]              | `pylsp`                    |
