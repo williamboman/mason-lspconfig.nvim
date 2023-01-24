@@ -136,6 +136,7 @@ M.lspconfig_to_package = {
     ["visualforce_ls"] = "visualforce-language-server",
     ["vls"] = "vls",
     ["volar"] = "vue-language-server",
+    ["vtsls"] = "vtsls",
     ["vuels"] = "vetur-vls",
     ["wgsl_analyzer"] = "wgsl-analyzer",
     ["yamlls"] = "yaml-language-server",

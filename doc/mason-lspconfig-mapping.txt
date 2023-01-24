@@ -135,6 +135,7 @@ vim-language-server           vimls
 visualforce-language-server   visualforce_ls
 vls                           vls
 vue-language-server           volar
+vtsls                         vtsls
 vetur-vls                     vuels
 wgsl-analyzer                 wgsl_analyzer
 yaml-language-server          yamlls
