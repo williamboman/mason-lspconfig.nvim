@@ -210,6 +210,7 @@ local DEFAULT_SETTINGS = {
 | Java                                | `jdtls`                    |
 | JavaScript                          | `quick_lint_js`            |
 | JavaScript                          | `tsserver`                 |
+| JavaScript                          | `vtsls`                    |
 | Jsonnet                             | `jsonnet_ls`               |
 | Julia [(docs)][julials]             | `julials`                  |
 | Kotlin                              | `kotlin_language_server`   |
@@ -277,6 +278,7 @@ local DEFAULT_SETTINGS = {
 | Terraform                           | `terraformls`              |
 | Terraform [(docs)][tflint]          | `tflint`                   |
 | TypeScript                          | `tsserver`                 |
+| TypeScript                          | `vtsls`                    |
 | V                                   | `vls`                      |
 | Vala                                | `vala_ls`                  |
 | VimL                                | `vimls`                    |
