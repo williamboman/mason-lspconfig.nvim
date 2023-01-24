@@ -132,6 +132,7 @@
 | [visualforce_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#visualforce_ls) | [visualforce-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#visualforce-language-server) |
 | [vls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vls) | [vls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#vls) |
 | [volar](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#volar) | [vue-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#vue-language-server) |
+| [vtsls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vtsls) | [vtsls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#vtsls) |
 | [vuels](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vuels) | [vetur-vls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#vetur-vls) |
 | [wgsl_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#wgsl_analyzer) | [wgsl-analyzer](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#wgsl-analyzer) |
 | [yamlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#yamlls) | [yaml-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#yaml-language-server) |
