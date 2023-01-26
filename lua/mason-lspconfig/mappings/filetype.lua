@@ -160,6 +160,7 @@ return {
   vala = { "vala_ls" },
   vb = { "omnisharp", "omnisharp_mono" },
   verilog = { "svlangserver", "svls", "verible" },
+  veryl = { "veryl_ls" },
   vim = { "vimls" },
   visualforce = { "visualforce_ls" },
   vlang = { "vls" },

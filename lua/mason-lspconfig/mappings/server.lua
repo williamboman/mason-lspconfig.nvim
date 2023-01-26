@@ -132,6 +132,7 @@ M.lspconfig_to_package = {
     ["tsserver"] = "typescript-language-server",
     ["vala_ls"] = "vala-language-server",
     ["verible"] = "verible",
+    ["veryl_ls"] = "veryl-ls",
     ["vimls"] = "vim-language-server",
     ["visualforce_ls"] = "visualforce-language-server",
     ["vls"] = "vls",
