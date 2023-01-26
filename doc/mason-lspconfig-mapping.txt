@@ -131,6 +131,7 @@ shopify-theme-check           theme_check
 typescript-language-server    tsserver
 vala-language-server          vala_ls
 verible                       verible
+veryl-ls                      veryl_ls
 vim-language-server           vimls
 visualforce-language-server   visualforce_ls
 vls                           vls

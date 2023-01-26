@@ -281,6 +281,7 @@ local DEFAULT_SETTINGS = {
 | TypeScript                          | `vtsls`                    |
 | V                                   | `vls`                      |
 | Vala                                | `vala_ls`                  |
+| Veryl                               | `veryl_ls`                 |
 | VimL                                | `vimls`                    |
 | Visualforce                         | `visualforce_ls`           |
 | Vue                                 | `volar`                    |
