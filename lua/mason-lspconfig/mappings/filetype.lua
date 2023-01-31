@@ -110,6 +110,7 @@ return {
   openscad = { "openscad_lsp" },
   org = { "ltex" },
   os = { "bsl_ls" },
+  pandoc = { "ltex" },
   perl = { "perlnavigator" },
   php = { "intelephense", "phpactor", "psalm", "tailwindcss" },
   plaintex = { "ltex", "texlab" },
