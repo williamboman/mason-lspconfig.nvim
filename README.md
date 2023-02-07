@@ -170,6 +170,7 @@ local DEFAULT_SETTINGS = {
 | CMake                               | `neocmake`                 |
 | CSS                                 | `cssls`                    |
 | CSS                                 | `cssmodules_ls`            |
+| CSS                                 | `unocss`                   |
 | Clarity                             | `clarity_lsp`              |
 | Clojure                             | `clojure_lsp`              |
 | CodeQL                              | `codeqlls`                 |
