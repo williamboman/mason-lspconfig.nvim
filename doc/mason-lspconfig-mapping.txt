@@ -130,6 +130,7 @@ texlab                        texlab
 tflint                        tflint
 shopify-theme-check           theme_check
 typescript-language-server    tsserver
+unocss-language-server        unocss
 vala-language-server          vala_ls
 verible                       verible
 veryl-ls                      veryl_ls
