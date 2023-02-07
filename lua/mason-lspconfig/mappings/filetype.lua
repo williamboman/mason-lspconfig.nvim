@@ -92,6 +92,7 @@ return {
   markdown = { "grammarly", "ltex", "marksman", "prosemd_lsp", "remark_ls", "tailwindcss", "zk" },
   mdx = { "tailwindcss" },
   ["metamath-zero"] = { "mm0_ls" },
+  move = { "move_analyzer" },
   mustache = { "tailwindcss" },
   mysql = { "sqlls", "sqls" },
   ncl = { "nickel_ls" },

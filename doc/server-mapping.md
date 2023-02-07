@@ -69,6 +69,7 @@
 | [luau_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#luau_lsp) | [luau-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#luau-lsp) |
 | [marksman](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#marksman) | [marksman](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#marksman) |
 | [mm0_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#mm0_ls) | [metamath-zero-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#metamath-zero-lsp) |
+| [move_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#move_analyzer) | [move-analyzer](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#move-analyzer) |
 | [neocmake](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#neocmake) | [neocmakelsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#neocmakelsp) |
 | [nickel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nickel_ls) | [nickel-lang-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#nickel-lang-lsp) |
 | [nil_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nil_ls) | [nil](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#nil) |
