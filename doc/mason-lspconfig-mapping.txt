@@ -72,6 +72,7 @@ ltex-ls                       ltex
 luau-lsp                      luau_lsp
 marksman                      marksman
 metamath-zero-lsp             mm0_ls
+move-analyzer                 move_analyzer
 neocmakelsp                   neocmake
 nickel-lang-lsp               nickel_ls
 nil                           nil_ls
