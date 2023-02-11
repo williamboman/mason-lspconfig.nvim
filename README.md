@@ -170,6 +170,7 @@ local DEFAULT_SETTINGS = {
 | CMake                               | `neocmake`                 |
 | CSS                                 | `cssls`                    |
 | CSS                                 | `cssmodules_ls`            |
+| CSS                                 | `unocss`                   |
 | Clarity                             | `clarity_lsp`              |
 | Clojure                             | `clojure_lsp`              |
 | CodeQL                              | `codeqlls`                 |
@@ -224,6 +225,7 @@ local DEFAULT_SETTINGS = {
 | Markdown                            | `remark_ls`                |
 | Markdown                            | `zk`                       |
 | Metamath Zero                       | `mm0_ls`                   |
+| Move                                | `move_analyzer`            |
 | Nickel                              | `nickel_ls`                |
 | Nim                                 | `nimls`                    |
 | Nix                                 | `nil_ls`                   |
