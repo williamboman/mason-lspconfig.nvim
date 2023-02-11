@@ -44,6 +44,7 @@ M.lspconfig_to_package = {
     ["erlangls"] = "erlang-ls",
     ["esbonio"] = "esbonio",
     ["eslint"] = "eslint-lsp",
+    ["fennel_language_server"] = "fennel-language-server",
     ["flux_lsp"] = "flux-lsp",
     ["foam_ls"] = "foam-language-server",
     ["fortls"] = "fortls",
