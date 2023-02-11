@@ -193,6 +193,7 @@ local DEFAULT_SETTINGS = {
 | Erg                                 | `erg_language_server`      |
 | Erlang                              | `erlangls`                 |
 | F#                                  | `fsautocomplete`           |
+| Fennel                              | `fennel_language_server`   |
 | Flux                                | `flux_lsp`                 |
 | Foam (OpenFOAM)                     | `foam_ls`                  |
 | Fortran                             | `fortls`                   |
