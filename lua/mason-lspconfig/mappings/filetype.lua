@@ -88,7 +88,7 @@ return {
   libsonnet = { "jsonnet_ls" },
   liquid = { "tailwindcss", "theme_check" },
   llw = { "lelwel_ls" },
-  lua = { "sumneko_lua" },
+  lua = { "lua_ls" },
   luau = { "luau_lsp" },
   markdown = { "grammarly", "ltex", "marksman", "prosemd_lsp", "remark_ls", "tailwindcss", "zk" },
   mdx = { "tailwindcss" },
