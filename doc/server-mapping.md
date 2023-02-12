@@ -4,6 +4,7 @@
 | [als](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#als) | [ada-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#ada-language-server) |
 | [angularls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#angularls) | [angular-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#angular-language-server) |
 | [ansiblels](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ansiblels) | [ansible-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#ansible-language-server) |
+| [antlersls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#antlersls) | [antlers-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#antlers-language-server) |
 | [apex_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#apex_ls) | [apex-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#apex-language-server) |
 | [arduino_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#arduino_language_server) | [arduino-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#arduino-language-server) |
 | [asm_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#asm_lsp) | [asm-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#asm-lsp) |

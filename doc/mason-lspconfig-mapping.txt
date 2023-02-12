@@ -7,6 +7,7 @@ SERVER MAPPINGS                                   *mason-lspconfig-server-map*
 ada-language-server           als
 angular-language-server       angularls
 ansible-language-server       ansiblels
+antlers-language-server       antlersls
 apex-language-server          apex_ls
 arduino-language-server       arduino_language_server
 asm-lsp                       asm_lsp
