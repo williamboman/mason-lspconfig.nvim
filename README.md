@@ -35,7 +35,7 @@
     configuration
 - provide extra convenience APIs such as the `:LspInstall` command
 - allow you to (i) automatically install, and (ii) automatically set up a predefined list of servers
-- translate between `lspconfig` server names and `mason.nvim` package names (e.g. `sumneko_lua <-> lua-language-server`)
+- translate between `lspconfig` server names and `mason.nvim` package names (e.g. `lua_ls <-> lua-language-server`)
 
 It is recommended to use this extension if you use `mason.nvim` and `lspconfig` (it's strongly recommended for Windows
 users).
@@ -88,7 +88,7 @@ require("mason").setup()
 require("mason-lspconfig").setup()
 
 -- After setting up mason-lspconfig you may set up servers via lspconfig
--- require("lspconfig").sumneko_lua.setup {}
+-- require("lspconfig").lua_ls.setup {}
 -- require("lspconfig").rust_analyzer.setup {}
 -- ...
 ```
@@ -121,7 +121,7 @@ Example:
 
 ```lua
 require("mason-lspconfig").setup {
-    ensure_installed = { "sumneko_lua", "rust_analyzer" },
+    ensure_installed = { "lua_ls", "rust_analyzer" },
 }
 ```
 
@@ -129,7 +129,7 @@ require("mason-lspconfig").setup {
 
 ```lua
 local DEFAULT_SETTINGS = {
-    -- A list of servers to automatically install if they're not already installed. Example: { "rust_analyzer@nightly", "sumneko_lua" }
+    -- A list of servers to automatically install if they're not already installed. Example: { "rust_analyzer@nightly", "lua_ls" }
     -- This setting has no relation with the `automatic_installation` setting.
     ensure_installed = {},
 
@@ -219,7 +219,7 @@ local DEFAULT_SETTINGS = {
 | LaTeX                               | `ltex`                     |
 | LaTeX                               | `texlab`                   |
 | Lelwel                              | `lelwel_ls`                |
-| Lua                                 | `sumneko_lua`              |
+| Lua                                 | `lua_ls`                   |
 | Luau                                | `luau_lsp`                 |
 | Markdown                            | `marksman`                 |
 | Markdown                            | `prosemd_lsp`              |

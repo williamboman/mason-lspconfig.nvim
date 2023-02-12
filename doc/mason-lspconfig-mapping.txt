@@ -119,7 +119,7 @@ spectral-language-server      spectral
 sqlls                         sqlls
 sqls                          sqls
 stylelint-lsp                 stylelint_lsp
-lua-language-server           sumneko_lua
+lua-language-server           lua_ls
 svelte-language-server        svelte
 svlangserver                  svlangserver
 svls                          svls

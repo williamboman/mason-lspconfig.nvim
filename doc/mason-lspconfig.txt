@@ -17,7 +17,7 @@ INTRODUCTION                                    *mason-lspconfig-introduction*
 -   allow you to (i) automatically install, and (ii) automatically set up a
     predefined list of servers
 -   translate between `lspconfig` server names and `mason.nvim` package names
-    (e.g. `sumneko_lua <-> lua-language-server`)
+    (e.g. `lua_ls <-> lua-language-server`)
 
 It is recommended to use this extension if you use `mason.nvim` and
 `lspconfig` (it's strongly recommended for Windows users).
@@ -69,7 +69,7 @@ Setting up servers
 Next, you're ready to set up the servers you want to use. Refer to lspconfig's
 documentation |lspconfig-quickstart| for more information on how to do so!
 >lua
-    require("lspconfig").sumneko_lua.setup {}
+    require("lspconfig").lua_ls.setup {}
     require("lspconfig").rust_analyzer.setup {}
 <
 Automatic server setup (advanced feature): ~
@@ -83,7 +83,7 @@ Installation of servers
 To install an LSP server supported by lspconfig (and mason.nvim) you may use
 the `:LspInstall` command, like so:
 >vim
-    :LspInstall rust_analyzer sumneko_lua
+    :LspInstall rust_analyzer lua_ls
 <
 This command is more or less an alias of the |:MasonInstall| command, except
 that it only accepts LSP servers and - more importantly - only accepts
@@ -139,7 +139,7 @@ Example:
                                             *mason-lspconfig-default-settings*
 >lua
     local DEFAULT_SETTINGS = {
-        -- A list of servers to automatically install if they're not already installed. Example: { "rust-analyzer@nightly", "sumneko_lua" }
+        -- A list of servers to automatically install if they're not already installed. Example: { "rust-analyzer@nightly", "lua_ls" }
         -- This setting has no relation with the `automatic_installation` setting.
         ensure_installed = {},
 
@@ -225,7 +225,7 @@ setup_handlers({handlers})
    Note: ~
        The server names provided as keys are the lspconfig server names, not
        mason's package names, so for example instead of "lua-language-server"
-       it's "sumneko_lua".
+       it's "lua_ls".
 
    Example: ~
 >lua
@@ -240,8 +240,8 @@ setup_handlers({handlers})
            ["rust_analyzer"] = function ()
                require("rust-tools").setup {}
            end,
-           ["sumneko_lua"] = function ()
-               lspconfig.sumneko_lua.setup {
+           ["lua_ls"] = function ()
+               lspconfig.lua_ls.setup {
                    settings = {
                        Lua = {
                            diagnostics = {
@@ -265,7 +265,7 @@ get_installed_servers()
 
     Note: ~
         The returned strings are the lspconfig server names, not the mason
-        package names. For example, "sumneko_lua" is returned instead of
+        package names. For example, "lua_ls" is returned instead of
         "lua-language-server". This is useful if you want to loop through the
         table and use its values to directly interact with lspconfig (for
         example setting up all installed servers).
@@ -283,7 +283,7 @@ get_available_servers({filter})
 
     Note: ~
         The returned strings are the lspconfig server names, not the mason
-        package names. For example, "sumneko_lua" is returned instead of
+        package names. For example, "lua_ls" is returned instead of
         "lua-language-server". This is useful if you want to loop through the
         table and use its values to directly interact with lspconfig (for
         example setting up all installed servers).
