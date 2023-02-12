@@ -152,6 +152,7 @@ local DEFAULT_SETTINGS = {
 | Ada                                 | `als`                      |
 | Angular                             | `angularls`                |
 | Ansible                             | `ansiblels`                |
+| Antlers                             | `antlersls`                |
 | Apex                                | `apex_ls`                  |
 | Arduino                             | `arduino_language_server`  |
 | Assembly (GAS/NASM, GO)             | `asm_lsp`                  |

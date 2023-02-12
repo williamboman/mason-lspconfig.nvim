@@ -3,6 +3,7 @@
 return {
   OpenFOAM = { "foam_ls" },
   ada = { "als" },
+  antlers = { "antlersls" },
   apexcode = { "apex_ls" },
   arduino = { "arduino_language_server" },
   asm = { "asm_lsp" },
@@ -67,7 +68,7 @@ return {
   hbs = { "tailwindcss" },
   heex = { "elixirls", "tailwindcss" },
   hoon = { "hoon_ls" },
-  html = { "angularls", "emmet_ls", "html", "tailwindcss", "unocss" },
+  html = { "angularls", "antlersls", "emmet_ls", "html", "tailwindcss", "unocss" },
   ["html-eex"] = { "tailwindcss" },
   ["html.handlebars"] = { "glint" },
   htmldjango = { "tailwindcss" },
