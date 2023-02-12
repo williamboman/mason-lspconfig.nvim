@@ -70,6 +70,7 @@ kotlin-language-server        kotlin_language_server
 lelwel                        lelwel_ls
 lemminx                       lemminx
 ltex-ls                       ltex
+lua-language-server           lua_ls
 luau-lsp                      luau_lsp
 marksman                      marksman
 metamath-zero-lsp             mm0_ls
@@ -119,7 +120,6 @@ spectral-language-server      spectral
 sqlls                         sqlls
 sqls                          sqls
 stylelint-lsp                 stylelint_lsp
-lua-language-server           lua_ls
 svelte-language-server        svelte
 svlangserver                  svlangserver
 svls                          svls

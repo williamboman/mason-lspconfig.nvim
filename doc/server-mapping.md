@@ -67,6 +67,7 @@
 | [lelwel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lelwel_ls) | [lelwel](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#lelwel) |
 | [lemminx](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lemminx) | [lemminx](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#lemminx) |
 | [ltex](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ltex) | [ltex-ls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#ltex-ls) |
+| [lua_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lua_ls) | [lua-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#lua-language-server) |
 | [luau_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#luau_lsp) | [luau-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#luau-lsp) |
 | [marksman](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#marksman) | [marksman](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#marksman) |
 | [mm0_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#mm0_ls) | [metamath-zero-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#metamath-zero-lsp) |
@@ -116,7 +117,6 @@
 | [sqlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqlls) | [sqlls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#sqlls) |
 | [sqls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqls) | [sqls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#sqls) |
 | [stylelint_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#stylelint_lsp) | [stylelint-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#stylelint-lsp) |
-| [lua_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lua_ls) | [lua-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#lua-language-server) |
 | [svelte](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svelte) | [svelte-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#svelte-language-server) |
 | [svlangserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svlangserver) | [svlangserver](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#svlangserver) |
 | [svls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svls) | [svls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#svls) |
