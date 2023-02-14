@@ -33,6 +33,7 @@ M.lspconfig_to_package = {
     ["denols"] = "deno",
     ["dhall_lsp_server"] = "dhall-lsp",
     ["diagnosticls"] = "diagnostic-languageserver",
+    ["docker_compose_language_service"] = "docker-compose-language-service",
     ["dockerls"] = "dockerfile-language-server",
     ["dotls"] = "dot-language-server",
     ["drools_lsp"] = "drools-lsp",
