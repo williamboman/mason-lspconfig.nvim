@@ -200,8 +200,8 @@ setup({config})
                                             *mason-lspconfig.setup_handlers()*
 setup_handlers({handlers})
     Advanced feature ~
-        This is an advanced, opt-in, feature that require some careful reading
-        of the documentation.
+        This is an advanced, opt-in, feature that requires some careful
+        reading of the documentation.
 
         The recommended method to set up servers with lspconfig is to do so by
         following their guides, see |lspconfig-quickstart|.
