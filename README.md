@@ -210,7 +210,7 @@ local DEFAULT_SETTINGS = {
 | Haskell                             | `hls`                             |
 | Haxe                                | `haxe_language_server`            |
 | Hoon                                | `hoon_ls`                         |
-| JSON                                | `jsonls`                          |
+| JSON                                | `json-lsp`                        |
 | Java                                | `jdtls`                           |
 | JavaScript                          | `quick_lint_js`                   |
 | JavaScript                          | `tsserver`                        |
