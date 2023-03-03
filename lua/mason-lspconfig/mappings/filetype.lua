@@ -21,7 +21,7 @@ return {
   c = { "clangd" },
   clar = { "clarity_lsp" },
   clarity = { "clarity_lsp" },
-  clojure = { "clojure_lsp" },
+  clojure = { "clojure_lsp", "tailwindcss" },
   cmake = { "cmake", "neocmake" },
   cpp = { "clangd" },
   crystal = { "crystalline" },
