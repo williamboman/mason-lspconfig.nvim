@@ -118,6 +118,7 @@
 | [spectral](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#spectral) | [spectral-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#spectral-language-server) |
 | [sqlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqlls) | [sqlls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#sqlls) |
 | [sqls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqls) | [sqls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#sqls) |
+| [standardrb](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#standardrb) | [standardrb](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#standardrb) |
 | [stylelint_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#stylelint_lsp) | [stylelint-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#stylelint-lsp) |
 | [svelte](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svelte) | [svelte-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#svelte-language-server) |
 | [svlangserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svlangserver) | [svlangserver](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#svlangserver) |

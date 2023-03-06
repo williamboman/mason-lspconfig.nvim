@@ -122,6 +122,7 @@ M.lspconfig_to_package = {
     ["spectral"] = "spectral-language-server",
     ["sqlls"] = "sqlls",
     ["sqls"] = "sqls",
+    ["standardrb"] = "standardrb",
     ["stylelint_lsp"] = "stylelint-lsp",
     ["svelte"] = "svelte-language-server",
     ["svlangserver"] = "svlangserver",

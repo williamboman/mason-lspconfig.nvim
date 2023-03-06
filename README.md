@@ -260,6 +260,7 @@ local DEFAULT_SETTINGS = {
 | Rome                                | `rome`                            |
 | Ruby                                | `ruby_ls`                         |
 | Ruby                                | `solargraph`                      |
+| Ruby                                | `standardrb`                      |
 | Rust                                | `rust_analyzer`                   |
 | SQL                                 | `sqlls`                           |
 | SQL                                 | `sqls`                            |
