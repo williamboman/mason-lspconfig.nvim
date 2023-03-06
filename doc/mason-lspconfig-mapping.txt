@@ -121,6 +121,7 @@ sourcery                         sourcery
 spectral-language-server         spectral
 sqlls                            sqlls
 sqls                             sqls
+standardrb                       standardrb
 stylelint-lsp                    stylelint_lsp
 svelte-language-server           svelte
 svlangserver                     svlangserver
