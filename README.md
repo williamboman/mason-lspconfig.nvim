@@ -260,6 +260,7 @@ local DEFAULT_SETTINGS = {
 | Rome                                | `rome`                            |
 | Ruby                                | `ruby_ls`                         |
 | Ruby                                | `solargraph`                      |
+| Ruby                                | `sorbet`                          |
 | Ruby                                | `standardrb`                      |
 | Rust                                | `rust_analyzer`                   |
 | SQL                                 | `sqlls`                           |
@@ -271,7 +272,6 @@ local DEFAULT_SETTINGS = {
 | Solidity                            | `solang`                          |
 | Solidity                            | `solc`                            |
 | Solidity                            | `solidity`                        |
-| Sorbet                              | `sorbet`                          |
 | Sphinx                              | `esbonio`                         |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
