@@ -1,5 +1,5 @@
-local mason_lspconfig = require "mason-lspconfig"
 local _ = require "mason-core.functional"
+local mason_lspconfig = require "mason-lspconfig"
 
 describe("mason-lspconfig API", function()
     it("should return all available servers", function()

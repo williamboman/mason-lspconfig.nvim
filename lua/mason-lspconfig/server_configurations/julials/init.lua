@@ -1,6 +1,6 @@
-local path = require "mason-core.path"
-local fs = require "mason-core.fs"
 local _ = require "mason-core.functional"
+local fs = require "mason-core.fs"
+local path = require "mason-core.path"
 
 return function()
     return {

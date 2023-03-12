@@ -1,7 +1,7 @@
 local _ = require "mason-core.functional"
 local fs = require "mason-core.fs"
-local path = require "mason-core.path"
 local log = require "mason-core.log"
+local path = require "mason-core.path"
 
 local typescript = {}
 

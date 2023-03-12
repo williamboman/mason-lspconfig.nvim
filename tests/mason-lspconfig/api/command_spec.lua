@@ -1,12 +1,12 @@
+local match = require "luassert.match"
 local spy = require "luassert.spy"
 local stub = require "luassert.stub"
-local match = require "luassert.match"
 
-local server_mappings = require "mason-lspconfig.mappings.server"
-local filetype_mappings = require "mason-lspconfig.mappings.filetype"
-local api = require "mason-lspconfig.api.command"
-local registry = require "mason-registry"
 local Pkg = require "mason-core.package"
+local api = require "mason-lspconfig.api.command"
+local filetype_mappings = require "mason-lspconfig.mappings.filetype"
+local registry = require "mason-registry"
+local server_mappings = require "mason-lspconfig.mappings.server"
 
 describe(":LspInstall", function()
     server_mappings.lspconfig_to_package["dummylsp"] = "dummy"

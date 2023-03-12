@@ -1,10 +1,10 @@
 ---@diagnostic disable: lowercase-global
-local util = require "luassert.util"
 local spy = require "luassert.spy"
+local util = require "luassert.util"
 
-local a = require "mason-core.async"
-local InstallHandle = require "mason-core.installer.handle"
 local InstallContext = require "mason-core.installer.context"
+local InstallHandle = require "mason-core.installer.handle"
+local a = require "mason-core.async"
 local registry = require "mason-registry"
 
 function async_test(suspend_fn)

@@ -1,5 +1,5 @@
-local log = require "mason-core.log"
 local _ = require "mason-core.functional"
+local log = require "mason-core.log"
 local path = require "mason-core.path"
 local platform = require "mason-core.platform"
 

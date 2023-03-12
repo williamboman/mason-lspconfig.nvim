@@ -1,11 +1,11 @@
 require "mason-lspconfig.server_config_extensions"()
 local Optional = require "mason-core.optional"
 
-local lspconfig = require "lspconfig"
-local a = require "mason-core.async"
-local path = require "mason-core.path"
 local _ = require "mason-core.functional"
+local a = require "mason-core.async"
+local lspconfig = require "lspconfig"
 local lspconfig_server_mapping = require "mason-lspconfig.mappings.server"
+local path = require "mason-core.path"
 local script_utils = require "mason-scripts.utils"
 
 local DOCS_DIR = path.concat { vim.loop.cwd(), "doc" }
