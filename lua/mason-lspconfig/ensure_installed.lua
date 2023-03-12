@@ -1,5 +1,5 @@
-local settings = require "mason-lspconfig.settings"
 local notify = require "mason-core.notify"
+local settings = require "mason-lspconfig.settings"
 
 ---@param lspconfig_server_name string
 local function resolve_package(lspconfig_server_name)

@@ -1,7 +1,7 @@
-local a = require "mason-core.async"
 local Optional = require "mason-core.optional"
-local notify = require "mason-core.notify"
 local _ = require "mason-core.functional"
+local a = require "mason-core.async"
+local notify = require "mason-core.notify"
 
 ---@async
 ---@param user_args string[]: The arguments, as provided by the user.

@@ -1,12 +1,12 @@
 local match = require "luassert.match"
-local stub = require "luassert.stub"
 local spy = require "luassert.spy"
+local stub = require "luassert.stub"
 
 local Pkg = require "mason-core.package"
-local mason_lspconfig = require "mason-lspconfig"
-local server_mappings = require "mason-lspconfig.mappings.server"
-local registry = require "mason-registry"
 local filetype_mappings = require "mason-lspconfig.mappings.filetype"
+local mason_lspconfig = require "mason-lspconfig"
+local registry = require "mason-registry"
+local server_mappings = require "mason-lspconfig.mappings.server"
 
 describe("mason-lspconfig setup", function()
     before_each(function()
