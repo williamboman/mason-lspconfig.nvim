@@ -5,6 +5,7 @@ local stub = require "luassert.stub"
 local Pkg = require "mason-core.package"
 local filetype_mappings = require "mason-lspconfig.mappings.filetype"
 local mason_lspconfig = require "mason-lspconfig"
+local platform = require "mason-core.platform"
 local registry = require "mason-registry"
 local server_mappings = require "mason-lspconfig.mappings.server"
 
@@ -51,6 +52,7 @@ describe("mason-lspconfig setup", function()
             local fail_dummy = registry.get_package "fail_dummy"
             spy.on(Pkg, "install")
 
+            platform.is_headless = false
             mason_lspconfig.setup { ensure_installed = { "dummylsp@1.0.0", "fail_dummylsp" } }
 
             assert.spy(Pkg.install).was_called(2)
@@ -64,10 +66,23 @@ describe("mason-lspconfig setup", function()
     )
 
     it(
+        "should not install servers listed in ensure_installed when headless",
+        async_test(function()
+            spy.on(Pkg, "install")
+
+            platform.is_headless = true
+            mason_lspconfig.setup { ensure_installed = { "dummylsp@1.0.0", "fail_dummylsp" } }
+
+            assert.spy(Pkg.install).was_called(0)
+        end)
+    )
+
+    it(
         "should notify when installing servers listed in ensure_installed",
         async_test(function()
             spy.on(vim, "notify")
 
+            platform.is_headless = false
             mason_lspconfig.setup { ensure_installed = { "dummylsp", "fail_dummylsp" } }
 
             assert
@@ -100,6 +115,7 @@ describe("mason-lspconfig setup", function()
             spy.on(Pkg, "install")
             spy.on(vim, "notify")
 
+            platform.is_headless = false
             mason_lspconfig.setup { automatic_installation = true }
             local lspconfig = require "lspconfig"
             lspconfig.dummylsp.setup {}
@@ -139,6 +155,7 @@ describe("mason-lspconfig setup", function()
             local dummy2 = registry.get_package "dummy2"
             spy.on(Pkg, "install")
 
+            platform.is_headless = false
             mason_lspconfig.setup { automatic_installation = true }
             local lspconfig = require "lspconfig"
             spy.on(lspconfig.dummylsp, "setup")
@@ -156,6 +173,23 @@ describe("mason-lspconfig setup", function()
                 assert.spy(lspconfig.dummylsp.setup).was_called(2)
                 assert.spy(lspconfig.dummy2lsp.setup).was_called(2)
             end)
+        end)
+    )
+
+    it(
+        "should not automatically install servers when headless",
+        async_test(function()
+            spy.on(Pkg, "install")
+
+            platform.is_headless = true
+            mason_lspconfig.setup { automatic_installation = true }
+            local lspconfig = require "lspconfig"
+            spy.on(lspconfig.dummylsp, "setup")
+            spy.on(lspconfig.dummy2lsp, "setup")
+            lspconfig.dummylsp.setup {}
+            lspconfig.dummy2lsp.setup {}
+
+            assert.spy(Pkg.install).was_called(0)
         end)
     )
 
@@ -247,6 +281,7 @@ describe("mason-lspconfig setup_handlers", function()
 
     it("should print warning when providing invalid server entries in ensure_installed", function()
         spy.on(vim, "notify")
+        platform.is_headless = false
         mason_lspconfig.setup {
             ensure_installed = { "yamllint", "hadolint" },
         }

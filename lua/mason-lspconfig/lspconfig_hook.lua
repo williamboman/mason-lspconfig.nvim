@@ -7,6 +7,9 @@ local memoized_set = _.memoize(_.set_of)
 
 ---@param server_name string
 local function should_auto_install(server_name)
+    if platform.is_headless then
+        return false
+    end
     local settings = require "mason-lspconfig.settings"
 
     if settings.current.automatic_installation == true then
