@@ -1,5 +1,6 @@
 local _ = require "mason-core.functional"
 local log = require "mason-core.log"
+local platform = require "mason-core.platform"
 
 local M = {}
 
@@ -19,7 +20,7 @@ function M.setup(config)
         log.error("Failed to set up lspconfig integration.", err)
     end
 
-    if #settings.current.ensure_installed > 0 then
+    if not platform.is_headless and #settings.current.ensure_installed > 0 then
         require "mason-lspconfig.ensure_installed"()
     end
 
