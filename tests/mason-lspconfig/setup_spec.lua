@@ -7,16 +7,9 @@ local filetype_mappings = require "mason-lspconfig.mappings.filetype"
 local mason_lspconfig = require "mason-lspconfig"
 local platform = require "mason-core.platform"
 local registry = require "mason-registry"
-local server_mappings = require "mason-lspconfig.mappings.server"
 
 describe("mason-lspconfig setup", function()
     before_each(function()
-        server_mappings.lspconfig_to_package["dummylsp"] = "dummy"
-        server_mappings.lspconfig_to_package["dummy2lsp"] = "dummy2"
-        server_mappings.lspconfig_to_package["fail_dummylsp"] = "fail_dummy"
-        server_mappings.package_to_lspconfig["dummy"] = "dummylsp"
-        server_mappings.package_to_lspconfig["dummy2"] = "dummy2lsp"
-        server_mappings.package_to_lspconfig["fail_dummy"] = "fail_dummylsp"
         filetype_mappings.dummylang = { "dummylsp", "dummy2lsp" }
         require("lspconfig.util").on_setup = nil
         local settings = require "mason-lspconfig.settings"
@@ -196,7 +189,6 @@ describe("mason-lspconfig setup", function()
     it("should apply mason-lspconfig server configs", function()
         stub(registry, "is_installed")
         registry.is_installed.on_call_with("dummy").returns(true)
-        server_mappings.lspconfig_to_package["dummylsp"] = "dummy"
         package.loaded["mason-lspconfig.server_configurations.dummylsp"] = function()
             return { cmd = { "mason-cmd" } }
         end
@@ -212,7 +204,6 @@ describe("mason-lspconfig setup", function()
     it("should let user config take precedence", function()
         stub(registry, "is_installed")
         registry.is_installed.on_call_with("dummy").returns(true)
-        server_mappings.lspconfig_to_package["dummylsp"] = "dummy"
         package.loaded["mason-lspconfig.server_configurations.dummylsp"] = function()
             return { cmd = { "mason-cmd" } }
         end
@@ -229,10 +220,6 @@ end)
 
 describe("mason-lspconfig setup_handlers", function()
     before_each(function()
-        server_mappings.lspconfig_to_package["dummylsp"] = "dummy"
-        server_mappings.lspconfig_to_package["dummy2lsp"] = "dummy2"
-        server_mappings.package_to_lspconfig["dummy"] = "dummylsp"
-        server_mappings.package_to_lspconfig["dummy2"] = "dummy2lsp"
         filetype_mappings.dummylang = { "dummylsp", "dummy2lsp" }
         require("lspconfig.util").on_setup = nil
         local settings = require "mason-lspconfig.settings"

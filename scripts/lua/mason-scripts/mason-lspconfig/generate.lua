@@ -11,6 +11,9 @@ local script_utils = require "mason-scripts.utils"
 local DOCS_DIR = path.concat { vim.loop.cwd(), "doc" }
 local MASON_LSPCONFIG_DIR = path.concat { vim.loop.cwd(), "lua", "mason-lspconfig" }
 
+require("mason").setup()
+require("mason-registry").refresh()
+
 ---@async
 local function create_lspconfig_filetype_map()
     local filetype_map = {}

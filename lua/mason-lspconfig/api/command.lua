@@ -90,15 +90,17 @@ local parse_packages_to_install = _.cond {
 
 local LspInstall = a.scope(function(servers)
     local packages_to_install = parse_packages_to_install(servers)
-    require("mason.api.command").MasonInstall(_.map(function(target)
-        if target.version then
-            return ("%s@%s"):format(target.package, target.version)
-        else
-            return target.package
-        end
-    end, packages_to_install))
-    local ui = require "mason.ui"
-    ui.set_view "LSP"
+    if #packages_to_install > 0 then
+        require("mason.api.command").MasonInstall(_.map(function(target)
+            if target.version then
+                return ("%s@%s"):format(target.package, target.version)
+            else
+                return target.package
+            end
+        end, packages_to_install))
+        local ui = require "mason.ui"
+        ui.set_view "LSP"
+    end
 end)
 
 vim.api.nvim_create_user_command("LspInstall", function(opts)
