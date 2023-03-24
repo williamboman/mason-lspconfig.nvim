@@ -1,9 +1,9 @@
 local notify = require "mason-core.notify"
+local registry = require "mason-registry"
 local settings = require "mason-lspconfig.settings"
 
 ---@param lspconfig_server_name string
 local function resolve_package(lspconfig_server_name)
-    local registry = require "mason-registry"
     local Optional = require "mason-core.optional"
     local server_mapping = require "mason-lspconfig.mappings.server"
 
@@ -15,7 +15,7 @@ local function resolve_package(lspconfig_server_name)
     end)
 end
 
-return function()
+local function ensure_installed()
     for _, server_identifier in ipairs(settings.current.ensure_installed) do
         local Package = require "mason-core.package"
 
@@ -38,4 +38,12 @@ return function()
                 )
             end)
     end
+end
+
+if registry.refresh then
+    return function()
+        registry.refresh(vim.schedule_wrap(ensure_installed))
+    end
+else
+    return ensure_installed
 end
