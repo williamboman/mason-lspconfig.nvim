@@ -3,6 +3,7 @@ local spy = require "luassert.spy"
 local stub = require "luassert.stub"
 
 local Pkg = require "mason-core.package"
+local a = require "mason-core.async"
 local filetype_mappings = require "mason-lspconfig.mappings.filetype"
 local mason_lspconfig = require "mason-lspconfig"
 local platform = require "mason-core.platform"
@@ -14,7 +15,10 @@ describe("mason-lspconfig setup", function()
         require("lspconfig.util").on_setup = nil
         local settings = require "mason-lspconfig.settings"
         settings.set(settings._DEFAULT_SETTINGS)
-        vim.fn.delete(vim.env.INSTALL_ROOT_DIR, "rf")
+
+        for _, pkg in ipairs(registry.get_all_packages()) do
+            pkg:uninstall()
+        end
     end)
 
     it("should set up user commands", function()
@@ -47,6 +51,7 @@ describe("mason-lspconfig setup", function()
 
             platform.is_headless = false
             mason_lspconfig.setup { ensure_installed = { "dummylsp@1.0.0", "fail_dummylsp" } }
+            a.scheduler()
 
             assert.spy(Pkg.install).was_called(2)
             assert.spy(Pkg.install).was_called_with(match.ref(dummy), { version = "1.0.0" })
@@ -66,6 +71,7 @@ describe("mason-lspconfig setup", function()
             platform.is_headless = true
             mason_lspconfig.setup { ensure_installed = { "dummylsp@1.0.0", "fail_dummylsp" } }
 
+            a.scheduler()
             assert.spy(Pkg.install).was_called(0)
         end)
     )
@@ -78,6 +84,9 @@ describe("mason-lspconfig setup", function()
             platform.is_headless = false
             mason_lspconfig.setup { ensure_installed = { "dummylsp", "fail_dummylsp" } }
 
+            a.scheduler()
+
+            assert.spy(vim.notify).was_called(2)
             assert
                 .spy(vim.notify)
                 .was_called_with([[[mason-lspconfig.nvim] installing dummylsp]], vim.log.levels.INFO, { title = "mason.nvim" })
@@ -266,22 +275,27 @@ describe("mason-lspconfig setup_handlers", function()
         )
     end)
 
-    it("should print warning when providing invalid server entries in ensure_installed", function()
-        spy.on(vim, "notify")
-        platform.is_headless = false
-        mason_lspconfig.setup {
-            ensure_installed = { "yamllint", "hadolint" },
-        }
-        assert.spy(vim.notify).was_called(2)
-        assert.spy(vim.notify).was_called_with(
-            [[[mason-lspconfig.nvim] Server "yamllint" is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names.]],
-            vim.log.levels.WARN,
-            { title = "mason.nvim" }
-        )
-        assert.spy(vim.notify).was_called_with(
-            [[[mason-lspconfig.nvim] Server "hadolint" is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names.]],
-            vim.log.levels.WARN,
-            { title = "mason.nvim" }
-        )
-    end)
+    it(
+        "should print warning when providing invalid server entries in ensure_installed",
+        async_test(function()
+            spy.on(vim, "notify")
+            platform.is_headless = false
+            mason_lspconfig.setup {
+                ensure_installed = { "yamllint", "hadolint" },
+            }
+
+            a.scheduler()
+            assert.spy(vim.notify).was_called(2)
+            assert.spy(vim.notify).was_called_with(
+                [[[mason-lspconfig.nvim] Server "yamllint" is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names.]],
+                vim.log.levels.WARN,
+                { title = "mason.nvim" }
+            )
+            assert.spy(vim.notify).was_called_with(
+                [[[mason-lspconfig.nvim] Server "hadolint" is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names.]],
+                vim.log.levels.WARN,
+                { title = "mason.nvim" }
+            )
+        end)
+    )
 end)
