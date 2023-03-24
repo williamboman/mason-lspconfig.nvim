@@ -262,6 +262,7 @@ local DEFAULT_SETTINGS = {
 | Ruby                                | `solargraph`                      |
 | Ruby                                | `sorbet`                          |
 | Ruby                                | `standardrb`                      |
+| Ruby                                | `steep`                           |
 | Rust                                | `rust_analyzer`                   |
 | SQL                                 | `sqlls`                           |
 | SQL                                 | `sqls`                            |

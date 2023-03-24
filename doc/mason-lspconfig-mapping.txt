@@ -122,6 +122,7 @@ spectral-language-server         spectral
 sqlls                            sqlls
 sqls                             sqls
 standardrb                       standardrb
+steep                            steep
 stylelint-lsp                    stylelint_lsp
 svelte-language-server           svelte
 svlangserver                     svlangserver

@@ -123,6 +123,7 @@ M.lspconfig_to_package = {
     ["sqlls"] = "sqlls",
     ["sqls"] = "sqls",
     ["standardrb"] = "standardrb",
+    ["steep"] = "steep",
     ["stylelint_lsp"] = "stylelint-lsp",
     ["svelte"] = "svelte-language-server",
     ["svlangserver"] = "svlangserver",
