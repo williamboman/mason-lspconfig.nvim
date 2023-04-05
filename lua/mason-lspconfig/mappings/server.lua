@@ -13,6 +13,7 @@ M.lspconfig_to_package = {
     ["asm_lsp"] = "asm-lsp",
     ["astro"] = "astro-language-server",
     ["awk_ls"] = "awk-language-server",
+    ["azure_pipelines_ls"] = "azure-pipelines-language-server",
     ["bashls"] = "bash-language-server",
     ["beancount"] = "beancount-language-server",
     ["bicep"] = "bicep-lsp",

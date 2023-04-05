@@ -10,6 +10,7 @@
 | [asm_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#asm_lsp) | [asm-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#asm-lsp) |
 | [astro](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#astro) | [astro-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#astro-language-server) |
 | [awk_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#awk_ls) | [awk-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#awk-language-server) |
+| [azure_pipelines_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#azure_pipelines_ls) | [azure-pipelines-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#azure-pipelines-language-server) |
 | [bashls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bashls) | [bash-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#bash-language-server) |
 | [beancount](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#beancount) | [beancount-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#beancount-language-server) |
 | [bicep](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bicep) | [bicep-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#bicep-lsp) |

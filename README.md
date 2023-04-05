@@ -157,6 +157,7 @@ local DEFAULT_SETTINGS = {
 | Arduino                             | `arduino_language_server`         |
 | Assembly (GAS/NASM, GO)             | `asm_lsp`                         |
 | Astro                               | `astro`                           |
+| Azure Pipelines                     | `azure_pipelines_ls`              |
 | Bash                                | `bashls`                          |
 | Beancount                           | `beancount`                       |
 | Bicep                               | `bicep`                           |

@@ -177,7 +177,7 @@ return {
   xsd = { "lemminx" },
   xsl = { "lemminx" },
   xslt = { "lemminx" },
-  yaml = { "docker_compose_language_service", "spectral", "yamlls" },
+  yaml = { "azure_pipelines_ls", "docker_compose_language_service", "spectral", "yamlls" },
   ["yaml.ansible"] = { "ansiblels" },
   ["yaml.docker-compose"] = { "yamlls" },
   yml = { "spectral" },
