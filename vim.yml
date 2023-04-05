@@ -31,6 +31,11 @@ globals:
     mockx.returns:
         args:
             - type: any
+    mockx.table:
+        args:
+            - type: table
+            - type: string
+            - type: any
 
     describe:
         args:
