@@ -24,9 +24,12 @@ function M.setup(config)
         require "mason-lspconfig.ensure_installed"()
     end
 
-    require("mason-registry").register_package_aliases(_.map(function(server_name)
-        return { server_name }
-    end, require("mason-lspconfig.mappings.server").package_to_lspconfig))
+    local registry = require("mason-registry")
+    if registry.register_package_aliases then
+        require("mason-registry").register_package_aliases(_.map(function(server_name)
+            return { server_name }
+        end, require("mason-lspconfig.mappings.server").package_to_lspconfig))
+    end
 
     require "mason-lspconfig.api.command"
 end
