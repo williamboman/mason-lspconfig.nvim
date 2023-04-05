@@ -226,12 +226,12 @@ describe("mason-lspconfig setup", function()
         assert.same({ name = "dummylsp", cmd = { "user-cmd" } }, config)
     end)
 
-    it("should set up package aliases", function ()
+    it("should set up package aliases", function()
         stub(registry, "register_package_aliases")
 
         require("mason-lspconfig.mappings.server").package_to_lspconfig = {
             ["rust-analyzer"] = "rust_analyzer",
-            ["typescript-language-server"] = "tsserver"
+            ["typescript-language-server"] = "tsserver",
         }
 
         mason_lspconfig.setup {}
@@ -239,7 +239,7 @@ describe("mason-lspconfig setup", function()
         assert.spy(registry.register_package_aliases).was_called(1)
         assert.spy(registry.register_package_aliases).was_called_with {
             ["rust-analyzer"] = { "rust_analyzer" },
-            ["typescript-language-server"] = { "tsserver" }
+            ["typescript-language-server"] = { "tsserver" },
         }
     end)
 end)
