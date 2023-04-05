@@ -24,6 +24,10 @@ function M.setup(config)
         require "mason-lspconfig.ensure_installed"()
     end
 
+    require("mason-registry").register_aliases({
+        ['lua-language-server'] = { 'luals' }
+    })
+
     require "mason-lspconfig.api.command"
 end
 
