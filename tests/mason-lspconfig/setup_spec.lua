@@ -51,7 +51,7 @@ describe("mason-lspconfig setup", function()
 
             platform.is_headless = false
             mason_lspconfig.setup { ensure_installed = { "dummylsp@1.0.0", "fail_dummylsp" } }
-            a.scheduler()
+            a.wait(vim.schedule)
 
             assert.spy(Pkg.install).was_called(2)
             assert.spy(Pkg.install).was_called_with(match.ref(dummy), { version = "1.0.0" })
@@ -71,7 +71,7 @@ describe("mason-lspconfig setup", function()
             platform.is_headless = true
             mason_lspconfig.setup { ensure_installed = { "dummylsp@1.0.0", "fail_dummylsp" } }
 
-            a.scheduler()
+            a.wait(vim.schedule)
             assert.spy(Pkg.install).was_called(0)
         end)
     )
@@ -84,7 +84,7 @@ describe("mason-lspconfig setup", function()
             platform.is_headless = false
             mason_lspconfig.setup { ensure_installed = { "dummylsp", "fail_dummylsp" } }
 
-            a.scheduler()
+            a.wait(vim.schedule)
 
             assert.spy(vim.notify).was_called(2)
             assert
@@ -225,6 +225,24 @@ describe("mason-lspconfig setup", function()
 
         assert.same({ name = "dummylsp", cmd = { "user-cmd" } }, config)
     end)
+
+    it("should set up package aliases", function()
+        stub(registry, "register_package_aliases")
+
+        local mapping_mock = mockx.table(require "mason-lspconfig.mappings.server", "package_to_lspconfig", {
+            ["rust-analyzer"] = "rust_analyzer",
+            ["typescript-language-server"] = "tsserver",
+        })
+
+        mason_lspconfig.setup {}
+
+        assert.spy(registry.register_package_aliases).was_called(1)
+        assert.spy(registry.register_package_aliases).was_called_with {
+            ["rust-analyzer"] = { "rust_analyzer" },
+            ["typescript-language-server"] = { "tsserver" },
+        }
+        mapping_mock:revert()
+    end)
 end)
 
 describe("mason-lspconfig setup_handlers", function()
@@ -284,7 +302,7 @@ describe("mason-lspconfig setup_handlers", function()
                 ensure_installed = { "yamllint", "hadolint" },
             }
 
-            a.scheduler()
+            a.wait(vim.schedule)
             assert.spy(vim.notify).was_called(2)
             assert.spy(vim.notify).was_called_with(
                 [[[mason-lspconfig.nvim] Server "yamllint" is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names.]],
