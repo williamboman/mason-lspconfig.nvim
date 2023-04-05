@@ -229,10 +229,10 @@ describe("mason-lspconfig setup", function()
     it("should set up package aliases", function()
         stub(registry, "register_package_aliases")
 
-        require("mason-lspconfig.mappings.server").package_to_lspconfig = {
+        local mapping_mock = mockx.table(require "mason-lspconfig.mappings.server", "package_to_lspconfig", {
             ["rust-analyzer"] = "rust_analyzer",
             ["typescript-language-server"] = "tsserver",
-        }
+        })
 
         mason_lspconfig.setup {}
 
@@ -241,6 +241,7 @@ describe("mason-lspconfig setup", function()
             ["rust-analyzer"] = { "rust_analyzer" },
             ["typescript-language-server"] = { "tsserver" },
         }
+        mapping_mock:revert()
     end)
 end)
 
