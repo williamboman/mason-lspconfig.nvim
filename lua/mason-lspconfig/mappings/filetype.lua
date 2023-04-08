@@ -71,7 +71,7 @@ return {
   html = { "angularls", "antlersls", "emmet_ls", "html", "tailwindcss", "unocss" },
   ["html-eex"] = { "tailwindcss" },
   ["html.handlebars"] = { "glint" },
-  htmldjango = { "tailwindcss" },
+  htmldjango = { "emmet_ls", "tailwindcss" },
   jade = { "tailwindcss" },
   java = { "jdtls" },
   javascript = { "cssmodules_ls", "denols", "ember", "eslint", "glint", "quick_lint_js", "rome", "stylelint_lsp", "tailwindcss", "tsserver", "vtsls" },
