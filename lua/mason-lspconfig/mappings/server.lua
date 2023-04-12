@@ -96,6 +96,7 @@ M.lspconfig_to_package = {
     ["puppet"] = "puppet-editor-services",
     ["purescriptls"] = "purescript-language-server",
     ["pylsp"] = "python-lsp-server",
+    ["pylyzer"] = "pylyzer",
     ["pyre"] = "pyre",
     ["pyright"] = "pyright",
     ["quick_lint_js"] = "quick-lint-js",
