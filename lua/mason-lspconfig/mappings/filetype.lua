@@ -121,6 +121,7 @@ return {
   prisma = { "prismals" },
   proto = { "bufls", "clangd" },
   ps1 = { "powershell_es" },
+  pug = { "emmet_ls" },
   puppet = { "puppet" },
   purescript = { "purescriptls" },
   python = { "jedi_language_server", "pylsp", "pyre", "pyright", "ruff_lsp", "sourcery" },
