@@ -250,6 +250,7 @@ local DEFAULT_SETTINGS = {
 | Python                              | `jedi_language_server`            |
 | Python                              | `pyre`                            |
 | Python                              | `pyright`                         |
+| Python                              | `pylyzer`                         |
 | Python                              | `sourcery`                        |
 | Python [(docs)][pylsp]              | `pylsp`                           |
 | Python                              | `ruff_lsp`                        |
