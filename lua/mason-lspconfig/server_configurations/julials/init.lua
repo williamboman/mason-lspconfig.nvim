@@ -31,7 +31,6 @@ return function()
 
             config.cmd = {
                 "julia-lsp",
-                vim.env.JULIA_DEPOT_PATH or "",
                 env_path,
             }
         end,
