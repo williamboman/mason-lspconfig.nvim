@@ -15,15 +15,15 @@
 
 # Table of Contents
 
--   [Introduction](#introduction)
--   [Requirements](#requirements)
--   [Installation](#installation)
--   [Setup](#setup)
-    -   [Automatic server setup (advanced feature)](#automatic-server-setup-advanced-feature)
--   [Commands](#commands)
--   [Configuration](#configuration)
-    -   [Default configuration](#default-configuration)
--   [Available LSP servers](#available-lsp-servers)
+- [Introduction](#introduction)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Setup](#setup)
+  - [Automatic server setup (advanced feature)](#automatic-server-setup-advanced-feature)
+- [Commands](#commands)
+- [Configuration](#configuration)
+  - [Default configuration](#default-configuration)
+- [Available LSP servers](#available-lsp-servers)
 
 # Introduction
 
@@ -31,11 +31,11 @@
 
 `mason-lspconfig.nvim` closes some gaps that exist between `mason.nvim` and `lspconfig`. Its main responsibilities are to:
 
--   register a setup hook with `lspconfig` that ensures servers installed with `mason.nvim` are set up with the necessary
+- register a setup hook with `lspconfig` that ensures servers installed with `mason.nvim` are set up with the necessary
     configuration
--   provide extra convenience APIs such as the `:LspInstall` command
--   allow you to (i) automatically install, and (ii) automatically set up a predefined list of servers
--   translate between `lspconfig` server names and `mason.nvim` package names (e.g. `lua_ls <-> lua-language-server`)
+- provide extra convenience APIs such as the `:LspInstall` command
+- allow you to (i) automatically install, and (ii) automatically set up a predefined list of servers
+- translate between `lspconfig` server names and `mason.nvim` package names (e.g. `lua_ls <-> lua-language-server`)
 
 It is recommended to use this extension if you use `mason.nvim` and `lspconfig` (it's strongly recommended for Windows
 users).
@@ -47,9 +47,9 @@ table for a complete mapping.](./doc/server-mapping.md)**
 
 > `:h mason-lspconfig-requirements`
 
--   neovim `>= 0.7.0`
--   `mason.nvim`
--   `lspconfig`
+- neovim `>= 0.7.0`
+- `mason.nvim`
+- `lspconfig`
 
 # Installation
 
@@ -107,8 +107,8 @@ Refer to `:h mason-lspconfig-automatic-server-setup` for more details.
 
 > `:h mason-lspconfig-commands`
 
--   `:LspInstall [<server>...]` - installs the provided servers
--   `:LspUninstall <server> ...` - uninstalls the provided servers
+- `:LspInstall [<server>...]` - installs the provided servers
+- `:LspUninstall <server> ...` - uninstalls the provided servers
 
 # Configuration
 
@@ -210,8 +210,8 @@ local DEFAULT_SETTINGS = {
 | HTML                                | `html`                            |
 | Haskell                             | `hls`                             |
 | Haxe                                | `haxe_language_server`            |
-| Hoon                                | `hoon_ls`                         |
 | Helm                                | `helm_ls`                         |
+| Hoon                                | `hoon_ls`                         |
 | JSON                                | `jsonls`                          |
 | Java                                | `jdtls`                           |
 | JavaScript                          | `quick_lint_js`                   |
