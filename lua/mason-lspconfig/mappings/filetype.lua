@@ -67,6 +67,7 @@ return {
   haxe = { "haxe_language_server" },
   hbs = { "tailwindcss" },
   heex = { "elixirls", "tailwindcss" },
+  helm = { "helm_ls" },
   hoon = { "hoon_ls" },
   html = { "angularls", "antlersls", "emmet_ls", "html", "tailwindcss", "unocss" },
   ["html-eex"] = { "tailwindcss" },
