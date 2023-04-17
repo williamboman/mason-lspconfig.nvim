@@ -328,4 +328,41 @@ describe("mason-lspconfig setup_handlers", function()
             )
         end)
     )
+
+    it("should notify if mason.nvim has not been set up and using ensure_installed feature", function()
+        package.loaded["mason"] = nil
+        spy.on(vim, "notify")
+
+        mason_lspconfig.setup { ensure_installed = { "dummylsp" } }
+        assert.spy(vim.notify).was_called(1)
+        assert.spy(vim.notify).was_called_with(
+            [[mason.nvim has not been set up. Make sure to set up 'mason' before 'mason-lspconfig'. :h mason-lspconfig-quickstart]],
+            vim.log.levels.WARN,
+            { title = "mason-lspconfig.nvim" }
+        )
+    end)
+
+    it("should not notify if mason.nvim has not been set up and not using ensure_installed feature", function()
+        package.loaded["mason"] = nil
+        spy.on(vim, "notify")
+
+        mason_lspconfig.setup()
+        assert.spy(vim.notify).was_called(0)
+    end)
+
+    it("should notify is server is set up before mason.nvim", function()
+        package.loaded["mason"] = nil
+        local lspconfig = require "lspconfig"
+        spy.on(vim, "notify")
+
+        mason_lspconfig.setup()
+        lspconfig.dummylsp.setup {}
+
+        assert.spy(vim.notify).was_called(1)
+        assert.spy(vim.notify).was_called_with(
+            [[Server "dummylsp" is being set up before mason.nvim is set up. :h mason-lspconfig-quickstart]],
+            vim.log.levels.WARN,
+            { title = "mason-lspconfig.nvim" }
+        )
+    end)
 end)

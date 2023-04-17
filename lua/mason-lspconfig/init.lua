@@ -1,23 +1,29 @@
 local _ = require "mason-core.functional"
 local log = require "mason-core.log"
 local platform = require "mason-core.platform"
+local settings = require "mason-lspconfig.settings"
 
 local M = {}
 
----@param config MasonLspconfigSettings | nil
-function M.setup(config)
-    local ok, mason = pcall(require, "mason")
-    if not ok or mason.has_setup == false then
+local function check_and_notify_bad_setup_order()
+    local mason_ok, mason = pcall(require, "mason")
+    local is_bad_order = not mason_ok or mason.has_setup == false
+    local impacts_functionality = not mason_ok or #settings.current.ensure_installed > 0
+    if is_bad_order and impacts_functionality then
         require "mason-lspconfig.notify"(
             "mason.nvim has not been set up. Make sure to set up 'mason' before 'mason-lspconfig'. :h mason-lspconfig-quickstart",
             vim.log.levels.WARN
         )
     end
-    local settings = require "mason-lspconfig.settings"
+end
 
+---@param config MasonLspconfigSettings | nil
+function M.setup(config)
     if config then
         settings.set(config)
     end
+
+    check_and_notify_bad_setup_order()
 
     local ok, err = pcall(function()
         require "mason-lspconfig.lspconfig_hook"()

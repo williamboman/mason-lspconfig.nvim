@@ -1,5 +1,6 @@
 local _ = require "mason-core.functional"
 local log = require "mason-core.log"
+local notify = require "mason-lspconfig.notify"
 local path = require "mason-core.path"
 local platform = require "mason-core.platform"
 
@@ -59,6 +60,15 @@ return function()
         local pkg_name = server_mapping.lspconfig_to_package[config.name]
         if not pkg_name then
             return
+        end
+
+        if require("mason").has_setup == false then
+            notify(
+                ("Server %q is being set up before mason.nvim is set up. :h mason-lspconfig-quickstart"):format(
+                    config.name
+                ),
+                vim.log.levels.WARN
+            )
         end
 
         if registry.is_installed(pkg_name) then
