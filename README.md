@@ -210,6 +210,7 @@ local DEFAULT_SETTINGS = {
 | HTML                                | `html`                            |
 | Haskell                             | `hls`                             |
 | Haxe                                | `haxe_language_server`            |
+| Helm                                | `helm_ls`                         |
 | Hoon                                | `hoon_ls`                         |
 | JSON                                | `jsonls`                          |
 | Java                                | `jdtls`                           |

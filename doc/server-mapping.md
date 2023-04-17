@@ -57,6 +57,7 @@
 | [graphql](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#graphql) | [graphql-language-service-cli](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#graphql-language-service-cli) |
 | [groovyls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#groovyls) | [groovy-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#groovy-language-server) |
 | [haxe_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#haxe_language_server) | [haxe-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#haxe-language-server) |
+| [helm_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#helm_ls) | [helm-ls](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#helm-ls) |
 | [hls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#hls) | [haskell-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#haskell-language-server) |
 | [hoon_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#hoon_ls) | [hoon-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#hoon-language-server) |
 | [html](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#html) | [html-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#html-lsp) |
