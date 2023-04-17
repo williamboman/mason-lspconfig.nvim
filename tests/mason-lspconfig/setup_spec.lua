@@ -89,21 +89,27 @@ describe("mason-lspconfig setup", function()
             assert.spy(vim.notify).was_called(2)
             assert
                 .spy(vim.notify)
-                .was_called_with([[[mason-lspconfig.nvim] installing dummylsp]], vim.log.levels.INFO, { title = "mason.nvim" })
-            assert
-                .spy(vim.notify)
-                .was_called_with([[[mason-lspconfig.nvim] installing fail_dummylsp]], vim.log.levels.INFO, { title = "mason.nvim" })
+                .was_called_with(
+                    [[[mason-lspconfig.nvim] installing dummylsp]],
+                    vim.log.levels.INFO,
+                    { title = "mason-lspconfig.nvim" }
+                )
+            assert.spy(vim.notify).was_called_with(
+                [[[mason-lspconfig.nvim] installing fail_dummylsp]],
+                vim.log.levels.INFO,
+                { title = "mason-lspconfig.nvim" }
+            )
 
             assert.wait_for(function()
                 assert.spy(vim.notify).was_called_with(
                     [[[mason-lspconfig.nvim] dummylsp was successfully installed]],
                     vim.log.levels.INFO,
-                    { title = "mason.nvim" }
+                    { title = "mason-lspconfig.nvim" }
                 )
                 assert.spy(vim.notify).was_called_with(
                     [[[mason-lspconfig.nvim] failed to install fail_dummylsp. Installation logs are available in :Mason and :MasonLog]],
                     vim.log.levels.ERROR,
-                    { title = "mason.nvim" }
+                    { title = "mason-lspconfig.nvim" }
                 )
             end)
         end)
@@ -129,22 +135,28 @@ describe("mason-lspconfig setup", function()
 
             assert
                 .spy(vim.notify)
-                .was_called_with([[[mason-lspconfig.nvim] installing dummylsp]], vim.log.levels.INFO, { title = "mason.nvim" })
-            assert
-                .spy(vim.notify)
-                .was_called_with([[[mason-lspconfig.nvim] installing fail_dummylsp]], vim.log.levels.INFO, { title = "mason.nvim" })
+                .was_called_with(
+                    [[[mason-lspconfig.nvim] installing dummylsp]],
+                    vim.log.levels.INFO,
+                    { title = "mason-lspconfig.nvim" }
+                )
+            assert.spy(vim.notify).was_called_with(
+                [[[mason-lspconfig.nvim] installing fail_dummylsp]],
+                vim.log.levels.INFO,
+                { title = "mason-lspconfig.nvim" }
+            )
             assert.wait_for(function()
                 assert.is_true(dummy.handle:is_closed())
                 assert.is_true(fail_dummy.handle:is_closed())
                 assert.spy(vim.notify).was_called_with(
                     [[[mason-lspconfig.nvim] dummylsp was successfully installed]],
                     vim.log.levels.INFO,
-                    { title = "mason.nvim" }
+                    { title = "mason-lspconfig.nvim" }
                 )
                 assert.spy(vim.notify).was_called_with(
                     [[[mason-lspconfig.nvim] failed to install fail_dummylsp. Installation logs are available in :Mason and :MasonLog]],
                     vim.log.levels.ERROR,
-                    { title = "mason.nvim" }
+                    { title = "mason-lspconfig.nvim" }
                 )
             end)
         end)
@@ -289,7 +301,7 @@ describe("mason-lspconfig setup_handlers", function()
         assert.spy(vim.notify).was_called_with(
             "mason-lspconfig.setup_handlers: Received handler for unknown lspconfig server name: doesnt_exist_server.",
             vim.log.levels.WARN,
-            { title = "mason.nvim" }
+            { title = "mason-lspconfig.nvim" }
         )
     end)
 
@@ -307,12 +319,12 @@ describe("mason-lspconfig setup_handlers", function()
             assert.spy(vim.notify).was_called_with(
                 [[[mason-lspconfig.nvim] Server "yamllint" is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names.]],
                 vim.log.levels.WARN,
-                { title = "mason.nvim" }
+                { title = "mason-lspconfig.nvim" }
             )
             assert.spy(vim.notify).was_called_with(
                 [[[mason-lspconfig.nvim] Server "hadolint" is not a valid entry in ensure_installed. Make sure to only provide lspconfig server names.]],
                 vim.log.levels.WARN,
-                { title = "mason.nvim" }
+                { title = "mason-lspconfig.nvim" }
             )
         end)
     )
