@@ -1,4 +1,4 @@
-local notify = require "mason-core.notify"
+local notify = require "mason-lspconfig.notify"
 local registry = require "mason-registry"
 local settings = require "mason-lspconfig.settings"
 

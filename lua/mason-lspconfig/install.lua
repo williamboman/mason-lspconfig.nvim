@@ -1,4 +1,4 @@
-local notify = require "mason-core.notify"
+local notify = require "mason-lspconfig.notify"
 local server_mapping = require "mason-lspconfig.mappings.server"
 
 local M = {}

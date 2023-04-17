@@ -6,6 +6,13 @@ local M = {}
 
 ---@param config MasonLspconfigSettings | nil
 function M.setup(config)
+    local ok, mason = pcall(require, "mason")
+    if not ok or mason.has_setup == false then
+        require "mason-lspconfig.notify"(
+            "mason.nvim has not been set up. Make sure to set up 'mason' before 'mason-lspconfig'. :h mason-lspconfig-quickstart",
+            vim.log.levels.WARN
+        )
+    end
     local settings = require "mason-lspconfig.settings"
 
     if config then
@@ -40,7 +47,7 @@ function M.setup_handlers(handlers)
     local Optional = require "mason-core.optional"
     local server_mapping = require "mason-lspconfig.mappings.server"
     local registry = require "mason-registry"
-    local notify = require "mason-core.notify"
+    local notify = require "mason-lspconfig.notify"
 
     local default_handler = Optional.of_nilable(handlers[1])
 
