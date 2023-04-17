@@ -60,8 +60,8 @@ grammarly-languageserver         grammarly
 graphql-language-service-cli     graphql
 groovy-language-server           groovyls
 haxe-language-server             haxe_language_server
-haskell-language-server          hls
 helm-ls                          helm_ls
+haskell-language-server          hls
 hoon-language-server             hoon_ls
 html-lsp                         html
 intelephense                     intelephense
