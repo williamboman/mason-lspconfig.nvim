@@ -9,8 +9,13 @@
     <code>mason-lspconfig</code> bridges <a
     href="https://github.com/williamboman/mason.nvim"><code>mason.nvim</code></a> with the <a
     href="https://github.com/neovim/nvim-lspconfig"><code>lspconfig</code></a> plugin - making it easier to use both
-    plugins together.<br />
+    plugins together.
+</p>
+<p align="center">
     <code>:help mason-lspconfig.nvim</code>
+</p>
+<p align="center">
+    <sup>Latest version: v1.0.0</sup> <!-- x-release-please-version -->
 </p>
 
 # Table of Contents
