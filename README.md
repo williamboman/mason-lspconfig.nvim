@@ -288,6 +288,7 @@ local DEFAULT_SETTINGS = {
 | Terraform [(docs)][tflint]          | `tflint`                          |
 | TypeScript                          | `tsserver`                        |
 | TypeScript                          | `vtsls`                           |
+| Typst                               | `typst_lsp`                       |
 | V                                   | `vls`                             |
 | Vala                                | `vala_ls`                         |
 | Veryl                               | `veryl_ls`                        |

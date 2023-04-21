@@ -138,6 +138,7 @@ M.lspconfig_to_package = {
     ["tflint"] = "tflint",
     ["theme_check"] = "shopify-theme-check",
     ["tsserver"] = "typescript-language-server",
+    ["typst_lsp"] = "typst-lsp",
     ["unocss"] = "unocss-language-server",
     ["vala_ls"] = "vala-language-server",
     ["verible"] = "verible",
