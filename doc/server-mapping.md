@@ -134,6 +134,7 @@
 | [tflint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tflint) | [tflint](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#tflint) |
 | [theme_check](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#theme_check) | [shopify-theme-check](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#shopify-theme-check) |
 | [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) | [typescript-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#typescript-language-server) |
+| [typst_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typst_lsp) | [typst-lsp](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#typst-lsp) |
 | [unocss](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#unocss) | [unocss-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#unocss-language-server) |
 | [vala_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vala_ls) | [vala-language-server](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#vala-language-server) |
 | [verible](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#verible) | [verible](https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#verible) |
