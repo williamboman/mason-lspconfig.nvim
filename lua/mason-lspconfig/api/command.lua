@@ -9,7 +9,8 @@ local function parse_packages_from_user_args(user_args)
     local registry = require "mason-registry"
     local Package = require "mason-core.package"
     local server_mapping = require "mason-lspconfig.mappings.server"
-    local language_mapping = require "mason.mappings.language"
+    local language_mapping = require "mason-lspconfig.mappings.language"
+    local language_map = language_mapping.get_language_map()
 
     return _.filter_map(function(server_specifier)
         local server_name, version = Package.Parse(server_specifier)
@@ -18,7 +19,7 @@ local function parse_packages_from_user_args(user_args)
             .of_nilable(server_mapping.lspconfig_to_package[server_name])
             -- 2. if not, check if it's a language specifier (e.g., "typescript" or "java")
             :or_(function()
-                return Optional.of_nilable(language_mapping[server_name]):map(function(package_names)
+                return Optional.of_nilable(language_map[server_name]):map(function(package_names)
                     local package_names = _.filter(function(package_name)
                         return server_mapping.package_to_lspconfig[package_name] ~= nil
                     end, package_names)
@@ -131,9 +132,9 @@ end, {
 _G.mason_lspconfig_completion = {
     available_server_completion = function()
         local available_servers = require("mason-lspconfig").get_available_servers()
-        local language_mapping = require "mason.mappings.language"
+        local language_mapping = require "mason-lspconfig.mappings.language"
         local sort_deduped = _.compose(_.sort_by(_.identity), _.uniq_by(_.identity))
-        local completions = sort_deduped(_.concat(_.keys(language_mapping), available_servers))
+        local completions = sort_deduped(_.concat(_.keys(language_mapping.get_language_map()), available_servers))
         return table.concat(completions, "\n")
     end,
     installed_server_completion = function()
