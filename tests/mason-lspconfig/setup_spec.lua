@@ -292,6 +292,35 @@ describe("mason-lspconfig setup_handlers", function()
         assert.spy(dedicated_handler).was_called_with "dummylsp"
     end)
 
+    it("(via .setup {}) should call default handler", function()
+        stub(registry, "get_installed_package_names")
+        registry.get_installed_package_names.returns { "dummy" }
+        local default_handler = spy.new()
+
+        mason_lspconfig.setup { handlers = { default_handler } }
+
+        assert.spy(default_handler).was_called(1)
+        assert.spy(default_handler).was_called_with "dummylsp"
+    end)
+
+    it("(via .setup {}) should call dedicated handler", function()
+        stub(registry, "get_installed_package_names")
+        registry.get_installed_package_names.returns { "dummy" }
+        local dedicated_handler = spy.new()
+        local default_handler = spy.new()
+
+        mason_lspconfig.setup {
+            handlers = {
+                default_handler,
+                ["dummylsp"] = dedicated_handler,
+            },
+        }
+
+        assert.spy(default_handler).was_called(0)
+        assert.spy(dedicated_handler).was_called(1)
+        assert.spy(dedicated_handler).was_called_with "dummylsp"
+    end)
+
     it("should print warning if registering handler for non-existent server name", function()
         spy.on(vim, "notify")
         mason_lspconfig.setup_handlers {
