@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.0.1...v1.1.0) (2023-04-25)
+
+
+### Features
+
+* allow handlers to be passed via `.setup()` ([#208](https://github.com/williamboman/mason-lspconfig.nvim/issues/208)) ([eea1d22](https://github.com/williamboman/mason-lspconfig.nvim/commit/eea1d22f203083e3d41757ef982ab2cc74fce089))
+
 ## [1.0.1](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.0.0...v1.0.1) (2023-04-22)
 
 
