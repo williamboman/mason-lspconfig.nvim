@@ -139,8 +139,9 @@ Example:
                                             *mason-lspconfig-default-settings*
 >lua
     local DEFAULT_SETTINGS = {
-        -- A list of servers to automatically install if they're not already installed. Example: { "rust-analyzer@nightly", "lua_ls" }
+        -- A list of servers to automatically install if they're not already installed. Example: { "rust_analyzer@nightly", "lua_ls" }
         -- This setting has no relation with the `automatic_installation` setting.
+        ---@type string[]
         ensure_installed = {},
 
         -- Whether servers that are set up (via lspconfig) should be automatically installed if they're not already installed.
@@ -150,7 +151,12 @@ Example:
         --   - true: All servers set up via lspconfig are automatically installed.
         --   - { exclude: string[] }: All servers set up via lspconfig, except the ones provided in the list, are automatically installed.
         --       Example: automatic_installation = { exclude = { "rust_analyzer", "solargraph" } }
+        ---@type boolean
         automatic_installation = false,
+
+        -- See `:h mason-lspconfig.setup_handlers()`
+        ---@type table<string, fun(server_name: string)>?
+        handlers = nil,
     }
 <
 
@@ -229,7 +235,7 @@ setup_handlers({handlers})
 
    Example: ~
 >lua
-       require("mason-lspconfig").setup_handlers({
+       local handlers = {
            -- The first entry (without a key) will be the default handler
            -- and will be called for each installed server that doesn't have
            -- a dedicated handler.
@@ -251,7 +257,13 @@ setup_handlers({handlers})
                    }
                }
            end,
-       })
+       }
+
+       -- alt 1. Either pass handlers when setting up mason-lspconfig:
+       require("mason-lspconfig").setup({ handlers = handlers })
+
+       -- alt 2. or call the .setup_handlers() function.
+       require("mason-lspconfig").setup_handlers(handlers)
 <
 
     See also: ~

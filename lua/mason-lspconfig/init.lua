@@ -45,6 +45,10 @@ function M.setup(config)
     end
 
     require "mason-lspconfig.api.command"
+
+    if settings.current.handlers then
+        M.setup_handlers(settings.current.handlers)
+    end
 end
 
 ---See `:h mason-lspconfig.setup_handlers()`
