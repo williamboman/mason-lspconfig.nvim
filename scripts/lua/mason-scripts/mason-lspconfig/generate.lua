@@ -63,7 +63,7 @@ local get_server_mappings = _.compose(
         local lspconfig_url = ("https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s"):format(
             lspconfig_name
         )
-        local mason_url = ("https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#%s"):format(mason_name)
+        local mason_url = ("https://mason-registry.dev/registry/list#%s"):format(mason_name)
         return Optional.of {
             lspconfig_name = lspconfig_name,
             mason_name = mason_name,
