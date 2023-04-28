@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.1.0...v1.2.0) (2023-04-28)
+
+
+### Features
+
+* add java_language_server ([#127](https://github.com/williamboman/mason-lspconfig.nvim/issues/127)) ([490a599](https://github.com/williamboman/mason-lspconfig.nvim/commit/490a599933479c2141a7d6f9466642c6a89aae08))
+
+
+### Bug Fixes
+
+* **command:** don't display error if no language/server is selected in :LspInstall ([#214](https://github.com/williamboman/mason-lspconfig.nvim/issues/214)) ([3911807](https://github.com/williamboman/mason-lspconfig.nvim/commit/391180785e066c662440f1fde3f9eec336f18782))
+
 ## [1.1.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.0.1...v1.1.0) (2023-04-25)
 
 
