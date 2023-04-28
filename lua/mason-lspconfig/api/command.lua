@@ -14,40 +14,41 @@ local function parse_packages_from_user_args(user_args)
 
     return _.filter_map(function(server_specifier)
         local server_name, version = Package.Parse(server_specifier)
-        -- 1. first see if the provided arg is an actual lspconfig server name
         return Optional
+            -- 1. first see if the provided arg is an actual lspconfig server name
             .of_nilable(server_mapping.lspconfig_to_package[server_name])
             -- 2. if not, check if it's a language specifier (e.g., "typescript" or "java")
             :or_(function()
-                return Optional.of_nilable(language_map[server_name]):map(function(package_names)
-                    local package_names = _.filter(function(package_name)
-                        return server_mapping.package_to_lspconfig[package_name] ~= nil
-                    end, package_names)
+                return Optional.of_nilable(language_map[server_name])
+                    :if_not_present(function()
+                        notify(("Could not find LSP server %q."):format(server_name), vim.log.levels.ERROR)
+                    end)
+                    :map(function(package_names)
+                        package_names = _.filter(function(package_name)
+                            return server_mapping.package_to_lspconfig[package_name] ~= nil
+                        end, package_names)
 
-                    if #package_names == 0 then
-                        return nil
-                    end
+                        if #package_names == 0 then
+                            return nil
+                        end
 
-                    return a.promisify(vim.ui.select)(package_names, {
-                        prompt = ("Please select which server you want to install for language %q:"):format(
-                            server_name
-                        ),
-                        format_item = function(package_name)
-                            local server_name = server_mapping.package_to_lspconfig[package_name]
-                            if registry.is_installed(package_name) then
-                                return ("%s (installed)"):format(server_name)
-                            else
-                                return server_name
-                            end
-                        end,
-                    })
-                end)
+                        return a.promisify(vim.ui.select)(package_names, {
+                            prompt = ("Please select which server you want to install for language %q:"):format(
+                                server_name
+                            ),
+                            format_item = function(package_name)
+                                local lspconfig_name = server_mapping.package_to_lspconfig[package_name]
+                                if registry.is_installed(package_name) then
+                                    return ("%s (installed)"):format(lspconfig_name)
+                                else
+                                    return lspconfig_name
+                                end
+                            end,
+                        })
+                    end)
             end)
             :map(function(package_name)
                 return { package = package_name, version = version }
-            end)
-            :if_not_present(function()
-                notify(("Could not find LSP server %q."):format(server_name), vim.log.levels.ERROR)
             end)
     end, user_args)
 end
@@ -61,6 +62,9 @@ local function parse_packages_from_heuristics()
     local current_ft = vim.api.nvim_buf_get_option(vim.api.nvim_get_current_buf(), "filetype")
     local filetype_mapping = require "mason-lspconfig.mappings.filetype"
     return Optional.of_nilable(filetype_mapping[current_ft])
+        :if_not_present(function()
+            notify(("No LSP servers found for filetype %q."):format(current_ft), vim.log.levels.ERROR)
+        end)
         :map(function(server_names)
             return a.promisify(vim.ui.select)(server_names, {
                 prompt = ("Please select which server you want to install for filetype %q:"):format(current_ft),
@@ -77,10 +81,7 @@ local function parse_packages_from_heuristics()
             local package_name = server_mapping.lspconfig_to_package[server_name]
             return { { package = package_name, version = nil } }
         end)
-        :or_else_get(function()
-            notify(("No LSP servers found for filetype %q."):format(current_ft), vim.log.levels.ERROR)
-            return {}
-        end)
+        :or_else_get(_.always {})
 end
 
 local parse_packages_to_install = _.cond {
