@@ -74,7 +74,7 @@ return {
   ["html.handlebars"] = { "glint" },
   htmldjango = { "emmet_ls", "tailwindcss" },
   jade = { "tailwindcss" },
-  java = { "jdtls" },
+  java = { "java_language_server", "jdtls" },
   javascript = { "cssmodules_ls", "denols", "ember", "eslint", "glint", "quick_lint_js", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "vtsls" },
   ["javascript.glimmer"] = { "glint" },
   ["javascript.jsx"] = { "denols", "eslint", "tsserver", "vtsls" },

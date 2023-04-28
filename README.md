@@ -226,6 +226,7 @@ local DEFAULT_SETTINGS = {
 | Hoon                                | `hoon_ls`                         |
 | JSON                                | `jsonls`                          |
 | Java                                | `jdtls`                           |
+| Java                                | `java_language_server`            |
 | JavaScript                          | `quick_lint_js`                   |
 | JavaScript                          | `tsserver`                        |
 | JavaScript                          | `vtsls`                           |

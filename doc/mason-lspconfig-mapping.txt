@@ -65,6 +65,7 @@ haskell-language-server          hls
 hoon-language-server             hoon_ls
 html-lsp                         html
 intelephense                     intelephense
+java-language-server             java_language_server
 jdtls                            jdtls
 jedi-language-server             jedi_language_server
 json-lsp                         jsonls
