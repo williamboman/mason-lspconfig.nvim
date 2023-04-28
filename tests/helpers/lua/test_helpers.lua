@@ -1,10 +1,10 @@
 ---@diagnostic disable: lowercase-global
-local util = require "luassert.util"
 local spy = require "luassert.spy"
+local util = require "luassert.util"
 
-local a = require "mason-core.async"
-local InstallHandle = require "mason-core.installer.handle"
 local InstallContext = require "mason-core.installer.context"
+local InstallHandle = require "mason-core.installer.handle"
+local a = require "mason-core.async"
 local registry = require "mason-registry"
 
 function async_test(suspend_fn)
@@ -14,6 +14,25 @@ function async_test(suspend_fn)
             error(err, util.errorlevel())
         end
     end
+end
+
+local TableMock = {}
+TableMock.__index = TableMock
+
+function TableMock.new(tbl, key)
+    return setmetatable({
+        tbl = tbl,
+        key = key,
+    }, TableMock)
+end
+
+function TableMock:apply(value)
+    self.original_value = self.tbl[self.key]
+    self.tbl[self.key] = value
+end
+
+function TableMock:revert()
+    self.tbl[self.key] = self.original_value
 end
 
 -- selene: allow(incorrect_standard_library_use)
@@ -28,6 +47,12 @@ mockx = {
         return function()
             error(exception, 2)
         end
+    end,
+    table = function(tbl, key, new_value)
+        local mock = TableMock.new(tbl, key)
+        mock:apply(new_value)
+        assert:add_spy(mock)
+        return mock
     end,
 }
 

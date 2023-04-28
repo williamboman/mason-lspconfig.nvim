@@ -1,15 +1,29 @@
-local log = require "mason-core.log"
 local _ = require "mason-core.functional"
+local log = require "mason-core.log"
+local platform = require "mason-core.platform"
+local settings = require "mason-lspconfig.settings"
 
 local M = {}
 
+local function check_and_notify_bad_setup_order()
+    local mason_ok, mason = pcall(require, "mason")
+    local is_bad_order = not mason_ok or mason.has_setup == false
+    local impacts_functionality = not mason_ok or #settings.current.ensure_installed > 0
+    if is_bad_order and impacts_functionality then
+        require "mason-lspconfig.notify"(
+            "mason.nvim has not been set up. Make sure to set up 'mason' before 'mason-lspconfig'. :h mason-lspconfig-quickstart",
+            vim.log.levels.WARN
+        )
+    end
+end
+
 ---@param config MasonLspconfigSettings | nil
 function M.setup(config)
-    local settings = require "mason-lspconfig.settings"
-
     if config then
         settings.set(config)
     end
+
+    check_and_notify_bad_setup_order()
 
     local ok, err = pcall(function()
         require "mason-lspconfig.lspconfig_hook"()
@@ -19,11 +33,22 @@ function M.setup(config)
         log.error("Failed to set up lspconfig integration.", err)
     end
 
-    if #settings.current.ensure_installed > 0 then
+    if not platform.is_headless and #settings.current.ensure_installed > 0 then
         require "mason-lspconfig.ensure_installed"()
     end
 
+    local registry = require "mason-registry"
+    if registry.register_package_aliases then
+        registry.register_package_aliases(_.map(function(server_name)
+            return { server_name }
+        end, require("mason-lspconfig.mappings.server").package_to_lspconfig))
+    end
+
     require "mason-lspconfig.api.command"
+
+    if settings.current.handlers then
+        M.setup_handlers(settings.current.handlers)
+    end
 end
 
 ---See `:h mason-lspconfig.setup_handlers()`
@@ -32,7 +57,7 @@ function M.setup_handlers(handlers)
     local Optional = require "mason-core.optional"
     local server_mapping = require "mason-lspconfig.mappings.server"
     local registry = require "mason-registry"
-    local notify = require "mason-core.notify"
+    local notify = require "mason-lspconfig.notify"
 
     local default_handler = Optional.of_nilable(handlers[1])
 

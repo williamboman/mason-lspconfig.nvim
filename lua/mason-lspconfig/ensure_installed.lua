@@ -1,9 +1,9 @@
+local notify = require "mason-lspconfig.notify"
+local registry = require "mason-registry"
 local settings = require "mason-lspconfig.settings"
-local notify = require "mason-core.notify"
 
 ---@param lspconfig_server_name string
 local function resolve_package(lspconfig_server_name)
-    local registry = require "mason-registry"
     local Optional = require "mason-core.optional"
     local server_mapping = require "mason-lspconfig.mappings.server"
 
@@ -15,7 +15,7 @@ local function resolve_package(lspconfig_server_name)
     end)
 end
 
-return function()
+local function ensure_installed()
     for _, server_identifier in ipairs(settings.current.ensure_installed) do
         local Package = require "mason-core.package"
 
@@ -25,10 +25,7 @@ return function()
                 ---@param pkg Package
                 function(pkg)
                     if not pkg:is_installed() then
-                        notify(("[mason-lspconfig.nvim] installing %s"):format(server_name))
-                        pkg:install {
-                            version = version,
-                        }
+                        require("mason-lspconfig.install").install(pkg, version)
                     end
                 end
             )
@@ -41,4 +38,12 @@ return function()
                 )
             end)
     end
+end
+
+if registry.refresh then
+    return function()
+        registry.refresh(vim.schedule_wrap(ensure_installed))
+    end
+else
+    return ensure_installed
 end

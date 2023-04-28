@@ -1,15 +1,18 @@
 require "mason-lspconfig.server_config_extensions"()
 local Optional = require "mason-core.optional"
 
-local lspconfig = require "lspconfig"
-local a = require "mason-core.async"
-local path = require "mason-core.path"
 local _ = require "mason-core.functional"
+local a = require "mason-core.async"
+local lspconfig = require "lspconfig"
 local lspconfig_server_mapping = require "mason-lspconfig.mappings.server"
+local path = require "mason-core.path"
 local script_utils = require "mason-scripts.utils"
 
 local DOCS_DIR = path.concat { vim.loop.cwd(), "doc" }
 local MASON_LSPCONFIG_DIR = path.concat { vim.loop.cwd(), "lua", "mason-lspconfig" }
+
+require("mason").setup()
+require("mason-registry").refresh()
 
 ---@async
 local function create_lspconfig_filetype_map()
@@ -38,6 +41,9 @@ end
 local function ensure_valid_package_name_translations()
     local server_mappings = require "mason-lspconfig.mappings.server"
     local registry = require "mason-registry"
+    require("mason-registry.sources").set_registries {
+        "lua:mason-registry.index",
+    }
 
     for lspconfig_server, mason_package in pairs(server_mappings.lspconfig_to_package) do
         local server_config = lspconfig[lspconfig_server]
@@ -57,7 +63,7 @@ local get_server_mappings = _.compose(
         local lspconfig_url = ("https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s"):format(
             lspconfig_name
         )
-        local mason_url = ("https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md#%s"):format(mason_name)
+        local mason_url = ("https://mason-registry.dev/registry/list#%s"):format(mason_name)
         return Optional.of {
             lspconfig_name = lspconfig_name,
             mason_name = mason_name,

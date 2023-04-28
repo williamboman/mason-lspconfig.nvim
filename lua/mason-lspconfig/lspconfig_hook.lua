@@ -1,13 +1,16 @@
-local log = require "mason-core.log"
 local _ = require "mason-core.functional"
+local log = require "mason-core.log"
+local notify = require "mason-lspconfig.notify"
 local path = require "mason-core.path"
 local platform = require "mason-core.platform"
-local notify = require "mason-core.notify"
 
 local memoized_set = _.memoize(_.set_of)
 
 ---@param server_name string
 local function should_auto_install(server_name)
+    if platform.is_headless then
+        return false
+    end
     local settings = require "mason-lspconfig.settings"
 
     if settings.current.automatic_installation == true then
@@ -59,11 +62,19 @@ return function()
             return
         end
 
+        if require("mason").has_setup == false then
+            notify(
+                ("Server %q is being set up before mason.nvim is set up. :h mason-lspconfig-quickstart"):format(
+                    config.name
+                ),
+                vim.log.levels.WARN
+            )
+        end
+
         if registry.is_installed(pkg_name) then
             resolve_server_config_factory(config.name):if_present(function(config_factory)
                 local mason_config = config_factory(path.package_prefix(pkg_name), config)
-                local merge_configs_in_place = _.compose(merge_in_place(config), merge_in_place(mason_config))
-                merge_configs_in_place(user_config or {})
+                _.reduce(merge_in_place, config, { mason_config, user_config or {} })
             end)
             if platform.is.win and (config.cmd and config.cmd[1] ~= "cmd.exe") then
                 local exepath = vim.fn.exepath(config.cmd[1])
@@ -74,18 +85,18 @@ return function()
                 end
             end
         elseif should_auto_install(config.name) then
-            local pkg = registry.get_package(pkg_name)
-            notify(("[mason-lspconfig.nvim] automatically installing %s"):format(pkg.name))
-            pkg:install():once(
-                "closed",
-                vim.schedule_wrap(function()
-                    if pkg:is_installed() then
-                        notify(("[mason-lspconfig.nvim] %s was automatically installed"):format(pkg.name))
-                        -- reload config
-                        require("lspconfig")[config.name].setup(config)
-                    end
-                end)
-            )
+            local ok, pkg = pcall(registry.get_package, pkg_name)
+            if ok then
+                require("mason-lspconfig.install").install(pkg):once(
+                    "closed",
+                    vim.schedule_wrap(function()
+                        if pkg:is_installed() then
+                            -- reload config
+                            require("lspconfig")[config.name].setup(config)
+                        end
+                    end)
+                )
+            end
         end
     end)
 end

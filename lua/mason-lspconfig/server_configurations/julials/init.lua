@@ -1,6 +1,6 @@
-local path = require "mason-core.path"
-local fs = require "mason-core.fs"
 local _ = require "mason-core.functional"
+local fs = require "mason-core.fs"
+local path = require "mason-core.path"
 
 return function()
     return {
@@ -30,8 +30,7 @@ return function()
             end
 
             config.cmd = {
-                "julia-lsp",
-                vim.env.JULIA_DEPOT_PATH or "",
+                vim.fn.exepath "julia-lsp",
                 env_path,
             }
         end,
