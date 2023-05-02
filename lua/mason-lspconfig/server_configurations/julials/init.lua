@@ -33,6 +33,10 @@ return function()
                 vim.fn.exepath "julia-lsp",
                 env_path,
             }
+            config.cmd_env = vim.tbl_extend("keep", config.cmd_env or {}, {
+                SYMBOL_SERVER = config.symbol_server,
+                SYMBOL_CACHE_DOWNLOAD = (config.symbol_cache_download == false) and "0" or "1",
+            })
         end,
     }
 end
