@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.2.0...v1.3.0) (2023-05-02)
+
+
+### Features
+
+* **julials:** add convenience settings for symbol cache management ([#217](https://github.com/williamboman/mason-lspconfig.nvim/issues/217)) ([9377cda](https://github.com/williamboman/mason-lspconfig.nvim/commit/9377cda51359011330dc396d967b60159aec75aa))
+
 ## [1.2.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.1.0...v1.2.0) (2023-04-28)
 
 
