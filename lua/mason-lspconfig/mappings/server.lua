@@ -117,6 +117,7 @@ M.lspconfig_to_package = {
     ["serve_d"] = "serve-d",
     ["slint_lsp"] = "slint-lsp",
     ["smithy_ls"] = "smithy-language-server",
+    ["sonarls"] = "sonarlint-language-server",
     ["solang"] = "solang",
     ["solargraph"] = "solargraph",
     ["solc"] = "solidity",
