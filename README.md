@@ -288,6 +288,7 @@ local DEFAULT_SETTINGS = {
 | Solidity                            | `solang`                          |
 | Solidity                            | `solc`                            |
 | Solidity                            | `solidity`                        |
+| SonarLint                           | `sonarls`                         |
 | Sphinx                              | `esbonio`                         |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
