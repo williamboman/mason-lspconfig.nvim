@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.3.0...v1.4.0) (2023-05-08)
+
+
+### Features
+
+* add gleam ([#221](https://github.com/williamboman/mason-lspconfig.nvim/issues/221)) ([1856950](https://github.com/williamboman/mason-lspconfig.nvim/commit/18569506f410195e5705ef12dfdcd1f88c944979))
+
 ## [1.3.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.2.0...v1.3.0) (2023-05-02)
 
 
