@@ -49,6 +49,7 @@
 | [foam_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#foam_ls) | [foam-language-server](https://mason-registry.dev/registry/list#foam-language-server) |
 | [fortls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#fortls) | [fortls](https://mason-registry.dev/registry/list#fortls) |
 | [fsautocomplete](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#fsautocomplete) | [fsautocomplete](https://mason-registry.dev/registry/list#fsautocomplete) |
+| [gleam](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#gleam) | [gleam](https://mason-registry.dev/registry/list#gleam) |
 | [glint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#glint) | [glint](https://mason-registry.dev/registry/list#glint) |
 | [golangci_lint_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#golangci_lint_ls) | [golangci-lint-langserver](https://mason-registry.dev/registry/list#golangci-lint-langserver) |
 | [gopls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#gopls) | [gopls](https://mason-registry.dev/registry/list#gopls) |
