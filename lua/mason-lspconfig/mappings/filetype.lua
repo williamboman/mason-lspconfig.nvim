@@ -54,6 +54,7 @@ return {
   fsharp = { "fsautocomplete" },
   genie = { "vala_ls" },
   gitcommit = { "ltex" },
+  gleam = { "gleam" },
   go = { "golangci_lint_ls", "gopls" },
   gohtml = { "tailwindcss" },
   gomod = { "golangci_lint_ls", "gopls" },

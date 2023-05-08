@@ -52,6 +52,7 @@ flux-lsp                         flux_lsp
 foam-language-server             foam_ls
 fortls                           fortls
 fsautocomplete                   fsautocomplete
+gleam                            gleam
 glint                            glint
 golangci-lint-langserver         golangci_lint_ls
 gopls                            gopls
