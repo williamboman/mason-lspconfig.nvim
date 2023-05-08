@@ -212,6 +212,7 @@ local DEFAULT_SETTINGS = {
 | Flux                                | `flux_lsp`                        |
 | Foam (OpenFOAM)                     | `foam_ls`                         |
 | Fortran                             | `fortls`                          |
+| Gleam                               | `gleam`                           |
 | Glint                               | `glint`                           |
 | Go                                  | `golangci_lint_ls`                |
 | Go                                  | `gopls`                           |
