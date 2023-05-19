@@ -289,6 +289,7 @@ local DEFAULT_SETTINGS = {
 | Solidity                            | `solang`                          |
 | Solidity                            | `solc`                            |
 | Solidity                            | `solidity`                        |
+| Solidity                            | `solidity_ls_nomicfoundation`     |
 | Sphinx                              | `esbonio`                         |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
