@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.4.0...v1.5.0) (2023-05-19)
+
+
+### Features
+
+* add solidity_ls_nomicfoundation ([#226](https://github.com/williamboman/mason-lspconfig.nvim/issues/226)) ([55cd1eb](https://github.com/williamboman/mason-lspconfig.nvim/commit/55cd1ebf9609f9478f6d67482bb4ce8a62f13644))
+
 ## [1.4.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.3.0...v1.4.0) (2023-05-08)
 
 
