@@ -120,6 +120,8 @@
 | [solidity](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity) | [solidity-ls](https://mason-registry.dev/registry/list#solidity-ls) |
 | [solidity_ls_nomicfoundation](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity_ls_nomicfoundation) | [nomicfoundation-solidity-language-server](https://mason-registry.dev/registry/list#nomicfoundation-solidity-language-server) |
 | [sorbet](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sorbet) | [sorbet](https://mason-registry.dev/registry/list#sorbet) |
+| [sourcekit](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sourcekit) |
+[sourcekit](https://mason-registry.dev/registry/list#sourcekit) |
 | [sourcery](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sourcery) | [sourcery](https://mason-registry.dev/registry/list#sourcery) |
 | [spectral](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#spectral) | [spectral-language-server](https://mason-registry.dev/registry/list#spectral-language-server) |
 | [sqlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqlls) | [sqlls](https://mason-registry.dev/registry/list#sqlls) |

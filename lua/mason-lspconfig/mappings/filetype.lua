@@ -147,6 +147,7 @@ return {
   sls = { "salt_ls" },
   smithy = { "smithy_ls" },
   solidity = { "solang", "solc", "solidity", "solidity_ls_nomicfoundation" },
+  sourcekit = { "swift", "c", "cpp", "objective-c", "objective-cpp" },
   sql = { "sqlls", "sqls" },
   stylus = { "tailwindcss" },
   sugarss = { "stylelint_lsp", "tailwindcss" },

@@ -123,6 +123,7 @@ solidity                                  solc
 solidity-ls                               solidity
 nomicfoundation-solidity-language-server  solidity_ls_nomicfoundation
 sorbet                                    sorbet
+sourcekit                                 sourcekit
 sourcery                                  sourcery
 spectral-language-server                  spectral
 sqlls                                     sqlls

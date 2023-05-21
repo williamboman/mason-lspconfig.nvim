@@ -176,10 +176,12 @@ local DEFAULT_SETTINGS = {
 | BrighterScript                      | `bright_script`                   |
 | Buf                                 | `bufls`                           |
 | C                                   | `clangd`                          |
+| C                                   | `sourcekit`                       |
 | C#                                  | `csharp_ls`                       |
 | C# [(docs)][omnisharp]              | `omnisharp_mono`                  |
 | C# [(docs)][omnisharp]              | `omnisharp`                       |
 | C++                                 | `clangd`                          |
+| C++                                 | `sourcekit`                       |
 | CMake                               | `cmake`                           |
 | CMake                               | `neocmake`                        |
 | CSS                                 | `cssls`                           |
@@ -249,6 +251,8 @@ local DEFAULT_SETTINGS = {
 | Nim                                 | `nimls`                           |
 | Nix                                 | `nil_ls`                          |
 | Nix                                 | `rnix`                            |
+| Objective-C                         | `sourcekit`                       |
+| Objective-C++                       | `sourcekit`                       |
 | OCaml                               | `ocamllsp`                        |
 | OneScript, 1C:Enterprise            | `bsl_ls`                          |
 | OpenAPI                             | `spectral`                        |
@@ -293,6 +297,7 @@ local DEFAULT_SETTINGS = {
 | Sphinx                              | `esbonio`                         |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
+| Swift                               | `sourcekit`                       |
 | SystemVerilog                       | `svlangserver`                    |
 | SystemVerilog                       | `svls`                            |
 | SystemVerilog                       | `verible`                         |
