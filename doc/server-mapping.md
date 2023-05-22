@@ -83,6 +83,7 @@
 | [nil_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nil_ls) | [nil](https://mason-registry.dev/registry/list#nil) |
 | [nimls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nimls) | [nimlsp](https://mason-registry.dev/registry/list#nimlsp) |
 | [ocamllsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ocamllsp) | [ocaml-lsp](https://mason-registry.dev/registry/list#ocaml-lsp) |
+| [ols](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ols) | [ols](https://mason-registry.dev/registry/list#ols) |
 | [omnisharp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#omnisharp) | [omnisharp](https://mason-registry.dev/registry/list#omnisharp) |
 | [opencl_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#opencl_ls) | [opencl-language-server](https://mason-registry.dev/registry/list#opencl-language-server) |
 | [openscad_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#openscad_lsp) | [openscad-lsp](https://mason-registry.dev/registry/list#openscad-lsp) |
