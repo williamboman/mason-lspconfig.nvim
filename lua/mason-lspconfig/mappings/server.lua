@@ -91,6 +91,7 @@ M.lspconfig_to_package = {
     ["opencl_ls"] = "opencl-language-server",
     ["openscad_lsp"] = "openscad-lsp",
     ["perlnavigator"] = "perlnavigator",
+    ["pest_ls"] = "pest-language-server",
     ["phpactor"] = "phpactor",
     ["powershell_es"] = "powershell-editor-services",
     ["prismals"] = "prisma-language-server",
