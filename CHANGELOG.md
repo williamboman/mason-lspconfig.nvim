@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.6.0...v1.7.0) (2023-05-25)
+
+
+### Features
+
+* add custom_elements_ls mapping ([#232](https://github.com/williamboman/mason-lspconfig.nvim/issues/232)) ([76aff7a](https://github.com/williamboman/mason-lspconfig.nvim/commit/76aff7aee925fb5f043d7a5ed80a7d004e63c0f1))
+
 ## [1.6.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.5.0...v1.6.0) (2023-05-25)
 
 
