@@ -90,6 +90,7 @@ omnisharp                                 omnisharp
 opencl-language-server                    opencl_ls
 openscad-lsp                              openscad_lsp
 perlnavigator                             perlnavigator
+pest-language-server                      pest_ls
 phpactor                                  phpactor
 powershell-editor-services                powershell_es
 prisma-language-server                    prismals
