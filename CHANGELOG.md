@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.5.0...v1.6.0) (2023-05-25)
+
+
+### Features
+
+* add ols (Odin Language Server) mapping ([#229](https://github.com/williamboman/mason-lspconfig.nvim/issues/229)) ([f6baff0](https://github.com/williamboman/mason-lspconfig.nvim/commit/f6baff0fc96f890d8c5fe7b7a456c7d49d2aa33a))
+* add pest_ls ([#230](https://github.com/williamboman/mason-lspconfig.nvim/issues/230)) ([625c5c1](https://github.com/williamboman/mason-lspconfig.nvim/commit/625c5c11c9259a481e6bc0e45ec038150d601bfe))
+
 ## [1.5.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.4.0...v1.5.0) (2023-05-19)
 
 
