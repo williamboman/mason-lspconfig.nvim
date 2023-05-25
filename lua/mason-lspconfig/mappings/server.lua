@@ -86,6 +86,7 @@ M.lspconfig_to_package = {
     ["nil_ls"] = "nil",
     ["nimls"] = "nimlsp",
     ["ocamllsp"] = "ocaml-lsp",
+    ["ols"] = "ols",
     ["omnisharp"] = "omnisharp",
     ["omnisharp_mono"] = "omnisharp-mono",
     ["opencl_ls"] = "opencl-language-server",

@@ -250,6 +250,7 @@ local DEFAULT_SETTINGS = {
 | Nix                                 | `nil_ls`                          |
 | Nix                                 | `rnix`                            |
 | OCaml                               | `ocamllsp`                        |
+| Odin                                | `ols`                             |
 | OneScript, 1C:Enterprise            | `bsl_ls`                          |
 | OpenAPI                             | `spectral`                        |
 | OpenCL                              | `opencl_ls`                       |
