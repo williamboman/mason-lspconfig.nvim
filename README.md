@@ -190,6 +190,7 @@ local DEFAULT_SETTINGS = {
 | CodeQL                              | `codeqlls`                        |
 | Crystal                             | `crystalline`                     |
 | Cucumber                            | `cucumber_language_server`        |
+| Custom Elements Language Server     | `custom_elements_ls`              |
 | Cue                                 | `dagger`                          |
 | Deno                                | `denols`                          |
 | Dhall                               | `dhall_lsp_server`                |
