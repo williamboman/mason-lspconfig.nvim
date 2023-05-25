@@ -117,6 +117,7 @@ return {
   os = { "bsl_ls" },
   pandoc = { "ltex" },
   perl = { "perlnavigator" },
+  pest = { "pest_ls" },
   php = { "intelephense", "phpactor", "psalm", "tailwindcss" },
   plaintex = { "ltex", "texlab" },
   postcss = { "tailwindcss" },

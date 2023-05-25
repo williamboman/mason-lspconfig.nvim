@@ -87,6 +87,7 @@
 | [opencl_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#opencl_ls) | [opencl-language-server](https://mason-registry.dev/registry/list#opencl-language-server) |
 | [openscad_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#openscad_lsp) | [openscad-lsp](https://mason-registry.dev/registry/list#openscad-lsp) |
 | [perlnavigator](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#perlnavigator) | [perlnavigator](https://mason-registry.dev/registry/list#perlnavigator) |
+| [pest_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pest_ls) | [pest-language-server](https://mason-registry.dev/registry/list#pest-language-server) |
 | [phpactor](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#phpactor) | [phpactor](https://mason-registry.dev/registry/list#phpactor) |
 | [powershell_es](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#powershell_es) | [powershell-editor-services](https://mason-registry.dev/registry/list#powershell-editor-services) |
 | [prismals](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#prismals) | [prisma-language-server](https://mason-registry.dev/registry/list#prisma-language-server) |

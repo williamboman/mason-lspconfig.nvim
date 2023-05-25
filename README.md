@@ -258,6 +258,7 @@ local DEFAULT_SETTINGS = {
 | PHP                                 | `phpactor`                        |
 | PHP                                 | `psalm`                           |
 | Perl                                | `perlnavigator`                   |
+| Pest                                | `pest_ls`                         |
 | Powershell                          | `powershell_es`                   |
 | Prisma                              | `prismals`                        |
 | Puppet                              | `puppet`                          |
