@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.7.0...v1.7.1) (2023-06-05)
+
+
+### Bug Fixes
+
+* **astro:** provide new `typescript.tsdk` initialization option ([#235](https://github.com/williamboman/mason-lspconfig.nvim/issues/235)) ([d83f31d](https://github.com/williamboman/mason-lspconfig.nvim/commit/d83f31d6ea081bb3a9af60a49cbffedb6e5c3b6a))
+
 ## [1.7.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.6.0...v1.7.0) (2023-05-25)
 
 
