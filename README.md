@@ -303,7 +303,7 @@ local DEFAULT_SETTINGS = {
 | Tailwind CSS                        | `tailwindcss`                     |
 | Teal                                | `teal_ls`                         |
 | Terraform                           | `terraformls`                     |
-| Terraform [(docs)][tflint]          | `tflint`                          |
+| Terraform                           | `tflint`                          |
 | TypeScript                          | `tsserver`                        |
 | TypeScript                          | `vtsls`                           |
 | Typst                               | `typst_lsp`                       |
@@ -322,4 +322,3 @@ local DEFAULT_SETTINGS = {
 [julials]: ./lua/mason-lspconfig/server_configurations/julials/README.md
 [omnisharp]: ./lua/mason-lspconfig/server_configurations/omnisharp/README.md
 [pylsp]: ./lua/mason-lspconfig/server_configurations/pylsp/README.md
-[tflint]: ./lua/mason-lspconfig/server_configurations/tflint/README.md
