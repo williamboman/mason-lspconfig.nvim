@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.7.1...v1.8.0) (2023-06-29)
+
+
+### Features
+
+* add vale-ls ([#246](https://github.com/williamboman/mason-lspconfig.nvim/issues/246)) ([7bc5e4b](https://github.com/williamboman/mason-lspconfig.nvim/commit/7bc5e4b92bdfcd09e660382201abce53393bfe3b))
+
 ## [1.7.1](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.7.0...v1.7.1) (2023-06-05)
 
 
