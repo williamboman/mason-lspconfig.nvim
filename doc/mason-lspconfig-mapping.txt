@@ -146,6 +146,7 @@ typescript-language-server                tsserver
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
 vala-language-server                      vala_ls
+vale-ls                                   vale_ls
 verible                                   verible
 veryl-ls                                  veryl_ls
 vim-language-server                       vimls

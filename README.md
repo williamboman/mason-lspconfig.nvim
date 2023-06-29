@@ -243,6 +243,7 @@ local DEFAULT_SETTINGS = {
 | Markdown                            | `marksman`                        |
 | Markdown                            | `prosemd_lsp`                     |
 | Markdown                            | `remark_ls`                       |
+| Markdown                            | `vale_ls`                         |
 | Markdown                            | `zk`                              |
 | Metamath Zero                       | `mm0_ls`                          |
 | Move                                | `move_analyzer`                   |
