@@ -147,6 +147,7 @@ M.lspconfig_to_package = {
     ["typst_lsp"] = "typst-lsp",
     ["unocss"] = "unocss-language-server",
     ["vala_ls"] = "vala-language-server",
+    ["vale_ls"] = "vale-ls",
     ["verible"] = "verible",
     ["veryl_ls"] = "veryl-ls",
     ["vimls"] = "vim-language-server",
