@@ -115,6 +115,7 @@ M.lspconfig_to_package = {
     ["robotframework_ls"] = "robotframework-lsp",
     ["rome"] = "rome",
     ["ruby_ls"] = "ruby-lsp",
+    ["rubocop"] = "rubocop",
     ["ruff_lsp"] = "ruff-lsp",
     ["rust_analyzer"] = "rust-analyzer",
     ["salt_ls"] = "salt-lsp",

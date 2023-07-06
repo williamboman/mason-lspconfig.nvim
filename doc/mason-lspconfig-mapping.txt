@@ -113,6 +113,7 @@ rescript-lsp                              rescriptls
 rnix-lsp                                  rnix
 robotframework-lsp                        robotframework_ls
 rome                                      rome
+rubocop                                   rubocop
 ruby-lsp                                  ruby_ls
 ruff-lsp                                  ruff_lsp
 rust-analyzer                             rust_analyzer
