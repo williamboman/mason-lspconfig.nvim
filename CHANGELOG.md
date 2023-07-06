@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.8.0...v1.9.0) (2023-07-06)
+
+
+### Features
+
+* add rubocop ([#252](https://github.com/williamboman/mason-lspconfig.nvim/issues/252)) ([4db15b4](https://github.com/williamboman/mason-lspconfig.nvim/commit/4db15b4a7fdea9eec2d929086650cfbc5480e5c3))
+
 ## [1.8.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.7.1...v1.8.0) (2023-06-29)
 
 
