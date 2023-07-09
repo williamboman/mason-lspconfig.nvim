@@ -245,6 +245,7 @@ local DEFAULT_SETTINGS = {
 | Markdown                            | `remark_ls`                       |
 | Markdown                            | `vale_ls`                         |
 | Markdown                            | `zk`                              |
+| Matlab                              | `matlab_ls`                       |
 | Metamath Zero                       | `mm0_ls`                          |
 | Move                                | `move_analyzer`                   |
 | Nickel                              | `nickel_ls`                       |
