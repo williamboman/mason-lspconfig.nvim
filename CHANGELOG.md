@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.9.0...v1.10.0) (2023-07-09)
+
+
+### Features
+
+* add matlab_ls ([#254](https://github.com/williamboman/mason-lspconfig.nvim/issues/254)) ([11d1fea](https://github.com/williamboman/mason-lspconfig.nvim/commit/11d1feaa256c5a4307a3cb60f01f1a4375e36861))
+
 ## [1.9.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.8.0...v1.9.0) (2023-07-06)
 
 
