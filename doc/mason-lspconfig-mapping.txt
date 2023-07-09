@@ -80,6 +80,7 @@ ltex-ls                                   ltex
 lua-language-server                       lua_ls
 luau-lsp                                  luau_lsp
 marksman                                  marksman
+matlab-language-server                    matlab_ls
 metamath-zero-lsp                         mm0_ls
 move-analyzer                             move_analyzer
 neocmakelsp                               neocmake

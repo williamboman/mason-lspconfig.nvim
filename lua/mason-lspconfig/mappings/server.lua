@@ -80,6 +80,7 @@ M.lspconfig_to_package = {
     ["lua_ls"] = "lua-language-server",
     ["luau_lsp"] = "luau-lsp",
     ["marksman"] = "marksman",
+    ["matlab_ls"] = "matlab-language-server",
     ["mm0_ls"] = "metamath-zero-lsp",
     ["move_analyzer"] = "move-analyzer",
     ["neocmake"] = "neocmakelsp",
