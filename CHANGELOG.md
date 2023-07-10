@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.10.0...v1.11.0) (2023-07-10)
+
+
+### Features
+
+* add emmet_language_server ([#257](https://github.com/williamboman/mason-lspconfig.nvim/issues/257)) ([fab064e](https://github.com/williamboman/mason-lspconfig.nvim/commit/fab064e2475743504ab7a4bfc07aaa2aa631ac61))
+
 ## [1.10.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.9.0...v1.10.0) (2023-07-09)
 
 
