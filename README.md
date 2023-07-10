@@ -205,6 +205,7 @@ local DEFAULT_SETTINGS = {
 | Elixir                              | `elixirls`                        |
 | Elm                                 | `elmls`                           |
 | Ember                               | `ember`                           |
+| Emmet                               | `emmet_language_server`           |
 | Emmet                               | `emmet_ls`                        |
 | Erg                                 | `erg_language_server`             |
 | Erlang                              | `erlangls`                        |
