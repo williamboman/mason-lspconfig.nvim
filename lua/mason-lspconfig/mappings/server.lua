@@ -97,6 +97,7 @@ M.lspconfig_to_package = {
     ["perlnavigator"] = "perlnavigator",
     ["pest_ls"] = "pest-language-server",
     ["phpactor"] = "phpactor",
+    ["pkgbuild_language_server"] = "pkgbuild-language-server",
     ["powershell_es"] = "powershell-editor-services",
     ["prismals"] = "prisma-language-server",
     ["prosemd_lsp"] = "prosemd-lsp",

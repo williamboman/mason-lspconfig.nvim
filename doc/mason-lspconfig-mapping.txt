@@ -96,6 +96,7 @@ openscad-lsp                              openscad_lsp
 perlnavigator                             perlnavigator
 pest-language-server                      pest_ls
 phpactor                                  phpactor
+pkgbuild-language-server                  pkgbuild_language_server
 powershell-editor-services                powershell_es
 prisma-language-server                    prismals
 prosemd-lsp                               prosemd_lsp

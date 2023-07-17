@@ -2,6 +2,7 @@
 -- stylua: ignore start
 return {
   OpenFOAM = { "foam_ls" },
+  PKGBUILD = { "pkgbuild_language_server" },
   ada = { "als" },
   antlers = { "antlersls" },
   apexcode = { "apex_ls" },
