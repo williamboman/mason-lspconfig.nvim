@@ -171,6 +171,7 @@ local DEFAULT_SETTINGS = {
 | Astro                               | `astro`                           |
 | Azure Pipelines                     | `azure_pipelines_ls`              |
 | Bash                                | `bashls`                          |
+| Bash                                | `pkgbuild_language_server`        |
 | Beancount                           | `beancount`                       |
 | Bicep                               | `bicep`                           |
 | BrighterScript                      | `bright_script`                   |
