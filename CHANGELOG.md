@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.11.0...v1.12.0) (2023-07-21)
+
+
+### Features
+
+* add pkgbuild_language_server ([#260](https://github.com/williamboman/mason-lspconfig.nvim/issues/260)) ([dbedd87](https://github.com/williamboman/mason-lspconfig.nvim/commit/dbedd87ddf24a073a1159e4622ba1cf1521618ac))
+
 ## [1.11.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.10.0...v1.11.0) (2023-07-10)
 
 
