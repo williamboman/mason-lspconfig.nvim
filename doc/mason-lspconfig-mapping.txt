@@ -71,6 +71,7 @@ intelephense                              intelephense
 java-language-server                      java_language_server
 jdtls                                     jdtls
 jedi-language-server                      jedi_language_server
+jq-lsp                                    jqls
 json-lsp                                  jsonls
 jsonnet-language-server                   jsonnet_ls
 julia-lsp                                 julials
