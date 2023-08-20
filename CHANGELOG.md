@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.12.0...v1.13.0) (2023-08-20)
+
+
+### Features
+
+* add jq-lsp mapping ([#266](https://github.com/williamboman/mason-lspconfig.nvim/issues/266)) ([b2f6258](https://github.com/williamboman/mason-lspconfig.nvim/commit/b2f62581715162cdc379a46cdce51d015c6cd1f2))
+
 ## [1.12.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.11.0...v1.12.0) (2023-07-21)
 
 
