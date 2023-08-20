@@ -74,6 +74,7 @@ M.lspconfig_to_package = {
     ["jsonls"] = "json-lsp",
     ["jsonnet_ls"] = "jsonnet-language-server",
     ["julials"] = "julia-lsp",
+    ["jqls"] = "jq-lsp",
     ["kotlin_language_server"] = "kotlin-language-server",
     ["lelwel_ls"] = "lelwel",
     ["lemminx"] = "lemminx",

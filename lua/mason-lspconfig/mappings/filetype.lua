@@ -81,6 +81,7 @@ return {
   ["javascript.glimmer"] = { "ember", "glint" },
   ["javascript.jsx"] = { "custom_elements_ls", "denols", "eslint", "tsserver", "vtsls" },
   javascriptreact = { "cssmodules_ls", "custom_elements_ls", "denols", "emmet_language_server", "emmet_ls", "eslint", "graphql", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "unocss", "vtsls" },
+  jq = { "jqls" },
   json = { "jsonls", "rome", "spectral" },
   jsonc = { "jsonls" },
   jsonnet = { "jsonnet_ls" },
