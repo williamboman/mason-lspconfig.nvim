@@ -236,7 +236,7 @@ local DEFAULT_SETTINGS = {
 | JavaScript                          | `vtsls`                           |
 | Jsonnet                             | `jsonnet_ls`                      |
 | Julia [(docs)][julials]             | `julials`                         |
-| jq.                                 | `jqls`                            |
+| jq                                  | `jqls`                            |
 | Kotlin                              | `kotlin_language_server`          |
 | LaTeX                               | `ltex`                            |
 | LaTeX                               | `texlab`                          |
