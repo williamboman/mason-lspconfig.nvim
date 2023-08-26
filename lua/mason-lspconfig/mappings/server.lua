@@ -82,6 +82,7 @@ M.lspconfig_to_package = {
     ["lua_ls"] = "lua-language-server",
     ["luau_lsp"] = "luau-lsp",
     ["marksman"] = "marksman",
+    ["mdx_analyzer"] = "mdx-analyzer",
     ["matlab_ls"] = "matlab-language-server",
     ["mm0_ls"] = "metamath-zero-lsp",
     ["move_analyzer"] = "move-analyzer",
