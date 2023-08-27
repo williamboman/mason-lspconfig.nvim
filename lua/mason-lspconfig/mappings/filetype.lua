@@ -77,7 +77,7 @@ return {
   htmldjango = { "emmet_language_server", "emmet_ls", "tailwindcss" },
   jade = { "tailwindcss" },
   java = { "java_language_server", "jdtls" },
-  javascript = { "cssmodules_ls", "custom_elements_ls", "denols", "ember", "emmet_ls", "eslint", "glint", "quick_lint_js", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "vtsls" },
+  javascript = { "cssmodules_ls", "custom_elements_ls", "denols", "ember", "eslint", "glint", "quick_lint_js", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "vtsls" },
   ["javascript.glimmer"] = { "ember", "glint" },
   ["javascript.jsx"] = { "custom_elements_ls", "denols", "eslint", "tsserver", "vtsls" },
   javascriptreact = { "cssmodules_ls", "custom_elements_ls", "denols", "emmet_language_server", "emmet_ls", "eslint", "graphql", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "unocss", "vtsls" },
