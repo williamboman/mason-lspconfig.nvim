@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.13.0...v1.14.0) (2023-08-27)
+
+
+### Features
+
+* add mdx_analyzer ([#268](https://github.com/williamboman/mason-lspconfig.nvim/issues/268)) ([047438f](https://github.com/williamboman/mason-lspconfig.nvim/commit/047438fceff58b26520e3a6487724fad9536f158))
+
 ## [1.13.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.12.0...v1.13.0) (2023-08-20)
 
 
