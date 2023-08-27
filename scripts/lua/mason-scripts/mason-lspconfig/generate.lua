@@ -41,9 +41,6 @@ end
 local function ensure_valid_package_name_translations()
     local server_mappings = require "mason-lspconfig.mappings.server"
     local registry = require "mason-registry"
-    require("mason-registry.sources").set_registries {
-        "lua:mason-registry.index",
-    }
 
     for lspconfig_server, mason_package in pairs(server_mappings.lspconfig_to_package) do
         local server_config = lspconfig[lspconfig_server]

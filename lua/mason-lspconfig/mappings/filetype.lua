@@ -96,6 +96,7 @@ return {
   lua = { "lua_ls" },
   luau = { "luau_lsp" },
   markdown = { "grammarly", "ltex", "marksman", "prosemd_lsp", "remark_ls", "tailwindcss", "vale_ls", "zk" },
+  ["markdown.mdx"] = { "mdx_analyzer" },
   matlab = { "matlab_ls" },
   mdx = { "tailwindcss" },
   ["metamath-zero"] = { "mm0_ls" },
