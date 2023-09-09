@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.14.0...v1.15.0) (2023-09-09)
+
+
+### Features
+
+* add `biome` ([#271](https://github.com/williamboman/mason-lspconfig.nvim/issues/271)) ([1e10ef5](https://github.com/williamboman/mason-lspconfig.nvim/commit/1e10ef512d8f7038bfbb651c894dfc8ae2521b57))
+
 ## [1.14.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.13.0...v1.14.0) (2023-08-27)
 
 
