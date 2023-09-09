@@ -229,11 +229,13 @@ local DEFAULT_SETTINGS = {
 | Helm                                | `helm_ls`                         |
 | Hoon                                | `hoon_ls`                         |
 | JSON                                | `jsonls`                          |
+| JSON                                | `biome`                         |
 | Java                                | `jdtls`                           |
 | Java                                | `java_language_server`            |
 | JavaScript                          | `quick_lint_js`                   |
 | JavaScript                          | `tsserver`                        |
 | JavaScript                          | `vtsls`                           |
+| JavaScript                          | `biome`                         |
 | Jsonnet                             | `jsonnet_ls`                      |
 | Julia [(docs)][julials]             | `julials`                         |
 | jq                                  | `jqls`                            |
@@ -311,6 +313,7 @@ local DEFAULT_SETTINGS = {
 | Terraform                           | `terraformls`                     |
 | Terraform                           | `tflint`                          |
 | TypeScript                          | `tsserver`                        |
+| TypeScript                          | `biome`                         |
 | TypeScript                          | `vtsls`                           |
 | Typst                               | `typst_lsp`                       |
 | V                                   | `vls`                             |

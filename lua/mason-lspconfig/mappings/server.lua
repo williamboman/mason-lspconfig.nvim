@@ -17,6 +17,7 @@ M.lspconfig_to_package = {
     ["bashls"] = "bash-language-server",
     ["beancount"] = "beancount-language-server",
     ["bicep"] = "bicep-lsp",
+    ["biome"] = "biome",
     ["bright_script"] = "brighterscript",
     ["bsl_ls"] = "bsl-language-server",
     ["bufls"] = "buf-language-server",

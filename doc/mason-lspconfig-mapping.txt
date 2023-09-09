@@ -17,6 +17,7 @@ azure-pipelines-language-server           azure_pipelines_ls
 bash-language-server                      bashls
 beancount-language-server                 beancount
 bicep-lsp                                 bicep
+biome                                     biome
 brighterscript                            bright_script
 bsl-language-server                       bsl_ls
 buf-language-server                       bufls
