@@ -14,6 +14,7 @@
 | [bashls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bashls) | [bash-language-server](https://mason-registry.dev/registry/list#bash-language-server) |
 | [beancount](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#beancount) | [beancount-language-server](https://mason-registry.dev/registry/list#beancount-language-server) |
 | [bicep](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bicep) | [bicep-lsp](https://mason-registry.dev/registry/list#bicep-lsp) |
+| [biome](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#biome) | [biome](https://mason-registry.dev/registry/list#biome) |
 | [bright_script](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bright_script) | [brighterscript](https://mason-registry.dev/registry/list#brighterscript) |
 | [bsl_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bsl_ls) | [bsl-language-server](https://mason-registry.dev/registry/list#bsl-language-server) |
 | [bufls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bufls) | [buf-language-server](https://mason-registry.dev/registry/list#buf-language-server) |
