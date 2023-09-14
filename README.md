@@ -312,8 +312,9 @@ local DEFAULT_SETTINGS = {
 | Teal                                | `teal_ls`                         |
 | Terraform                           | `terraformls`                     |
 | Terraform                           | `tflint`                          |
+| Thrift                              | `thriftls`                        |
+| TypeScript                          | `biome`                           |
 | TypeScript                          | `tsserver`                        |
-| TypeScript                          | `biome`                         |
 | TypeScript                          | `vtsls`                           |
 | Typst                               | `typst_lsp`                       |
 | V                                   | `vls`                             |

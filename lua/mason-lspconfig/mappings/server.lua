@@ -150,6 +150,7 @@ M.lspconfig_to_package = {
     ["texlab"] = "texlab",
     ["tflint"] = "tflint",
     ["theme_check"] = "shopify-theme-check",
+    ["thriftls"] = "thriftls",
     ["tsserver"] = "typescript-language-server",
     ["typst_lsp"] = "typst-lsp",
     ["unocss"] = "unocss-language-server",
@@ -167,7 +168,6 @@ M.lspconfig_to_package = {
     ["yamlls"] = "yaml-language-server",
     ["zk"] = "zk",
     ["zls"] = "zls",
-    ["thriftls"] = "thriftls",
 }
 
 M.package_to_lspconfig = _.invert(M.lspconfig_to_package)
