@@ -165,6 +165,7 @@ return {
   ["terraform-vars"] = { "terraformls" },
   tex = { "ltex", "texlab" },
   text = { "vale_ls" },
+  thrift = { "thriftls" },
   toml = { "taplo" },
   twig = { "tailwindcss" },
   typescript = { "angularls", "biome", "cssmodules_ls", "custom_elements_ls", "denols", "ember", "eslint", "glint", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "vtsls" },
@@ -193,6 +194,5 @@ return {
   ["yaml.docker-compose"] = { "docker_compose_language_service", "yamlls" },
   yml = { "spectral" },
   zig = { "zls" },
-  zir = { "zls" },
-  thrift = { "thrift" }
+  zir = { "zls" }
 }

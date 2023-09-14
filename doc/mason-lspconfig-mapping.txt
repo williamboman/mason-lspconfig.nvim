@@ -149,6 +149,7 @@ terraform-ls                              terraformls
 texlab                                    texlab
 tflint                                    tflint
 shopify-theme-check                       theme_check
+thriftls                                  thriftls
 typescript-language-server                tsserver
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
@@ -166,6 +167,5 @@ wgsl-analyzer                             wgsl_analyzer
 yaml-language-server                      yamlls
 zk                                        zk
 zls                                       zls
-thrift                                    thriftls
 
 vim:tw=78:ft=help:norl:expandtab:sw=4
