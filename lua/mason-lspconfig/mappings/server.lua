@@ -150,6 +150,7 @@ M.lspconfig_to_package = {
     ["texlab"] = "texlab",
     ["tflint"] = "tflint",
     ["theme_check"] = "shopify-theme-check",
+    ["thriftls"] = "thriftls",
     ["tsserver"] = "typescript-language-server",
     ["typst_lsp"] = "typst-lsp",
     ["unocss"] = "unocss-language-server",

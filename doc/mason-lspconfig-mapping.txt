@@ -149,6 +149,7 @@ terraform-ls                              terraformls
 texlab                                    texlab
 tflint                                    tflint
 shopify-theme-check                       theme_check
+thriftls                                  thriftls
 typescript-language-server                tsserver
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
