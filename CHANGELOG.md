@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.15.0...v1.16.0) (2023-09-14)
+
+
+### Features
+
+* add thriftls ([#276](https://github.com/williamboman/mason-lspconfig.nvim/issues/276)) ([878afbd](https://github.com/williamboman/mason-lspconfig.nvim/commit/878afbdf9f041142306976c583bdbf1aba1395d7))
+
 ## [1.15.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.14.0...v1.15.0) (2023-09-09)
 
 
