@@ -193,5 +193,6 @@ return {
   ["yaml.docker-compose"] = { "docker_compose_language_service", "yamlls" },
   yml = { "spectral" },
   zig = { "zls" },
-  zir = { "zls" }
+  zir = { "zls" },
+  thrift = { "thrift" }
 }

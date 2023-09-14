@@ -167,6 +167,7 @@ M.lspconfig_to_package = {
     ["yamlls"] = "yaml-language-server",
     ["zk"] = "zk",
     ["zls"] = "zls",
+    ["thriftls"] = "thriftls",
 }
 
 M.package_to_lspconfig = _.invert(M.lspconfig_to_package)

@@ -166,5 +166,6 @@ wgsl-analyzer                             wgsl_analyzer
 yaml-language-server                      yamlls
 zk                                        zk
 zls                                       zls
+thrift                                    thriftls
 
 vim:tw=78:ft=help:norl:expandtab:sw=4

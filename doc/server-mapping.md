@@ -163,3 +163,4 @@
 | [yamlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#yamlls) | [yaml-language-server](https://mason-registry.dev/registry/list#yaml-language-server) |
 | [zk](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#zk) | [zk](https://mason-registry.dev/registry/list#zk) |
 | [zls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#zls) | [zls](https://mason-registry.dev/registry/list#zls) |
+| [thrift](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#thrift) | [thrift](https://mason-registry.dev/registry/list#thriftls) |
