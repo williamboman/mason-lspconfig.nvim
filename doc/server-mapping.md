@@ -142,6 +142,7 @@
 | [tailwindcss](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tailwindcss) | [tailwindcss-language-server](https://mason-registry.dev/registry/list#tailwindcss-language-server) |
 | [taplo](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#taplo) | [taplo](https://mason-registry.dev/registry/list#taplo) |
 | [teal_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#teal_ls) | [teal-language-server](https://mason-registry.dev/registry/list#teal-language-server) |
+| [templ](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#templ) | [templ](https://mason-registry.dev/registry/list#templ) |
 | [terraformls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#terraformls) | [terraform-ls](https://mason-registry.dev/registry/list#terraform-ls) |
 | [texlab](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#texlab) | [texlab](https://mason-registry.dev/registry/list#texlab) |
 | [tflint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tflint) | [tflint](https://mason-registry.dev/registry/list#tflint) |

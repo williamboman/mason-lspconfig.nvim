@@ -146,6 +146,7 @@ M.lspconfig_to_package = {
     ["tailwindcss"] = "tailwindcss-language-server",
     ["taplo"] = "taplo",
     ["teal_ls"] = "teal-language-server",
+    ["templ"] = "templ",
     ["terraformls"] = "terraform-ls",
     ["texlab"] = "texlab",
     ["tflint"] = "tflint",

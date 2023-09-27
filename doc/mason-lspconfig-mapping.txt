@@ -145,6 +145,7 @@ svls                                      svls
 tailwindcss-language-server               tailwindcss
 taplo                                     taplo
 teal-language-server                      teal_ls
+templ                                     templ
 terraform-ls                              terraformls
 texlab                                    texlab
 tflint                                    tflint
