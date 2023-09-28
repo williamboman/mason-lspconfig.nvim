@@ -254,6 +254,7 @@ local DEFAULT_SETTINGS = {
 | MDX                                 | `mdx_analyzer`                    |
 | Metamath Zero                       | `mm0_ls`                          |
 | Move                                | `move_analyzer`                   |
+| Mutt                                | `mutt_ls`                         |
 | Nickel                              | `nickel_ls`                       |
 | Nim                                 | `nimls`                           |
 | Nix                                 | `nil_ls`                          |

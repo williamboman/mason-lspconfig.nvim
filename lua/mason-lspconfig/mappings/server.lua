@@ -87,6 +87,7 @@ M.lspconfig_to_package = {
     ["matlab_ls"] = "matlab-language-server",
     ["mm0_ls"] = "metamath-zero-lsp",
     ["move_analyzer"] = "move-analyzer",
+    ["mutt_ls"] = "mutt-language-server",
     ["neocmake"] = "neocmakelsp",
     ["nickel_ls"] = "nickel-lang-lsp",
     ["nil_ls"] = "nil",

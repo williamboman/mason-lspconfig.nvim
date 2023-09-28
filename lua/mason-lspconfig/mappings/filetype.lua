@@ -132,7 +132,7 @@ return {
   pug = { "emmet_language_server", "emmet_ls" },
   puppet = { "puppet" },
   purescript = { "purescriptls" },
-  python = { "jedi_language_server", "pylsp", "pylyzer", "pyre", "pyright", "ruff_lsp", "sourcery" },
+  python = { "jedi_language_server", "mutt_ls", "pylsp", "pylyzer", "pyre", "pyright", "ruff_lsp", "sourcery" },
   ql = { "codeqlls" },
   r = { "r_language_server" },
   raku = { "raku_navigator" },
