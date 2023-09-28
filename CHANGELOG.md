@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.17.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.16.0...v1.17.0) (2023-09-28)
+
+
+### Features
+
+* add mutt-language-server support ([#283](https://github.com/williamboman/mason-lspconfig.nvim/issues/283)) ([517924a](https://github.com/williamboman/mason-lspconfig.nvim/commit/517924aba919f2b2cc149969195c26cd4fd43b7d))
+* add templ support ([#282](https://github.com/williamboman/mason-lspconfig.nvim/issues/282)) ([80c4262](https://github.com/williamboman/mason-lspconfig.nvim/commit/80c4262a62dfc70526e4dbddc787a2185634f312))
+
 ## [1.16.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.15.0...v1.16.0) (2023-09-14)
 
 
