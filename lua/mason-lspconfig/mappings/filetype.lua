@@ -161,6 +161,7 @@ return {
   svg = { "lemminx" },
   systemverilog = { "svlangserver", "svls", "verible" },
   teal = { "teal_ls" },
+  templ = { "templ" },
   terraform = { "terraformls", "tflint" },
   ["terraform-vars"] = { "terraformls" },
   tex = { "ltex", "texlab" },

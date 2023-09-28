@@ -310,6 +310,7 @@ local DEFAULT_SETTINGS = {
 | TOML                                | `taplo`                           |
 | Tailwind CSS                        | `tailwindcss`                     |
 | Teal                                | `teal_ls`                         |
+| Templ                               | `templ`                           |
 | Terraform                           | `terraformls`                     |
 | Terraform                           | `tflint`                          |
 | Thrift                              | `thriftls`                        |
