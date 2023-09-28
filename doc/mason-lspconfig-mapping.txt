@@ -87,6 +87,7 @@ matlab-language-server                    matlab_ls
 mdx-analyzer                              mdx_analyzer
 metamath-zero-lsp                         mm0_ls
 move-analyzer                             move_analyzer
+mutt-language-server                      mutt_ls
 neocmakelsp                               neocmake
 nickel-lang-lsp                           nickel_ls
 nil                                       nil_ls
