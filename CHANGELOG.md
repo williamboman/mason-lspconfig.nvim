@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.1](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.17.0...v1.17.1) (2023-09-29)
+
+
+### Bug Fixes
+
+* **apex_ls:** fix jar location ([#289](https://github.com/williamboman/mason-lspconfig.nvim/issues/289)) ([968ebd9](https://github.com/williamboman/mason-lspconfig.nvim/commit/968ebd9893ecdc310c76c6162bf82cf8acb790f8))
+
 ## [1.17.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.16.0...v1.17.0) (2023-09-28)
 
 
