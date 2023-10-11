@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.18.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.17.1...v1.18.0) (2023-10-11)
+
+
+### Features
+
+* add support for swift-mesonlsp ([#295](https://github.com/williamboman/mason-lspconfig.nvim/issues/295)) ([6e4a086](https://github.com/williamboman/mason-lspconfig.nvim/commit/6e4a0865413a6bac57b090a871202b3c1d41296c))
+
 ## [1.17.1](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.17.0...v1.17.1) (2023-09-29)
 
 
