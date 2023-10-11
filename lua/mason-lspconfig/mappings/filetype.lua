@@ -99,6 +99,7 @@ return {
   ["markdown.mdx"] = { "marksman", "mdx_analyzer" },
   matlab = { "matlab_ls" },
   mdx = { "tailwindcss" },
+  meson = { "swift_mesonls" },
   ["metamath-zero"] = { "mm0_ls" },
   move = { "move_analyzer" },
   mustache = { "tailwindcss" },

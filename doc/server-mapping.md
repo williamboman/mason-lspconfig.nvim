@@ -140,6 +140,7 @@
 | [svelte](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svelte) | [svelte-language-server](https://mason-registry.dev/registry/list#svelte-language-server) |
 | [svlangserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svlangserver) | [svlangserver](https://mason-registry.dev/registry/list#svlangserver) |
 | [svls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svls) | [svls](https://mason-registry.dev/registry/list#svls) |
+| [swift_mesonls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#swift_mesonls) | [swift-mesonlsp](https://mason-registry.dev/registry/list#swift-mesonlsp) |
 | [tailwindcss](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tailwindcss) | [tailwindcss-language-server](https://mason-registry.dev/registry/list#tailwindcss-language-server) |
 | [taplo](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#taplo) | [taplo](https://mason-registry.dev/registry/list#taplo) |
 | [teal_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#teal_ls) | [teal-language-server](https://mason-registry.dev/registry/list#teal-language-server) |
