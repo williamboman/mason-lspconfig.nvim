@@ -144,6 +144,7 @@ M.lspconfig_to_package = {
     ["svelte"] = "svelte-language-server",
     ["svlangserver"] = "svlangserver",
     ["svls"] = "svls",
+    ["swift_mesonls"] = "swift-mesonlsp",
     ["tailwindcss"] = "tailwindcss-language-server",
     ["taplo"] = "taplo",
     ["teal_ls"] = "teal-language-server",
