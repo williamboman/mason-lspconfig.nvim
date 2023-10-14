@@ -58,6 +58,7 @@ return {
   gleam = { "gleam" },
   go = { "golangci_lint_ls", "gopls" },
   gohtml = { "tailwindcss" },
+  gohtmltmpl = { "tailwindcss" },
   gomod = { "golangci_lint_ls", "gopls" },
   gotmpl = { "gopls" },
   gowork = { "gopls" },
