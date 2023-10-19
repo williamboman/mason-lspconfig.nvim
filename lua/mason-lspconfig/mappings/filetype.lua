@@ -46,7 +46,7 @@ return {
   elm = { "elmls" },
   erb = { "tailwindcss" },
   erg = { "erg_language_server" },
-  erlang = { "erlangls" },
+  erlang = { "erlangls", "elp" },
   eruby = { "emmet_language_server", "emmet_ls", "tailwindcss" },
   fennel = { "fennel_language_server" },
   flux = { "flux_lsp" },
