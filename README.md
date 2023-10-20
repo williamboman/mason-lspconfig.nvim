@@ -209,6 +209,7 @@ local DEFAULT_SETTINGS = {
 | Emmet                               | `emmet_language_server`           |
 | Emmet                               | `emmet_ls`                        |
 | Erg                                 | `erg_language_server`             |
+| Erlang                              | `elp`                             |
 | Erlang                              | `erlangls`                        |
 | F#                                  | `fsautocomplete`                  |
 | Fennel                              | `fennel_language_server`          |
