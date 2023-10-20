@@ -43,6 +43,7 @@ drools-lsp                                drools_lsp
 efm                                       efm
 elixir-ls                                 elixirls
 elm-language-server                       elmls
+elp                                       elp
 ember-language-server                     ember
 emmet-language-server                     emmet_language_server
 emmet-ls                                  emmet_ls

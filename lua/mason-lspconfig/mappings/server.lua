@@ -43,6 +43,7 @@ M.lspconfig_to_package = {
     ["efm"] = "efm",
     ["elixirls"] = "elixir-ls",
     ["elmls"] = "elm-language-server",
+    ["elp"] = "elp",
     ["ember"] = "ember-language-server",
     ["emmet_language_server"] = "emmet-language-server",
     ["emmet_ls"] = "emmet-ls",
