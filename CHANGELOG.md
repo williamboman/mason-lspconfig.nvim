@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.19.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.18.0...v1.19.0) (2023-10-20)
+
+
+### Features
+
+* add elp ([#300](https://github.com/williamboman/mason-lspconfig.nvim/issues/300)) ([45ee938](https://github.com/williamboman/mason-lspconfig.nvim/commit/45ee938decb7919e994985a9ddbd20b3216c3c61))
+
 ## [1.18.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.17.1...v1.18.0) (2023-10-11)
 
 
