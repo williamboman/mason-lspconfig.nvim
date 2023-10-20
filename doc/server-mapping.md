@@ -40,6 +40,7 @@
 | [efm](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#efm) | [efm](https://mason-registry.dev/registry/list#efm) |
 | [elixirls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elixirls) | [elixir-ls](https://mason-registry.dev/registry/list#elixir-ls) |
 | [elmls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elmls) | [elm-language-server](https://mason-registry.dev/registry/list#elm-language-server) |
+| [elp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elp) | [elp](https://mason-registry.dev/registry/list#elp) |
 | [ember](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ember) | [ember-language-server](https://mason-registry.dev/registry/list#ember-language-server) |
 | [emmet_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#emmet_language_server) | [emmet-language-server](https://mason-registry.dev/registry/list#emmet-language-server) |
 | [emmet_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#emmet_ls) | [emmet-ls](https://mason-registry.dev/registry/list#emmet-ls) |
