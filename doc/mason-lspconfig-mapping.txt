@@ -21,6 +21,7 @@ biome                                     biome
 brighterscript                            bright_script
 bsl-language-server                       bsl_ls
 buf-language-server                       bufls
+cairo-language-server                     cairo_ls
 clangd                                    clangd
 clarity-lsp                               clarity_lsp
 clojure-lsp                               clojure_lsp

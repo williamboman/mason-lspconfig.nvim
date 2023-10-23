@@ -20,6 +20,7 @@ return {
   brs = { "bright_script" },
   bsl = { "bsl_ls" },
   c = { "clangd" },
+  cairo = { "cairo_ls" },
   clar = { "clarity_lsp" },
   clarity = { "clarity_lsp" },
   clojure = { "clojure_lsp", "tailwindcss" },
