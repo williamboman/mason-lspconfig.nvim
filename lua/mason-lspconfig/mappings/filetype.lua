@@ -109,7 +109,7 @@ return {
   ncl = { "nickel_ls" },
   neomuttrc = { "mutt_ls" },
   nickel = { "nickel_ls" },
-  nim = { "nimls" },
+  nim = { "nim_langserver", "nimls" },
   nix = { "nil_ls", "rnix" },
   njk = { "tailwindcss" },
   nunjucks = { "tailwindcss" },
