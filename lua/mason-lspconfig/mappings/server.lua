@@ -92,6 +92,7 @@ M.lspconfig_to_package = {
     ["neocmake"] = "neocmakelsp",
     ["nickel_ls"] = "nickel-lang-lsp",
     ["nil_ls"] = "nil",
+    ["nim_langserver"] = "nimlangserver",
     ["nimls"] = "nimlsp",
     ["ocamllsp"] = "ocaml-lsp",
     ["ols"] = "ols",
