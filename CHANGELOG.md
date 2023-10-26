@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.20.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.19.0...v1.20.0) (2023-10-26)
+
+
+### Features
+
+* add `nim_langserver` support ([#304](https://github.com/williamboman/mason-lspconfig.nvim/issues/304)) ([7118be1](https://github.com/williamboman/mason-lspconfig.nvim/commit/7118be1ffe2b8d0a2bdeddf5b62af3b1bede1d76))
+
 ## [1.19.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.18.0...v1.19.0) (2023-10-20)
 
 
