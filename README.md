@@ -181,6 +181,7 @@ local DEFAULT_SETTINGS = {
 | C# [(docs)][omnisharp]              | `omnisharp_mono`                  |
 | C# [(docs)][omnisharp]              | `omnisharp`                       |
 | C++                                 | `clangd`                          |
+| Cairo                               | `cairo_ls`                        |
 | CMake                               | `cmake`                           |
 | CMake                               | `neocmake`                        |
 | CSS                                 | `cssls`                           |

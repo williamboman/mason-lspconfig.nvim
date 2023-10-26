@@ -21,6 +21,7 @@ M.lspconfig_to_package = {
     ["bright_script"] = "brighterscript",
     ["bsl_ls"] = "bsl-language-server",
     ["bufls"] = "buf-language-server",
+    ["cairo_ls"] = "cairo-language-server",
     ["clangd"] = "clangd",
     ["clarity_lsp"] = "clarity-lsp",
     ["clojure_lsp"] = "clojure-lsp",
