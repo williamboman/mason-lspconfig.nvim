@@ -258,6 +258,7 @@ local DEFAULT_SETTINGS = {
 | Move                                | `move_analyzer`                   |
 | Mutt                                | `mutt_ls`                         |
 | Nickel                              | `nickel_ls`                       |
+| Nim                                 | `nim_langserver`                  |
 | Nim                                 | `nimls`                           |
 | Nix                                 | `nil_ls`                          |
 | Nix                                 | `rnix`                            |
