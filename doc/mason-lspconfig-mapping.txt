@@ -11,6 +11,7 @@ antlers-language-server                   antlersls
 apex-language-server                      apex_ls
 arduino-language-server                   arduino_language_server
 asm-lsp                                   asm_lsp
+ast-grep                                  ast_grep
 astro-language-server                     astro
 awk-language-server                       awk_ls
 azure-pipelines-language-server           azure_pipelines_ls
