@@ -31,6 +31,7 @@
 | [cssmodules_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssmodules_ls) | [cssmodules-language-server](https://mason-registry.dev/registry/list#cssmodules-language-server) |
 | [cucumber_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cucumber_language_server) | [cucumber-language-server](https://mason-registry.dev/registry/list#cucumber-language-server) |
 | [custom_elements_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#custom_elements_ls) | [custom-elements-languageserver](https://mason-registry.dev/registry/list#custom-elements-languageserver) |
+| [cypher_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cypher_ls) | [cypher-language-server](https://mason-registry.dev/registry/list#cypher-language-server) |
 | [dagger](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dagger) | [cuelsp](https://mason-registry.dev/registry/list#cuelsp) |
 | [denols](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#denols) | [deno](https://mason-registry.dev/registry/list#deno) |
 | [dhall_lsp_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dhall_lsp_server) | [dhall-lsp](https://mason-registry.dev/registry/list#dhall-lsp) |

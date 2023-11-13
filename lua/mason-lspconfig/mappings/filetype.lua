@@ -32,6 +32,7 @@ return {
   cucumber = { "cucumber_language_server" },
   cuda = { "clangd" },
   cue = { "dagger" },
+  cypher = { "cypher_ls" },
   d = { "serve_d" },
   dart = { "ast_grep" },
   dhall = { "dhall_lsp_server" },

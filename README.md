@@ -195,6 +195,7 @@ local DEFAULT_SETTINGS = {
 | Cucumber                            | `cucumber_language_server`        |
 | Custom Elements Language Server     | `custom_elements_ls`              |
 | Cue                                 | `dagger`                          |
+| Cypher                              | `cypher_ls`                       |
 | Deno                                | `denols`                          |
 | Dhall                               | `dhall_lsp_server`                |
 | Diagnostic (general purpose server) | `diagnosticls`                    |
