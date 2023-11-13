@@ -8,6 +8,7 @@
 | [apex_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#apex_ls) | [apex-language-server](https://mason-registry.dev/registry/list#apex-language-server) |
 | [arduino_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#arduino_language_server) | [arduino-language-server](https://mason-registry.dev/registry/list#arduino-language-server) |
 | [asm_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#asm_lsp) | [asm-lsp](https://mason-registry.dev/registry/list#asm-lsp) |
+| [ast_grep](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ast_grep) | [ast-grep](https://mason-registry.dev/registry/list#ast-grep) |
 | [astro](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#astro) | [astro-language-server](https://mason-registry.dev/registry/list#astro-language-server) |
 | [awk_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#awk_ls) | [awk-language-server](https://mason-registry.dev/registry/list#awk-language-server) |
 | [azure_pipelines_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#azure_pipelines_ls) | [azure-pipelines-language-server](https://mason-registry.dev/registry/list#azure-pipelines-language-server) |

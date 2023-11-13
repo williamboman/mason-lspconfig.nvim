@@ -11,6 +11,7 @@ M.lspconfig_to_package = {
     ["apex_ls"] = "apex-language-server",
     ["arduino_language_server"] = "arduino-language-server",
     ["asm_lsp"] = "asm-lsp",
+    ["ast_grep"] = "ast-grep",
     ["astro"] = "astro-language-server",
     ["awk_ls"] = "awk-language-server",
     ["azure_pipelines_ls"] = "azure-pipelines-language-server",
