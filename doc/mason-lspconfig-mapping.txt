@@ -33,8 +33,8 @@ css-lsp                                   cssls
 cssmodules-language-server                cssmodules_ls
 cucumber-language-server                  cucumber_language_server
 custom-elements-languageserver            custom_elements_ls
-cuelsp                                    dagger
 cypher-language-server                    cypher_ls
+cuelsp                                    dagger
 deno                                      denols
 dhall-lsp                                 dhall_lsp_server
 diagnostic-languageserver                 diagnosticls
