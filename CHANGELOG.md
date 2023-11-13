@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.21.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.20.0...v1.21.0) (2023-11-13)
+
+
+### Features
+
+* add `cypher_ls` support ([#312](https://github.com/williamboman/mason-lspconfig.nvim/issues/312)) ([c3a6ea2](https://github.com/williamboman/mason-lspconfig.nvim/commit/c3a6ea22856dc85e5d441eadfe68cdd58c1d1f25))
+* add ast-grep mapping ([#309](https://github.com/williamboman/mason-lspconfig.nvim/issues/309)) ([6e4ffa1](https://github.com/williamboman/mason-lspconfig.nvim/commit/6e4ffa16a8e9e6860e58481442585937b2fcc118))
+* add cairo-language-server cairo_ls mapping ([#303](https://github.com/williamboman/mason-lspconfig.nvim/issues/303)) ([40301e1](https://github.com/williamboman/mason-lspconfig.nvim/commit/40301e1c74bc0946eece13edf2b1c561cc497491))
+
 ## [1.20.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.19.0...v1.20.0) (2023-10-26)
 
 
