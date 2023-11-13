@@ -160,6 +160,7 @@ local DEFAULT_SETTINGS = {
 
 | Language                            | Server name                       |
 | ----------------------------------- | --------------------------------- |
+| ast-grep                            | `ast_grep`                        |
 | AWK                                 | `awk_ls`                          |
 | Ada                                 | `als`                             |
 | Angular                             | `angularls`                       |
@@ -231,13 +232,13 @@ local DEFAULT_SETTINGS = {
 | Helm                                | `helm_ls`                         |
 | Hoon                                | `hoon_ls`                         |
 | JSON                                | `jsonls`                          |
-| JSON                                | `biome`                         |
+| JSON                                | `biome`                           |
 | Java                                | `jdtls`                           |
 | Java                                | `java_language_server`            |
 | JavaScript                          | `quick_lint_js`                   |
 | JavaScript                          | `tsserver`                        |
 | JavaScript                          | `vtsls`                           |
-| JavaScript                          | `biome`                         |
+| JavaScript                          | `biome`                           |
 | Jsonnet                             | `jsonnet_ls`                      |
 | Julia [(docs)][julials]             | `julials`                         |
 | jq                                  | `jqls`                            |
