@@ -32,6 +32,7 @@ return {
   cucumber = { "cucumber_language_server" },
   cuda = { "clangd" },
   cue = { "dagger" },
+  cypher = { "cypher_ls" },
   d = { "serve_d" },
   dhall = { "dhall_lsp_server" },
   ["django-html"] = { "tailwindcss" },
