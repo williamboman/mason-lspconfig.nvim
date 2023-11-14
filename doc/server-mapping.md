@@ -51,6 +51,7 @@
 | [erlangls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#erlangls) | [erlang-ls](https://mason-registry.dev/registry/list#erlang-ls) |
 | [esbonio](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#esbonio) | [esbonio](https://mason-registry.dev/registry/list#esbonio) |
 | [eslint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#eslint) | [eslint-lsp](https://mason-registry.dev/registry/list#eslint-lsp) |
+| [facility_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#facility_language_server) | [facility-language-server](https://mason-registry.dev/registry/list#facility-language-server) |
 | [fennel_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#fennel_language_server) | [fennel-language-server](https://mason-registry.dev/registry/list#fennel-language-server) |
 | [flux_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#flux_lsp) | [flux-lsp](https://mason-registry.dev/registry/list#flux-lsp) |
 | [foam_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#foam_ls) | [foam-language-server](https://mason-registry.dev/registry/list#foam-language-server) |

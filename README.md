@@ -215,6 +215,7 @@ local DEFAULT_SETTINGS = {
 | Erlang                              | `elp`                             |
 | Erlang                              | `erlangls`                        |
 | F#                                  | `fsautocomplete`                  |
+| Facility Service Definition         | `facility_language_server`        |
 | Fennel                              | `fennel_language_server`          |
 | Flux                                | `flux_lsp`                        |
 | Foam (OpenFOAM)                     | `foam_ls`                         |
