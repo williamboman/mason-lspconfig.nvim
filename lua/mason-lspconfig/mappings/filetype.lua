@@ -55,6 +55,7 @@ return {
   flux = { "flux_lsp" },
   foam = { "foam_ls" },
   fortran = { "fortls" },
+  fsd = { "facility_language_server" },
   fsharp = { "fsautocomplete" },
   genie = { "vala_ls" },
   gitcommit = { "ltex" },
