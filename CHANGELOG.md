@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.21.0...v1.22.0) (2023-11-14)
+
+
+### Features
+
+* add facility language server ([#313](https://github.com/williamboman/mason-lspconfig.nvim/issues/313)) ([f6fdcd1](https://github.com/williamboman/mason-lspconfig.nvim/commit/f6fdcd1d6b56c612e40cf56239c5a394cdb20c35))
+
 ## [1.21.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.20.0...v1.21.0) (2023-11-13)
 
 
