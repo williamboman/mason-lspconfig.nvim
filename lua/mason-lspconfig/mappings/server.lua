@@ -163,6 +163,7 @@ M.lspconfig_to_package = {
     ["tsserver"] = "typescript-language-server",
     ["typst_lsp"] = "typst-lsp",
     ["unocss"] = "unocss-language-server",
+    ["v_analyzer"] = "v-analyzer",
     ["vala_ls"] = "vala-language-server",
     ["vale_ls"] = "vale-ls",
     ["verible"] = "verible",
