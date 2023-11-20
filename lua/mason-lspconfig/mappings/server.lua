@@ -146,6 +146,7 @@ M.lspconfig_to_package = {
     ["sqlls"] = "sqlls",
     ["sqls"] = "sqls",
     ["standardrb"] = "standardrb",
+    ["stimulus_ls"] = "stimulus-language-server",
     ["stylelint_lsp"] = "stylelint-lsp",
     ["svelte"] = "svelte-language-server",
     ["svlangserver"] = "svlangserver",

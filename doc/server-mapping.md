@@ -143,6 +143,7 @@
 | [sqls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqls) | [sqls](https://mason-registry.dev/registry/list#sqls) |
 | [standardrb](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#standardrb) | [standardrb](https://mason-registry.dev/registry/list#standardrb) |
 | [stylelint_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#stylelint_lsp) | [stylelint-lsp](https://mason-registry.dev/registry/list#stylelint-lsp) |
+| [stimulus_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#stimulus_ls) | [stimulus-language-server](https://mason-registry.dev/registry/list#stimulus-language-server) |
 | [svelte](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svelte) | [svelte-language-server](https://mason-registry.dev/registry/list#svelte-language-server) |
 | [svlangserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svlangserver) | [svlangserver](https://mason-registry.dev/registry/list#svlangserver) |
 | [svls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svls) | [svls](https://mason-registry.dev/registry/list#svls) |
