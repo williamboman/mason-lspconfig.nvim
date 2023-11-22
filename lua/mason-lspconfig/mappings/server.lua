@@ -73,6 +73,7 @@ M.lspconfig_to_package = {
     ["hls"] = "haskell-language-server",
     ["hoon_ls"] = "hoon-language-server",
     ["html"] = "html-lsp",
+    ["htmx"] = "htmx-lsp",
     ["intelephense"] = "intelephense",
     ["java_language_server"] = "java-language-server",
     ["jdtls"] = "jdtls",
