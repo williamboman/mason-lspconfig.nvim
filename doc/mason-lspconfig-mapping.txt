@@ -73,6 +73,7 @@ helm-ls                                   helm_ls
 haskell-language-server                   hls
 hoon-language-server                      hoon_ls
 html-lsp                                  html
+htmx-lsp                                  htmx
 intelephense                              intelephense
 java-language-server                      java_language_server
 jdtls                                     jdtls
