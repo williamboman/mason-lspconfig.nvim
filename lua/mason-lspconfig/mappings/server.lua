@@ -13,6 +13,7 @@ M.lspconfig_to_package = {
     ["asm_lsp"] = "asm-lsp",
     ["ast_grep"] = "ast-grep",
     ["astro"] = "astro-language-server",
+    ["autotools_ls"] = "autotools-language-server",
     ["awk_ls"] = "awk-language-server",
     ["azure_pipelines_ls"] = "azure-pipelines-language-server",
     ["bashls"] = "bash-language-server",

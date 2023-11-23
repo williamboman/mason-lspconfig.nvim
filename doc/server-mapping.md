@@ -10,6 +10,7 @@
 | [asm_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#asm_lsp) | [asm-lsp](https://mason-registry.dev/registry/list#asm-lsp) |
 | [ast_grep](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ast_grep) | [ast-grep](https://mason-registry.dev/registry/list#ast-grep) |
 | [astro](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#astro) | [astro-language-server](https://mason-registry.dev/registry/list#astro-language-server) |
+| [autotools_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#autotools_ls) | [autotools-language-server](https://mason-registry.dev/registry/list#autotools-language-server) |
 | [awk_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#awk_ls) | [awk-language-server](https://mason-registry.dev/registry/list#awk-language-server) |
 | [azure_pipelines_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#azure_pipelines_ls) | [azure-pipelines-language-server](https://mason-registry.dev/registry/list#azure-pipelines-language-server) |
 | [bashls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bashls) | [bash-language-server](https://mason-registry.dev/registry/list#bash-language-server) |
