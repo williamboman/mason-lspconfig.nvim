@@ -120,7 +120,7 @@
 | [raku_navigator](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#raku_navigator) | [raku-navigator](https://mason-registry.dev/registry/list#raku-navigator) |
 | [reason_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#reason_ls) | [reason-language-server](https://mason-registry.dev/registry/list#reason-language-server) |
 | [remark_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#remark_ls) | [remark-language-server](https://mason-registry.dev/registry/list#remark-language-server) |
-| [rescriptls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rescriptls) | [rescript-lsp](https://mason-registry.dev/registry/list#rescript-lsp) |
+| [rescriptls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rescriptls) | [rescript-language-server](https://mason-registry.dev/registry/list#rescript-language-server) |
 | [rnix](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rnix) | [rnix-lsp](https://mason-registry.dev/registry/list#rnix-lsp) |
 | [robotframework_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#robotframework_ls) | [robotframework-lsp](https://mason-registry.dev/registry/list#robotframework-lsp) |
 | [rome](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rome) | [rome](https://mason-registry.dev/registry/list#rome) |
@@ -160,6 +160,7 @@
 | [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) | [typescript-language-server](https://mason-registry.dev/registry/list#typescript-language-server) |
 | [typst_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typst_lsp) | [typst-lsp](https://mason-registry.dev/registry/list#typst-lsp) |
 | [unocss](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#unocss) | [unocss-language-server](https://mason-registry.dev/registry/list#unocss-language-server) |
+| [v_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#v_analyzer) | [v-analyzer](https://mason-registry.dev/registry/list#v-analyzer) |
 | [vala_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vala_ls) | [vala-language-server](https://mason-registry.dev/registry/list#vala-language-server) |
 | [vale_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vale_ls) | [vale-ls](https://mason-registry.dev/registry/list#vale-ls) |
 | [verible](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#verible) | [verible](https://mason-registry.dev/registry/list#verible) |
