@@ -328,6 +328,7 @@ local DEFAULT_SETTINGS = {
 | TypeScript                          | `tsserver`                        |
 | TypeScript                          | `vtsls`                           |
 | Typst                               | `typst_lsp`                       |
+| V                                   | `v_analyzer`                      |
 | V                                   | `vls`                             |
 | Vala                                | `vala_ls`                         |
 | Veryl                               | `veryl_ls`                        |

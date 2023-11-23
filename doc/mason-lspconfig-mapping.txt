@@ -73,6 +73,7 @@ helm-ls                                   helm_ls
 haskell-language-server                   hls
 hoon-language-server                      hoon_ls
 html-lsp                                  html
+htmx-lsp                                  htmx
 intelephense                              intelephense
 java-language-server                      java_language_server
 jdtls                                     jdtls
@@ -122,7 +123,7 @@ r-languageserver                          r_language_server
 raku-navigator                            raku_navigator
 reason-language-server                    reason_ls
 remark-language-server                    remark_ls
-rescript-lsp                              rescriptls
+rescript-language-server                  rescriptls
 rnix-lsp                                  rnix
 robotframework-lsp                        robotframework_ls
 rome                                      rome
@@ -163,6 +164,7 @@ thriftls                                  thriftls
 typescript-language-server                tsserver
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
+v-analyzer                                v_analyzer
 vala-language-server                      vala_ls
 vale-ls                                   vale_ls
 verible                                   verible
