@@ -170,6 +170,7 @@ local DEFAULT_SETTINGS = {
 | Arduino                             | `arduino_language_server`         |
 | Assembly (GAS/NASM, GO)             | `asm_lsp`                         |
 | Astro                               | `astro`                           |
+| Automake                            | `autotools-language-server`       |
 | Azure Pipelines                     | `azure_pipelines_ls`              |
 | Bash                                | `bashls`                          |
 | Bash                                | `pkgbuild_language_server`        |
@@ -191,6 +192,7 @@ local DEFAULT_SETTINGS = {
 | Clarity                             | `clarity_lsp`                     |
 | Clojure                             | `clojure_lsp`                     |
 | CodeQL                              | `codeqlls`                        |
+| Config                              | `autotools-language-server`       |
 | Crystal                             | `crystalline`                     |
 | Cucumber                            | `cucumber_language_server`        |
 | Custom Elements Language Server     | `custom_elements_ls`              |
@@ -251,6 +253,7 @@ local DEFAULT_SETTINGS = {
 | Lelwel                              | `lelwel_ls`                       |
 | Lua                                 | `lua_ls`                          |
 | Luau                                | `luau_lsp`                        |
+| Make                                | `autotools-language-server`       |
 | Markdown                            | `marksman`                        |
 | Markdown                            | `prosemd_lsp`                     |
 | Markdown                            | `remark_ls`                       |
