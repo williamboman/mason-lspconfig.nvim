@@ -146,6 +146,7 @@ spectral-language-server                  spectral
 sqlls                                     sqlls
 sqls                                      sqls
 standardrb                                standardrb
+stimulus-language-server                  stimulus_ls
 stylelint-lsp                             stylelint_lsp
 svelte-language-server                    svelte
 svlangserver                              svlangserver

@@ -314,6 +314,7 @@ local DEFAULT_SETTINGS = {
 | Sphinx                              | `esbonio`                         |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
+| Stimulus                            | `stimulus_ls`                     |
 | SystemVerilog                       | `svlangserver`                    |
 | SystemVerilog                       | `svls`                            |
 | SystemVerilog                       | `verible`                         |
