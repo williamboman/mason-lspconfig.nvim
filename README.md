@@ -192,7 +192,7 @@ local DEFAULT_SETTINGS = {
 | Clarity                             | `clarity_lsp`                     |
 | Clojure                             | `clojure_lsp`                     |
 | CodeQL                              | `codeqlls`                        |
-| Config                              | `autotools-language-server`       |
+| Autoconf                            | `autotools-language-server`       |
 | Crystal                             | `crystalline`                     |
 | Cucumber                            | `cucumber_language_server`        |
 | Custom Elements Language Server     | `custom_elements_ls`              |
