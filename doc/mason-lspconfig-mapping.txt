@@ -162,7 +162,7 @@ thriftls                                  thriftls
 typescript-language-server                tsserver
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
-v-analyer                                 v_analyzer
+v-analyzer                                v_analyzer
 vala-language-server                      vala_ls
 vale-ls                                   vale_ls
 verible                                   verible
