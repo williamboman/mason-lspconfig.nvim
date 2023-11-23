@@ -229,6 +229,7 @@ local DEFAULT_SETTINGS = {
 | GraphQL                             | `graphql`                         |
 | Groovy                              | `groovyls`                        |
 | HTML                                | `html`                            |
+| HTMX                                | `htmx`                            |
 | Haskell                             | `hls`                             |
 | Haxe                                | `haxe_language_server`            |
 | Helm                                | `helm_ls`                         |
