@@ -1,6 +1,7 @@
 -- THIS FILE IS GENERATED. DO NOT EDIT MANUALLY.
 -- stylua: ignore start
 return {
+  ["*"] = { "typos_lsp" },
   OpenFOAM = { "foam_ls" },
   PKGBUILD = { "pkgbuild_language_server" },
   ada = { "als" },
