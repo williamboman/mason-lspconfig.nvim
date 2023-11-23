@@ -76,7 +76,7 @@ return {
   heex = { "elixirls", "tailwindcss" },
   helm = { "helm_ls" },
   hoon = { "hoon_ls" },
-  html = { "angularls", "antlersls", "ast_grep", "emmet_language_server", "emmet_ls", "html", "tailwindcss", "unocss", "htmx" },
+  html = { "angularls", "antlersls", "ast_grep", "emmet_language_server", "emmet_ls", "html", "htmx", "tailwindcss", "unocss" },
   ["html-eex"] = { "tailwindcss" },
   ["html.handlebars"] = { "glint" },
   htmldjango = { "emmet_language_server", "emmet_ls", "tailwindcss" },
