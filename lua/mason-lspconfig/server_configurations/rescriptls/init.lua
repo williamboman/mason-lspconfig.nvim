@@ -1,5 +1,5 @@
 return function()
     return {
-        cmd = { "rescript-lsp", "--stdio" },
+        cmd = { "rescript-language-server", "--stdio" },
     }
 end
