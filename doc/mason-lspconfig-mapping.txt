@@ -13,6 +13,7 @@ arduino-language-server                   arduino_language_server
 asm-lsp                                   asm_lsp
 ast-grep                                  ast_grep
 astro-language-server                     astro
+autotools-language-server                 autotools_ls
 awk-language-server                       awk_ls
 azure-pipelines-language-server           azure_pipelines_ls
 bash-language-server                      bashls
@@ -73,6 +74,7 @@ helm-ls                                   helm_ls
 haskell-language-server                   hls
 hoon-language-server                      hoon_ls
 html-lsp                                  html
+htmx-lsp                                  htmx
 intelephense                              intelephense
 java-language-server                      java_language_server
 jdtls                                     jdtls
@@ -145,6 +147,7 @@ spectral-language-server                  spectral
 sqlls                                     sqlls
 sqls                                      sqls
 standardrb                                standardrb
+stimulus-language-server                  stimulus_ls
 stylelint-lsp                             stylelint_lsp
 svelte-language-server                    svelte
 svlangserver                              svlangserver
@@ -162,6 +165,7 @@ thriftls                                  thriftls
 typescript-language-server                tsserver
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
+v-analyzer                                v_analyzer
 vala-language-server                      vala_ls
 vale-ls                                   vale_ls
 verible                                   verible

@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.23.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.22.0...v1.23.0) (2023-11-23)
+
+
+### Features
+
+* add htmx-lsp ([#320](https://github.com/williamboman/mason-lspconfig.nvim/issues/320)) ([01f9887](https://github.com/williamboman/mason-lspconfig.nvim/commit/01f988738b8ef62db2a76659a6bd57cbf873f04d))
+* add stimulus_ls ([#319](https://github.com/williamboman/mason-lspconfig.nvim/issues/319)) ([79846e4](https://github.com/williamboman/mason-lspconfig.nvim/commit/79846e444be885ebd3dde69c5c69f775d9218fef))
+* add v_analyzer ([#317](https://github.com/williamboman/mason-lspconfig.nvim/issues/317)) ([0a1d8df](https://github.com/williamboman/mason-lspconfig.nvim/commit/0a1d8dfbf8c84eaef8c17cccc169ba39a1152cb0))
+
+
+### Bug Fixes
+
+* update rescriptls mapping ([#318](https://github.com/williamboman/mason-lspconfig.nvim/issues/318)) ([f385b0f](https://github.com/williamboman/mason-lspconfig.nvim/commit/f385b0f5f02b430a014d1060125cd53e1bec04fc))
+
 ## [1.22.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.21.0...v1.22.0) (2023-11-14)
 
 
