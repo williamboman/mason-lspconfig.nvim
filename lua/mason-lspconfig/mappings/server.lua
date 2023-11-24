@@ -165,6 +165,7 @@ M.lspconfig_to_package = {
     ["thriftls"] = "thriftls",
     ["tsserver"] = "typescript-language-server",
     ["typst_lsp"] = "typst-lsp",
+    ["typos_lsp"] = "typos-lsp",
     ["unocss"] = "unocss-language-server",
     ["v_analyzer"] = "v-analyzer",
     ["vala_ls"] = "vala-language-server",
