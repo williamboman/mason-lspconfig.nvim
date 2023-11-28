@@ -164,6 +164,7 @@ M.lspconfig_to_package = {
     ["theme_check"] = "shopify-theme-check",
     ["thriftls"] = "thriftls",
     ["tsserver"] = "typescript-language-server",
+    ["typos_lsp"] = "typos-lsp",
     ["typst_lsp"] = "typst-lsp",
     ["unocss"] = "unocss-language-server",
     ["v_analyzer"] = "v-analyzer",
