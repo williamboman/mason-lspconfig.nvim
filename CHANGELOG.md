@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.25.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.24.0...v1.25.0) (2023-12-01)
+
+
+### Features
+
+* add hydra_lsp mapping ([#333](https://github.com/williamboman/mason-lspconfig.nvim/issues/333)) ([2d7a2a6](https://github.com/williamboman/mason-lspconfig.nvim/commit/2d7a2a61221c634391130b86dbebe90b7249e2b1))
+* add support for `*` filetype specifier ([#335](https://github.com/williamboman/mason-lspconfig.nvim/issues/335)) ([dd67d01](https://github.com/williamboman/mason-lspconfig.nvim/commit/dd67d01335a27bff4b5dcb580c7a4bce0f4e2105))
+* add typos-ls mapping ([#325](https://github.com/williamboman/mason-lspconfig.nvim/issues/325)) ([41674c9](https://github.com/williamboman/mason-lspconfig.nvim/commit/41674c9d50f23cfa3e11f0ca964eb9100c2a8922))
+
 ## [1.24.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.23.0...v1.24.0) (2023-11-26)
 
 
