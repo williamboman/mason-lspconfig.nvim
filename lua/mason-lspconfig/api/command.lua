@@ -61,27 +61,26 @@ local function parse_packages_from_heuristics()
     -- Prompt user which server they want to install (based on the current filetype)
     local current_ft = vim.api.nvim_buf_get_option(vim.api.nvim_get_current_buf(), "filetype")
     local filetype_mapping = require "mason-lspconfig.mappings.filetype"
-    return Optional.of_nilable(filetype_mapping[current_ft])
-        :if_not_present(function()
-            notify(("No LSP servers found for filetype %q."):format(current_ft), vim.log.levels.ERROR)
-        end)
-        :map(function(server_names)
-            return a.promisify(vim.ui.select)(server_names, {
-                prompt = ("Please select which server you want to install for filetype %q:"):format(current_ft),
-                format_item = function(server_name)
-                    if registry.is_installed(server_mapping.lspconfig_to_package[server_name]) then
-                        return ("%s (installed)"):format(server_name)
-                    else
-                        return server_name
-                    end
-                end,
-            })
-        end)
-        :map(function(server_name)
-            local package_name = server_mapping.lspconfig_to_package[server_name]
-            return { { package = package_name, version = nil } }
-        end)
-        :or_else_get(_.always {})
+    local server_names = _.flatten(_.concat(filetype_mapping[current_ft] or {}, filetype_mapping["*"] or {}))
+    if #server_names == 0 then
+        notify(("No LSP servers found for filetype %q."):format(current_ft), vim.log.levels.ERROR)
+        return {}
+    end
+    local server_name = a.promisify(vim.ui.select)(server_names, {
+        prompt = ("Please select which server you want to install for filetype %q:"):format(current_ft),
+        format_item = function(server_name)
+            if registry.is_installed(server_mapping.lspconfig_to_package[server_name]) then
+                return ("%s (installed)"):format(server_name)
+            else
+                return server_name
+            end
+        end,
+    })
+    if server_name == nil then
+        return {}
+    end
+    local package_name = server_mapping.lspconfig_to_package[server_name]
+    return { { package = package_name, version = nil } }
 end
 
 local parse_packages_to_install = _.cond {
