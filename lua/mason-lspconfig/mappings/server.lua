@@ -75,6 +75,7 @@ M.lspconfig_to_package = {
     ["hoon_ls"] = "hoon-language-server",
     ["html"] = "html-lsp",
     ["htmx"] = "htmx-lsp",
+    ["hydra_lsp"] = "hydra-lsp",
     ["intelephense"] = "intelephense",
     ["java_language_server"] = "java-language-server",
     ["jdtls"] = "jdtls",

@@ -75,6 +75,7 @@ haskell-language-server                   hls
 hoon-language-server                      hoon_ls
 html-lsp                                  html
 htmx-lsp                                  htmx
+hydra-lsp                                 hydra_lsp
 intelephense                              intelephense
 java-language-server                      java_language_server
 jdtls                                     jdtls
