@@ -231,6 +231,7 @@ local DEFAULT_SETTINGS = {
 | Grammarly                           | `grammarly`                       |
 | GraphQL                             | `graphql`                         |
 | Groovy                              | `groovyls`                        |
+| HDL                                 | `hdl_checker`                     |
 | HTML                                | `html`                            |
 | HTMX                                | `htmx`                            |
 | Haskell                             | `hls`                             |
