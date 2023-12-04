@@ -70,6 +70,7 @@ M.lspconfig_to_package = {
     ["graphql"] = "graphql-language-service-cli",
     ["groovyls"] = "groovy-language-server",
     ["haxe_language_server"] = "haxe-language-server",
+    ["hdl_checker"] = "hdl-checker",
     ["helm_ls"] = "helm-ls",
     ["hls"] = "haskell-language-server",
     ["hoon_ls"] = "hoon-language-server",
