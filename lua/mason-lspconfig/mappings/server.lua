@@ -37,6 +37,7 @@ M.lspconfig_to_package = {
     ["custom_elements_ls"] = "custom-elements-languageserver",
     ["cypher_ls"] = "cypher-language-server",
     ["dagger"] = "cuelsp",
+    ["dart"] = "dart",
     ["denols"] = "deno",
     ["dhall_lsp_server"] = "dhall-lsp",
     ["diagnosticls"] = "diagnostic-languageserver",

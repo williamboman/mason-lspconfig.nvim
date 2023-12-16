@@ -34,6 +34,7 @@
 | [custom_elements_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#custom_elements_ls) | [custom-elements-languageserver](https://mason-registry.dev/registry/list#custom-elements-languageserver) |
 | [cypher_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cypher_ls) | [cypher-language-server](https://mason-registry.dev/registry/list#cypher-language-server) |
 | [dagger](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dagger) | [cuelsp](https://mason-registry.dev/registry/list#cuelsp) |
+| [dart_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dart_ls) | [dart](https://mason-registry.dev/registry/list#dart-language-server) |
 | [denols](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#denols) | [deno](https://mason-registry.dev/registry/list#deno) |
 | [dhall_lsp_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dhall_lsp_server) | [dhall-lsp](https://mason-registry.dev/registry/list#dhall-lsp) |
 | [diagnosticls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#diagnosticls) | [diagnostic-languageserver](https://mason-registry.dev/registry/list#diagnostic-languageserver) |

@@ -37,7 +37,7 @@ return {
   cue = { "dagger" },
   cypher = { "cypher_ls" },
   d = { "serve_d" },
-  dart = { "ast_grep" },
+  dart = { "ast_grep", "dart_ls" },
   dhall = { "dhall_lsp_server" },
   ["django-html"] = { "tailwindcss" },
   dockerfile = { "dockerls" },

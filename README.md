@@ -199,6 +199,7 @@ local DEFAULT_SETTINGS = {
 | Custom Elements Language Server     | `custom_elements_ls`              |
 | Cue                                 | `dagger`                          |
 | Cypher                              | `cypher_ls`                       |
+| Dart                                | `dart_ls`                         |
 | Deno                                | `denols`                          |
 | Dhall                               | `dhall_lsp_server`                |
 | Diagnostic (general purpose server) | `diagnosticls`                    |
