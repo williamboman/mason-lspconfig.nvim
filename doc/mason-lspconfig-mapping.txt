@@ -138,6 +138,7 @@ salt-lsp                                  salt_ls
 serve-d                                   serve_d
 slint-lsp                                 slint_lsp
 smithy-language-server                    smithy_ls
+snyk-ls                                   snyk_ls
 solang                                    solang
 solargraph                                solargraph
 solidity                                  solc
