@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.26.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.25.0...v1.26.0) (2023-12-21)
+
+
+### Features
+
+* add hdl_checker ([#336](https://github.com/williamboman/mason-lspconfig.nvim/issues/336)) ([9453e3d](https://github.com/williamboman/mason-lspconfig.nvim/commit/9453e3d6cd2ca45d96e20f343e8f1b927364b630))
+* add snyk-ls server mapping ([#342](https://github.com/williamboman/mason-lspconfig.nvim/issues/342)) ([ef713a5](https://github.com/williamboman/mason-lspconfig.nvim/commit/ef713a5b91ea922aa8ad630dfb854ae19cc2845c))
+
 ## [1.25.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.24.0...v1.25.0) (2023-12-01)
 
 
