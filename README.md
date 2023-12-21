@@ -160,8 +160,9 @@ local DEFAULT_SETTINGS = {
 
 | Language                            | Server name                       |
 | ----------------------------------- | --------------------------------- |
+| All                                 | `snyk_ls`                         |
+| All                                 | `typos_lsp`                       |
 | ast-grep                            | `ast_grep`                        |
-| all                                 | `typos_lsp`                        |
 | AWK                                 | `awk_ls`                          |
 | Ada                                 | `als`                             |
 | Angular                             | `angularls`                       |
