@@ -165,6 +165,7 @@
 | [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) | [typescript-language-server](https://mason-registry.dev/registry/list#typescript-language-server) |
 | [typos_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typos_lsp) | [typos-lsp](https://mason-registry.dev/registry/list#typos-lsp) |
 | [typst_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typst_lsp) | [typst-lsp](https://mason-registry.dev/registry/list#typst-lsp) |
+| [twig_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#twig) | [twig-language-server](https://mason-registry.dev/registry/list#twig-language-server) |
 | [unocss](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#unocss) | [unocss-language-server](https://mason-registry.dev/registry/list#unocss-language-server) |
 | [v_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#v_analyzer) | [v-analyzer](https://mason-registry.dev/registry/list#v-analyzer) |
 | [vala_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vala_ls) | [vala-language-server](https://mason-registry.dev/registry/list#vala-language-server) |
