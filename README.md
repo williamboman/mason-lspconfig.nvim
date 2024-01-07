@@ -256,6 +256,7 @@ local DEFAULT_SETTINGS = {
 | Lelwel                              | `lelwel_ls`                       |
 | Lua                                 | `lua_ls`                          |
 | Luau                                | `luau_lsp`                        |
+| LWC                                 | `lwc_ls`                          |
 | Make                                | `autotools-language-server`       |
 | Markdown                            | `marksman`                        |
 | Markdown                            | `prosemd_lsp`                     |
