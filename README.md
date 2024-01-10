@@ -226,7 +226,6 @@ local DEFAULT_SETTINGS = {
 | Fortran                             | `fortls`                          |
 | Gleam                               | `gleam`                           |
 | Glint                               | `glint`                           |
-| GLSL                                | `glslls`                          |
 | Go                                  | `golangci_lint_ls`                |
 | Go                                  | `gopls`                           |
 | Gradle                              | `gradle_ls`                       |
