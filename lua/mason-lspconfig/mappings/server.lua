@@ -91,6 +91,7 @@ M.lspconfig_to_package = {
     ["ltex"] = "ltex-ls",
     ["lua_ls"] = "lua-language-server",
     ["luau_lsp"] = "luau-lsp",
+    ["lwc_ls"] = "lwc-language-server",
     ["marksman"] = "marksman",
     ["mdx_analyzer"] = "mdx-analyzer",
     ["matlab_ls"] = "matlab-language-server",
