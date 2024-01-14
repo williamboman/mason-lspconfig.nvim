@@ -69,6 +69,16 @@ use {
 }
 ```
 
+## [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+```lua
+{
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+}
+```
+
 ## vim-plug
 
 ```vim
