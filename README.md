@@ -329,6 +329,7 @@ local DEFAULT_SETTINGS = {
 | Solidity                            | `solidity`                        |
 | Solidity                            | `solidity_ls_nomicfoundation`     |
 | Sphinx                              | `esbonio`                         |
+| Starlark                            | `bzl`                             |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
 | Stimulus                            | `stimulus_ls`                     |

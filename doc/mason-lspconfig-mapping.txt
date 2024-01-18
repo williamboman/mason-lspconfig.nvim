@@ -23,6 +23,7 @@ biome                                     biome
 brighterscript                            bright_script
 bsl-language-server                       bsl_ls
 buf-language-server                       bufls
+bzl                                       bzl
 cairo-language-server                     cairo_ls
 clangd                                    clangd
 clarity-lsp                               clarity_lsp

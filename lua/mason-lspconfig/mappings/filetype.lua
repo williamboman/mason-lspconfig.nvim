@@ -21,6 +21,7 @@ return {
   blade = { "stimulus_ls", "tailwindcss" },
   brs = { "bright_script" },
   bsl = { "bsl_ls" },
+  bzl = { "bzl" },
   c = { "ast_grep", "clangd" },
   cairo = { "cairo_ls" },
   clar = { "clarity_lsp" },
