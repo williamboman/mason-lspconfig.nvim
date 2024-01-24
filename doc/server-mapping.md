@@ -20,7 +20,7 @@
 | [bright_script](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bright_script) | [brighterscript](https://mason-registry.dev/registry/list#brighterscript) |
 | [bsl_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bsl_ls) | [bsl-language-server](https://mason-registry.dev/registry/list#bsl-language-server) |
 | [bufls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bufls) | [buf-language-server](https://mason-registry.dev/registry/list#buf-language-server) |
-| [bzl](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bzl) | [bzl-language-server](https://mason-registry.dev/registry/list#bzl) |
+| [bzl](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bzl) | [bzl](https://mason-registry.dev/registry/list#bzl) |
 | [cairo_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cairo_ls) | [cairo-language-server](https://mason-registry.dev/registry/list#cairo-language-server) |
 | [clangd](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clangd) | [clangd](https://mason-registry.dev/registry/list#clangd) |
 | [clarity_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clarity_lsp) | [clarity-lsp](https://mason-registry.dev/registry/list#clarity-lsp) |
