@@ -335,7 +335,7 @@ local DEFAULT_SETTINGS = {
 | TypeScript                          | `tsserver`                        |
 | TypeScript                          | `vtsls`                           |
 | Typst                               | `typst_lsp`                       |
-| Twig                                | `twig-language-server`            |
+| Twig                                | `twiggy-language-server`          |
 | V                                   | `v_analyzer`                      |
 | V                                   | `vls`                             |
 | Vala                                | `vala_ls`                         |

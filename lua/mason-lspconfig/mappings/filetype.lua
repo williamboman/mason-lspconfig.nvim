@@ -181,7 +181,7 @@ return {
   text = { "vale_ls" },
   thrift = { "thriftls" },
   toml = { "taplo" },
-  twig = { "tailwindcss", "twig_language_server" },
+  twig = { "tailwindcss", "twiggy_language_server" },
   typescript = { "angularls", "ast_grep", "biome", "cssmodules_ls", "denols", "ember", "eslint", "glint", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "vtsls" },
   ["typescript.glimmer"] = { "ember", "glint" },
   ["typescript.tsx"] = { "angularls", "biome", "denols", "eslint", "rome", "tsserver", "vtsls" },
