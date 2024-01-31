@@ -44,6 +44,7 @@ M.lspconfig_to_package = {
     ["docker_compose_language_service"] = "docker-compose-language-service",
     ["dockerls"] = "dockerfile-language-server",
     ["dotls"] = "dot-language-server",
+    ["dprint"] = "dprint",
     ["drools_lsp"] = "drools-lsp",
     ["efm"] = "efm",
     ["elixirls"] = "elixir-ls",
