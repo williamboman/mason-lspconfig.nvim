@@ -184,7 +184,7 @@ return {
   thrift = { "thriftls" },
   toml = { "taplo" },
   twig = { "tailwindcss" },
-  typescript = { "angularls", "ast_grep", "biome", "cssmodules_ls", "denols", "ember", "eslint", "glint", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "vtsls" },
+  typescript = { "angularls", "ast_grep", "biome", "cssmodules_ls", "denols", "ember", "eslint", "glint", "quick_lint_js", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "vtsls" },
   ["typescript.glimmer"] = { "ember", "glint" },
   ["typescript.tsx"] = { "angularls", "biome", "denols", "eslint", "rome", "tsserver", "vtsls" },
   typescriptreact = { "angularls", "biome", "cssmodules_ls", "denols", "emmet_language_server", "emmet_ls", "eslint", "graphql", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "unocss", "vtsls" },
