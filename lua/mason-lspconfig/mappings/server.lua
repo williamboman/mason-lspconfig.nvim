@@ -96,6 +96,7 @@ M.lspconfig_to_package = {
     ["marksman"] = "marksman",
     ["mdx_analyzer"] = "mdx-analyzer",
     ["matlab_ls"] = "matlab-language-server",
+    ["millet"] = "millet",
     ["mm0_ls"] = "metamath-zero-lsp",
     ["move_analyzer"] = "move-analyzer",
     ["mutt_ls"] = "mutt-language-server",

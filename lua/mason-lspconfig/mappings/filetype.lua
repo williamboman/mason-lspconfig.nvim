@@ -167,6 +167,7 @@ return {
   slint = { "slint_lsp" },
   sls = { "salt_ls" },
   smithy = { "smithy_ls" },
+  sml = { "millet" },
   solidity = { "solang", "solc", "solidity", "solidity_ls_nomicfoundation" },
   sql = { "sqlls", "sqls" },
   stylus = { "tailwindcss" },
