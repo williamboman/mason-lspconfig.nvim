@@ -64,6 +64,7 @@ M.lspconfig_to_package = {
     ["fsautocomplete"] = "fsautocomplete",
     ["gleam"] = "gleam",
     ["glint"] = "glint",
+    ["glsl_analyzer"] = "glsl_analyzer",
     ["golangci_lint_ls"] = "golangci-lint-langserver",
     ["gopls"] = "gopls",
     ["gradle_ls"] = "gradle-language-server",
