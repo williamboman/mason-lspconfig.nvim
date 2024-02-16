@@ -327,6 +327,7 @@ local DEFAULT_SETTINGS = {
 | Solidity                            | `solang`                          |
 | Solidity                            | `solc`                            |
 | Solidity                            | `solidity`                        |
+| Solidity                            | `solidity_ls`                     |
 | Solidity                            | `solidity_ls_nomicfoundation`     |
 | Sphinx                              | `esbonio`                         |
 | Starlark                            | `bzl`                             |

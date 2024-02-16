@@ -142,6 +142,7 @@
 | [solargraph](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solargraph) | [solargraph](https://mason-registry.dev/registry/list#solargraph) |
 | [solc](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solc) | [solidity](https://mason-registry.dev/registry/list#solidity) |
 | [solidity](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity) | [solidity-ls](https://mason-registry.dev/registry/list#solidity-ls) |
+| [solidity_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity_ls) | [vscode-solidity](https://mason-registry.dev/registry/list#vscode-solidity) |
 | [solidity_ls_nomicfoundation](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity_ls_nomicfoundation) | [nomicfoundation-solidity-language-server](https://mason-registry.dev/registry/list#nomicfoundation-solidity-language-server) |
 | [sorbet](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sorbet) | [sorbet](https://mason-registry.dev/registry/list#sorbet) |
 | [sourcery](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sourcery) | [sourcery](https://mason-registry.dev/registry/list#sourcery) |

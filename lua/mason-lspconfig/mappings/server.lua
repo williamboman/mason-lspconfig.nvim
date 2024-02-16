@@ -146,6 +146,7 @@ M.lspconfig_to_package = {
     ["solargraph"] = "solargraph",
     ["solc"] = "solidity",
     ["solidity"] = "solidity-ls",
+    ["solidity_ls"] = "vscode-solidity",
     ["solidity_ls_nomicfoundation"] = "nomicfoundation-solidity-language-server",
     ["sorbet"] = "sorbet",
     ["sourcery"] = "sourcery",
