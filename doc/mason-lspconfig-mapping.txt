@@ -23,6 +23,7 @@ biome                                     biome
 brighterscript                            bright_script
 bsl-language-server                       bsl_ls
 buf-language-server                       bufls
+bzl                                       bzl
 cairo-language-server                     cairo_ls
 clangd                                    clangd
 clarity-lsp                               clarity_lsp
@@ -91,6 +92,7 @@ lemminx                                   lemminx
 ltex-ls                                   ltex
 lua-language-server                       lua_ls
 luau-lsp                                  luau_lsp
+lwc-language-server                       lwc_ls
 marksman                                  marksman
 matlab-language-server                    matlab_ls
 mdx-analyzer                              mdx_analyzer

@@ -69,6 +69,16 @@ use {
 }
 ```
 
+## [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+```lua
+{
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+}
+```
+
 ## vim-plug
 
 ```vim
@@ -256,6 +266,7 @@ local DEFAULT_SETTINGS = {
 | Lelwel                              | `lelwel_ls`                       |
 | Lua                                 | `lua_ls`                          |
 | Luau                                | `luau_lsp`                        |
+| LWC                                 | `lwc_ls`                          |
 | Make                                | `autotools-language-server`       |
 | Markdown                            | `marksman`                        |
 | Markdown                            | `prosemd_lsp`                     |
@@ -318,6 +329,7 @@ local DEFAULT_SETTINGS = {
 | Solidity                            | `solidity`                        |
 | Solidity                            | `solidity_ls_nomicfoundation`     |
 | Sphinx                              | `esbonio`                         |
+| Starlark                            | `bzl`                             |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
 | Stimulus                            | `stimulus_ls`                     |
