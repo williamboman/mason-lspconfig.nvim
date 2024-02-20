@@ -97,6 +97,7 @@ lwc-language-server                       lwc_ls
 marksman                                  marksman
 matlab-language-server                    matlab_ls
 mdx-analyzer                              mdx_analyzer
+millet                                    millet
 metamath-zero-lsp                         mm0_ls
 move-analyzer                             move_analyzer
 mutt-language-server                      mutt_ls
