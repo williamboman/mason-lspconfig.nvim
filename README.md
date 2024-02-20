@@ -221,6 +221,7 @@ local DEFAULT_SETTINGS = {
 | EFM (general purpose server)        | `efm`                             |
 | ESLint                              | `eslint`                          |
 | Elixir                              | `elixirls`                        |
+| dprint                              | `dprint`                          |
 | Elm                                 | `elmls`                           |
 | Ember                               | `ember`                           |
 | Emmet                               | `emmet_language_server`           |
@@ -344,6 +345,7 @@ local DEFAULT_SETTINGS = {
 | Terraform                           | `terraformls`                     |
 | Terraform                           | `tflint`                          |
 | Thrift                              | `thriftls`                        |
+| Twiggy                              | `twig_language_server`            |
 | TypeScript                          | `biome`                           |
 | TypeScript                          | `tsserver`                        |
 | TypeScript                          | `vtsls`                           |

@@ -41,6 +41,7 @@
 | [docker_compose_language_service](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#docker_compose_language_service) | [docker-compose-language-service](https://mason-registry.dev/registry/list#docker-compose-language-service) |
 | [dockerls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dockerls) | [dockerfile-language-server](https://mason-registry.dev/registry/list#dockerfile-language-server) |
 | [dotls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dotls) | [dot-language-server](https://mason-registry.dev/registry/list#dot-language-server) |
+| [dprint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dprint) | [dprint](https://mason-registry.dev/registry/list#dprint) |
 | [drools_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#drools_lsp) | [drools-lsp](https://mason-registry.dev/registry/list#drools-lsp) |
 | [efm](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#efm) | [efm](https://mason-registry.dev/registry/list#efm) |
 | [elixirls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elixirls) | [elixir-ls](https://mason-registry.dev/registry/list#elixir-ls) |
@@ -166,6 +167,7 @@
 | [theme_check](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#theme_check) | [shopify-theme-check](https://mason-registry.dev/registry/list#shopify-theme-check) |
 | [thriftls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#thriftls) | [thriftls](https://mason-registry.dev/registry/list#thriftls) |
 | [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) | [typescript-language-server](https://mason-registry.dev/registry/list#typescript-language-server) |
+| [twig_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#twig_language_server) | [twiggy-language-server](https://mason-registry.dev/registry/list#twiggy-language-server) |
 | [typos_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typos_lsp) | [typos-lsp](https://mason-registry.dev/registry/list#typos-lsp) |
 | [typst_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typst_lsp) | [typst-lsp](https://mason-registry.dev/registry/list#typst-lsp) |
 | [unocss](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#unocss) | [unocss-language-server](https://mason-registry.dev/registry/list#unocss-language-server) |
