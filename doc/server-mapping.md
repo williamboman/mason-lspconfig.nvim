@@ -41,6 +41,7 @@
 | [docker_compose_language_service](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#docker_compose_language_service) | [docker-compose-language-service](https://mason-registry.dev/registry/list#docker-compose-language-service) |
 | [dockerls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dockerls) | [dockerfile-language-server](https://mason-registry.dev/registry/list#dockerfile-language-server) |
 | [dotls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dotls) | [dot-language-server](https://mason-registry.dev/registry/list#dot-language-server) |
+| [dprint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dprint) | [dprint](https://mason-registry.dev/registry/list#dprint) |
 | [drools_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#drools_lsp) | [drools-lsp](https://mason-registry.dev/registry/list#drools-lsp) |
 | [efm](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#efm) | [efm](https://mason-registry.dev/registry/list#efm) |
 | [elixirls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elixirls) | [elixir-ls](https://mason-registry.dev/registry/list#elixir-ls) |
