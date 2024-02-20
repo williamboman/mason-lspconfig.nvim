@@ -96,6 +96,7 @@ M.lspconfig_to_package = {
     ["lwc_ls"] = "lwc-language-server",
     ["marksman"] = "marksman",
     ["matlab_ls"] = "matlab-language-server",
+    ["mdx_analyzer"] = "mdx-analyzer",
     ["millet"] = "millet",
     ["mm0_ls"] = "metamath-zero-lsp",
     ["move_analyzer"] = "move-analyzer",
