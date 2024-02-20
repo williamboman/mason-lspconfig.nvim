@@ -169,6 +169,7 @@ tflint                                    tflint
 shopify-theme-check                       theme_check
 thriftls                                  thriftls
 typescript-language-server                tsserver
+twiggy-language-server                    twig_language_server
 typos-lsp                                 typos_lsp
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
