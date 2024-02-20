@@ -221,6 +221,7 @@ local DEFAULT_SETTINGS = {
 | EFM (general purpose server)        | `efm`                             |
 | ESLint                              | `eslint`                          |
 | Elixir                              | `elixirls`                        |
+| dprint                              | `dprint`                          |
 | Elm                                 | `elmls`                           |
 | Ember                               | `ember`                           |
 | Emmet                               | `emmet_language_server`           |
