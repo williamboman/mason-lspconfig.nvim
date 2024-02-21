@@ -169,7 +169,7 @@ return {
   sls = { "salt_ls" },
   smithy = { "smithy_ls" },
   sml = { "millet" },
-  solidity = { "solang", "solc", "solidity", "solidity_ls_nomicfoundation" },
+  solidity = { "solang", "solc", "solidity", "solidity_ls", "solidity_ls_nomicfoundation" },
   sql = { "sqlls", "sqls" },
   stylus = { "tailwindcss" },
   sugarss = { "stylelint_lsp", "tailwindcss" },
