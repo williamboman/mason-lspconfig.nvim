@@ -147,6 +147,7 @@ solang                                    solang
 solargraph                                solargraph
 solidity                                  solc
 solidity-ls                               solidity
+vscode-solidity-server                    solidity_ls
 nomicfoundation-solidity-language-server  solidity_ls_nomicfoundation
 sorbet                                    sorbet
 sourcery                                  sourcery
