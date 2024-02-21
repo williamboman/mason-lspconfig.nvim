@@ -62,7 +62,7 @@
 | [fsautocomplete](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#fsautocomplete) | [fsautocomplete](https://mason-registry.dev/registry/list#fsautocomplete) |
 | [gleam](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#gleam) | [gleam](https://mason-registry.dev/registry/list#gleam) |
 | [glint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#glint) | [glint](https://mason-registry.dev/registry/list#glint) |
-| [glsl_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#glsl_analyzer) | [glint](https://mason-registry.dev/registry/list#glsl_analyzer) |
+| [glsl_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#glsl_analyzer) | [glsl_analyzer](https://mason-registry.dev/registry/list#glsl_analyzer) |
 | [golangci_lint_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#golangci_lint_ls) | [golangci-lint-langserver](https://mason-registry.dev/registry/list#golangci-lint-langserver) |
 | [gopls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#gopls) | [gopls](https://mason-registry.dev/registry/list#gopls) |
 | [gradle_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#gradle_ls) | [gradle-language-server](https://mason-registry.dev/registry/list#gradle-language-server) |
