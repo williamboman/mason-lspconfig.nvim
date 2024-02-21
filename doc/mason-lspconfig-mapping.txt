@@ -44,6 +44,7 @@ diagnostic-languageserver                 diagnosticls
 docker-compose-language-service           docker_compose_language_service
 dockerfile-language-server                dockerls
 dot-language-server                       dotls
+dprint                                    dprint
 drools-lsp                                drools_lsp
 efm                                       efm
 elixir-ls                                 elixirls
@@ -96,6 +97,7 @@ lwc-language-server                       lwc_ls
 marksman                                  marksman
 matlab-language-server                    matlab_ls
 mdx-analyzer                              mdx_analyzer
+millet                                    millet
 metamath-zero-lsp                         mm0_ls
 move-analyzer                             move_analyzer
 mutt-language-server                      mutt_ls
@@ -169,6 +171,7 @@ tflint                                    tflint
 shopify-theme-check                       theme_check
 thriftls                                  thriftls
 typescript-language-server                tsserver
+twiggy-language-server                    twig_language_server
 typos-lsp                                 typos_lsp
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
