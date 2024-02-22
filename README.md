@@ -347,7 +347,7 @@ local DEFAULT_SETTINGS = {
 | Terraform                           | `terraformls`                     |
 | Terraform                           | `tflint`                          |
 | Thrift                              | `thriftls`                        |
-| Twiggy                              | `twig_language_server`            |
+| Twiggy                              | `twiggy_language_server`          |
 | TypeScript                          | `biome`                           |
 | TypeScript                          | `tsserver`                        |
 | TypeScript                          | `vtsls`                           |
