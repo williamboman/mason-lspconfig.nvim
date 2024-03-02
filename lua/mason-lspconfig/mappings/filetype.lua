@@ -138,6 +138,7 @@ return {
   openscad = { "openscad_lsp" },
   org = { "ltex" },
   os = { "bsl_ls" },
+  p8 = { "pico8_ls" },
   pandoc = { "ltex" },
   perl = { "perlnavigator" },
   pest = { "pest_ls" },
