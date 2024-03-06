@@ -151,6 +151,7 @@ M.lspconfig_to_package = {
     ["solidity"] = "solidity-ls",
     ["solidity_ls"] = "vscode-solidity-server",
     ["solidity_ls_nomicfoundation"] = "nomicfoundation-solidity-language-server",
+    ["somesass_ls"] = "some-sass-language-server",
     ["sorbet"] = "sorbet",
     ["sourcery"] = "sourcery",
     ["spectral"] = "spectral-language-server",

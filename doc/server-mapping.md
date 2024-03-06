@@ -147,6 +147,7 @@
 | [solidity](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity) | [solidity-ls](https://mason-registry.dev/registry/list#solidity-ls) |
 | [solidity_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity_ls) | [vscode-solidity-server](https://mason-registry.dev/registry/list#vscode-solidity-server) |
 | [solidity_ls_nomicfoundation](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity_ls_nomicfoundation) | [nomicfoundation-solidity-language-server](https://mason-registry.dev/registry/list#nomicfoundation-solidity-language-server) |
+| [somesass_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#somesass_ls) | [some-sass-language-server](https://mason-registry.dev/registry/list#some-sass-language-server) |
 | [sorbet](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sorbet) | [sorbet](https://mason-registry.dev/registry/list#sorbet) |
 | [sourcery](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sourcery) | [sourcery](https://mason-registry.dev/registry/list#sourcery) |
 | [spectral](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#spectral) | [spectral-language-server](https://mason-registry.dev/registry/list#spectral-language-server) |
