@@ -63,7 +63,6 @@ M.lspconfig_to_package = {
     ["foam_ls"] = "foam-language-server",
     ["fortls"] = "fortls",
     ["fsautocomplete"] = "fsautocomplete",
-    ["gleam"] = "gleam",
     ["glint"] = "glint",
     ["glsl_analyzer"] = "glsl_analyzer",
     ["golangci_lint_ls"] = "golangci-lint-langserver",
