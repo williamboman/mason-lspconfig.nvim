@@ -67,7 +67,6 @@ return {
   genie = { "vala_ls" },
   geom = { "glsl_analyzer" },
   gitcommit = { "ltex" },
-  gleam = { "gleam" },
   glsl = { "glsl_analyzer" },
   go = { "ast_grep", "golangci_lint_ls", "gopls" },
   gohtml = { "tailwindcss" },
