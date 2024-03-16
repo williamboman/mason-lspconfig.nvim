@@ -65,6 +65,7 @@ fortls                                    fortls
 fsautocomplete                            fsautocomplete
 glint                                     glint
 glsl_analyzer                             glsl_analyzer
+glslls                                    glslls
 golangci-lint-langserver                  golangci_lint_ls
 gopls                                     gopls
 gradle-language-server                    gradle_ls
