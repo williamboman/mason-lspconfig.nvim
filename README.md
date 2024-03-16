@@ -69,6 +69,16 @@ use {
 }
 ```
 
+## [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+```lua
+{
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+}
+```
+
 ## vim-plug
 
 ```vim
@@ -211,6 +221,7 @@ local DEFAULT_SETTINGS = {
 | EFM (general purpose server)        | `efm`                             |
 | ESLint                              | `eslint`                          |
 | Elixir                              | `elixirls`                        |
+| dprint                              | `dprint`                          |
 | Elm                                 | `elmls`                           |
 | Ember                               | `ember`                           |
 | Emmet                               | `emmet_language_server`           |
@@ -224,7 +235,6 @@ local DEFAULT_SETTINGS = {
 | Flux                                | `flux_lsp`                        |
 | Foam (OpenFOAM)                     | `foam_ls`                         |
 | Fortran                             | `fortls`                          |
-| Gleam                               | `gleam`                           |
 | Glint                               | `glint`                           |
 | GLSL                                | `glslls`                          |
 | Go                                  | `golangci_lint_ls`                |
@@ -257,6 +267,7 @@ local DEFAULT_SETTINGS = {
 | Lelwel                              | `lelwel_ls`                       |
 | Lua                                 | `lua_ls`                          |
 | Luau                                | `luau_lsp`                        |
+| LWC                                 | `lwc_ls`                          |
 | Make                                | `autotools-language-server`       |
 | Markdown                            | `marksman`                        |
 | Markdown                            | `prosemd_lsp`                     |
@@ -279,6 +290,7 @@ local DEFAULT_SETTINGS = {
 | OneScript, 1C:Enterprise            | `bsl_ls`                          |
 | OpenAPI                             | `spectral`                        |
 | OpenCL                              | `opencl_ls`                       |
+| OpenGL                              | `glsl_analyzer`                   |
 | OpenSCAD                            | `openscad_lsp`                    |
 | PHP                                 | `intelephense`                    |
 | PHP                                 | `phpactor`                        |
@@ -317,8 +329,11 @@ local DEFAULT_SETTINGS = {
 | Solidity                            | `solang`                          |
 | Solidity                            | `solc`                            |
 | Solidity                            | `solidity`                        |
+| Solidity                            | `solidity_ls`                     |
 | Solidity                            | `solidity_ls_nomicfoundation`     |
 | Sphinx                              | `esbonio`                         |
+| Standard ML                         | `millet`                          |
+| Starlark                            | `bzl`                             |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
 | Stimulus                            | `stimulus_ls`                     |
@@ -332,6 +347,7 @@ local DEFAULT_SETTINGS = {
 | Terraform                           | `terraformls`                     |
 | Terraform                           | `tflint`                          |
 | Thrift                              | `thriftls`                        |
+| Twiggy                              | `twiggy_language_server`          |
 | TypeScript                          | `biome`                           |
 | TypeScript                          | `tsserver`                        |
 | TypeScript                          | `vtsls`                           |
