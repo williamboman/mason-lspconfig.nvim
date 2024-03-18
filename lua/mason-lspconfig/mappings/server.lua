@@ -16,6 +16,7 @@ M.lspconfig_to_package = {
     ["autotools_ls"] = "autotools-language-server",
     ["awk_ls"] = "awk-language-server",
     ["azure_pipelines_ls"] = "azure-pipelines-language-server",
+    ["basedpyright"] = "basedpyright",
     ["bashls"] = "bash-language-server",
     ["beancount"] = "beancount-language-server",
     ["bicep"] = "bicep-lsp",
