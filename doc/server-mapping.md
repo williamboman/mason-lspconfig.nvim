@@ -81,6 +81,7 @@
 | [java_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#java_language_server) | [java-language-server](https://mason-registry.dev/registry/list#java-language-server) |
 | [jdtls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jdtls) | [jdtls](https://mason-registry.dev/registry/list#jdtls) |
 | [jedi_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jedi_language_server) | [jedi-language-server](https://mason-registry.dev/registry/list#jedi-language-server) |
+| [jinja_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jinja_lsp) | [jinja-lsp](https://mason-registry.dev/registry/list#jinja-lsp) |
 | [jqls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jqls) | [jq-lsp](https://mason-registry.dev/registry/list#jq-lsp) |
 | [jsonls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jsonls) | [json-lsp](https://mason-registry.dev/registry/list#json-lsp) |
 | [jsonnet_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jsonnet_ls) | [jsonnet-language-server](https://mason-registry.dev/registry/list#jsonnet-language-server) |
@@ -112,6 +113,7 @@
 | [perlnavigator](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#perlnavigator) | [perlnavigator](https://mason-registry.dev/registry/list#perlnavigator) |
 | [pest_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pest_ls) | [pest-language-server](https://mason-registry.dev/registry/list#pest-language-server) |
 | [phpactor](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#phpactor) | [phpactor](https://mason-registry.dev/registry/list#phpactor) |
+| [pico8_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pico8_ls) | [pico8-ls](https://mason-registry.dev/registry/list#pico8-ls) |
 | [pkgbuild_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pkgbuild_language_server) | [pkgbuild-language-server](https://mason-registry.dev/registry/list#pkgbuild-language-server) |
 | [powershell_es](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#powershell_es) | [powershell-editor-services](https://mason-registry.dev/registry/list#powershell-editor-services) |
 | [prismals](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#prismals) | [prisma-language-server](https://mason-registry.dev/registry/list#prisma-language-server) |
@@ -147,6 +149,7 @@
 | [solidity](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity) | [solidity-ls](https://mason-registry.dev/registry/list#solidity-ls) |
 | [solidity_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity_ls) | [vscode-solidity-server](https://mason-registry.dev/registry/list#vscode-solidity-server) |
 | [solidity_ls_nomicfoundation](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solidity_ls_nomicfoundation) | [nomicfoundation-solidity-language-server](https://mason-registry.dev/registry/list#nomicfoundation-solidity-language-server) |
+| [somesass_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#somesass_ls) | [some-sass-language-server](https://mason-registry.dev/registry/list#some-sass-language-server) |
 | [sorbet](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sorbet) | [sorbet](https://mason-registry.dev/registry/list#sorbet) |
 | [sourcery](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sourcery) | [sourcery](https://mason-registry.dev/registry/list#sourcery) |
 | [spectral](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#spectral) | [spectral-language-server](https://mason-registry.dev/registry/list#spectral-language-server) |
@@ -174,6 +177,7 @@
 | [typst_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typst_lsp) | [typst-lsp](https://mason-registry.dev/registry/list#typst-lsp) |
 | [unocss](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#unocss) | [unocss-language-server](https://mason-registry.dev/registry/list#unocss-language-server) |
 | [v_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#v_analyzer) | [v-analyzer](https://mason-registry.dev/registry/list#v-analyzer) |
+| [vacuum](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vacuum) | [vacuum](https://mason-registry.dev/registry/list#vacuum) |
 | [vala_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vala_ls) | [vala-language-server](https://mason-registry.dev/registry/list#vala-language-server) |
 | [vale_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vale_ls) | [vale-ls](https://mason-registry.dev/registry/list#vale-ls) |
 | [verible](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#verible) | [verible](https://mason-registry.dev/registry/list#verible) |

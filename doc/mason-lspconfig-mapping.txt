@@ -84,6 +84,7 @@ intelephense                              intelephense
 java-language-server                      java_language_server
 jdtls                                     jdtls
 jedi-language-server                      jedi_language_server
+jinja-lsp                                 jinja_lsp
 jq-lsp                                    jqls
 json-lsp                                  jsonls
 jsonnet-language-server                   jsonnet_ls
@@ -115,6 +116,7 @@ openscad-lsp                              openscad_lsp
 perlnavigator                             perlnavigator
 pest-language-server                      pest_ls
 phpactor                                  phpactor
+pico8-ls                                  pico8_ls
 pkgbuild-language-server                  pkgbuild_language_server
 powershell-editor-services                powershell_es
 prisma-language-server                    prismals
@@ -150,6 +152,7 @@ solidity                                  solc
 solidity-ls                               solidity
 vscode-solidity-server                    solidity_ls
 nomicfoundation-solidity-language-server  solidity_ls_nomicfoundation
+some-sass-language-server                 somesass_ls
 sorbet                                    sorbet
 sourcery                                  sourcery
 spectral-language-server                  spectral
@@ -177,6 +180,7 @@ typos-lsp                                 typos_lsp
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
 v-analyzer                                v_analyzer
+vacuum                                    vacuum
 vala-language-server                      vala_ls
 vale-ls                                   vale_ls
 verible                                   verible
