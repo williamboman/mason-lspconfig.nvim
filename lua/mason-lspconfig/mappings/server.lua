@@ -84,6 +84,7 @@ M.lspconfig_to_package = {
     ["java_language_server"] = "java-language-server",
     ["jdtls"] = "jdtls",
     ["jedi_language_server"] = "jedi-language-server",
+    ["jinja_lsp"] = "jinja-lsp",
     ["jqls"] = "jq-lsp",
     ["jsonls"] = "json-lsp",
     ["jsonnet_ls"] = "jsonnet-language-server",

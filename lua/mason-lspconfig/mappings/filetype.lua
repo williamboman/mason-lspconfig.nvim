@@ -94,6 +94,7 @@ return {
   ["javascript.glimmer"] = { "ember", "glint" },
   ["javascript.jsx"] = { "denols", "eslint", "tsserver", "vtsls" },
   javascriptreact = { "biome", "cssmodules_ls", "denols", "dprint", "emmet_language_server", "emmet_ls", "eslint", "graphql", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "unocss", "vtsls" },
+  jinja = { "jinja_lsp" },
   jq = { "jqls" },
   json = { "biome", "dprint", "jsonls", "rome", "spectral" },
   ["json.openapi"] = { "vacuum" },

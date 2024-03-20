@@ -81,6 +81,7 @@
 | [java_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#java_language_server) | [java-language-server](https://mason-registry.dev/registry/list#java-language-server) |
 | [jdtls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jdtls) | [jdtls](https://mason-registry.dev/registry/list#jdtls) |
 | [jedi_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jedi_language_server) | [jedi-language-server](https://mason-registry.dev/registry/list#jedi-language-server) |
+| [jinja_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jinja_lsp) | [jinja-lsp](https://mason-registry.dev/registry/list#jinja-lsp) |
 | [jqls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jqls) | [jq-lsp](https://mason-registry.dev/registry/list#jq-lsp) |
 | [jsonls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jsonls) | [json-lsp](https://mason-registry.dev/registry/list#json-lsp) |
 | [jsonnet_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jsonnet_ls) | [jsonnet-language-server](https://mason-registry.dev/registry/list#jsonnet-language-server) |
