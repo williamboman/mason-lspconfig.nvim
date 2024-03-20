@@ -324,6 +324,7 @@ local DEFAULT_SETTINGS = {
 | SQL                                 | `sqlls`                           |
 | SQL                                 | `sqls`                            |
 | Salt                                | `salt_ls`                         |
+| Sass                                | `somesass_ls`                     |
 | Shopify Theme Check                 | `theme_check`                     |
 | Slint                               | `slint_lsp`                       |
 | Smithy                              | `smithy_ls`                       |

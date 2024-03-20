@@ -151,6 +151,7 @@ solidity                                  solc
 solidity-ls                               solidity
 vscode-solidity-server                    solidity_ls
 nomicfoundation-solidity-language-server  solidity_ls_nomicfoundation
+some-sass-language-server                 somesass_ls
 sorbet                                    sorbet
 sourcery                                  sourcery
 spectral-language-server                  spectral
