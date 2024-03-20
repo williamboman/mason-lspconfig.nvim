@@ -235,8 +235,9 @@ local DEFAULT_SETTINGS = {
 | Flux                                | `flux_lsp`                        |
 | Foam (OpenFOAM)                     | `foam_ls`                         |
 | Fortran                             | `fortls`                          |
-| Gleam                               | `gleam`                           |
 | Glint                               | `glint`                           |
+| GLSL                                | `glsl_analyzer`                   |
+| GLSL                                | `glslls`                          |
 | Go                                  | `golangci_lint_ls`                |
 | Go                                  | `gopls`                           |
 | Gradle                              | `gradle_ls`                       |
@@ -290,7 +291,6 @@ local DEFAULT_SETTINGS = {
 | OneScript, 1C:Enterprise            | `bsl_ls`                          |
 | OpenAPI                             | `spectral`                        |
 | OpenCL                              | `opencl_ls`                       |
-| OpenGL                              | `glsl_analyzer`                   |
 | OpenSCAD                            | `openscad_lsp`                    |
 | PHP                                 | `intelephense`                    |
 | PHP                                 | `phpactor`                        |
