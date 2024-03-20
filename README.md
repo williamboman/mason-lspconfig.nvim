@@ -297,6 +297,7 @@ local DEFAULT_SETTINGS = {
 | PHP                                 | `psalm`                           |
 | Perl                                | `perlnavigator`                   |
 | Pest                                | `pest_ls`                         |
+| Pico8                               | `pico8_ls`                        |
 | Powershell                          | `powershell_es`                   |
 | Prisma                              | `prismals`                        |
 | Puppet                              | `puppet`                          |
