@@ -258,6 +258,7 @@ local DEFAULT_SETTINGS = {
 | JavaScript                          | `tsserver`                        |
 | JavaScript                          | `vtsls`                           |
 | JavaScript                          | `biome`                           |
+| Jinja                               | `jinja_lsp`                       |
 | Jsonnet                             | `jsonnet_ls`                      |
 | Julia [(docs)][julials]             | `julials`                         |
 | jq                                  | `jqls`                            |
