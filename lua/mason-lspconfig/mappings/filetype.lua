@@ -111,7 +111,7 @@ return {
   lua = { "ast_grep", "lua_ls" },
   luau = { "luau_lsp" },
   make = { "autotools_ls" },
-  markdown = { "dprint", "grammarly", "ltex", "marksman", "markdown_oxide", "prosemd_lsp", "remark_ls", "tailwindcss", "vale_ls", "zk" },
+  markdown = { "dprint", "grammarly", "ltex", "markdown_oxide", "marksman", "prosemd_lsp", "remark_ls", "tailwindcss", "vale_ls", "zk" },
   ["markdown.mdx"] = { "marksman", "mdx_analyzer" },
   matlab = { "matlab_ls" },
   mdx = { "tailwindcss" },
