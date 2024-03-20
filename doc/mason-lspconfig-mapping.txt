@@ -179,6 +179,7 @@ typos-lsp                                 typos_lsp
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
 v-analyzer                                v_analyzer
+vacuum                                    vacuum
 vala-language-server                      vala_ls
 vale-ls                                   vale_ls
 verible                                   verible

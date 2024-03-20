@@ -96,6 +96,7 @@ return {
   javascriptreact = { "biome", "cssmodules_ls", "denols", "dprint", "emmet_language_server", "emmet_ls", "eslint", "graphql", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "unocss", "vtsls" },
   jq = { "jqls" },
   json = { "biome", "dprint", "jsonls", "rome", "spectral" },
+  ["json.openapi"] = { "vacuum" },
   jsonc = { "biome", "dprint", "jsonls" },
   jsonnet = { "jsonnet_ls" },
   julia = { "julials" },
@@ -221,6 +222,7 @@ return {
   yaml = { "azure_pipelines_ls", "hydra_lsp", "spectral", "yamlls" },
   ["yaml.ansible"] = { "ansiblels" },
   ["yaml.docker-compose"] = { "docker_compose_language_service", "yamlls" },
+  ["yaml.openapi"] = { "vacuum" },
   yml = { "spectral" },
   zig = { "zls" },
   zir = { "zls" }

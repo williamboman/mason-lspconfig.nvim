@@ -290,6 +290,7 @@ local DEFAULT_SETTINGS = {
 | Odin                                | `ols`                             |
 | OneScript, 1C:Enterprise            | `bsl_ls`                          |
 | OpenAPI                             | `spectral`                        |
+| OpenAPI                             | `vacuum`                          |
 | OpenCL                              | `opencl_ls`                       |
 | OpenSCAD                            | `openscad_lsp`                    |
 | PHP                                 | `intelephense`                    |
