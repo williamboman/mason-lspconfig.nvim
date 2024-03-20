@@ -271,6 +271,7 @@ local DEFAULT_SETTINGS = {
 | Luau                                | `luau_lsp`                        |
 | LWC                                 | `lwc_ls`                          |
 | Make                                | `autotools_ls`                    |
+| Markdown                            | `markdown_oxide`                  |
 | Markdown                            | `marksman`                        |
 | Markdown                            | `prosemd_lsp`                     |
 | Markdown                            | `remark_ls`                       |
