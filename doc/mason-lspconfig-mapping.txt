@@ -63,9 +63,9 @@ flux-lsp                                  flux_lsp
 foam-language-server                      foam_ls
 fortls                                    fortls
 fsautocomplete                            fsautocomplete
-gleam                                     gleam
 glint                                     glint
 glsl_analyzer                             glsl_analyzer
+glslls                                    glslls
 golangci-lint-langserver                  golangci_lint_ls
 gopls                                     gopls
 gradle-language-server                    gradle_ls
@@ -115,6 +115,7 @@ openscad-lsp                              openscad_lsp
 perlnavigator                             perlnavigator
 pest-language-server                      pest_ls
 phpactor                                  phpactor
+pico8-ls                                  pico8_ls
 pkgbuild-language-server                  pkgbuild_language_server
 powershell-editor-services                powershell_es
 prisma-language-server                    prismals
