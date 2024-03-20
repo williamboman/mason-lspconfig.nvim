@@ -305,6 +305,7 @@ local DEFAULT_SETTINGS = {
 | Prisma                              | `prismals`                        |
 | Puppet                              | `puppet`                          |
 | PureScript                          | `purescriptls`                    |
+| Python                              | `basedpyright`                    |
 | Python                              | `jedi_language_server`            |
 | Python                              | `pyre`                            |
 | Python                              | `pyright`                         |

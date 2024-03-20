@@ -13,6 +13,7 @@
 | [autotools_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#autotools_ls) | [autotools-language-server](https://mason-registry.dev/registry/list#autotools-language-server) |
 | [awk_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#awk_ls) | [awk-language-server](https://mason-registry.dev/registry/list#awk-language-server) |
 | [azure_pipelines_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#azure_pipelines_ls) | [azure-pipelines-language-server](https://mason-registry.dev/registry/list#azure-pipelines-language-server) |
+| [basedpyright](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#basedpyright) | [basedpyright](https://mason-registry.dev/registry/list#basedpyright) |
 | [bashls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bashls) | [bash-language-server](https://mason-registry.dev/registry/list#bash-language-server) |
 | [beancount](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#beancount) | [beancount-language-server](https://mason-registry.dev/registry/list#beancount-language-server) |
 | [bicep](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bicep) | [bicep-lsp](https://mason-registry.dev/registry/list#bicep-lsp) |
