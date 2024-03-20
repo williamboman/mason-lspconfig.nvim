@@ -182,7 +182,7 @@ local DEFAULT_SETTINGS = {
 | Arduino                             | `arduino_language_server`         |
 | Assembly (GAS/NASM, GO)             | `asm_lsp`                         |
 | Astro                               | `astro`                           |
-| Automake                            | `autotools-language-server`       |
+| Automake                            | `autotools_ls`                    |
 | Azure Pipelines                     | `azure_pipelines_ls`              |
 | Bash                                | `bashls`                          |
 | Bash                                | `pkgbuild_language_server`        |
@@ -204,7 +204,7 @@ local DEFAULT_SETTINGS = {
 | Clarity                             | `clarity_lsp`                     |
 | Clojure                             | `clojure_lsp`                     |
 | CodeQL                              | `codeqlls`                        |
-| Autoconf                            | `autotools-language-server`       |
+| Autoconf                            | `autotools_ls`                    |
 | Crystal                             | `crystalline`                     |
 | Cucumber                            | `cucumber_language_server`        |
 | Custom Elements Language Server     | `custom_elements_ls`              |
@@ -235,8 +235,9 @@ local DEFAULT_SETTINGS = {
 | Flux                                | `flux_lsp`                        |
 | Foam (OpenFOAM)                     | `foam_ls`                         |
 | Fortran                             | `fortls`                          |
-| Gleam                               | `gleam`                           |
 | Glint                               | `glint`                           |
+| GLSL                                | `glsl_analyzer`                   |
+| GLSL                                | `glslls`                          |
 | Go                                  | `golangci_lint_ls`                |
 | Go                                  | `gopls`                           |
 | Gradle                              | `gradle_ls`                       |
@@ -268,7 +269,7 @@ local DEFAULT_SETTINGS = {
 | Lua                                 | `lua_ls`                          |
 | Luau                                | `luau_lsp`                        |
 | LWC                                 | `lwc_ls`                          |
-| Make                                | `autotools-language-server`       |
+| Make                                | `autotools_ls`                    |
 | Markdown                            | `marksman`                        |
 | Markdown                            | `prosemd_lsp`                     |
 | Markdown                            | `remark_ls`                       |
@@ -290,7 +291,6 @@ local DEFAULT_SETTINGS = {
 | OneScript, 1C:Enterprise            | `bsl_ls`                          |
 | OpenAPI                             | `spectral`                        |
 | OpenCL                              | `opencl_ls`                       |
-| OpenGL                              | `glsl_analyzer`                   |
 | OpenSCAD                            | `openscad_lsp`                    |
 | PHP                                 | `intelephense`                    |
 | PHP                                 | `phpactor`                        |
