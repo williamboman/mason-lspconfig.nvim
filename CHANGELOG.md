@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.27.0...v1.28.0) (2024-03-22)
+
+
+### Features
+
+* add fennel-ls ([#382](https://github.com/williamboman/mason-lspconfig.nvim/issues/382)) ([9dfcf20](https://github.com/williamboman/mason-lspconfig.nvim/commit/9dfcf2036c223920826140f0151d929a43f9eceb))
+
 ## [1.27.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.26.0...v1.27.0) (2024-03-20)
 
 
