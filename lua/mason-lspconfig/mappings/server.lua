@@ -60,6 +60,7 @@ M.lspconfig_to_package = {
     ["eslint"] = "eslint-lsp",
     ["facility_language_server"] = "facility-language-server",
     ["fennel_language_server"] = "fennel-language-server",
+    ["fennel_ls"] = "fennel-ls",
     ["flux_lsp"] = "flux-lsp",
     ["foam_ls"] = "foam-language-server",
     ["fortls"] = "fortls",

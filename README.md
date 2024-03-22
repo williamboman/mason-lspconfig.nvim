@@ -232,6 +232,7 @@ local DEFAULT_SETTINGS = {
 | F#                                  | `fsautocomplete`                  |
 | Facility Service Definition         | `facility_language_server`        |
 | Fennel                              | `fennel_language_server`          |
+| Fennel                              | `fennel_ls`                       |
 | Flux                                | `flux_lsp`                        |
 | Foam (OpenFOAM)                     | `foam_ls`                         |
 | Fortran                             | `fortls`                          |
