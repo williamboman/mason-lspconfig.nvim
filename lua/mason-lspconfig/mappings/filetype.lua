@@ -57,7 +57,7 @@ return {
   erg = { "erg_language_server" },
   erlang = { "elp", "erlangls" },
   eruby = { "emmet_language_server", "emmet_ls", "stimulus_ls", "tailwindcss" },
-  fennel = { "fennel_language_server" },
+  fennel = { "fennel_language_server", "fennel_ls" },
   flux = { "flux_lsp" },
   foam = { "foam_ls" },
   fortran = { "fortls" },
