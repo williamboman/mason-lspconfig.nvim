@@ -16,7 +16,7 @@
     <code>:help mason-lspconfig.nvim</code>
 </p>
 <p align="center">
-    <sup>Latest version: v1.26.0</sup> <!-- x-release-please-version -->
+    <sup>Latest version: v1.27.0</sup> <!-- x-release-please-version -->
 </p>
 
 # Table of Contents
@@ -182,7 +182,7 @@ local DEFAULT_SETTINGS = {
 | Arduino                             | `arduino_language_server`         |
 | Assembly (GAS/NASM, GO)             | `asm_lsp`                         |
 | Astro                               | `astro`                           |
-| Automake                            | `autotools-language-server`       |
+| Automake                            | `autotools_ls`                    |
 | Azure Pipelines                     | `azure_pipelines_ls`              |
 | Bash                                | `bashls`                          |
 | Bash                                | `pkgbuild_language_server`        |
@@ -204,7 +204,7 @@ local DEFAULT_SETTINGS = {
 | Clarity                             | `clarity_lsp`                     |
 | Clojure                             | `clojure_lsp`                     |
 | CodeQL                              | `codeqlls`                        |
-| Autoconf                            | `autotools-language-server`       |
+| Autoconf                            | `autotools_ls`                    |
 | Crystal                             | `crystalline`                     |
 | Cucumber                            | `cucumber_language_server`        |
 | Custom Elements Language Server     | `custom_elements_ls`              |
@@ -232,6 +232,7 @@ local DEFAULT_SETTINGS = {
 | F#                                  | `fsautocomplete`                  |
 | Facility Service Definition         | `facility_language_server`        |
 | Fennel                              | `fennel_language_server`          |
+| Fennel                              | `fennel_ls`                       |
 | Flux                                | `flux_lsp`                        |
 | Foam (OpenFOAM)                     | `foam_ls`                         |
 | Fortran                             | `fortls`                          |
@@ -259,6 +260,7 @@ local DEFAULT_SETTINGS = {
 | JavaScript                          | `tsserver`                        |
 | JavaScript                          | `vtsls`                           |
 | JavaScript                          | `biome`                           |
+| Jinja                               | `jinja_lsp`                       |
 | Jsonnet                             | `jsonnet_ls`                      |
 | Julia [(docs)][julials]             | `julials`                         |
 | jq                                  | `jqls`                            |
@@ -269,7 +271,8 @@ local DEFAULT_SETTINGS = {
 | Lua                                 | `lua_ls`                          |
 | Luau                                | `luau_lsp`                        |
 | LWC                                 | `lwc_ls`                          |
-| Make                                | `autotools-language-server`       |
+| Make                                | `autotools_ls`                    |
+| Markdown                            | `markdown_oxide`                  |
 | Markdown                            | `marksman`                        |
 | Markdown                            | `prosemd_lsp`                     |
 | Markdown                            | `remark_ls`                       |
@@ -290,6 +293,7 @@ local DEFAULT_SETTINGS = {
 | Odin                                | `ols`                             |
 | OneScript, 1C:Enterprise            | `bsl_ls`                          |
 | OpenAPI                             | `spectral`                        |
+| OpenAPI                             | `vacuum`                          |
 | OpenCL                              | `opencl_ls`                       |
 | OpenSCAD                            | `openscad_lsp`                    |
 | PHP                                 | `intelephense`                    |
@@ -297,10 +301,12 @@ local DEFAULT_SETTINGS = {
 | PHP                                 | `psalm`                           |
 | Perl                                | `perlnavigator`                   |
 | Pest                                | `pest_ls`                         |
+| Pico8                               | `pico8_ls`                        |
 | Powershell                          | `powershell_es`                   |
 | Prisma                              | `prismals`                        |
 | Puppet                              | `puppet`                          |
 | PureScript                          | `purescriptls`                    |
+| Python                              | `basedpyright`                    |
 | Python                              | `jedi_language_server`            |
 | Python                              | `pyre`                            |
 | Python                              | `pyright`                         |
@@ -323,6 +329,7 @@ local DEFAULT_SETTINGS = {
 | SQL                                 | `sqlls`                           |
 | SQL                                 | `sqls`                            |
 | Salt                                | `salt_ls`                         |
+| Sass                                | `somesass_ls`                     |
 | Shopify Theme Check                 | `theme_check`                     |
 | Slint                               | `slint_lsp`                       |
 | Smithy                              | `smithy_ls`                       |

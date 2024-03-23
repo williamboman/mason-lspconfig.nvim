@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.27.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.26.0...v1.27.0) (2024-03-20)
+
+
+### Features
+
+* add basedpyright lsp ([#379](https://github.com/williamboman/mason-lspconfig.nvim/issues/379)) ([b04a8f7](https://github.com/williamboman/mason-lspconfig.nvim/commit/b04a8f716c8c8086cd1fdc17827284dd9e37b193))
+* add bzl mapping ([#350](https://github.com/williamboman/mason-lspconfig.nvim/issues/350)) ([b9084b1](https://github.com/williamboman/mason-lspconfig.nvim/commit/b9084b1f42f790d6230dc66dbcb6bcc35b148552))
+* add dprint ([#355](https://github.com/williamboman/mason-lspconfig.nvim/issues/355)) ([5d07c2d](https://github.com/williamboman/mason-lspconfig.nvim/commit/5d07c2df76d33cc3e46eea8474f290bb1ba17452))
+* add glsl_analyzer language server ([#363](https://github.com/williamboman/mason-lspconfig.nvim/issues/363)) ([60f6805](https://github.com/williamboman/mason-lspconfig.nvim/commit/60f6805b12a12e8a912aeb2f975dec1794a8994e))
+* add glslls ([#347](https://github.com/williamboman/mason-lspconfig.nvim/issues/347)) ([82c7cb0](https://github.com/williamboman/mason-lspconfig.nvim/commit/82c7cb08ddb836ad938b2708e50085f12a8825d2))
+* add jinja-lsp ([#375](https://github.com/williamboman/mason-lspconfig.nvim/issues/375)) ([b5bf151](https://github.com/williamboman/mason-lspconfig.nvim/commit/b5bf1511961190f1409014cde6e5b8d3b3d8cf34))
+* add lwc language server ([#346](https://github.com/williamboman/mason-lspconfig.nvim/issues/346)) ([8831e43](https://github.com/williamboman/mason-lspconfig.nvim/commit/8831e43da8811d17e1694761cf5a2e7571e0cd71))
+* add markdown-oxide lsp ([#378](https://github.com/williamboman/mason-lspconfig.nvim/issues/378)) ([ca13885](https://github.com/williamboman/mason-lspconfig.nvim/commit/ca13885768669fc29777a92e8b5cff7b253eddc2))
+* add millet ([#361](https://github.com/williamboman/mason-lspconfig.nvim/issues/361)) ([06dbefc](https://github.com/williamboman/mason-lspconfig.nvim/commit/06dbefc9990d80ca2e52028fdecd9838674e0ba4))
+* add pico8 language server ([#369](https://github.com/williamboman/mason-lspconfig.nvim/issues/369)) ([8d6ef4c](https://github.com/williamboman/mason-lspconfig.nvim/commit/8d6ef4c96fe80c9f0cc47c9044b822d006e1bfce))
+* add solidity_ls ([#362](https://github.com/williamboman/mason-lspconfig.nvim/issues/362)) ([4c4a19d](https://github.com/williamboman/mason-lspconfig.nvim/commit/4c4a19dbaebd6e6b7ce3d3733d7e6669378b9111))
+* add somesass_ls ([#372](https://github.com/williamboman/mason-lspconfig.nvim/issues/372)) ([51797bc](https://github.com/williamboman/mason-lspconfig.nvim/commit/51797bc2bb08a67abf5c4205a63ce94e1612bad2))
+* add twig_language_server ([#365](https://github.com/williamboman/mason-lspconfig.nvim/issues/365)) ([646a3fc](https://github.com/williamboman/mason-lspconfig.nvim/commit/646a3fc6658641ac40e6fb9436b35d12d649dfd1))
+* add vacuum language server ([#374](https://github.com/williamboman/mason-lspconfig.nvim/issues/374)) ([9f459ac](https://github.com/williamboman/mason-lspconfig.nvim/commit/9f459ac336df436e455c645075ba04e5a0204d47))
+
+
+### Bug Fixes
+
+* remove gleam ([#377](https://github.com/williamboman/mason-lspconfig.nvim/issues/377)) ([1bed242](https://github.com/williamboman/mason-lspconfig.nvim/commit/1bed24274d911bb3ed730c516ffce27e8fdeeac3))
+* update lspconfig reference to twig-language-server ([#366](https://github.com/williamboman/mason-lspconfig.nvim/issues/366)) ([21d33d6](https://github.com/williamboman/mason-lspconfig.nvim/commit/21d33d69a81f6351e5a5f49078b2e4f0075c8e73))
+
 ## [1.26.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.25.0...v1.26.0) (2023-12-21)
 
 

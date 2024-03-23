@@ -16,6 +16,7 @@ astro-language-server                     astro
 autotools-language-server                 autotools_ls
 awk-language-server                       awk_ls
 azure-pipelines-language-server           azure_pipelines_ls
+basedpyright                              basedpyright
 bash-language-server                      bashls
 beancount-language-server                 beancount
 bicep-lsp                                 bicep
@@ -59,6 +60,7 @@ esbonio                                   esbonio
 eslint-lsp                                eslint
 facility-language-server                  facility_language_server
 fennel-language-server                    fennel_language_server
+fennel-ls                                 fennel_ls
 flux-lsp                                  flux_lsp
 foam-language-server                      foam_ls
 fortls                                    fortls
@@ -84,6 +86,7 @@ intelephense                              intelephense
 java-language-server                      java_language_server
 jdtls                                     jdtls
 jedi-language-server                      jedi_language_server
+jinja-lsp                                 jinja_lsp
 jq-lsp                                    jqls
 json-lsp                                  jsonls
 jsonnet-language-server                   jsonnet_ls
@@ -95,6 +98,7 @@ ltex-ls                                   ltex
 lua-language-server                       lua_ls
 luau-lsp                                  luau_lsp
 lwc-language-server                       lwc_ls
+markdown-oxide                            markdown_oxide
 marksman                                  marksman
 matlab-language-server                    matlab_ls
 mdx-analyzer                              mdx_analyzer
@@ -115,6 +119,7 @@ openscad-lsp                              openscad_lsp
 perlnavigator                             perlnavigator
 pest-language-server                      pest_ls
 phpactor                                  phpactor
+pico8-ls                                  pico8_ls
 pkgbuild-language-server                  pkgbuild_language_server
 powershell-editor-services                powershell_es
 prisma-language-server                    prismals
@@ -150,6 +155,7 @@ solidity                                  solc
 solidity-ls                               solidity
 vscode-solidity-server                    solidity_ls
 nomicfoundation-solidity-language-server  solidity_ls_nomicfoundation
+some-sass-language-server                 somesass_ls
 sorbet                                    sorbet
 sourcery                                  sourcery
 spectral-language-server                  spectral
@@ -178,6 +184,7 @@ typos-lsp                                 typos_lsp
 typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
 v-analyzer                                v_analyzer
+vacuum                                    vacuum
 vala-language-server                      vala_ls
 vale-ls                                   vale_ls
 verible                                   verible
