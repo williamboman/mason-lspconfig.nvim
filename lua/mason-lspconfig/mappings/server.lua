@@ -175,6 +175,7 @@ M.lspconfig_to_package = {
     ["tsserver"] = "typescript-language-server",
     ["twiggy_language_server"] = "twiggy-language-server",
     ["typos_lsp"] = "typos-lsp",
+    ["tinymist"] = "tinymist",
     ["typst_lsp"] = "typst-lsp",
     ["unocss"] = "unocss-language-server",
     ["v_analyzer"] = "v-analyzer",
