@@ -198,7 +198,7 @@ return {
   ["typescript.glimmer"] = { "ember", "glint" },
   ["typescript.tsx"] = { "angularls", "biome", "denols", "eslint", "rome", "tsserver", "vtsls" },
   typescriptreact = { "angularls", "biome", "cssmodules_ls", "denols", "dprint", "emmet_language_server", "emmet_ls", "eslint", "graphql", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "unocss", "vtsls" },
-  typst = { "typst_lsp" },
+  typst = { "typst_lsp", "tinymist" },
   v = { "v_analyzer", "vls" },
   vala = { "vala_ls" },
   vb = { "omnisharp", "omnisharp_mono" },
