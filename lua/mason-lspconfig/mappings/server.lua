@@ -108,6 +108,7 @@ M.lspconfig_to_package = {
     ["mdx_analyzer"] = "mdx-analyzer",
     ["millet"] = "millet",
     ["mm0_ls"] = "metamath-zero-lsp",
+    ["motoko_lsp"] = "motoko-lsp",
     ["move_analyzer"] = "move-analyzer",
     ["mutt_ls"] = "mutt-language-server",
     ["neocmake"] = "neocmakelsp",

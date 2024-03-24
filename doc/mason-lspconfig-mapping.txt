@@ -109,6 +109,7 @@ mdx-analyzer                              mdx_analyzer
 mesonlsp                                  mesonlsp
 millet                                    millet
 metamath-zero-lsp                         mm0_ls
+motoko-lsp                                motoko
 move-analyzer                             move_analyzer
 mutt-language-server                      mutt_ls
 neocmakelsp                               neocmake
