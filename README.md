@@ -313,6 +313,7 @@ local DEFAULT_SETTINGS = {
 | Python                              | `pylyzer`                         |
 | Python                              | `sourcery`                        |
 | Python [(docs)][pylsp]              | `pylsp`                           |
+| Python                              | `ruff`                            |
 | Python                              | `ruff_lsp`                        |
 | R                                   | `r_language_server`               |
 | Raku                                | `raku_navigator`                  |
