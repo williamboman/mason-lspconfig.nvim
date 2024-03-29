@@ -1,15 +1,16 @@
 local _ = require "mason-core.functional"
 local a = require "mason-core.async"
-local notify = require "mason-lspconfig.notify"
-local pip3 = require "mason-core.managers.pip3"
-local process = require "mason-core.process"
-local spawn = require "mason-core.spawn"
 
 ---@param install_dir string
 return function(install_dir)
     vim.api.nvim_create_user_command(
         "PylspInstall",
         a.scope(function(opts)
+            local notify = require "mason-lspconfig.notify"
+            local pip3 = require "mason-core.managers.pip3"
+            local process = require "mason-core.process"
+            local spawn = require "mason-core.spawn"
+
             local plugins = opts.fargs
             local plugins_str = table.concat(plugins, ", ")
             notify(("Installing %s..."):format(plugins_str))
