@@ -34,7 +34,12 @@ function M.setup(config)
     end
 
     if not platform.is_headless and #settings.current.ensure_installed > 0 then
-        require "mason-lspconfig.ensure_installed"()
+        local async
+        async = vim.uv.new_async(function()
+            require "mason-lspconfig.ensure_installed"()
+            async:close()
+        end)
+        async:send()
     end
 
     local registry = require "mason-registry"
