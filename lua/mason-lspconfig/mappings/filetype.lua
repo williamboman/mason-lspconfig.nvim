@@ -51,7 +51,7 @@ return {
   edn = { "clojure_lsp" },
   eelixir = { "elixirls", "tailwindcss" },
   ejs = { "tailwindcss" },
-  elixir = { "elixirls", "tailwindcss" },
+  elixir = { "elixirls", "lexical", "tailwindcss" },
   elm = { "elmls" },
   erb = { "tailwindcss" },
   erg = { "erg_language_server" },

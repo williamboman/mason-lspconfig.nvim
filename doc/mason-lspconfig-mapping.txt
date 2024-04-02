@@ -94,6 +94,7 @@ julia-lsp                                 julials
 kotlin-language-server                    kotlin_language_server
 lelwel                                    lelwel_ls
 lemminx                                   lemminx
+lexical                                   lexical
 ltex-ls                                   ltex
 lua-language-server                       lua_ls
 luau-lsp                                  luau_lsp

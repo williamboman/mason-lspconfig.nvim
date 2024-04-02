@@ -94,6 +94,7 @@ M.lspconfig_to_package = {
     ["kotlin_language_server"] = "kotlin-language-server",
     ["lelwel_ls"] = "lelwel",
     ["lemminx"] = "lemminx",
+    ["lexical"] = "lexical",
     ["ltex"] = "ltex-ls",
     ["lua_ls"] = "lua-language-server",
     ["luau_lsp"] = "luau-lsp",
