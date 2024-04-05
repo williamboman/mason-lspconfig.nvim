@@ -369,6 +369,7 @@ local DEFAULT_SETTINGS = {
 | Vue                                 | `vuels`                           |
 | WGSL                                | `wgsl_analyzer`                   |
 | XML                                 | `lemminx`                         |
+| YAML                                | `gitlab_ci_ls`                    |
 | YAML                                | `hydra_lsp`                       |
 | YAML                                | `yamlls`                          |
 | Zig                                 | `zls`                             |

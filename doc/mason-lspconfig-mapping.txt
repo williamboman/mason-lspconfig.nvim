@@ -65,6 +65,7 @@ flux-lsp                                  flux_lsp
 foam-language-server                      foam_ls
 fortls                                    fortls
 fsautocomplete                            fsautocomplete
+gitlab-ci-ls                              gitlab_ci_ls
 glint                                     glint
 glsl_analyzer                             glsl_analyzer
 glslls                                    glslls
