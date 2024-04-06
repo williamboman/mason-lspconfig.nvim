@@ -102,6 +102,7 @@ markdown-oxide                            markdown_oxide
 marksman                                  marksman
 matlab-language-server                    matlab_ls
 mdx-analyzer                              mdx_analyzer
+mesonlsp                                  mesonlsp
 millet                                    millet
 metamath-zero-lsp                         mm0_ls
 move-analyzer                             move_analyzer
