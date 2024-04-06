@@ -103,6 +103,7 @@ markdown-oxide                            markdown_oxide
 marksman                                  marksman
 matlab-language-server                    matlab_ls
 mdx-analyzer                              mdx_analyzer
+mesonlsp                                  mesonlsp
 millet                                    millet
 metamath-zero-lsp                         mm0_ls
 move-analyzer                             move_analyzer
@@ -143,6 +144,7 @@ robotframework-lsp                        robotframework_ls
 rome                                      rome
 rubocop                                   rubocop
 ruby-lsp                                  ruby_ls
+ruff                                      ruff
 ruff-lsp                                  ruff_lsp
 rust-analyzer                             rust_analyzer
 salt-lsp                                  salt_ls

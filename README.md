@@ -281,7 +281,8 @@ local DEFAULT_SETTINGS = {
 | Markdown                            | `zk`                              |
 | Matlab                              | `matlab_ls`                       |
 | MDX                                 | `mdx_analyzer`                    |
-| Meson                               | `swift_mesonls`                   |
+| Meson                               | `mesonlsp`                        |
+| Meson (deprecated)                  | `swift_mesonls`                   |
 | Metamath Zero                       | `mm0_ls`                          |
 | Move                                | `move_analyzer`                   |
 | Mutt                                | `mutt_ls`                         |
@@ -314,6 +315,7 @@ local DEFAULT_SETTINGS = {
 | Python                              | `pylyzer`                         |
 | Python                              | `sourcery`                        |
 | Python [(docs)][pylsp]              | `pylsp`                           |
+| Python                              | `ruff`                            |
 | Python                              | `ruff_lsp`                        |
 | R                                   | `r_language_server`               |
 | Raku                                | `raku_navigator`                  |

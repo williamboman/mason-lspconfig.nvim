@@ -100,6 +100,7 @@
 | [marksman](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#marksman) | [marksman](https://mason-registry.dev/registry/list#marksman) |
 | [matlab_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#matlab_ls) | [matlab-language-server](https://mason-registry.dev/registry/list#matlab-language-server) |
 | [mdx_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#mdx_analyzer) | [mdx-analyzer](https://mason-registry.dev/registry/list#mdx-analyzer) |
+| [mesonlsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#mesonlsp) | [mesonlsp](https://mason-registry.dev/registry/list#mesonlsp) |
 | [millet](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#millet) | [millet](https://mason-registry.dev/registry/list#millet) |
 | [mm0_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#mm0_ls) | [metamath-zero-lsp](https://mason-registry.dev/registry/list#metamath-zero-lsp) |
 | [move_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#move_analyzer) | [move-analyzer](https://mason-registry.dev/registry/list#move-analyzer) |
@@ -140,6 +141,7 @@
 | [rome](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rome) | [rome](https://mason-registry.dev/registry/list#rome) |
 | [rubocop](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rubocop) | [rubocop](https://mason-registry.dev/registry/list#rubocop) |
 | [ruby_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruby_ls) | [ruby-lsp](https://mason-registry.dev/registry/list#ruby-lsp) |
+| [ruff](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruff) | [ruff](https://mason-registry.dev/registry/list#ruff) |
 | [ruff_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruff_lsp) | [ruff-lsp](https://mason-registry.dev/registry/list#ruff-lsp) |
 | [rust_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rust_analyzer) | [rust-analyzer](https://mason-registry.dev/registry/list#rust-analyzer) |
 | [salt_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#salt_ls) | [salt-lsp](https://mason-registry.dev/registry/list#salt-lsp) |
