@@ -91,6 +91,7 @@
 | [kotlin_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#kotlin_language_server) | [kotlin-language-server](https://mason-registry.dev/registry/list#kotlin-language-server) |
 | [lelwel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lelwel_ls) | [lelwel](https://mason-registry.dev/registry/list#lelwel) |
 | [lemminx](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lemminx) | [lemminx](https://mason-registry.dev/registry/list#lemminx) |
+| [lexical](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lexical) | [lexical](https://mason-registry.dev/registry/list#lexical) |
 | [ltex](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ltex) | [ltex-ls](https://mason-registry.dev/registry/list#ltex-ls) |
 | [lua_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lua_ls) | [lua-language-server](https://mason-registry.dev/registry/list#lua-language-server) |
 | [luau_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#luau_lsp) | [luau-lsp](https://mason-registry.dev/registry/list#luau-lsp) |
