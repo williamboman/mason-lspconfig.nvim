@@ -116,7 +116,7 @@ return {
   matlab = { "matlab_ls" },
   mdx = { "tailwindcss" },
   menhir = { "ocamllsp" },
-  meson = { "swift_mesonls" },
+  meson = { "mesonlsp", "swift_mesonls" },
   ["metamath-zero"] = { "mm0_ls" },
   move = { "move_analyzer" },
   mustache = { "tailwindcss" },

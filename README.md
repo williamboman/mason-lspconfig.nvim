@@ -280,7 +280,8 @@ local DEFAULT_SETTINGS = {
 | Markdown                            | `zk`                              |
 | Matlab                              | `matlab_ls`                       |
 | MDX                                 | `mdx_analyzer`                    |
-| Meson                               | `swift_mesonls`                   |
+| Meson                               | `mesonlsp`                        |
+| Meson (deprecated)                  | `swift_mesonls`                   |
 | Metamath Zero                       | `mm0_ls`                          |
 | Move                                | `move_analyzer`                   |
 | Mutt                                | `mutt_ls`                         |
