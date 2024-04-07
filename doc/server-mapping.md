@@ -28,6 +28,7 @@
 | [clojure_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clojure_lsp) | [clojure-lsp](https://mason-registry.dev/registry/list#clojure-lsp) |
 | [cmake](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cmake) | [cmake-language-server](https://mason-registry.dev/registry/list#cmake-language-server) |
 | [codeqlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#codeqlls) | [codeql](https://mason-registry.dev/registry/list#codeql) |
+| [coq_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#coq_lsp) | [coq-lsp](https://mason-registry.dev/registry/list#coq-lsp) |
 | [crystalline](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#crystalline) | [crystalline](https://mason-registry.dev/registry/list#crystalline) |
 | [csharp_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#csharp_ls) | [csharp-language-server](https://mason-registry.dev/registry/list#csharp-language-server) |
 | [cssls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssls) | [css-lsp](https://mason-registry.dev/registry/list#css-lsp) |
