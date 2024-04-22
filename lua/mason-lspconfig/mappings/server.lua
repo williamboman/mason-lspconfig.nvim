@@ -31,6 +31,7 @@ M.lspconfig_to_package = {
     ["clojure_lsp"] = "clojure-lsp",
     ["cmake"] = "cmake-language-server",
     ["codeqlls"] = "codeql",
+    ["coq_lsp"] = "coq-lsp",
     ["crystalline"] = "crystalline",
     ["csharp_ls"] = "csharp-language-server",
     ["cssls"] = "css-lsp",

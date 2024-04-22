@@ -31,6 +31,7 @@ clarity-lsp                               clarity_lsp
 clojure-lsp                               clojure_lsp
 cmake-language-server                     cmake
 codeql                                    codeqlls
+coq-lsp                                   coq_lsp
 crystalline                               crystalline
 csharp-language-server                    csharp_ls
 css-lsp                                   cssls

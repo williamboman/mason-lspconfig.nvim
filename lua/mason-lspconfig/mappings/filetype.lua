@@ -31,6 +31,7 @@ return {
   comp = { "glsl_analyzer", "glslls" },
   config = { "autotools_ls" },
   context = { "ltex" },
+  coq = { "coq_lsp" },
   cpp = { "ast_grep", "clangd" },
   crystal = { "crystalline" },
   cs = { "csharp_ls", "omnisharp", "omnisharp_mono" },
