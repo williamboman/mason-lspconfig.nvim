@@ -323,7 +323,7 @@ local DEFAULT_SETTINGS = {
 | Reason                              | `reason_ls`                       |
 | Robot Framework                     | `robotframework_ls`               |
 | Rome                                | `rome`                            |
-| Ruby                                | `ruby_ls`                         |
+| Ruby                                | `ruby_lsp`                        |
 | Ruby                                | `solargraph`                      |
 | Ruby                                | `sorbet`                          |
 | Ruby                                | `standardrb`                      |

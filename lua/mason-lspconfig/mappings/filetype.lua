@@ -167,7 +167,7 @@ return {
   robot = { "robotframework_ls" },
   roslyn = { "dprint" },
   rst = { "esbonio", "ltex" },
-  ruby = { "rubocop", "ruby_ls", "solargraph", "sorbet", "standardrb", "stimulus_ls" },
+  ruby = { "rubocop", "ruby_lsp", "solargraph", "sorbet", "standardrb", "stimulus_ls" },
   rust = { "ast_grep", "dprint", "rust_analyzer" },
   sass = { "emmet_language_server", "emmet_ls", "somesass_ls", "tailwindcss" },
   scss = { "cssls", "emmet_language_server", "emmet_ls", "somesass_ls", "stylelint_lsp", "tailwindcss" },
