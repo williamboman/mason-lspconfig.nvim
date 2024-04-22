@@ -225,7 +225,7 @@ return {
   yaml = { "azure_pipelines_ls", "hydra_lsp", "snyk_ls", "spectral", "yamlls" },
   ["yaml.ansible"] = { "ansiblels" },
   ["yaml.docker-compose"] = { "docker_compose_language_service", "yamlls" },
-  ["yaml.gitlab"] = { "yamlls" },
+  ["yaml.gitlab"] = { "gitlab_ci_ls", "yamlls" },
   ["yaml.openapi"] = { "vacuum" },
   yml = { "spectral" },
   zig = { "zls" },

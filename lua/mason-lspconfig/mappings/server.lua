@@ -65,6 +65,7 @@ M.lspconfig_to_package = {
     ["foam_ls"] = "foam-language-server",
     ["fortls"] = "fortls",
     ["fsautocomplete"] = "fsautocomplete",
+    ["gitlab_ci_ls"] = "gitlab-ci-ls",
     ["glint"] = "glint",
     ["glsl_analyzer"] = "glsl_analyzer",
     ["glslls"] = "glslls",
