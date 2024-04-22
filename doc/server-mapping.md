@@ -28,6 +28,7 @@
 | [clojure_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clojure_lsp) | [clojure-lsp](https://mason-registry.dev/registry/list#clojure-lsp) |
 | [cmake](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cmake) | [cmake-language-server](https://mason-registry.dev/registry/list#cmake-language-server) |
 | [codeqlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#codeqlls) | [codeql](https://mason-registry.dev/registry/list#codeql) |
+| [coq_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#coq_lsp) | [coq-lsp](https://mason-registry.dev/registry/list#coq-lsp) |
 | [crystalline](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#crystalline) | [crystalline](https://mason-registry.dev/registry/list#crystalline) |
 | [csharp_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#csharp_ls) | [csharp-language-server](https://mason-registry.dev/registry/list#csharp-language-server) |
 | [cssls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssls) | [css-lsp](https://mason-registry.dev/registry/list#css-lsp) |
@@ -62,6 +63,7 @@
 | [foam_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#foam_ls) | [foam-language-server](https://mason-registry.dev/registry/list#foam-language-server) |
 | [fortls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#fortls) | [fortls](https://mason-registry.dev/registry/list#fortls) |
 | [fsautocomplete](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#fsautocomplete) | [fsautocomplete](https://mason-registry.dev/registry/list#fsautocomplete) |
+| [gitlab_ci_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#gitlab_ci_ls) | [gitlab-ci-ls](https://mason-registry.dev/registry/list#gitlab-ci-ls) |
 | [glint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#glint) | [glint](https://mason-registry.dev/registry/list#glint) |
 | [glsl_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#glsl_analyzer) | [glsl_analyzer](https://mason-registry.dev/registry/list#glsl_analyzer) |
 | [glslls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#glslls) | [glslls](https://mason-registry.dev/registry/list#glslls) |
@@ -140,7 +142,7 @@
 | [robotframework_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#robotframework_ls) | [robotframework-lsp](https://mason-registry.dev/registry/list#robotframework-lsp) |
 | [rome](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rome) | [rome](https://mason-registry.dev/registry/list#rome) |
 | [rubocop](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rubocop) | [rubocop](https://mason-registry.dev/registry/list#rubocop) |
-| [ruby_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruby_ls) | [ruby-lsp](https://mason-registry.dev/registry/list#ruby-lsp) |
+| [ruby_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruby_lsp) | [ruby-lsp](https://mason-registry.dev/registry/list#ruby-lsp) |
 | [ruff](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruff) | [ruff](https://mason-registry.dev/registry/list#ruff) |
 | [ruff_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ruff_lsp) | [ruff-lsp](https://mason-registry.dev/registry/list#ruff-lsp) |
 | [rust_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rust_analyzer) | [rust-analyzer](https://mason-registry.dev/registry/list#rust-analyzer) |
