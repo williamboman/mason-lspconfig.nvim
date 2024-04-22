@@ -66,6 +66,7 @@ flux-lsp                                  flux_lsp
 foam-language-server                      foam_ls
 fortls                                    fortls
 fsautocomplete                            fsautocomplete
+gitlab-ci-ls                              gitlab_ci_ls
 glint                                     glint
 glsl_analyzer                             glsl_analyzer
 glslls                                    glslls
@@ -144,7 +145,7 @@ rnix-lsp                                  rnix
 robotframework-lsp                        robotframework_ls
 rome                                      rome
 rubocop                                   rubocop
-ruby-lsp                                  ruby_ls
+ruby-lsp                                  ruby_lsp
 ruff                                      ruff
 ruff-lsp                                  ruff_lsp
 rust-analyzer                             rust_analyzer
