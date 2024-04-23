@@ -48,6 +48,7 @@ M.lspconfig_to_package = {
     ["dotls"] = "dot-language-server",
     ["dprint"] = "dprint",
     ["drools_lsp"] = "drools-lsp",
+    ["earthlyls"] = "earthlyls",
     ["efm"] = "efm",
     ["elixirls"] = "elixir-ls",
     ["elmls"] = "elm-language-server",

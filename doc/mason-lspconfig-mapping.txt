@@ -48,6 +48,7 @@ dockerfile-language-server                dockerls
 dot-language-server                       dotls
 dprint                                    dprint
 drools-lsp                                drools_lsp
+earthlyls                                 earthlyls
 efm                                       efm
 elixir-ls                                 elixirls
 elm-language-server                       elmls

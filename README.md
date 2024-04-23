@@ -173,6 +173,7 @@ local DEFAULT_SETTINGS = {
 | All                                 | `snyk_ls`                         |
 | All                                 | `typos_lsp`                       |
 | ast-grep                            | `ast_grep`                        |
+| Autoconf                            | `autotools_ls`                    |
 | AWK                                 | `awk_ls`                          |
 | Ada                                 | `als`                             |
 | Angular                             | `angularls`                       |
@@ -205,7 +206,6 @@ local DEFAULT_SETTINGS = {
 | Clojure                             | `clojure_lsp`                     |
 | CodeQL                              | `codeqlls`                        |
 | Coq                                 | `coq_lsp`                         |
-| Autoconf                            | `autotools_ls`                    |
 | Crystal                             | `crystalline`                     |
 | Cucumber                            | `cucumber_language_server`        |
 | Custom Elements Language Server     | `custom_elements_ls`              |
@@ -219,6 +219,7 @@ local DEFAULT_SETTINGS = {
 | Docker Compose                      | `docker_compose_language_service` |
 | Dot                                 | `dotls`                           |
 | Drools                              | `drools_lsp`                      |
+| Earthly                             | `earthlyls`                       |
 | EFM (general purpose server)        | `efm`                             |
 | ESLint                              | `eslint`                          |
 | Elixir                              | `elixirls`                        |
