@@ -48,6 +48,7 @@ return {
   dot = { "dotls" },
   drools = { "drools_lsp" },
   dune = { "ocamllsp" },
+  earthfile = { "earthlyls" },
   edge = { "tailwindcss" },
   edn = { "clojure_lsp" },
   eelixir = { "elixirls", "lexical", "tailwindcss" },

@@ -45,6 +45,7 @@
 | [dotls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dotls) | [dot-language-server](https://mason-registry.dev/registry/list#dot-language-server) |
 | [dprint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#dprint) | [dprint](https://mason-registry.dev/registry/list#dprint) |
 | [drools_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#drools_lsp) | [drools-lsp](https://mason-registry.dev/registry/list#drools-lsp) |
+| [earthlyls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#earthlyls) | [earthlyls](https://mason-registry.dev/registry/list#earthlyls) |
 | [efm](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#efm) | [efm](https://mason-registry.dev/registry/list#efm) |
 | [elixirls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elixirls) | [elixir-ls](https://mason-registry.dev/registry/list#elixir-ls) |
 | [elmls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elmls) | [elm-language-server](https://mason-registry.dev/registry/list#elm-language-server) |
