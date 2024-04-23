@@ -31,6 +31,7 @@
 | [coq_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#coq_lsp) | [coq-lsp](https://mason-registry.dev/registry/list#coq-lsp) |
 | [crystalline](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#crystalline) | [crystalline](https://mason-registry.dev/registry/list#crystalline) |
 | [csharp_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#csharp_ls) | [csharp-language-server](https://mason-registry.dev/registry/list#csharp-language-server) |
+| [css_variables](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#css_variables) | [css-variables-language-server](https://mason-registry.dev/registry/list#css-variables-language-server) |
 | [cssls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssls) | [css-lsp](https://mason-registry.dev/registry/list#css-lsp) |
 | [cssmodules_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssmodules_ls) | [cssmodules-language-server](https://mason-registry.dev/registry/list#cssmodules-language-server) |
 | [cucumber_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cucumber_language_server) | [cucumber-language-server](https://mason-registry.dev/registry/list#cucumber-language-server) |

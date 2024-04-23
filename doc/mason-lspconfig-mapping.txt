@@ -34,6 +34,7 @@ codeql                                    codeqlls
 coq-lsp                                   coq_lsp
 crystalline                               crystalline
 csharp-language-server                    csharp_ls
+css-variables-language-server             css_variables
 css-lsp                                   cssls
 cssmodules-language-server                cssmodules_ls
 cucumber-language-server                  cucumber_language_server

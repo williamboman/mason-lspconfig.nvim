@@ -36,6 +36,7 @@ M.lspconfig_to_package = {
     ["csharp_ls"] = "csharp-language-server",
     ["cssls"] = "css-lsp",
     ["cssmodules_ls"] = "cssmodules-language-server",
+    ["css_variables"] = "css-variables-language-server",
     ["cucumber_language_server"] = "cucumber-language-server",
     ["custom_elements_ls"] = "custom-elements-languageserver",
     ["cypher_ls"] = "cypher-language-server",
