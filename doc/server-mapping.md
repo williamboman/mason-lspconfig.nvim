@@ -137,6 +137,7 @@
 | [r_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#r_language_server) | [r-languageserver](https://mason-registry.dev/registry/list#r-languageserver) |
 | [raku_navigator](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#raku_navigator) | [raku-navigator](https://mason-registry.dev/registry/list#raku-navigator) |
 | [reason_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#reason_ls) | [reason-language-server](https://mason-registry.dev/registry/list#reason-language-server) |
+| [regols](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#regols) | [regols](https://mason-registry.dev/registry/list#regols) |
 | [remark_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#remark_ls) | [remark-language-server](https://mason-registry.dev/registry/list#remark-language-server) |
 | [rescriptls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rescriptls) | [rescript-language-server](https://mason-registry.dev/registry/list#rescript-language-server) |
 | [rnix](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rnix) | [rnix-lsp](https://mason-registry.dev/registry/list#rnix-lsp) |

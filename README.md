@@ -323,6 +323,7 @@ local DEFAULT_SETTINGS = {
 | Raku                                | `raku_navigator`                  |
 | ReScript                            | `rescriptls`                      |
 | Reason                              | `reason_ls`                       |
+| Rego                                | `regols`                          |
 | Robot Framework                     | `robotframework_ls`               |
 | Rome                                | `rome`                            |
 | Ruby                                | `ruby_lsp`                        |
