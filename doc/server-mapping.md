@@ -191,6 +191,7 @@
 | [vale_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vale_ls) | [vale-ls](https://mason-registry.dev/registry/list#vale-ls) |
 | [verible](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#verible) | [verible](https://mason-registry.dev/registry/list#verible) |
 | [veryl_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#veryl_ls) | [veryl-ls](https://mason-registry.dev/registry/list#veryl-ls) |
+| [vhdl_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vhdl_ls) | [rust_hdl](https://mason-registry.dev/registry/list#rust_hdl) |
 | [vimls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vimls) | [vim-language-server](https://mason-registry.dev/registry/list#vim-language-server) |
 | [visualforce_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#visualforce_ls) | [visualforce-language-server](https://mason-registry.dev/registry/list#visualforce-language-server) |
 | [vls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vls) | [vls](https://mason-registry.dev/registry/list#vls) |
