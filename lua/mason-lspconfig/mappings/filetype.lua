@@ -193,7 +193,7 @@ return {
   ["terraform-vars"] = { "snyk_ls", "terraformls" },
   tesc = { "glsl_analyzer", "glslls" },
   tese = { "glsl_analyzer", "glslls" },
-  tex = { "ltex", "texlab" },
+  tex = { "ltex", "texlab", "vale_ls" },
   text = { "ltex", "vale_ls" },
   thrift = { "thriftls" },
   toml = { "dprint", "taplo" },
