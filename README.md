@@ -363,6 +363,7 @@ local DEFAULT_SETTINGS = {
 | TypeScript                          | `biome`                           |
 | TypeScript                          | `tsserver`                        |
 | TypeScript                          | `vtsls`                           |
+| Typst                               | `tinymist`                        |
 | Typst                               | `typst_lsp`                       |
 | V                                   | `v_analyzer`                      |
 | V                                   | `vls`                             |
