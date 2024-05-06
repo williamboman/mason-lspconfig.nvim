@@ -346,6 +346,7 @@ local DEFAULT_SETTINGS = {
 | Sphinx                              | `esbonio`                         |
 | Standard ML                         | `millet`                          |
 | Starlark                            | `bzl`                             |
+| Starlark                            | `starlark_rust`                   |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
 | Stimulus                            | `stimulus_ls`                     |
