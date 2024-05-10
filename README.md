@@ -199,6 +199,7 @@ local DEFAULT_SETTINGS = {
 | Cairo                               | `cairo_ls`                        |
 | CMake                               | `cmake`                           |
 | CMake                               | `neocmake`                        |
+| COBOL                               | `cobol_ls`                        |
 | CSS                                 | `cssls`                           |
 | CSS                                 | `cssmodules_ls`                   |
 | CSS                                 | `unocss`                          |

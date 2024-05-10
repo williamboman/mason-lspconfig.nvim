@@ -27,6 +27,7 @@
 | [clarity_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clarity_lsp) | [clarity-lsp](https://mason-registry.dev/registry/list#clarity-lsp) |
 | [clojure_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clojure_lsp) | [clojure-lsp](https://mason-registry.dev/registry/list#clojure-lsp) |
 | [cmake](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cmake) | [cmake-language-server](https://mason-registry.dev/registry/list#cmake-language-server) |
+| [cobol_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cobol_ls) | [cobol-language-support](https://mason-registry.dev/registry/list#cobol-language-support) |
 | [codeqlls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#codeqlls) | [codeql](https://mason-registry.dev/registry/list#codeql) |
 | [coq_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#coq_lsp) | [coq-lsp](https://mason-registry.dev/registry/list#coq-lsp) |
 | [crystalline](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#crystalline) | [crystalline](https://mason-registry.dev/registry/list#crystalline) |

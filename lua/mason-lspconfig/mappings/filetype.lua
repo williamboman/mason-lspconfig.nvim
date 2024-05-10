@@ -28,6 +28,7 @@ return {
   clarity = { "clarity_lsp" },
   clojure = { "clojure_lsp", "tailwindcss" },
   cmake = { "cmake", "neocmake" },
+  cobol = { "cobol_ls" },
   comp = { "glsl_analyzer", "glslls" },
   config = { "autotools_ls" },
   context = { "ltex" },
