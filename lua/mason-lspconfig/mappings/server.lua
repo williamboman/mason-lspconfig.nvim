@@ -30,6 +30,7 @@ M.lspconfig_to_package = {
     ["clarity_lsp"] = "clarity-lsp",
     ["clojure_lsp"] = "clojure-lsp",
     ["cmake"] = "cmake-language-server",
+    ["cobol_ls"] = "cobol-language-support",
     ["codeqlls"] = "codeql",
     ["coq_lsp"] = "coq-lsp",
     ["crystalline"] = "crystalline",

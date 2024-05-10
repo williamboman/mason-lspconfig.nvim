@@ -30,6 +30,7 @@ clangd                                    clangd
 clarity-lsp                               clarity_lsp
 clojure-lsp                               clojure_lsp
 cmake-language-server                     cmake
+cobol-language-support                    cobol_ls
 codeql                                    codeqlls
 coq-lsp                                   coq_lsp
 crystalline                               crystalline
