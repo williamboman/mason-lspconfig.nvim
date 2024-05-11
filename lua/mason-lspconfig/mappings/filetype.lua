@@ -2,6 +2,7 @@
 -- stylua: ignore start
 return {
   ["*"] = { "typos_lsp" },
+  ["BUILD.bazel"] = { "starlark_rust" },
   OpenFOAM = { "foam_ls" },
   PKGBUILD = { "pkgbuild_language_server" },
   ada = { "als" },
@@ -21,7 +22,7 @@ return {
   blade = { "stimulus_ls", "tailwindcss" },
   brs = { "bright_script" },
   bsl = { "bsl_ls" },
-  bzl = { "bzl" },
+  bzl = { "bzl", "starlark_rust" },
   c = { "ast_grep", "clangd", "harper_ls" },
   cairo = { "cairo_ls" },
   clar = { "clarity_lsp" },
@@ -184,6 +185,7 @@ return {
   sml = { "millet" },
   solidity = { "solang", "solc", "solidity", "solidity_ls", "solidity_ls_nomicfoundation" },
   sql = { "sqlls", "sqls" },
+  star = { "starlark_rust" },
   stylus = { "tailwindcss" },
   sugarss = { "stylelint_lsp", "tailwindcss" },
   surface = { "elixirls", "lexical" },
