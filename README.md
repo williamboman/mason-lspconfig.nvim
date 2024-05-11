@@ -199,8 +199,10 @@ local DEFAULT_SETTINGS = {
 | Cairo                               | `cairo_ls`                        |
 | CMake                               | `cmake`                           |
 | CMake                               | `neocmake`                        |
+| COBOL                               | `cobol_ls`                        |
 | CSS                                 | `cssls`                           |
 | CSS                                 | `cssmodules_ls`                   |
+| CSS                                 | `css_variables`                   |
 | CSS                                 | `unocss`                          |
 | Clarity                             | `clarity_lsp`                     |
 | Clojure                             | `clojure_lsp`                     |
@@ -324,6 +326,7 @@ local DEFAULT_SETTINGS = {
 | Raku                                | `raku_navigator`                  |
 | ReScript                            | `rescriptls`                      |
 | Reason                              | `reason_ls`                       |
+| Rego                                | `regols`                          |
 | Robot Framework                     | `robotframework_ls`               |
 | Rome                                | `rome`                            |
 | Ruby                                | `ruby_lsp`                        |
@@ -364,6 +367,7 @@ local DEFAULT_SETTINGS = {
 | TypeScript                          | `biome`                           |
 | TypeScript                          | `tsserver`                        |
 | TypeScript                          | `vtsls`                           |
+| Typst                               | `tinymist`                        |
 | Typst                               | `typst_lsp`                       |
 | V                                   | `v_analyzer`                      |
 | V                                   | `vls`                             |
