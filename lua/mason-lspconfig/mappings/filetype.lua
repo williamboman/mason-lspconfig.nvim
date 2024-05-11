@@ -124,6 +124,7 @@ return {
   menhir = { "ocamllsp" },
   meson = { "mesonlsp", "swift_mesonls" },
   ["metamath-zero"] = { "mm0_ls" },
+  motoko = { "motoko_lsp" },
   move = { "move_analyzer" },
   mustache = { "tailwindcss" },
   muttrc = { "mutt_ls" },
