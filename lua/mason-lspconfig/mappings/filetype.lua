@@ -23,7 +23,7 @@ return {
   brs = { "bright_script" },
   bsl = { "bsl_ls" },
   bzl = { "bzl", "starlark_rust" },
-  c = { "ast_grep", "clangd" },
+  c = { "ast_grep", "clangd", "harper_ls" },
   cairo = { "cairo_ls" },
   clar = { "clarity_lsp" },
   clarity = { "clarity_lsp" },
