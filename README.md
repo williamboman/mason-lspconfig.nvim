@@ -253,6 +253,7 @@ local DEFAULT_SETTINGS = {
 | HDL                                 | `hdl_checker`                     |
 | HTML                                | `html`                            |
 | HTMX                                | `htmx`                            |
+| Harper                              | `harper_ls`                       |
 | Haskell                             | `hls`                             |
 | Haxe                                | `haxe_language_server`            |
 | Helm                                | `helm_ls`                         |

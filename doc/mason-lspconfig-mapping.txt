@@ -79,6 +79,7 @@ gradle-language-server                    gradle_ls
 grammarly-languageserver                  grammarly
 graphql-language-service-cli              graphql
 groovy-language-server                    groovyls
+harper-ls                                 harper_ls
 haxe-language-server                      haxe_language_server
 hdl-checker                               hdl_checker
 helm-ls                                   helm_ls
