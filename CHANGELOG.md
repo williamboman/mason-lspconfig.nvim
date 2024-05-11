@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.29.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.28.0...v1.29.0) (2024-05-11)
+
+
+### Features
+
+* add `regols` support ([#403](https://github.com/williamboman/mason-lspconfig.nvim/issues/403)) ([dd615fe](https://github.com/williamboman/mason-lspconfig.nvim/commit/dd615fec891cd1b1ca34eeef4080c3f4cf40d891))
+* add cobol_ls ([#409](https://github.com/williamboman/mason-lspconfig.nvim/issues/409)) ([076de8c](https://github.com/williamboman/mason-lspconfig.nvim/commit/076de8c6e01c9518671fffae56f55cb19b3ac13c))
+* add css-variables-language-server ([#399](https://github.com/williamboman/mason-lspconfig.nvim/issues/399)) ([f7abbd2](https://github.com/williamboman/mason-lspconfig.nvim/commit/f7abbd25c931946b0c8372fa62d198c381183afe))
+* add harper-ls configuration ([#406](https://github.com/williamboman/mason-lspconfig.nvim/issues/406)) ([44688da](https://github.com/williamboman/mason-lspconfig.nvim/commit/44688daeeab7fa2ea06df7138d011099b3925e97))
+* add motoko-lsp support ([#408](https://github.com/williamboman/mason-lspconfig.nvim/issues/408)) ([6c4d744](https://github.com/williamboman/mason-lspconfig.nvim/commit/6c4d744288965a595ccba2b9779d8bebaba9275f))
+* add rust_hdl ([#402](https://github.com/williamboman/mason-lspconfig.nvim/issues/402)) ([e6a3b46](https://github.com/williamboman/mason-lspconfig.nvim/commit/e6a3b46c42f4c2bf2af6c0260334d096bffa6317))
+* add starlark_rust mapping ([#407](https://github.com/williamboman/mason-lspconfig.nvim/issues/407)) ([5278047](https://github.com/williamboman/mason-lspconfig.nvim/commit/52780478e9bdbe212a2ebac20116bc0375fb3dcf))
+* add tinymist ([#405](https://github.com/williamboman/mason-lspconfig.nvim/issues/405)) ([c3168b2](https://github.com/williamboman/mason-lspconfig.nvim/commit/c3168b2a6a09722d4567ef4a37364b9b30bf7f20))
+
 ## [1.28.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.27.0...v1.28.0) (2024-04-23)
 
 
