@@ -202,6 +202,7 @@ local DEFAULT_SETTINGS = {
 | COBOL                               | `cobol_ls`                        |
 | CSS                                 | `cssls`                           |
 | CSS                                 | `cssmodules_ls`                   |
+| CSS                                 | `css_variables`                   |
 | CSS                                 | `unocss`                          |
 | Clarity                             | `clarity_lsp`                     |
 | Clojure                             | `clojure_lsp`                     |
