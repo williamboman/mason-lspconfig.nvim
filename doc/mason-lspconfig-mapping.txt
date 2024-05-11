@@ -30,10 +30,12 @@ clangd                                    clangd
 clarity-lsp                               clarity_lsp
 clojure-lsp                               clojure_lsp
 cmake-language-server                     cmake
+cobol-language-support                    cobol_ls
 codeql                                    codeqlls
 coq-lsp                                   coq_lsp
 crystalline                               crystalline
 csharp-language-server                    csharp_ls
+css-variables-language-server             css_variables
 css-lsp                                   cssls
 cssmodules-language-server                cssmodules_ls
 cucumber-language-server                  cucumber_language_server
@@ -77,6 +79,7 @@ gradle-language-server                    gradle_ls
 grammarly-languageserver                  grammarly
 graphql-language-service-cli              graphql
 groovy-language-server                    groovyls
+harper-ls                                 harper_ls
 haxe-language-server                      haxe_language_server
 hdl-checker                               hdl_checker
 helm-ls                                   helm_ls
@@ -140,6 +143,7 @@ quick-lint-js                             quick_lint_js
 r-languageserver                          r_language_server
 raku-navigator                            raku_navigator
 reason-language-server                    reason_ls
+regols                                    regols
 remark-language-server                    remark_ls
 rescript-language-server                  rescriptls
 rnix-lsp                                  rnix
@@ -184,6 +188,7 @@ texlab                                    texlab
 tflint                                    tflint
 shopify-theme-check                       theme_check
 thriftls                                  thriftls
+tinymist                                  tinymist
 typescript-language-server                tsserver
 twiggy-language-server                    twiggy_language_server
 typos-lsp                                 typos_lsp
@@ -195,6 +200,7 @@ vala-language-server                      vala_ls
 vale-ls                                   vale_ls
 verible                                   verible
 veryl-ls                                  veryl_ls
+rust_hdl                                  vhdl_ls
 vim-language-server                       vimls
 visualforce-language-server               visualforce_ls
 vls                                       vls
