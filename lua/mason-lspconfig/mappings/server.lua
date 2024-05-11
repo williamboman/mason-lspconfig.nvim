@@ -199,6 +199,7 @@ M.lspconfig_to_package = {
     ["vale_ls"] = "vale-ls",
     ["verible"] = "verible",
     ["veryl_ls"] = "veryl-ls",
+    ["vhdl_ls"] = "rust_hdl",
     ["vimls"] = "vim-language-server",
     ["visualforce_ls"] = "visualforce-language-server",
     ["vls"] = "vls",
