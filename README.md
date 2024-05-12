@@ -274,6 +274,7 @@ local DEFAULT_SETTINGS = {
 | LaTeX                               | `ltex`                            |
 | LaTeX                               | `texlab`                          |
 | Lelwel                              | `lelwel_ls`                       |
+| Liquid                              | `shopify_theme_ls`                |
 | Lua                                 | `lua_ls`                          |
 | Luau                                | `luau_lsp`                        |
 | LWC                                 | `lwc_ls`                          |
