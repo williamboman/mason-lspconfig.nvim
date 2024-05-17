@@ -39,7 +39,7 @@ local merge_in_place
 merge_in_place = _.curryN(function(t1, t2)
     for k, v in pairs(t2) do
         if type(v) == "table" then
-            if type(t1[k]) == "table" and not vim.tbl_islist(t1[k]) then
+            if type(t1[k]) == "table" and not vim.islist(t1[k]) then
                 merge_in_place(t1[k], v)
             else
                 t1[k] = v
