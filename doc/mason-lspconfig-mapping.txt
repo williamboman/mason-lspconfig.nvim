@@ -117,6 +117,7 @@ move-analyzer                             move_analyzer
 mutt-language-server                      mutt_ls
 neocmakelsp                               neocmake
 nickel-lang-lsp                           nickel_ls
+nginx-language-server                     nginx_language_server
 nil                                       nil_ls
 nimlangserver                             nim_langserver
 nimlsp                                    nimls

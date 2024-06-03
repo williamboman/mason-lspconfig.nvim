@@ -132,6 +132,7 @@ return {
   ncl = { "nickel_ls" },
   neomuttrc = { "mutt_ls" },
   nickel = { "nickel_ls" },
+  nginx = { "nginx_language_server" },
   nim = { "nim_langserver", "nimls" },
   nix = { "nil_ls", "rnix" },
   njk = { "tailwindcss" },

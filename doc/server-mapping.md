@@ -114,6 +114,7 @@
 | [mutt_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#mutt_ls) | [mutt-language-server](https://mason-registry.dev/registry/list#mutt-language-server) |
 | [neocmake](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#neocmake) | [neocmakelsp](https://mason-registry.dev/registry/list#neocmakelsp) |
 | [nickel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nickel_ls) | [nickel-lang-lsp](https://mason-registry.dev/registry/list#nickel-lang-lsp) |
+| [nginx_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nginx_language_server) | [nginx-language-server ](https://mason-registry.dev/registry/list#nginx-language-server) |
 | [nil_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nil_ls) | [nil](https://mason-registry.dev/registry/list#nil) |
 | [nim_langserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nim_langserver) | [nimlangserver](https://mason-registry.dev/registry/list#nimlangserver) |
 | [nimls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nimls) | [nimlsp](https://mason-registry.dev/registry/list#nimlsp) |
