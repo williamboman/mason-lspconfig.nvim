@@ -291,6 +291,7 @@ local DEFAULT_SETTINGS = {
 | Metamath Zero                       | `mm0_ls`                          |
 | Move                                | `move_analyzer`                   |
 | Mutt                                | `mutt_ls`                         |
+| Nginx                               | `nginx_language_server`           |
 | Nickel                              | `nickel_ls`                       |
 | Nim                                 | `nim_langserver`                  |
 | Nim                                 | `nimls`                           |
