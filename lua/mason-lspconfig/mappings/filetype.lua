@@ -38,7 +38,7 @@ return {
   crystal = { "crystalline" },
   cs = { "csharp_ls", "omnisharp", "omnisharp_mono" },
   csharp = { "harper_ls" },
-  css = { "ast_grep", "css_variables", "cssls", "emmet_language_server", "emmet_ls", "stylelint_lsp", "tailwindcss" },
+  css = { "ast_grep", "biome", "css_variables", "cssls", "emmet_language_server", "emmet_ls", "stylelint_lsp", "tailwindcss" },
   cucumber = { "cucumber_language_server" },
   cuda = { "clangd" },
   cue = { "dagger" },
