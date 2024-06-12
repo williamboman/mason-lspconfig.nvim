@@ -116,6 +116,7 @@ M.lspconfig_to_package = {
     ["mutt_ls"] = "mutt-language-server",
     ["neocmake"] = "neocmakelsp",
     ["nickel_ls"] = "nickel-lang-lsp",
+    ["nginx_language_server"] = "nginx-language-server",
     ["nil_ls"] = "nil",
     ["nim_langserver"] = "nimlangserver",
     ["nimls"] = "nimlsp",
