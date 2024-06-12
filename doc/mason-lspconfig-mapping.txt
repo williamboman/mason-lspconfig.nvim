@@ -157,6 +157,7 @@ ruff-lsp                                  ruff_lsp
 rust-analyzer                             rust_analyzer
 salt-lsp                                  salt_ls
 serve-d                                   serve_d
+shopify-cli                               shopify_theme_ls
 slint-lsp                                 slint_lsp
 smithy-language-server                    smithy_ls
 snyk-ls                                   snyk_ls

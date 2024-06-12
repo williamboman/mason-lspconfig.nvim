@@ -111,7 +111,7 @@ return {
   less = { "css_variables", "cssls", "emmet_language_server", "emmet_ls", "stylelint_lsp", "tailwindcss" },
   lhaskell = { "hls" },
   libsonnet = { "jsonnet_ls" },
-  liquid = { "tailwindcss", "theme_check" },
+  liquid = { "shopify_theme_ls", "tailwindcss", "theme_check" },
   llw = { "lelwel_ls" },
   lua = { "ast_grep", "harper_ls", "lua_ls" },
   luau = { "luau_lsp" },
