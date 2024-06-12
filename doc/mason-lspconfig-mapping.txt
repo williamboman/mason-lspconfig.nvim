@@ -168,6 +168,7 @@ vscode-solidity-server                    solidity_ls
 nomicfoundation-solidity-language-server  solidity_ls_nomicfoundation
 some-sass-language-server                 somesass_ls
 sorbet                                    sorbet
+sourcekit                                 sourcekit
 sourcery                                  sourcery
 spectral-language-server                  spectral
 sqlls                                     sqlls

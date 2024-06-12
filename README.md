@@ -354,6 +354,7 @@ local DEFAULT_SETTINGS = {
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
 | Stimulus                            | `stimulus_ls`                     |
+| Swift                               | `sourcekit`                       |
 | SystemVerilog                       | `svlangserver`                    |
 | SystemVerilog                       | `svls`                            |
 | SystemVerilog                       | `verible`                         |

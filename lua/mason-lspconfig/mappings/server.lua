@@ -168,6 +168,7 @@ M.lspconfig_to_package = {
     ["solidity_ls_nomicfoundation"] = "nomicfoundation-solidity-language-server",
     ["somesass_ls"] = "some-sass-language-server",
     ["sorbet"] = "sorbet",
+    ["sourcekit"] = "sourcekit-lsp",
     ["sourcery"] = "sourcery",
     ["spectral"] = "spectral-language-server",
     ["sqlls"] = "sqlls",
