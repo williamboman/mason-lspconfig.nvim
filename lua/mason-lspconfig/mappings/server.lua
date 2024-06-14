@@ -146,6 +146,7 @@ M.lspconfig_to_package = {
     ["raku_navigator"] = "raku-navigator",
     ["reason_ls"] = "reason-language-server",
     ["regols"] = "regols",
+    ["regal"] = "regal",
     ["remark_ls"] = "remark-language-server",
     ["rescriptls"] = "rescript-language-server",
     ["rnix"] = "rnix-lsp",

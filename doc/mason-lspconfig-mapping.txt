@@ -145,6 +145,7 @@ quick-lint-js                             quick_lint_js
 r-languageserver                          r_language_server
 raku-navigator                            raku_navigator
 reason-language-server                    reason_ls
+regal                                     regal
 regols                                    regols
 remark-language-server                    remark_ls
 rescript-language-server                  rescriptls
