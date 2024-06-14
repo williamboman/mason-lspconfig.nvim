@@ -167,7 +167,7 @@ return {
   raku = { "raku_navigator" },
   razor = { "tailwindcss" },
   reason = { "ocamllsp", "reason_ls", "tailwindcss" },
-  rego = { "regols" },
+  rego = { "regal", "regols" },
   requirements = { "snyk_ls" },
   rescript = { "rescriptls", "tailwindcss", "unocss" },
   rmd = { "ltex", "r_language_server" },
