@@ -258,6 +258,7 @@ local DEFAULT_SETTINGS = {
 | Haxe                                | `haxe_language_server`            |
 | Helm                                | `helm_ls`                         |
 | Hoon                                | `hoon_ls`                         |
+| Hypr                                | `hyprls`                          |
 | JSON                                | `jsonls`                          |
 | JSON                                | `biome`                           |
 | Java                                | `jdtls`                           |
