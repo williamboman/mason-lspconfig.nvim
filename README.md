@@ -350,6 +350,7 @@ local DEFAULT_SETTINGS = {
 | Solidity                            | `solidity_ls`                     |
 | Solidity                            | `solidity_ls_nomicfoundation`     |
 | Sphinx                              | `esbonio`                         |
+| Spring Project                      | sts4                            |
 | Standard ML                         | `millet`                          |
 | Starlark                            | `bzl`                             |
 | Starlark                            | `starlark_rust`                   |

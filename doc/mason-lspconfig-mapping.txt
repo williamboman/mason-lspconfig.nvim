@@ -177,6 +177,7 @@ sqls                                      sqls
 standardrb                                standardrb
 starlark-rust                             starlark_rust
 stimulus-language-server                  stimulus_ls
+sts4                                      sts4
 stylelint-lsp                             stylelint_lsp
 svelte-language-server                    svelte
 svlangserver                              svlangserver
