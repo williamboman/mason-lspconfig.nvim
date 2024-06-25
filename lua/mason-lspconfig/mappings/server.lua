@@ -91,6 +91,7 @@ M.lspconfig_to_package = {
     ["intelephense"] = "intelephense",
     ["java_language_server"] = "java-language-server",
     ["jdtls"] = "jdtls",
+    ["sts4"] = "sts4",
     ["jedi_language_server"] = "jedi-language-server",
     ["jinja_lsp"] = "jinja-lsp",
     ["jqls"] = "jq-lsp",
