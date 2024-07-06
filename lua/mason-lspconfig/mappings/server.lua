@@ -189,6 +189,7 @@ M.lspconfig_to_package = {
     ["templ"] = "templ",
     ["terraformls"] = "terraform-ls",
     ["texlab"] = "texlab",
+    ["textlsp"] = "textlsp",
     ["tflint"] = "tflint",
     ["theme_check"] = "shopify-theme-check",
     ["thriftls"] = "thriftls",

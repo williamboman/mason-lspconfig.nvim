@@ -171,6 +171,7 @@ local DEFAULT_SETTINGS = {
 | Language                            | Server name                       |
 | ----------------------------------- | --------------------------------- |
 | All                                 | `snyk_ls`                         |
+| All                                 | `text_lsp`                        |
 | All                                 | `typos_lsp`                       |
 | ast-grep                            | `ast_grep`                        |
 | Autoconf                            | `autotools_ls`                    |

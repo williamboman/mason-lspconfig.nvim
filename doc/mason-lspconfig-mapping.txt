@@ -188,6 +188,7 @@ teal-language-server                      teal_ls
 templ                                     templ
 terraform-ls                              terraformls
 texlab                                    texlab
+textlsp                                   textlsp
 tflint                                    tflint
 shopify-theme-check                       theme_check
 thriftls                                  thriftls
