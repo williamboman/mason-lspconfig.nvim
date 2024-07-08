@@ -121,6 +121,7 @@ nickel-lang-lsp                           nickel_ls
 nil                                       nil_ls
 nimlangserver                             nim_langserver
 nimlsp                                    nimls
+nixd                                      nixd
 ocaml-lsp                                 ocamllsp
 ols                                       ols
 omnisharp                                 omnisharp

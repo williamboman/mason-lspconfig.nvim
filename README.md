@@ -297,6 +297,7 @@ local DEFAULT_SETTINGS = {
 | Nim                                 | `nim_langserver`                  |
 | Nim                                 | `nimls`                           |
 | Nix                                 | `nil_ls`                          |
+| Nixd                                | `nixd`                            |
 | Nix                                 | `rnix`                            |
 | OCaml                               | `ocamllsp`                        |
 | Odin                                | `ols`                             |

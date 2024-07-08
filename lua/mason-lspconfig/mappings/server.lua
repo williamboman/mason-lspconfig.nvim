@@ -120,6 +120,7 @@ M.lspconfig_to_package = {
     ["nil_ls"] = "nil",
     ["nim_langserver"] = "nimlangserver",
     ["nimls"] = "nimlsp",
+    ["nixd"] = "nixd",
     ["ocamllsp"] = "ocaml-lsp",
     ["ols"] = "ols",
     ["omnisharp"] = "omnisharp",
