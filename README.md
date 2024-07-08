@@ -313,6 +313,7 @@ local DEFAULT_SETTINGS = {
 | Pico8                               | `pico8_ls`                        |
 | Powershell                          | `powershell_es`                   |
 | Prisma                              | `prismals`                        |
+| Protobuf                            | `pbls`                            |
 | Puppet                              | `puppet`                          |
 | PureScript                          | `purescriptls`                    |
 | Python                              | `basedpyright`                    |

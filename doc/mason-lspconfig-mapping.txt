@@ -126,6 +126,7 @@ ols                                       ols
 omnisharp                                 omnisharp
 opencl-language-server                    opencl_ls
 openscad-lsp                              openscad_lsp
+pbls                                      pbls
 perlnavigator                             perlnavigator
 pest-language-server                      pest_ls
 phpactor                                  phpactor

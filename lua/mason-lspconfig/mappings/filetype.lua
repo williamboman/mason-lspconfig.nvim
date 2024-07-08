@@ -149,6 +149,7 @@ return {
   os = { "bsl_ls" },
   p8 = { "pico8_ls" },
   pandoc = { "ltex" },
+  pbls = { "pbls" },
   perl = { "perlnavigator" },
   pest = { "pest_ls" },
   php = { "intelephense", "phpactor", "psalm", "stimulus_ls", "tailwindcss" },
