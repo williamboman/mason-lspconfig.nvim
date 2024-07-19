@@ -92,6 +92,7 @@ return {
   html = { "angularls", "antlersls", "ast_grep", "emmet_language_server", "emmet_ls", "html", "htmx", "ltex", "lwc_ls", "stimulus_ls", "tailwindcss", "unocss" },
   ["html-eex"] = { "tailwindcss" },
   ["html.handlebars"] = { "glint" },
+  htmlangular = { "angularls", "emmet_language_server", "emmet_ls", "tailwindcss" },
   htmldjango = { "emmet_language_server", "emmet_ls", "tailwindcss" },
   jade = { "tailwindcss" },
   java = { "ast_grep", "java_language_server", "jdtls" },
