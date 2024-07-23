@@ -354,6 +354,7 @@ local DEFAULT_SETTINGS = {
 | Starlark                            | `bzl`                             |
 | Starlark                            | `starlark_rust`                   |
 | Stylelint                           | `stylelint_lsp`                   |
+| SuperHTML                           | `superhtml`                       |
 | Svelte                              | `svelte`                          |
 | Stimulus                            | `stimulus_ls`                     |
 | SystemVerilog                       | `svlangserver`                    |
