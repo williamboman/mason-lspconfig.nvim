@@ -179,6 +179,7 @@ local DEFAULT_SETTINGS = {
 | Arduino | [`arduino_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#arduino_language_server) |
 | Assembly | [`asm_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#asm_lsp) |
 | Astro | [`astro`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#astro) |
+| AutoHotkey | [`autohotkey_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#autohotkey_lsp) |
 | AWK | [`awk_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#awk_ls) |
 | Azure Pipelines | [`azure_pipelines_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#azure_pipelines_ls) |
 | Bash | [`bashls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bashls) |
