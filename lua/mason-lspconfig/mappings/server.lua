@@ -88,6 +88,7 @@ M.lspconfig_to_package = {
     ["html"] = "html-lsp",
     ["htmx"] = "htmx-lsp",
     ["hydra_lsp"] = "hydra-lsp",
+    ["hyprls"] = "hyprls",
     ["intelephense"] = "intelephense",
     ["java_language_server"] = "java-language-server",
     ["jdtls"] = "jdtls",

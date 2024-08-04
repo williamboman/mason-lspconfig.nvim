@@ -264,6 +264,7 @@ local DEFAULT_SETTINGS = {
 | HTML | [`templ`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#templ) |
 | HTML | [`twiggy_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#twiggy_language_server) |
 | HTMX | [`htmx`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#htmx) |
+| Hypr | [`hyprls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#hyprls) |
 | Java | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ast_grep) |
 | Java | [`java_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#java_language_server) |
 | Java | [`jdtls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jdtls) |
