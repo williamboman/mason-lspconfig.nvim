@@ -113,6 +113,7 @@
 | [move_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#move_analyzer) | [move-analyzer](https://mason-registry.dev/registry/list#move-analyzer) |
 | [mutt_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#mutt_ls) | [mutt-language-server](https://mason-registry.dev/registry/list#mutt-language-server) |
 | [neocmake](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#neocmake) | [neocmakelsp](https://mason-registry.dev/registry/list#neocmakelsp) |
+| [nginx_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nginx_language_server) | [nginx-language-server](https://mason-registry.dev/registry/list#nginx-language-server) |
 | [nickel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nickel_ls) | [nickel-lang-lsp](https://mason-registry.dev/registry/list#nickel-lang-lsp) |
 | [nil_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nil_ls) | [nil](https://mason-registry.dev/registry/list#nil) |
 | [nim_langserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nim_langserver) | [nimlangserver](https://mason-registry.dev/registry/list#nimlangserver) |
@@ -154,6 +155,7 @@
 | [rust_analyzer](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rust_analyzer) | [rust-analyzer](https://mason-registry.dev/registry/list#rust-analyzer) |
 | [salt_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#salt_ls) | [salt-lsp](https://mason-registry.dev/registry/list#salt-lsp) |
 | [serve_d](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#serve_d) | [serve-d](https://mason-registry.dev/registry/list#serve-d) |
+| [shopify_theme_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#shopify_theme_ls) | [shopify-cli](https://mason-registry.dev/registry/list#shopify-cli) |
 | [slint_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#slint_lsp) | [slint-lsp](https://mason-registry.dev/registry/list#slint-lsp) |
 | [smithy_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#smithy_ls) | [smithy-language-server](https://mason-registry.dev/registry/list#smithy-language-server) |
 | [snyk_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#snyk_ls) | [snyk-ls](https://mason-registry.dev/registry/list#snyk-ls) |

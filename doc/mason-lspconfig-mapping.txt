@@ -116,6 +116,7 @@ motoko-lsp                                motoko_lsp
 move-analyzer                             move_analyzer
 mutt-language-server                      mutt_ls
 neocmakelsp                               neocmake
+nginx-language-server                     nginx_language_server
 nickel-lang-lsp                           nickel_ls
 nil                                       nil_ls
 nimlangserver                             nim_langserver
@@ -157,6 +158,7 @@ ruff-lsp                                  ruff_lsp
 rust-analyzer                             rust_analyzer
 salt-lsp                                  salt_ls
 serve-d                                   serve_d
+shopify-cli                               shopify_theme_ls
 slint-lsp                                 slint_lsp
 smithy-language-server                    smithy_ls
 snyk-ls                                   snyk_ls

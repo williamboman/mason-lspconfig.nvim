@@ -274,6 +274,7 @@ local DEFAULT_SETTINGS = {
 | LaTeX                               | `ltex`                            |
 | LaTeX                               | `texlab`                          |
 | Lelwel                              | `lelwel_ls`                       |
+| Liquid                              | `shopify_theme_ls`                |
 | Lua                                 | `lua_ls`                          |
 | Luau                                | `luau_lsp`                        |
 | LWC                                 | `lwc_ls`                          |
@@ -291,6 +292,7 @@ local DEFAULT_SETTINGS = {
 | Metamath Zero                       | `mm0_ls`                          |
 | Move                                | `move_analyzer`                   |
 | Mutt                                | `mutt_ls`                         |
+| Nginx                               | `nginx_language_server`           |
 | Nickel                              | `nickel_ls`                       |
 | Nim                                 | `nim_langserver`                  |
 | Nim                                 | `nimls`                           |
