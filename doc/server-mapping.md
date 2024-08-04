@@ -174,6 +174,7 @@
 | [sqls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sqls) | [sqls](https://mason-registry.dev/registry/list#sqls) |
 | [standardrb](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#standardrb) | [standardrb](https://mason-registry.dev/registry/list#standardrb) |
 | [starlark_rust](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#starlark_rust) | [starlark-rust](https://mason-registry.dev/registry/list#starlark-rust) |
+| [steep](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#steep) | [steep](https://mason-registry.dev/registry/list#steep) |
 | [stimulus_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#stimulus_ls) | [stimulus-language-server](https://mason-registry.dev/registry/list#stimulus-language-server) |
 | [stylelint_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#stylelint_lsp) | [stylelint-lsp](https://mason-registry.dev/registry/list#stylelint-lsp) |
 | [svelte](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svelte) | [svelte-language-server](https://mason-registry.dev/registry/list#svelte-language-server) |
