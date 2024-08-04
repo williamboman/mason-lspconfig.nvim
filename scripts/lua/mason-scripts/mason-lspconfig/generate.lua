@@ -3,13 +3,14 @@ local Optional = require "mason-core.optional"
 
 local _ = require "mason-core.functional"
 local a = require "mason-core.async"
+local fs = require "mason-core.fs"
 local lspconfig = require "lspconfig"
 local lspconfig_server_mapping = require "mason-lspconfig.mappings.server"
 local path = require "mason-core.path"
 local script_utils = require "mason-scripts.utils"
 
-local DOCS_DIR = path.concat { vim.loop.cwd(), "doc" }
-local MASON_LSPCONFIG_DIR = path.concat { vim.loop.cwd(), "lua", "mason-lspconfig" }
+local DOCS_DIR = "doc"
+local MASON_LSPCONFIG_DIR = path.concat { "lua", "mason-lspconfig" }
 
 require("mason").setup()
 require("mason-registry").refresh()
@@ -50,6 +51,9 @@ local function ensure_valid_package_name_translations()
     end
 end
 
+local get_lspconfig_url =
+    _.format "https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s"
+
 local get_server_mappings = _.compose(
     _.filter_map(function(pair)
         local lspconfig_name, mason_name =
@@ -57,14 +61,11 @@ local get_server_mappings = _.compose(
         if not pcall(require, ("lspconfig.server_configurations.%s"):format(lspconfig_name)) then
             return Optional.empty()
         end
-        local lspconfig_url = ("https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s"):format(
-            lspconfig_name
-        )
         local mason_url = ("https://mason-registry.dev/registry/list#%s"):format(mason_name)
         return Optional.of {
             lspconfig_name = lspconfig_name,
             mason_name = mason_name,
-            lspconfig_url = lspconfig_url,
+            lspconfig_url = get_lspconfig_url(lspconfig_name),
             mason_url = mason_url,
         }
     end),
@@ -128,10 +129,107 @@ local function create_server_mapping_docs()
     end
 end
 
+local find_index = _.curryN(function(predicate, list)
+    for i, item in ipairs(list) do
+        if predicate(item) then
+            return i
+        end
+    end
+    return -1
+end, 2)
+
+---@async
+local function update_available_lsp_servers()
+    local readme_path = "README.md"
+    local readme_contents = fs.sync.read_file(readme_path)
+    local readme_lines = _.split("\n", readme_contents)
+
+    local start = find_index(_.equals "<!-- available-lsp-servers:start -->", readme_lines) + 1
+    local stop = find_index(_.equals "<!-- available-lsp-servers:end -->", readme_lines) - 1
+
+    for i = stop, start, -1 do
+        table.remove(readme_lines, i)
+    end
+
+    local server_mappings = require("mason-lspconfig.mappings.server").lspconfig_to_package
+    local registry = require "mason-registry"
+
+    ---@type {languages: string[], name: string}[]
+    local servers = {}
+
+    for lspconfig_name, mason_name in pairs(server_mappings) do
+        local pkg = registry.get_package(mason_name)
+        table.insert(servers, {
+            languages = pkg.spec.languages,
+            name = lspconfig_name,
+        })
+    end
+
+    local servers_markdown_list = _.compose(
+        _.map(function(entry)
+            local server_docs = path.concat { MASON_LSPCONFIG_DIR, "server_configurations", entry.server, "README.md" }
+            if fs.sync.file_exists(server_docs) then
+                return ("| %s ([docs](%s)) | [`%s`](%s) |"):format(
+                    entry.language,
+                    server_docs,
+                    entry.server,
+                    get_lspconfig_url(entry.server)
+                )
+            else
+                return ("| %s | [`%s`](%s) |"):format(entry.language, entry.server, get_lspconfig_url(entry.server))
+            end
+        end),
+        _.sort_by(function(entry)
+            if entry.language == "-" then
+                -- brother eww
+                return "zzzz" .. (entry.language .. entry.server):lower()
+            else
+                return (entry.language .. entry.server):lower()
+            end
+        end),
+        function(tbl)
+            return vim.iter(tbl):flatten():totable()
+        end,
+        _.map(function(server)
+            if #server.languages == 0 then
+                return {
+                    {
+                        server = server.name,
+                        language = "-",
+                    },
+                }
+            else
+                return _.map(function(language)
+                    return {
+                        server = server.name,
+                        language = language,
+                    }
+                end, server.languages)
+            end
+        end)
+    )(servers)
+
+    for i = #servers_markdown_list, 1, -1 do
+        table.insert(readme_lines, start, servers_markdown_list[i])
+    end
+
+    for _, line in
+        ipairs(_.reverse {
+            "| Language | Server name |",
+            "| --- | --- |",
+        })
+    do
+        table.insert(readme_lines, start, line)
+    end
+
+    fs.sync.write_file(readme_path, _.join("\n", readme_lines))
+end
+
 a.run_blocking(function()
     a.wait_all {
         create_lspconfig_filetype_map,
         ensure_valid_package_name_translations,
         create_server_mapping_docs,
+        update_available_lsp_servers,
     }
 end)
