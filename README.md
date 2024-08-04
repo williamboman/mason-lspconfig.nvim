@@ -357,6 +357,7 @@ local DEFAULT_SETTINGS = {
 | Python | [`sourcery`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#sourcery) |
 | Raku | [`raku_navigator`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#raku_navigator) |
 | Reason | [`reason_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#reason_ls) |
+| Rego | [`regal`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#regal) |
 | Rego | [`regols`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#regols) |
 | ReScript | [`rescriptls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rescriptls) |
 | reStructuredText | [`ltex`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ltex) |
