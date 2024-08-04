@@ -22,7 +22,7 @@ return {
   blade = { "stimulus_ls", "tailwindcss" },
   brs = { "bright_script" },
   bsl = { "bsl_ls" },
-  bzl = { "bzl", "starlark_rust" },
+  bzl = { "bzl", "starlark_rust", "starpls" },
   c = { "ast_grep", "clangd", "harper_ls" },
   cairo = { "cairo_ls" },
   clar = { "clarity_lsp" },
