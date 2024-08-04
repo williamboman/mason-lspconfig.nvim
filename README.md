@@ -396,6 +396,7 @@ local DEFAULT_SETTINGS = {
 | Standard ML | [`millet`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#millet) |
 | Starlark | [`bzl`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bzl) |
 | Starlark | [`starlark_rust`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#starlark_rust) |
+| Starlark | [`starpls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#starpls) |
 | Stylelint | [`stylelint_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#stylelint_lsp) |
 | Svelte | [`svelte`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#svelte) |
 | SystemVerilog | [`hdl_checker`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#hdl_checker) |
