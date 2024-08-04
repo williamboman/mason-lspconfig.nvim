@@ -2,6 +2,8 @@
 -- stylua: ignore start
 return {
   ["*"] = { "typos_lsp" },
+  ["*.hl"] = { "hyprls" },
+  [".config/hypr/*.conf"] = { "hyprls" },
   ["BUILD.bazel"] = { "starlark_rust" },
   OpenFOAM = { "foam_ls" },
   PKGBUILD = { "pkgbuild_language_server" },
@@ -94,6 +96,8 @@ return {
   ["html.handlebars"] = { "glint" },
   htmlangular = { "angularls", "emmet_language_server", "emmet_ls", "tailwindcss" },
   htmldjango = { "emmet_language_server", "emmet_ls", "tailwindcss" },
+  ["hypr*.conf"] = { "hyprls" },
+  hyprlang = { "hyprls" },
   jade = { "tailwindcss" },
   java = { "ast_grep", "harper_ls", "java_language_server", "jdtls" },
   javascript = { "ast_grep", "biome", "cssmodules_ls", "denols", "dprint", "ember", "eslint", "glint", "harper_ls", "lwc_ls", "quick_lint_js", "rome", "snyk_ls", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "vtsls" },

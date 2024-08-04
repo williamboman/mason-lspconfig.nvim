@@ -85,6 +85,7 @@
 | [html](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#html) | [html-lsp](https://mason-registry.dev/registry/list#html-lsp) |
 | [htmx](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#htmx) | [htmx-lsp](https://mason-registry.dev/registry/list#htmx-lsp) |
 | [hydra_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#hydra_lsp) | [hydra-lsp](https://mason-registry.dev/registry/list#hydra-lsp) |
+| [hyprls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#hyprls) | [hyprls](https://mason-registry.dev/registry/list#hyprls) |
 | [intelephense](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#intelephense) | [intelephense](https://mason-registry.dev/registry/list#intelephense) |
 | [java_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#java_language_server) | [java-language-server](https://mason-registry.dev/registry/list#java-language-server) |
 | [jdtls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jdtls) | [jdtls](https://mason-registry.dev/registry/list#jdtls) |
