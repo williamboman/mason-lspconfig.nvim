@@ -292,6 +292,7 @@ local DEFAULT_SETTINGS = {
 | Kotlin | [`kotlin_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#kotlin_language_server) |
 | LaTeX | [`ltex`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ltex) |
 | LaTeX | [`texlab`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#texlab) |
+| LaTeX | [`textlsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#textlsp) |
 | Lelwel | [`lelwel_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lelwel_ls) |
 | LESS | [`css_variables`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#css_variables) |
 | LESS | [`cssls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssls) |
@@ -332,6 +333,7 @@ local DEFAULT_SETTINGS = {
 | OpenFOAM | [`foam_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#foam_ls) |
 | OpenGL | [`glsl_analyzer`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#glsl_analyzer) |
 | OpenSCAD | [`openscad_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#openscad_lsp) |
+| Org | [`textlsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#textlsp) |
 | Perl | [`perlnavigator`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#perlnavigator) |
 | Pest | [`pest_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pest_ls) |
 | PHP | [`intelephense`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#intelephense) |
@@ -404,6 +406,7 @@ local DEFAULT_SETTINGS = {
 | Terraform | [`tflint`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tflint) |
 | Text | [`grammarly`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#grammarly) |
 | Text | [`ltex`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ltex) |
+| Text | [`textlsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#textlsp) |
 | Text | [`vale_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vale_ls) |
 | Thrift | [`thriftls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#thriftls) |
 | TOML | [`harper_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#harper_ls) |

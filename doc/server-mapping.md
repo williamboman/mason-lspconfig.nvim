@@ -188,6 +188,7 @@
 | [templ](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#templ) | [templ](https://mason-registry.dev/registry/list#templ) |
 | [terraformls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#terraformls) | [terraform-ls](https://mason-registry.dev/registry/list#terraform-ls) |
 | [texlab](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#texlab) | [texlab](https://mason-registry.dev/registry/list#texlab) |
+| [textlsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#textlsp) | [textlsp](https://mason-registry.dev/registry/list#textlsp) |
 | [tflint](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tflint) | [tflint](https://mason-registry.dev/registry/list#tflint) |
 | [theme_check](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#theme_check) | [shopify-theme-check](https://mason-registry.dev/registry/list#shopify-theme-check) |
 | [thriftls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#thriftls) | [thriftls](https://mason-registry.dev/registry/list#thriftls) |
