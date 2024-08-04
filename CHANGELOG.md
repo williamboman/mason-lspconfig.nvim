@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.30.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.29.0...v1.30.0) (2024-08-04)
+
+
+### Features
+
+* add hyprls ([#428](https://github.com/williamboman/mason-lspconfig.nvim/issues/428)) ([0e65781](https://github.com/williamboman/mason-lspconfig.nvim/commit/0e657813ae1b849dd6634d533edf4edc0185eb78))
+* add nginx-language-server support ([#421](https://github.com/williamboman/mason-lspconfig.nvim/issues/421)) ([37a336b](https://github.com/williamboman/mason-lspconfig.nvim/commit/37a336b653f8594df75c827ed589f1c91d91ff6c))
+* add pbls support ([#434](https://github.com/williamboman/mason-lspconfig.nvim/issues/434)) ([490d0a9](https://github.com/williamboman/mason-lspconfig.nvim/commit/490d0a9aff73ddc50a2a50d7a2d2953d65719811))
+* Add regal lsp support (OPA rego linter) ([#426](https://github.com/williamboman/mason-lspconfig.nvim/issues/426)) ([5716924](https://github.com/williamboman/mason-lspconfig.nvim/commit/5716924f8b66ba93f3da0973a622ee39e93ab360))
+* add shopify_theme_ls mapping ([#412](https://github.com/williamboman/mason-lspconfig.nvim/issues/412)) ([ce1b625](https://github.com/williamboman/mason-lspconfig.nvim/commit/ce1b6254afc0e7f4c91a273175361c18f20621ee))
+* add starpls LSP server ([#444](https://github.com/williamboman/mason-lspconfig.nvim/issues/444)) ([7c075f0](https://github.com/williamboman/mason-lspconfig.nvim/commit/7c075f07e6fcfd5b1c8df8b6983a1f6de4d914d0))
+* add steep configuration ([#422](https://github.com/williamboman/mason-lspconfig.nvim/issues/422)) ([fd69d5c](https://github.com/williamboman/mason-lspconfig.nvim/commit/fd69d5c782a28420d51b648a3d7fe88df569d391))
+* add textlsp ([#433](https://github.com/williamboman/mason-lspconfig.nvim/issues/433)) ([9ac210a](https://github.com/williamboman/mason-lspconfig.nvim/commit/9ac210a23ecd1bb14ff45135e65f6c2db8d5ebca))
+
+
+### Bug Fixes
+
+* prefer vim.islist over vim.tbl_islist ([#413](https://github.com/williamboman/mason-lspconfig.nvim/issues/413)) ([a4caa0d](https://github.com/williamboman/mason-lspconfig.nvim/commit/a4caa0d083aab56f6cd5acf2d42331b74614a585))
+
 ## [1.29.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.28.0...v1.29.0) (2024-05-11)
 
 
