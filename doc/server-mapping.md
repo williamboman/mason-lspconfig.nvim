@@ -124,6 +124,7 @@
 | [omnisharp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#omnisharp) | [omnisharp](https://mason-registry.dev/registry/list#omnisharp) |
 | [opencl_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#opencl_ls) | [opencl-language-server](https://mason-registry.dev/registry/list#opencl-language-server) |
 | [openscad_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#openscad_lsp) | [openscad-lsp](https://mason-registry.dev/registry/list#openscad-lsp) |
+| [pbls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pbls) | [pbls](https://mason-registry.dev/registry/list#pbls) |
 | [perlnavigator](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#perlnavigator) | [perlnavigator](https://mason-registry.dev/registry/list#perlnavigator) |
 | [pest_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pest_ls) | [pest-language-server](https://mason-registry.dev/registry/list#pest-language-server) |
 | [phpactor](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#phpactor) | [phpactor](https://mason-registry.dev/registry/list#phpactor) |

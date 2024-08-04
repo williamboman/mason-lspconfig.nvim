@@ -344,6 +344,7 @@ local DEFAULT_SETTINGS = {
 | PowerShell | [`powershell_es`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#powershell_es) |
 | Prisma | [`prismals`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#prismals) |
 | Protobuf | [`bufls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#bufls) |
+| Protobuf | [`pbls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#pbls) |
 | Puppet | [`puppet`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#puppet) |
 | PureScript | [`purescriptls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#purescriptls) |
 | Python | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ast_grep) |
