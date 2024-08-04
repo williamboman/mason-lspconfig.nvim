@@ -179,6 +179,7 @@ sqlls                                     sqlls
 sqls                                      sqls
 standardrb                                standardrb
 starlark-rust                             starlark_rust
+starpls                                   starpls
 steep                                     steep
 stimulus-language-server                  stimulus_ls
 stylelint-lsp                             stylelint_lsp

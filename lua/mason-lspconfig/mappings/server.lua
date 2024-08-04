@@ -179,6 +179,7 @@ M.lspconfig_to_package = {
     ["sqls"] = "sqls",
     ["standardrb"] = "standardrb",
     ["starlark_rust"] = "starlark-rust",
+    ["starpls"] = "starpls",
     ["steep"] = "steep",
     ["stimulus_ls"] = "stimulus-language-server",
     ["stylelint_lsp"] = "stylelint-lsp",
