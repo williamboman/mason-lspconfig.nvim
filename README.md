@@ -424,6 +424,7 @@ local DEFAULT_SETTINGS = {
 | TypeScript | [`rome`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rome) |
 | TypeScript | [`tsserver`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) |
 | TypeScript | [`vtsls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vtsls) |
+| Typespec | [`tsp_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsp_server) |
 | Typst | [`tinymist`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tinymist) |
 | Typst | [`typst_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typst_lsp) |
 | Vala | [`vala_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vala_ls) |

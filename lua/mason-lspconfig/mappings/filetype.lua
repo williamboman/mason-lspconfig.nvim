@@ -215,6 +215,7 @@ return {
   ["typescript.glimmer"] = { "ember", "glint" },
   ["typescript.tsx"] = { "angularls", "biome", "denols", "eslint", "rome", "tsserver", "vtsls" },
   typescriptreact = { "angularls", "biome", "cssmodules_ls", "denols", "dprint", "emmet_language_server", "emmet_ls", "eslint", "graphql", "harper_ls", "htmx", "rome", "sourcery", "stylelint_lsp", "tailwindcss", "tsserver", "unocss", "vtsls" },
+  typespec = { "tsp_server" },
   typst = { "tinymist", "typst_lsp" },
   v = { "v_analyzer", "vls" },
   vala = { "vala_ls" },
