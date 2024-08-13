@@ -63,7 +63,7 @@ return {
   erb = { "tailwindcss" },
   erg = { "erg_language_server" },
   erlang = { "elp", "erlangls" },
-  eruby = { "emmet_language_server", "emmet_ls", "steep", "stimulus_ls", "tailwindcss" },
+  eruby = { "emmet_language_server", "emmet_ls", "ruby_lsp", "steep", "stimulus_ls", "tailwindcss" },
   fennel = { "fennel_language_server", "fennel_ls" },
   flux = { "flux_lsp" },
   foam = { "foam_ls" },
