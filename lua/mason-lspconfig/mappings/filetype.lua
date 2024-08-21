@@ -1,9 +1,6 @@
 -- THIS FILE IS GENERATED. DO NOT EDIT MANUALLY.
 -- stylua: ignore start
 return {
-  ["*"] = { "typos_lsp" },
-  ["*.hl"] = { "hyprls" },
-  [".config/hypr/*.conf"] = { "hyprls" },
   ["BUILD.bazel"] = { "starlark_rust" },
   OpenFOAM = { "foam_ls" },
   PKGBUILD = { "pkgbuild_language_server" },
@@ -96,7 +93,6 @@ return {
   ["html.handlebars"] = { "glint" },
   htmlangular = { "angularls", "emmet_language_server", "emmet_ls", "htmx", "tailwindcss" },
   htmldjango = { "emmet_language_server", "emmet_ls", "htmx", "tailwindcss" },
-  ["hypr*.conf"] = { "hyprls" },
   hyprlang = { "hyprls" },
   jade = { "htmx", "tailwindcss" },
   java = { "ast_grep", "harper_ls", "java_language_server", "jdtls" },
