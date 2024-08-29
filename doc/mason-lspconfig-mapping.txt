@@ -164,6 +164,7 @@ serve-d                                   serve_d
 shopify-cli                               shopify_theme_ls
 slint-lsp                                 slint_lsp
 smithy-language-server                    smithy_ls
+snakeskin-lsp                             snakeskin_ls
 snyk-ls                                   snyk_ls
 solang                                    solang
 solargraph                                solargraph

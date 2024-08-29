@@ -384,6 +384,7 @@ local DEFAULT_SETTINGS = {
 | SCSS | [`somesass_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#somesass_ls) |
 | Slint | [`slint_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#slint_lsp) |
 | Smithy | [`smithy_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#smithy_ls) |
+| Snakeskin | [`snakeskin_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#snakeskin_ls) |
 | Snyk | [`snyk_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#snyk_ls) |
 | Solidity | [`solang`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solang) |
 | Solidity | [`solc`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solc) |

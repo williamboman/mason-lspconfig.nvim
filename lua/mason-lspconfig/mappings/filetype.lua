@@ -241,5 +241,6 @@ return {
   ["yaml.openapi"] = { "vacuum" },
   yml = { "spectral" },
   zig = { "zls" },
-  zir = { "zls" }
+  zir = { "zls" },
+  ss = { "snakeskin_ls" }
 }
