@@ -42,7 +42,7 @@ end
 
 ---@param package_dir string The Mason package installation directory where a vendored Typescript installation can be found.
 ---@param workspace_dir string?
-function typescript.resolve_tsserver(package_dir, workspace_dir)
+function typescript.resolve_ts_ls(package_dir, workspace_dir)
     local _, tsserver = typescript.resolve_tsdk(package_dir, workspace_dir)
     return tsserver
 end
