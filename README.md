@@ -16,7 +16,7 @@
     <code>:help mason-lspconfig.nvim</code>
 </p>
 <p align="center">
-    <sup>Latest version: v1.30.0</sup> <!-- x-release-please-version -->
+    <sup>Latest version: v1.31.0</sup> <!-- x-release-please-version -->
 </p>
 
 # Table of Contents
