@@ -229,6 +229,7 @@ local DEFAULT_SETTINGS = {
 | Earthly | [`earthlyls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#earthlyls) |
 | Elixir | [`elixirls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elixirls) |
 | Elixir | [`lexical`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lexical) |
+| Elixir | [`nextls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nextls) |
 | Elm | [`elmls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elmls) |
 | Ember | [`ember`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ember) |
 | Emmet | [`emmet_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#emmet_language_server) |
@@ -277,7 +278,7 @@ local DEFAULT_SETTINGS = {
 | JavaScript | [`lwc_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lwc_ls) |
 | JavaScript | [`quick_lint_js`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#quick_lint_js) |
 | JavaScript | [`rome`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rome) |
-| JavaScript | [`tsserver`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) |
+| JavaScript | [`ts_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ts_ls) |
 | JavaScript | [`vtsls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vtsls) |
 | Jinja | [`jinja_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jinja_lsp) |
 | Jq | [`jqls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jqls) |
@@ -423,8 +424,9 @@ local DEFAULT_SETTINGS = {
 | TypeScript | [`harper_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#harper_ls) |
 | TypeScript | [`quick_lint_js`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#quick_lint_js) |
 | TypeScript | [`rome`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rome) |
-| TypeScript | [`tsserver`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) |
+| TypeScript | [`ts_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ts_ls) |
 | TypeScript | [`vtsls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vtsls) |
+| Typespec | [`tsp_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsp_server) |
 | Typst | [`tinymist`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tinymist) |
 | Typst | [`typst_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typst_lsp) |
 | Vala | [`vala_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vala_ls) |

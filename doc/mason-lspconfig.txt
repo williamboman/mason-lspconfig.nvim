@@ -133,7 +133,7 @@ Refer to |mason-lspconfig-default-settings| for all available settings.
 Example:
 >lua
     require("mason-lspconfig").setup({
-        ensure_installed = { "rust_analyzer", "tsserver" }
+        ensure_installed = { "rust_analyzer", "ts_ls" }
     })
 <
                                             *mason-lspconfig-default-settings*
