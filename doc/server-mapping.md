@@ -195,6 +195,7 @@
 | [theme_check](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#theme_check) | [shopify-theme-check](https://mason-registry.dev/registry/list#shopify-theme-check) |
 | [thriftls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#thriftls) | [thriftls](https://mason-registry.dev/registry/list#thriftls) |
 | [tinymist](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tinymist) | [tinymist](https://mason-registry.dev/registry/list#tinymist) |
+| [ts_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ts_ls) | [typescript-language-server](https://mason-registry.dev/registry/list#typescript-language-server) |
 | [tsp_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsp_server) | [tsp-server](https://mason-registry.dev/registry/list#tsp-server) |
 | [twiggy_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#twiggy_language_server) | [twiggy-language-server](https://mason-registry.dev/registry/list#twiggy-language-server) |
 | [typos_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typos_lsp) | [typos-lsp](https://mason-registry.dev/registry/list#typos-lsp) |
