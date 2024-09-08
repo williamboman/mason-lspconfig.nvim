@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.31.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.30.0...v1.31.0) (2024-09-08)
+
+
+### Features
+
+* add nextls support ([#455](https://github.com/williamboman/mason-lspconfig.nvim/issues/455)) ([fee758e](https://github.com/williamboman/mason-lspconfig.nvim/commit/fee758e9829917888827ab80c1146bd48512f2f7))
+* add snakeskin_ls support ([#457](https://github.com/williamboman/mason-lspconfig.nvim/issues/457)) ([b953dae](https://github.com/williamboman/mason-lspconfig.nvim/commit/b953daeae170cbdf3c49352837ac564862af12b2))
+* add tsp_server support ([#448](https://github.com/williamboman/mason-lspconfig.nvim/issues/448)) ([c9387d7](https://github.com/williamboman/mason-lspconfig.nvim/commit/c9387d7516351c846fe964a3a6f98eb94a17eeb4))
+
+
+### Bug Fixes
+
+* rename tsserver to ts_ls ([#459](https://github.com/williamboman/mason-lspconfig.nvim/issues/459)) ([0d072b5](https://github.com/williamboman/mason-lspconfig.nvim/commit/0d072b5256cacfde5d5c120d0959edc95b68c4ab))
+
 ## [1.30.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.29.0...v1.30.0) (2024-08-04)
 
 
