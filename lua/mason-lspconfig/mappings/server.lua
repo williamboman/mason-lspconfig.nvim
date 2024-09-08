@@ -164,6 +164,7 @@ M.lspconfig_to_package = {
     ["shopify_theme_ls"] = "shopify-cli",
     ["slint_lsp"] = "slint-lsp",
     ["smithy_ls"] = "smithy-language-server",
+    ["snakeskin_ls"] = "snakeskin-cli",
     ["snyk_ls"] = "snyk-ls",
     ["solang"] = "solang",
     ["solargraph"] = "solargraph",
@@ -221,7 +222,6 @@ M.lspconfig_to_package = {
     ["yamlls"] = "yaml-language-server",
     ["zk"] = "zk",
     ["zls"] = "zls",
-    ["snakeskin_ls"] = "snakeskin-lsp",
 }
 
 M.package_to_lspconfig = _.invert(M.lspconfig_to_package)

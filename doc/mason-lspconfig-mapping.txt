@@ -164,7 +164,7 @@ serve-d                                   serve_d
 shopify-cli                               shopify_theme_ls
 slint-lsp                                 slint_lsp
 smithy-language-server                    smithy_ls
-snakeskin-lsp                             snakeskin_ls
+snakeskin-cli                             snakeskin_ls
 snyk-ls                                   snyk_ls
 solang                                    solang
 solargraph                                solargraph
@@ -199,7 +199,6 @@ tflint                                    tflint
 shopify-theme-check                       theme_check
 thriftls                                  thriftls
 tinymist                                  tinymist
-typescript-language-server                tsserver
 twiggy-language-server                    twiggy_language_server
 typos-lsp                                 typos_lsp
 typst-lsp                                 typst_lsp

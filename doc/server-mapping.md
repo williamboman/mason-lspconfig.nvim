@@ -161,7 +161,7 @@
 | [shopify_theme_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#shopify_theme_ls) | [shopify-cli](https://mason-registry.dev/registry/list#shopify-cli) |
 | [slint_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#slint_lsp) | [slint-lsp](https://mason-registry.dev/registry/list#slint-lsp) |
 | [smithy_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#smithy_ls) | [smithy-language-server](https://mason-registry.dev/registry/list#smithy-language-server) |
-| [snakeskin_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#snakeskin_ls) | [snakeskin-lsp](https://mason-registry.dev/registry/list#snakeskin-lsp) |
+| [snakeskin_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#snakeskin_ls) | [snakeskin-cli](https://mason-registry.dev/registry/list#snakeskin-cli) |
 | [snyk_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#snyk_ls) | [snyk-ls](https://mason-registry.dev/registry/list#snyk-ls) |
 | [solang](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solang) | [solang](https://mason-registry.dev/registry/list#solang) |
 | [solargraph](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solargraph) | [solargraph](https://mason-registry.dev/registry/list#solargraph) |
@@ -196,7 +196,6 @@
 | [theme_check](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#theme_check) | [shopify-theme-check](https://mason-registry.dev/registry/list#shopify-theme-check) |
 | [thriftls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#thriftls) | [thriftls](https://mason-registry.dev/registry/list#thriftls) |
 | [tinymist](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tinymist) | [tinymist](https://mason-registry.dev/registry/list#tinymist) |
-| [tsserver](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) | [typescript-language-server](https://mason-registry.dev/registry/list#typescript-language-server) |
 | [twiggy_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#twiggy_language_server) | [twiggy-language-server](https://mason-registry.dev/registry/list#twiggy-language-server) |
 | [typos_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typos_lsp) | [typos-lsp](https://mason-registry.dev/registry/list#typos-lsp) |
 | [typst_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typst_lsp) | [typst-lsp](https://mason-registry.dev/registry/list#typst-lsp) |
