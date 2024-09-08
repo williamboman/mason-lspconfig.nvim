@@ -199,7 +199,8 @@ tflint                                    tflint
 shopify-theme-check                       theme_check
 thriftls                                  thriftls
 tinymist                                  tinymist
-typescript-language-server                tsserver
+typescript-language-server                ts_ls
+tsp-server                                tsp_server
 twiggy-language-server                    twiggy_language_server
 typos-lsp                                 typos_lsp
 typst-lsp                                 typst_lsp
