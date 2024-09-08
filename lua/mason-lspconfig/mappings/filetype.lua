@@ -188,6 +188,7 @@ return {
   sml = { "millet" },
   solidity = { "solang", "solc", "solidity", "solidity_ls", "solidity_ls_nomicfoundation" },
   sql = { "sqlls", "sqls" },
+  ss = { "snakeskin_ls" },
   star = { "starlark_rust" },
   stylus = { "tailwindcss" },
   sugarss = { "stylelint_lsp", "tailwindcss" },

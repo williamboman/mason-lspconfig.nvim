@@ -165,6 +165,7 @@ M.lspconfig_to_package = {
     ["shopify_theme_ls"] = "shopify-cli",
     ["slint_lsp"] = "slint-lsp",
     ["smithy_ls"] = "smithy-language-server",
+    ["snakeskin_ls"] = "snakeskin-cli",
     ["snyk_ls"] = "snyk-ls",
     ["solang"] = "solang",
     ["solargraph"] = "solargraph",
