@@ -229,6 +229,7 @@ local DEFAULT_SETTINGS = {
 | Earthly | [`earthlyls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#earthlyls) |
 | Elixir | [`elixirls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elixirls) |
 | Elixir | [`lexical`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lexical) |
+| Elixir | [`nextls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nextls) |
 | Elm | [`elmls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elmls) |
 | Ember | [`ember`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ember) |
 | Emmet | [`emmet_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#emmet_language_server) |
