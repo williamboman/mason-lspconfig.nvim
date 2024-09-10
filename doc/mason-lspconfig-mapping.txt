@@ -98,7 +98,7 @@ jq-lsp                                    jqls
 json-lsp                                  jsonls
 jsonnet-language-server                   jsonnet_ls
 julia-lsp                                 julials
-kcl                                       kcl_language_server
+kcl                                       kcl
 kotlin-language-server                    kotlin_language_server
 lelwel                                    lelwel_ls
 lemminx                                   lemminx
