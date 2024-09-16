@@ -25,6 +25,7 @@ brighterscript                            bright_script
 bsl-language-server                       bsl_ls
 buf-language-server                       bufls
 bzl                                       bzl
+c3-lsp                                    c3_lsp
 cairo-language-server                     cairo_ls
 clangd                                    clangd
 clarity-lsp                               clarity_lsp

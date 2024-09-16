@@ -196,6 +196,7 @@ local DEFAULT_SETTINGS = {
 | C++ | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ast_grep) |
 | C++ | [`clangd`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clangd) |
 | C++ | [`harper_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#harper_ls) |
+| C3 | [`c3_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#c3_lsp) |
 | Cairo | [`cairo_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cairo_ls) |
 | C | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ast_grep) |
 | C | [`clangd`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#clangd) |

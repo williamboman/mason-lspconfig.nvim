@@ -25,6 +25,7 @@ M.lspconfig_to_package = {
     ["bsl_ls"] = "bsl-language-server",
     ["bufls"] = "buf-language-server",
     ["bzl"] = "bzl",
+    ["c3_lsp"] = "c3-lsp",
     ["cairo_ls"] = "cairo-language-server",
     ["clangd"] = "clangd",
     ["clarity_lsp"] = "clarity-lsp",
