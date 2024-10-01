@@ -1,7 +1,6 @@
 <!--- THIS FILE IS GENERATED. DO NOT EDIT MANUALLY. -->
 | lspconfig server name | mason.nvim package name |
 | --------------------- | ----------------------- |
-| [als](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#als) | [ada-language-server](https://mason-registry.dev/registry/list#ada-language-server) |
 | [angularls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#angularls) | [angular-language-server](https://mason-registry.dev/registry/list#angular-language-server) |
 | [ansiblels](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ansiblels) | [ansible-language-server](https://mason-registry.dev/registry/list#ansible-language-server) |
 | [antlersls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#antlersls) | [antlers-language-server](https://mason-registry.dev/registry/list#antlers-language-server) |
