@@ -190,7 +190,7 @@ local DEFAULT_SETTINGS = {
 | C# | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
 | C# | [`csharp_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#csharp_ls) |
 | C# | [`harper_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#harper_ls) |
-| C# ([docs](lua/mason-lspconfig/server_configurations/omnisharp/README.md)) | [`omnisharp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#omnisharp) |
+| C# ([docs](lua/mason-lspconfig/configs/omnisharp/README.md)) | [`omnisharp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#omnisharp) |
 | C# | [`omnisharp_mono`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#omnisharp_mono) |
 | C++ | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
 | C++ | [`clangd`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#clangd) |
@@ -287,7 +287,7 @@ local DEFAULT_SETTINGS = {
 | JSON | [`rome`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#rome) |
 | JSON | [`spectral`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#spectral) |
 | JSX | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
-| Julia ([docs](lua/mason-lspconfig/server_configurations/julials/README.md)) | [`julials`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#julials) |
+| Julia ([docs](lua/mason-lspconfig/configs/julials/README.md)) | [`julials`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#julials) |
 | Kotlin | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
 | Kotlin | [`kotlin_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#kotlin_language_server) |
 | LaTeX | [`ltex`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ltex) |
@@ -352,7 +352,7 @@ local DEFAULT_SETTINGS = {
 | Python | [`harper_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#harper_ls) |
 | Python | [`jedi_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#jedi_language_server) |
 | Python | [`mutt_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#mutt_ls) |
-| Python ([docs](lua/mason-lspconfig/server_configurations/pylsp/README.md)) | [`pylsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pylsp) |
+| Python ([docs](lua/mason-lspconfig/configs/pylsp/README.md)) | [`pylsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pylsp) |
 | Python | [`pylyzer`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pylyzer) |
 | Python | [`pyre`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pyre) |
 | Python | [`pyright`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pyright) |
@@ -454,6 +454,6 @@ local DEFAULT_SETTINGS = {
 | - | [`typos_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#typos_lsp) |
 <!-- available-lsp-servers:end -->
 
-[julials]: ./lua/mason-lspconfig/server_configurations/julials/README.md
-[omnisharp]: ./lua/mason-lspconfig/server_configurations/omnisharp/README.md
-[pylsp]: ./lua/mason-lspconfig/server_configurations/pylsp/README.md
+[julials]: ./lua/mason-lspconfig/configs/julials/README.md
+[omnisharp]: ./lua/mason-lspconfig/configs/omnisharp/README.md
+[pylsp]: ./lua/mason-lspconfig/configs/pylsp/README.md

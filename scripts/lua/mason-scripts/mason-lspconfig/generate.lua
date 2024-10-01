@@ -166,7 +166,7 @@ local function update_available_lsp_servers()
 
     local servers_markdown_list = _.compose(
         _.map(function(entry)
-            local server_docs = path.concat { MASON_LSPCONFIG_DIR, "server_configurations", entry.server, "README.md" }
+            local server_docs = path.concat { MASON_LSPCONFIG_DIR, "configs", entry.server, "README.md" }
             if fs.sync.file_exists(server_docs) then
                 return ("| %s ([docs](%s)) | [`%s`](%s) |"):format(
                     entry.language,
