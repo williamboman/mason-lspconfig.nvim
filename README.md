@@ -53,7 +53,7 @@ table for a complete mapping.](./doc/server-mapping.md)**
 
 > `:h mason-lspconfig-requirements`
 
-- neovim `>= 0.7.0`
+- neovim `>= 0.9.0`
 - `mason.nvim`
 - `lspconfig`
 
