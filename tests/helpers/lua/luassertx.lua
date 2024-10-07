@@ -1,6 +1,7 @@
 local a = require "mason-core.async"
 local assert = require "luassert"
 local match = require "luassert.match"
+local uv = vim.uv or vim.loop
 
 local function wait_for(_, arguments)
     ---@type (fun()): Function to execute until it does not error.
@@ -9,14 +10,14 @@ local function wait_for(_, arguments)
     local timeout = arguments[2]
     timeout = timeout or 15000
 
-    local start = vim.loop.hrtime()
+    local start = uv.hrtime()
     local is_ok, err
     repeat
         is_ok, err = pcall(assertions_fn)
         if not is_ok then
             a.sleep(math.min(timeout, 100))
         end
-    until is_ok or ((vim.loop.hrtime() - start) / 1e6) > timeout
+    until is_ok or ((uv.hrtime() - start) / 1e6) > timeout
 
     if not is_ok then
         error(err)

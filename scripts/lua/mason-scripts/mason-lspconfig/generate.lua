@@ -51,14 +51,13 @@ local function ensure_valid_package_name_translations()
     end
 end
 
-local get_lspconfig_url =
-    _.format "https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#%s"
+local get_lspconfig_url = _.format "https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#%s"
 
 local get_server_mappings = _.compose(
     _.filter_map(function(pair)
         local lspconfig_name, mason_name =
             assert(pair[1], "missing lspconfig name"), assert(pair[2], "missing mason name")
-        if not pcall(require, ("lspconfig.server_configurations.%s"):format(lspconfig_name)) then
+        if not pcall(require, "lspconfig.configs." .. lspconfig_name) then
             return Optional.empty()
         end
         local mason_url = ("https://mason-registry.dev/registry/list#%s"):format(mason_name)
@@ -167,7 +166,7 @@ local function update_available_lsp_servers()
 
     local servers_markdown_list = _.compose(
         _.map(function(entry)
-            local server_docs = path.concat { MASON_LSPCONFIG_DIR, "server_configurations", entry.server, "README.md" }
+            local server_docs = path.concat { MASON_LSPCONFIG_DIR, "configs", entry.server, "README.md" }
             if fs.sync.file_exists(server_docs) then
                 return ("| %s ([docs](%s)) | [`%s`](%s) |"):format(
                     entry.language,
