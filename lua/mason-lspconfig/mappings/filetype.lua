@@ -76,7 +76,7 @@ return {
   gomod = { "golangci_lint_ls", "gopls", "snyk_ls" },
   gotmpl = { "gopls" },
   gowork = { "gopls" },
-  graphql = { "graphql" },
+  graphql = { "biome", "graphql" },
   groovy = { "gradle_ls", "groovyls" },
   haml = { "htmx", "tailwindcss", "unocss" },
   handlebars = { "ember", "glint", "htmx", "tailwindcss" },
