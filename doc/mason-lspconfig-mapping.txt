@@ -4,7 +4,6 @@
 SERVER MAPPINGS                                   *mason-lspconfig-server-map*
 
 `Mason name`                                `lspconfig name`
-ada-language-server                       als
 angular-language-server                   angularls
 ansible-language-server                   ansiblels
 antlers-language-server                   antlersls
