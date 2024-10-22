@@ -210,7 +210,7 @@ describe("mason-lspconfig setup", function()
     it("should apply mason-lspconfig server configs", function()
         stub(registry, "is_installed")
         registry.is_installed.on_call_with("dummy").returns(true)
-        package.loaded["mason-lspconfig.configs.dummylsp"] = function()
+        package.loaded["mason-lspconfig.server_configurations.dummylsp"] = function()
             return { cmd = { "mason-cmd" } }
         end
         local config = { name = "dummylsp" }
@@ -225,7 +225,7 @@ describe("mason-lspconfig setup", function()
     it("should let user config take precedence", function()
         stub(registry, "is_installed")
         registry.is_installed.on_call_with("dummy").returns(true)
-        package.loaded["mason-lspconfig.configs.dummylsp"] = function()
+        package.loaded["mason-lspconfig.server_configurations.dummylsp"] = function()
             return { cmd = { "mason-cmd" } }
         end
         local config = { name = "dummylsp" }

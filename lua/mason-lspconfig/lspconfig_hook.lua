@@ -26,7 +26,7 @@ end
 local function resolve_server_config_factory(lspconfig_server_name)
     local Optional = require "mason-core.optional"
 
-    local ok, server_config = pcall(require, ("mason-lspconfig.configs.%s"):format(lspconfig_server_name))
+    local ok, server_config = pcall(require, ("mason-lspconfig.server_configurations.%s"):format(lspconfig_server_name))
     if ok then
         return Optional.of(server_config)
     end
