@@ -88,6 +88,7 @@ M.lspconfig_to_package = {
     ["htmx"] = "htmx-lsp",
     ["hydra_lsp"] = "hydra-lsp",
     ["hyprls"] = "hyprls",
+    ["idris2_lsp"] = "idris2-lsp",
     ["intelephense"] = "intelephense",
     ["java_language_server"] = "java-language-server",
     ["jdtls"] = "jdtls",

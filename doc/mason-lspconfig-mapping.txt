@@ -87,6 +87,7 @@ hoon-language-server                      hoon_ls
 html-lsp                                  html
 htmx-lsp                                  htmx
 hydra-lsp                                 hydra_lsp
+idris2-lps                                idris2_lsp
 hyprls                                    hyprls
 intelephense                              intelephense
 java-language-server                      java_language_server
