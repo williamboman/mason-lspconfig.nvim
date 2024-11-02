@@ -105,6 +105,7 @@ return {
   jsonc = { "biome", "dprint", "jsonls" },
   jsonnet = { "jsonnet_ls" },
   julia = { "julials" },
+  kcl = { "kcl" },
   kotlin = { "ast_grep", "kotlin_language_server" },
   leaf = { "htmx", "tailwindcss" },
   less = { "css_variables", "cssls", "emmet_language_server", "emmet_ls", "stylelint_lsp", "tailwindcss", "unocss" },
