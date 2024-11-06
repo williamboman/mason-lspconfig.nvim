@@ -23,6 +23,7 @@ M.lspconfig_to_package = {
     ["bright_script"] = "brighterscript",
     ["bsl_ls"] = "bsl-language-server",
     ["bufls"] = "buf-language-server",
+    ["buf_ls"] = "buf",
     ["bzl"] = "bzl",
     ["cairo_ls"] = "cairo-language-server",
     ["clangd"] = "clangd",
