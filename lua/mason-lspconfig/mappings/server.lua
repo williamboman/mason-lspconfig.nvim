@@ -22,7 +22,6 @@ M.lspconfig_to_package = {
     ["biome"] = "biome",
     ["bright_script"] = "brighterscript",
     ["bsl_ls"] = "bsl-language-server",
-    ["bufls"] = "buf-language-server",
     ["buf_ls"] = "buf",
     ["bzl"] = "bzl",
     ["cairo_ls"] = "cairo-language-server",

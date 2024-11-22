@@ -22,7 +22,6 @@ bicep-lsp                                 bicep
 biome                                     biome
 brighterscript                            bright_script
 bsl-language-server                       bsl_ls
-buf-language-server                       bufls
 buf                                       buf_ls
 bzl                                       bzl
 cairo-language-server                     cairo_ls
