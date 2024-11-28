@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.31.1](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.31.0...v1.31.1) (2024-11-28)
+
+
+### Bug Fixes
+
+* don't override psalm cmd ([#477](https://github.com/williamboman/mason-lspconfig.nvim/issues/477)) ([7446f47](https://github.com/williamboman/mason-lspconfig.nvim/commit/7446f47b3dfb7df801f31a6f6783c2ad119a6935))
+* fix importing server config definitions from lspconfig ([#468](https://github.com/williamboman/mason-lspconfig.nvim/issues/468)) ([87638e7](https://github.com/williamboman/mason-lspconfig.nvim/commit/87638e71c83100980f932714ea62ea82a972c95b))
+* update required nvim version to &gt;= 0.9.0 ([#478](https://github.com/williamboman/mason-lspconfig.nvim/issues/478)) ([b950110](https://github.com/williamboman/mason-lspconfig.nvim/commit/b9501106148f434a7ce528bca65725b60ea3e5d3))
+
 ## [1.31.0](https://github.com/williamboman/mason-lspconfig.nvim/compare/v1.30.0...v1.31.0) (2024-09-08)
 
 
