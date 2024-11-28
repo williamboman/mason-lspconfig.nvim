@@ -213,6 +213,7 @@ verible                                   verible
 veryl-ls                                  veryl_ls
 rust_hdl                                  vhdl_ls
 vim-language-server                       vimls
+vscode-autohotkey2-lsp                    autohotkey_lsp
 visualforce-language-server               visualforce_ls
 vls                                       vls
 vue-language-server                       volar
