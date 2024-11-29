@@ -13,6 +13,7 @@ return {
   ["astro-markdown"] = { "htmx", "tailwindcss" },
   automake = { "autotools_ls" },
   awk = { "awk_ls" },
+  bash = { "bashls" },
   bean = { "beancount" },
   beancount = { "beancount" },
   bib = { "ltex", "texlab" },
