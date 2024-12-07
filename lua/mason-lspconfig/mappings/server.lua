@@ -69,6 +69,7 @@ M.lspconfig_to_package = {
     ["fortls"] = "fortls",
     ["fsautocomplete"] = "fsautocomplete",
     ["gitlab_ci_ls"] = "gitlab-ci-ls",
+    ["ginko_ls"] = "ginko_ls",
     ["glint"] = "glint",
     ["glsl_analyzer"] = "glsl_analyzer",
     ["glslls"] = "glslls",
