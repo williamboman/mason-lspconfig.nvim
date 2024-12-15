@@ -196,6 +196,7 @@ return {
   svg = { "lemminx" },
   swift = { "harper_ls" },
   systemverilog = { "hdl_checker", "svlangserver", "svls", "verible" },
+  systemd = { "systemd-language-server" },
   teal = { "teal_ls" },
   templ = { "html", "htmx", "tailwindcss", "templ" },
   terraform = { "snyk_ls", "terraformls", "tflint" },
