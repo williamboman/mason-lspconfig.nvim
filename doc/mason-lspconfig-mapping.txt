@@ -158,7 +158,6 @@ rome                                      rome
 rubocop                                   rubocop
 ruby-lsp                                  ruby_lsp
 ruff                                      ruff
-ruff-lsp                                  ruff_lsp
 rust-analyzer                             rust_analyzer
 salt-lsp                                  salt_ls
 serve-d                                   serve_d
@@ -204,7 +203,6 @@ typescript-language-server                ts_ls
 tsp-server                                tsp_server
 twiggy-language-server                    twiggy_language_server
 typos-lsp                                 typos_lsp
-typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
 v-analyzer                                v_analyzer
 vacuum                                    vacuum

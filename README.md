@@ -359,7 +359,6 @@ local DEFAULT_SETTINGS = {
 | Python | [`pyre`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pyre) |
 | Python | [`pyright`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pyright) |
 | Python | [`ruff`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ruff) |
-| Python | [`ruff_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ruff_lsp) |
 | Python | [`sourcery`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#sourcery) |
 | Raku | [`raku_navigator`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#raku_navigator) |
 | Reason | [`reason_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#reason_ls) |
@@ -429,7 +428,6 @@ local DEFAULT_SETTINGS = {
 | TypeScript | [`vtsls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#vtsls) |
 | Typespec | [`tsp_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#tsp_server) |
 | Typst | [`tinymist`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#tinymist) |
-| Typst | [`typst_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#typst_lsp) |
 | Vala | [`vala_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#vala_ls) |
 | Verilog | [`hdl_checker`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#hdl_checker) |
 | Veryl | [`veryl_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#veryl_ls) |
