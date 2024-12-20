@@ -48,6 +48,7 @@ return {
   dockerfile = { "dockerls" },
   dot = { "dotls" },
   drools = { "drools_lsp" },
+  dts = { "ginko_ls" },
   dune = { "ocamllsp" },
   earthfile = { "earthlyls" },
   edge = { "htmx", "tailwindcss" },

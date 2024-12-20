@@ -225,6 +225,7 @@ local DEFAULT_SETTINGS = {
 | DOT | [`dotls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#dotls) |
 | Drools | [`drools_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#drools_lsp) |
 | D | [`serve_d`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#serve_d) |
+| DTS | [`ginko_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ginko_ls) |
 | Earthly | [`earthlyls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#earthlyls) |
 | Elixir | [`elixirls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#elixirls) |
 | Elixir | [`lexical`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#lexical) |
