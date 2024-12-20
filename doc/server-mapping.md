@@ -94,6 +94,7 @@
 | [jsonls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#jsonls) | [json-lsp](https://mason-registry.dev/registry/list#json-lsp) |
 | [jsonnet_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#jsonnet_ls) | [jsonnet-language-server](https://mason-registry.dev/registry/list#jsonnet-language-server) |
 | [julials](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#julials) | [julia-lsp](https://mason-registry.dev/registry/list#julia-lsp) |
+| [kcl](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#kcl) | [kcl](https://mason-registry.dev/registry/list#kcl) |
 | [kotlin_language_server](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#kotlin_language_server) | [kotlin-language-server](https://mason-registry.dev/registry/list#kotlin-language-server) |
 | [lelwel_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#lelwel_ls) | [lelwel](https://mason-registry.dev/registry/list#lelwel) |
 | [lemminx](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#lemminx) | [lemminx](https://mason-registry.dev/registry/list#lemminx) |
