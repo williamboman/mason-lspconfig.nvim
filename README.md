@@ -266,6 +266,7 @@ local DEFAULT_SETTINGS = {
 | HTMX | [`htmx`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#htmx) |
 | Hypr | [`hyprls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#hyprls) |
 | Java | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
+| Java | [`harper_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#harper_ls) |
 | Java | [`java_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#java_language_server) |
 | Java | [`jdtls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#jdtls) |
 | JavaScript | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
@@ -344,7 +345,7 @@ local DEFAULT_SETTINGS = {
 | PICO-8 | [`pico8_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pico8_ls) |
 | PowerShell | [`powershell_es`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#powershell_es) |
 | Prisma | [`prismals`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#prismals) |
-| Protobuf | [`bufls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bufls) |
+| Protobuf | [`buf_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#buf_ls) |
 | Protobuf | [`pbls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pbls) |
 | Puppet | [`puppet`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#puppet) |
 | PureScript | [`purescriptls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#purescriptls) |
@@ -358,7 +359,6 @@ local DEFAULT_SETTINGS = {
 | Python | [`pyre`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pyre) |
 | Python | [`pyright`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#pyright) |
 | Python | [`ruff`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ruff) |
-| Python | [`ruff_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ruff_lsp) |
 | Python | [`sourcery`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#sourcery) |
 | Raku | [`raku_navigator`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#raku_navigator) |
 | Reason | [`reason_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#reason_ls) |
@@ -428,7 +428,6 @@ local DEFAULT_SETTINGS = {
 | TypeScript | [`vtsls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#vtsls) |
 | Typespec | [`tsp_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#tsp_server) |
 | Typst | [`tinymist`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#tinymist) |
-| Typst | [`typst_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#typst_lsp) |
 | Vala | [`vala_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#vala_ls) |
 | Verilog | [`hdl_checker`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#hdl_checker) |
 | Veryl | [`veryl_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#veryl_ls) |

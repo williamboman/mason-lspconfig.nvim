@@ -20,8 +20,10 @@ local function create_lspconfig_filetype_map()
     local filetype_map = {}
 
     for _, server_name in ipairs(_.keys(lspconfig_server_mapping.lspconfig_to_package)) do
-        local config =
-            assert(lspconfig[server_name], ("Failed to get config for %s"):format(server_name)).document_config
+        local config = assert(
+            lspconfig[server_name] and lspconfig[server_name].document_config,
+            ("Failed to get config for %s"):format(server_name)
+        )
         for _, filetype in ipairs(config.default_config.filetypes or {}) do
             if not filetype_map[filetype] then
                 filetype_map[filetype] = {}
