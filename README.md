@@ -288,6 +288,7 @@ local DEFAULT_SETTINGS = {
 | JSON | [`spectral`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#spectral) |
 | JSX | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
 | Julia ([docs](lua/mason-lspconfig/server_configurations/julials/README.md)) | [`julials`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#julials) |
+| KCL | [`kcl`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#kcl) |
 | Kotlin | [`ast_grep`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) |
 | Kotlin | [`kotlin_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#kotlin_language_server) |
 | LaTeX | [`ltex`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ltex) |
