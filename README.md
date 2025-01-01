@@ -278,7 +278,6 @@ local DEFAULT_SETTINGS = {
 | JavaScript | [`harper_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#harper_ls) |
 | JavaScript | [`lwc_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#lwc_ls) |
 | JavaScript | [`quick_lint_js`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#quick_lint_js) |
-| JavaScript | [`rome`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#rome) |
 | JavaScript | [`ts_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ts_ls) |
 | JavaScript | [`vtsls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#vtsls) |
 | Jinja | [`jinja_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#jinja_lsp) |
