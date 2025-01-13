@@ -242,7 +242,7 @@ return {
   ["yaml.ansible"] = { "ansiblels" },
   ["yaml.docker-compose"] = { "docker_compose_language_service", "yamlls" },
   ["yaml.gitlab"] = { "gitlab_ci_ls", "yamlls" },
-  ["yaml.github"] = { "github_actions_ls", "yamlls" },
+  ["yaml.github"] = { "gh_actions_ls", "yamlls" },
   ["yaml.openapi"] = { "vacuum" },
   yml = { "spectral" },
   zig = { "zls" },
