@@ -214,7 +214,7 @@ return {
   ["typescript.tsx"] = { "angularls", "biome", "denols", "eslint", "rome", "ts_ls", "vtsls" },
   typescriptreact = { "angularls", "biome", "cssmodules_ls", "denols", "dprint", "emmet_language_server", "emmet_ls", "eslint", "graphql", "harper_ls", "htmx", "rome", "sourcery", "tailwindcss", "ts_ls", "unocss", "vtsls" },
   typespec = { "tsp_server" },
-  typst = { "tinymist" },
+  typst = { "harper_ls", "tinymist" },
   v = { "v_analyzer", "vls" },
   vala = { "vala_ls" },
   vb = { "omnisharp", "omnisharp_mono" },
