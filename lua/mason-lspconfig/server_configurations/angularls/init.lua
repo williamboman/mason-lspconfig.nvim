@@ -13,12 +13,12 @@ return function(install_dir)
             "ngserver",
             "--stdio",
             "--tsProbeLocations",
-            table.concat(append_node_modules { install_dir, workspace_dir }, ","),
+            table.concat(append_node_modules { workspace_dir， install_dir }, ","),
             "--ngProbeLocations",
             table.concat(
                 append_node_modules {
-                    path.concat { install_dir, "node_modules", "@angular", "language-server" },
                     workspace_dir,
+                    path.concat { install_dir, "node_modules", "@angular", "language-server" },
                 },
                 ","
             ),
