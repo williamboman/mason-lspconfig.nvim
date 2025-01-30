@@ -1,5 +1,11 @@
 local M = {}
 
+---@class MasonLspconfigServerSettings
+---@field server string the lspconfig server name
+---@field public package string the Mason package name
+---@field filetypes string[] the filetypes that the server applies to
+---@field config? table|fun(): table extensions to the default language server configuration
+
 ---@class MasonLspconfigSettings
 local DEFAULT_SETTINGS = {
     -- A list of servers to automatically install if they're not already installed. Example: { "rust_analyzer@nightly", "lua_ls" }
@@ -20,6 +26,8 @@ local DEFAULT_SETTINGS = {
     -- See `:h mason-lspconfig.setup_handlers()`
     ---@type table<string, fun(server_name: string)>?
     handlers = nil,
+    ---@type table<string, MasonLspconfigServerSettings>?
+    servers = nil,
 }
 
 M._DEFAULT_SETTINGS = DEFAULT_SETTINGS
