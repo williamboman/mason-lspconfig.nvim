@@ -33,6 +33,38 @@ function M.setup(config)
         log.error("Failed to set up lspconfig integration.", err)
     end
 
+    if settings.current.servers then
+        local filetype_mappings = require "mason-lspconfig.mappings.filetype"
+        local server_mappings = require "mason-lspconfig.mappings.server"
+        ---@param server_spec MasonLspconfigServerSettings
+        _.each(function(server_spec)
+            _.each(function(filetype)
+                if not filetype_mappings[filetype] then
+                    filetype_mappings[filetype] = {}
+                end
+                table.insert(filetype_mappings[filetype], server_spec.server)
+            end, server_spec.filetypes)
+            server_mappings.lspconfig_to_package[server_spec.server] = server_spec.package
+            server_mappings.package_to_lspconfig[server_spec.package] = server_spec.server
+            if server_spec.config then
+                local configuration_module = server_spec.config
+                if type(server_spec.config) == "table" then
+                    configuration_module = function()
+                        return server_spec.config
+                    end
+                end
+                local configuration_module_name = "mason-lspconfig.server_configurations." .. server_spec.server
+                if package.loaded[configuration_module_name] == nil then
+                    package.preload[configuration_module_name] = function()
+                        return configuration_module
+                    end
+                else
+                    package.loaded[configuration_module_name] = configuration_module
+                end
+            end
+        end, settings.current.servers)
+    end
+
     if not platform.is_headless and #settings.current.ensure_installed > 0 then
         require "mason-lspconfig.ensure_installed"()
     end
