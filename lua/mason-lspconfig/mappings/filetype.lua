@@ -191,6 +191,7 @@ return {
   sql = { "sqlls", "sqls" },
   ss = { "snakeskin_ls" },
   star = { "starlark_rust" },
+  structurizr = { "structurizr-lsp" },
   stylus = { "tailwindcss", "unocss" },
   sugarss = { "stylelint_lsp", "tailwindcss" },
   superhtml = { "superhtml" },
