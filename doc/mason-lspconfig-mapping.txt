@@ -4,7 +4,6 @@
 SERVER MAPPINGS                                   *mason-lspconfig-server-map*
 
 `Mason name`                                `lspconfig name`
-ada-language-server                       als
 angular-language-server                   angularls
 ansible-language-server                   ansiblels
 antlers-language-server                   antlersls
@@ -23,7 +22,7 @@ bicep-lsp                                 bicep
 biome                                     biome
 brighterscript                            bright_script
 bsl-language-server                       bsl_ls
-buf-language-server                       bufls
+buf                                       buf_ls
 bzl                                       bzl
 cairo-language-server                     cairo_ls
 clangd                                    clangd
@@ -69,6 +68,7 @@ flux-lsp                                  flux_lsp
 foam-language-server                      foam_ls
 fortls                                    fortls
 fsautocomplete                            fsautocomplete
+ginko_ls                                  ginko_ls
 gitlab-ci-ls                              gitlab_ci_ls
 glint                                     glint
 glsl_analyzer                             glsl_analyzer
@@ -88,6 +88,7 @@ hoon-language-server                      hoon_ls
 html-lsp                                  html
 htmx-lsp                                  htmx
 hydra-lsp                                 hydra_lsp
+hyprls                                    hyprls
 intelephense                              intelephense
 java-language-server                      java_language_server
 jdtls                                     jdtls
@@ -97,6 +98,7 @@ jq-lsp                                    jqls
 json-lsp                                  jsonls
 jsonnet-language-server                   jsonnet_ls
 julia-lsp                                 julials
+kcl                                       kcl
 kotlin-language-server                    kotlin_language_server
 lelwel                                    lelwel_ls
 lemminx                                   lemminx
@@ -116,6 +118,7 @@ motoko-lsp                                motoko_lsp
 move-analyzer                             move_analyzer
 mutt-language-server                      mutt_ls
 neocmakelsp                               neocmake
+nextls                                    nextls
 nginx-language-server                     nginx_language_server
 nickel-lang-lsp                           nickel_ls
 nil                                       nil_ls
@@ -126,6 +129,7 @@ ols                                       ols
 omnisharp                                 omnisharp
 opencl-language-server                    opencl_ls
 openscad-lsp                              openscad_lsp
+pbls                                      pbls
 perlnavigator                             perlnavigator
 pest-language-server                      pest_ls
 phpactor                                  phpactor
@@ -145,6 +149,7 @@ quick-lint-js                             quick_lint_js
 r-languageserver                          r_language_server
 raku-navigator                            raku_navigator
 reason-language-server                    reason_ls
+regal                                     regal
 regols                                    regols
 remark-language-server                    remark_ls
 rescript-language-server                  rescriptls
@@ -154,13 +159,13 @@ rome                                      rome
 rubocop                                   rubocop
 ruby-lsp                                  ruby_lsp
 ruff                                      ruff
-ruff-lsp                                  ruff_lsp
 rust-analyzer                             rust_analyzer
 salt-lsp                                  salt_ls
 serve-d                                   serve_d
 shopify-cli                               shopify_theme_ls
 slint-lsp                                 slint_lsp
 smithy-language-server                    smithy_ls
+snakeskin-cli                             snakeskin_ls
 snyk-ls                                   snyk_ls
 solang                                    solang
 solargraph                                solargraph
@@ -176,6 +181,8 @@ sqlls                                     sqlls
 sqls                                      sqls
 standardrb                                standardrb
 starlark-rust                             starlark_rust
+starpls                                   starpls
+steep                                     steep
 stimulus-language-server                  stimulus_ls
 stylelint-lsp                             stylelint_lsp
 superhtml                                 superhtml
@@ -189,14 +196,15 @@ teal-language-server                      teal_ls
 templ                                     templ
 terraform-ls                              terraformls
 texlab                                    texlab
+textlsp                                   textlsp
 tflint                                    tflint
 shopify-theme-check                       theme_check
 thriftls                                  thriftls
 tinymist                                  tinymist
-typescript-language-server                tsserver
+typescript-language-server                ts_ls
+tsp-server                                tsp_server
 twiggy-language-server                    twiggy_language_server
 typos-lsp                                 typos_lsp
-typst-lsp                                 typst_lsp
 unocss-language-server                    unocss
 v-analyzer                                v_analyzer
 vacuum                                    vacuum

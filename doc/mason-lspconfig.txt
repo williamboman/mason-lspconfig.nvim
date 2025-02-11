@@ -1,6 +1,6 @@
 *mason-lspconfig.nvim*
 
-Minimum version of neovim: 0.7.0
+Minimum version of neovim: 0.9.0
 
 Author: William Boman
                                        Type |gO| to see the table of contents.
@@ -133,7 +133,7 @@ Refer to |mason-lspconfig-default-settings| for all available settings.
 Example:
 >lua
     require("mason-lspconfig").setup({
-        ensure_installed = { "rust_analyzer", "tsserver" }
+        ensure_installed = { "rust_analyzer", "ts_ls" }
     })
 <
                                             *mason-lspconfig-default-settings*

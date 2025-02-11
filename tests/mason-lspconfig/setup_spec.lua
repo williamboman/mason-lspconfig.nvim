@@ -243,7 +243,7 @@ describe("mason-lspconfig setup", function()
 
         local mapping_mock = mockx.table(require "mason-lspconfig.mappings.server", "package_to_lspconfig", {
             ["rust-analyzer"] = "rust_analyzer",
-            ["typescript-language-server"] = "tsserver",
+            ["typescript-language-server"] = "ts_ls",
         })
 
         mason_lspconfig.setup {}
@@ -251,7 +251,7 @@ describe("mason-lspconfig setup", function()
         assert.spy(registry.register_package_aliases).was_called(1)
         assert.spy(registry.register_package_aliases).was_called_with {
             ["rust-analyzer"] = { "rust_analyzer" },
-            ["typescript-language-server"] = { "tsserver" },
+            ["typescript-language-server"] = { "ts_ls" },
         }
         mapping_mock:revert()
     end)
