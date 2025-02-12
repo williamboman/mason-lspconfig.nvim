@@ -9,6 +9,7 @@
 | [asm_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#asm_lsp) | [asm-lsp](https://mason-registry.dev/registry/list#asm-lsp) |
 | [ast_grep](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ast_grep) | [ast-grep](https://mason-registry.dev/registry/list#ast-grep) |
 | [astro](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#astro) | [astro-language-server](https://mason-registry.dev/registry/list#astro-language-server) |
+| [autohotkey_lsp](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#autohotkey_lsp) | [autohotkey_lsp](https://mason-registry.dev/registry/list#autohotkey_lsp) |
 | [autotools_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#autotools_ls) | [autotools-language-server](https://mason-registry.dev/registry/list#autotools-language-server) |
 | [awk_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#awk_ls) | [awk-language-server](https://mason-registry.dev/registry/list#awk-language-server) |
 | [azure_pipelines_ls](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#azure_pipelines_ls) | [azure-pipelines-language-server](https://mason-registry.dev/registry/list#azure-pipelines-language-server) |
