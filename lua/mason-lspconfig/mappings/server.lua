@@ -184,6 +184,7 @@ M.lspconfig_to_package = {
     ["starpls"] = "starpls",
     ["steep"] = "steep",
     ["stimulus_ls"] = "stimulus-language-server",
+    ["structurizr_ls"] = "structurizr-lsp",
     ["stylelint_lsp"] = "stylelint-lsp",
     ["svelte"] = "svelte-language-server",
     ["svlangserver"] = "svlangserver",
