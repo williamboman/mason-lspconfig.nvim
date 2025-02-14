@@ -164,7 +164,7 @@ return {
   purescript = { "purescriptls" },
   python = { "ast_grep", "basedpyright", "dprint", "harper_ls", "jedi_language_server", "pylsp", "pylyzer", "pyre", "pyright", "ruff", "snyk_ls", "sourcery" },
   ql = { "codeqlls" },
-  quarto = { "ltex" },
+  quarto = { "ltex", "r_language_server" },
   r = { "r_language_server" },
   raku = { "raku_navigator" },
   razor = { "htmx", "tailwindcss" },
