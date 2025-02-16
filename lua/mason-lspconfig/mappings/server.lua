@@ -129,6 +129,7 @@ M.lspconfig_to_package = {
     ["omnisharp_mono"] = "omnisharp-mono",
     ["opencl_ls"] = "opencl-language-server",
     ["openscad_lsp"] = "openscad-lsp",
+    ["oxlint"] = "oxlint",
     ["pbls"] = "pbls",
     ["perlnavigator"] = "perlnavigator",
     ["pest_ls"] = "pest-language-server",
