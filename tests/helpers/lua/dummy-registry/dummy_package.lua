@@ -1,14 +1,15 @@
 local Pkg = require "mason-core.package"
 
-return Pkg.new {
+return Pkg:new {
+    schema = "registry+v1",
     name = "dummy",
-    desc = [[This is a dummy package.]],
+    description = [[This is a dummy package.]],
+    licenses = {},
     categories = { Pkg.Cat.LSP },
     languages = { Pkg.Lang.DummyLang },
     homepage = "https://example.com",
-    ---@async
-    ---@param ctx InstallContext
-    install = function(ctx)
-        ctx.receipt:with_primary_source { type = "dummy" }
-    end,
+    source = {
+        id = "pkg:mason/dummy@1.0.0",
+        install = function() end,
+    },
 }

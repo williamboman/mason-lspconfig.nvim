@@ -1,7 +1,6 @@
 local _ = require "mason-core.functional"
 local log = require "mason-core.log"
 local notify = require "mason-lspconfig.notify"
-local path = require "mason-core.path"
 local platform = require "mason-core.platform"
 
 local memoized_set = _.memoize(_.set_of)
@@ -74,7 +73,7 @@ return function()
 
         if registry.is_installed(pkg_name) then
             resolve_server_config_factory(config.name):if_present(function(config_factory)
-                local mason_config = config_factory(path.package_prefix(pkg_name), config)
+                local mason_config = config_factory(vim.fn.expand("$MASON/packages/" .. pkg_name), config)
                 _.reduce(merge_in_place, config, { mason_config, user_config or {} })
             end)
             if platform.is.win and (config.cmd and config.cmd[1] ~= "cmd.exe") then

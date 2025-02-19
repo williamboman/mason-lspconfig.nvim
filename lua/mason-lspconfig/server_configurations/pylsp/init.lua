@@ -7,7 +7,7 @@ return function(install_dir)
         "PylspInstall",
         a.scope(function(opts)
             local notify = require "mason-lspconfig.notify"
-            local pip3 = require "mason-core.managers.pip3"
+            local pypw = require "mason-core.installer.managers.pypi"
             local process = require "mason-core.process"
             local spawn = require "mason-core.spawn"
 
@@ -19,8 +19,11 @@ return function(install_dir)
                 "-U",
                 "--disable-pip-version-check",
                 plugins,
-                stdio_sink = process.simple_sink(),
-                with_paths = { pip3.venv_path(install_dir) },
+                stdio_sink = process.StdioSink:new {
+                    stdout = vim.schedule_wrap(vim.api.nvim_out_write),
+                    stderr = vim.schedule_wrap(vim.api.nvim_err_write),
+                },
+                with_paths = { pypw.venv_path(install_dir) },
             }
             if vim.in_fast_event() then
                 a.scheduler()

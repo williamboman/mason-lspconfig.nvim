@@ -17,7 +17,9 @@ describe("mason-lspconfig setup", function()
         settings.set(settings._DEFAULT_SETTINGS)
 
         for _, pkg in ipairs(registry.get_all_packages()) do
-            pkg:uninstall()
+            if pkg:is_installed() then
+                pkg:uninstall()
+            end
         end
     end)
 
@@ -57,8 +59,8 @@ describe("mason-lspconfig setup", function()
             assert.spy(Pkg.install).was_called_with(match.ref(dummy), { version = "1.0.0" })
             assert.spy(Pkg.install).was_called_with(match.ref(fail_dummy), { version = nil })
             assert.wait_for(function()
-                assert.is_true(dummy.handle:is_closed())
-                assert.is_true(fail_dummy.handle:is_closed())
+                assert.is_true(dummy.install_handle:is_closed())
+                assert.is_true(fail_dummy.install_handle:is_closed())
             end)
         end)
     )
@@ -146,8 +148,8 @@ describe("mason-lspconfig setup", function()
                 { title = "mason-lspconfig.nvim" }
             )
             assert.wait_for(function()
-                assert.is_true(dummy.handle:is_closed())
-                assert.is_true(fail_dummy.handle:is_closed())
+                assert.is_true(dummy.install_handle:is_closed())
+                assert.is_true(fail_dummy.install_handle:is_closed())
                 assert.spy(vim.notify).was_called_with(
                     [[[mason-lspconfig.nvim] dummylsp was successfully installed]],
                     vim.log.levels.INFO,
@@ -182,8 +184,8 @@ describe("mason-lspconfig setup", function()
             assert.spy(Pkg.install).was_called_with(match.ref(dummy2), {})
 
             assert.wait_for(function()
-                assert.is_true(dummy.handle:is_closed())
-                assert.is_true(dummy2.handle:is_closed())
+                assert.is_true(dummy.install_handle:is_closed())
+                assert.is_true(dummy2.install_handle:is_closed())
                 assert.spy(lspconfig.dummylsp.setup).was_called(2)
                 assert.spy(lspconfig.dummy2lsp.setup).was_called(2)
             end)
@@ -225,9 +227,10 @@ describe("mason-lspconfig setup", function()
     it("should let user config take precedence", function()
         stub(registry, "is_installed")
         registry.is_installed.on_call_with("dummy").returns(true)
-        package.loaded["mason-lspconfig.server_configurations.dummylsp"] = function()
+        local server_config = spy.new(function()
             return { cmd = { "mason-cmd" } }
-        end
+        end)
+        package.loaded["mason-lspconfig.server_configurations.dummylsp"] = server_config
         local config = { name = "dummylsp" }
         local user_config = { cmd = { "user-cmd" } }
 
@@ -236,6 +239,10 @@ describe("mason-lspconfig setup", function()
         on_setup(config, user_config)
 
         assert.same({ name = "dummylsp", cmd = { "user-cmd" } }, config)
+        assert.spy(server_config).was_called(1)
+        assert
+            .spy(server_config)
+            .was_called_with(vim.fn.expand "$MASON/packages/dummy", match.same { name = "dummylsp" })
     end)
 
     it("should set up package aliases", function()

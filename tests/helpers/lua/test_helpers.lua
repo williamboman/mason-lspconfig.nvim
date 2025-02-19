@@ -1,11 +1,7 @@
 ---@diagnostic disable: lowercase-global
-local spy = require "luassert.spy"
 local util = require "luassert.util"
 
-local InstallContext = require "mason-core.installer.context"
-local InstallHandle = require "mason-core.installer.handle"
 local a = require "mason-core.async"
-local registry = require "mason-registry"
 
 function async_test(suspend_fn)
     return function()
@@ -55,21 +51,3 @@ mockx = {
         return mock
     end,
 }
-
----@param package_name string
-function InstallHandleGenerator(package_name)
-    return InstallHandle.new(registry.get_package(package_name))
-end
-
----@param handle InstallHandle
----@param opts InstallContextOpts | nil
-function InstallContextGenerator(handle, opts)
-    local context = InstallContext.new(handle, opts or {})
-    context.spawn = setmetatable({}, {
-        __index = function(s, cmd)
-            s[cmd] = spy.new(mockx.just_runs())
-            return s[cmd]
-        end,
-    })
-    return context
-end
