@@ -4,6 +4,7 @@ local M = {}
 
 ---Maps lspconfig server config name to its corresponding package name.
 M.lspconfig_to_package = {
+    ["air"] = "air",
     ["angularls"] = "angular-language-server",
     ["ansiblels"] = "ansible-language-server",
     ["antlersls"] = "antlers-language-server",

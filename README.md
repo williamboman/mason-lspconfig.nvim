@@ -172,6 +172,7 @@ local DEFAULT_SETTINGS = {
 | Language | Server name |
 | --- | --- |
 | 1С:Enterprise | [`bsl_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#bsl_ls) |
+| Air | [`air`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#air) |
 | Angular | [`angularls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#angularls) |
 | Ansible | [`ansiblels`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#ansiblels) |
 | Antlers | [`antlersls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/configs.md#antlersls) |
