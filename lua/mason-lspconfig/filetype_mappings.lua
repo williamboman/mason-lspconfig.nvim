@@ -225,7 +225,7 @@ return {
   sugarss = { "tailwindcss" },
   superhtml = { "superhtml" },
   surface = { "elixirls", "expert", "lexical", "nextls" },
-  svelte = { "biome", "emmet_language_server", "emmet_ls", "eslint", "htmx", "oxlint", "svelte", "tailwindcss", "unocss" },
+  svelte = { "biome", "emmet_language_server", "emmet_ls", "eslint", "htmx", "oxfmt", "oxlint", "svelte", "tailwindcss", "unocss" },
   svg = { "lemminx" },
   swift = { "ast_grep", "codebook", "harper_ls", "snyk_ls", "snyk_ls" },
   systemd = { "systemd_lsp" },
