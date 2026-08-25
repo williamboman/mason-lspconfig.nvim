@@ -233,7 +233,7 @@ return {
   tcl = { "tclsp" },
   teal = { "teal_ls" },
   templ = { "emmet_ls", "htmx", "tailwindcss", "templ" },
-  terraform = { "snyk_ls", "snyk_ls", "terraformls", "tflint", "tofu_ls" },
+  terraform = { "ms_terraform_lsp", "snyk_ls", "snyk_ls", "terraformls", "tflint", "tofu_ls" },
   ["terraform-vars"] = { "snyk_ls", "snyk_ls", "terraformls" },
   tesc = { "glsl_analyzer", "glslls" },
   tese = { "glsl_analyzer", "glslls" },
