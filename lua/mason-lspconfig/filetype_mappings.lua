@@ -209,7 +209,7 @@ return {
   scss = { "css_variables", "cssls", "emmet_language_server", "emmet_ls", "oxfmt", "somesass_ls", "stylelint_lsp", "stylelint_lsp", "tailwindcss", "unocss" },
   sd = { "vespa_ls" },
   sdc = { "tclsp" },
-  sh = { "bashls", "harper_ls", "shuck" },
+  sh = { "ast_grep", "bashls", "harper_ls", "shuck" },
   shaderslang = { "slangd" },
   slim = { "htmx", "tailwindcss" },
   slint = { "slint_lsp" },
