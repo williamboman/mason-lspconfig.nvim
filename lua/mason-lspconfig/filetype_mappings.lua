@@ -195,7 +195,6 @@ return {
   rego = { "regal", "regols" },
   requirements = { "snyk_ls", "snyk_ls" },
   rescript = { "htmx", "rescriptls", "tailwindcss", "unocss" },
-  resource = { "robotcode" },
   rmd = { "ltex", "ltex_plus", "panache", "r_language_server" },
   rnoweb = { "ltex", "ltex_plus" },
   robot = { "robotcode", "robotframework_ls" },
