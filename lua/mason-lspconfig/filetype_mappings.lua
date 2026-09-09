@@ -22,7 +22,7 @@ return {
   bib = { "ltex", "ltex_plus", "texlab" },
   bicep = { "bicep" },
   ["bicep-params"] = { "bicep" },
-  blade = { "htmx", "laravel_ls", "stimulus_ls", "tailwindcss" },
+  blade = { "htmx", "laravel_ls", "phpantom_lsp", "stimulus_ls", "tailwindcss" },
   brs = { "bright_script" },
   bsl = { "bsl_ls" },
   ["buf-config"] = { "buf_ls" },
