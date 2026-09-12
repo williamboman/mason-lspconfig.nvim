@@ -202,7 +202,7 @@ return {
   roslyn = { "dprint" },
   rst = { "esbonio", "ltex", "ltex_plus", "vale_ls" },
   ruby = { "ast_grep", "codebook", "harper_ls", "rubocop", "ruby_lsp", "snyk_ls", "snyk_ls", "solargraph", "sorbet", "standardrb", "steep", "stimulus_ls" },
-  rust = { "ast_grep", "bacon_ls", "codebook", "dprint", "harper_ls", "rust_analyzer", "snyk_ls", "snyk_ls", "unocss" },
+  rust = { "ast_grep", "bacon_ls", "codebook", "dprint", "harper_ls", "rust_analyzer", "rust_glancer", "snyk_ls", "snyk_ls", "unocss" },
   sass = { "emmet_language_server", "emmet_ls", "somesass_ls", "tailwindcss", "unocss" },
   scala = { "ast_grep", "snyk_ls", "snyk_ls" },
   scss = { "css_variables", "cssls", "emmet_language_server", "emmet_ls", "oxfmt", "somesass_ls", "stylelint_lsp", "stylelint_lsp", "tailwindcss", "unocss" },
